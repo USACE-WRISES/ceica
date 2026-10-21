@@ -1,0 +1,2 @@
+This file is neither a CEICA project nor a workbook. The traces upload it to check that Open
+refuses it and says why.

@@ -1,0 +1,7 @@
+{
+ "input": "invalid-json.json",
+ "name": "bad.json",
+ "read": {
+  "error": "StafImportError: This file is not valid JSON."
+ }
+}

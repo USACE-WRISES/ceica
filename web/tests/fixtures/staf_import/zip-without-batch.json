@@ -1,0 +1,7 @@
+{
+ "input": "zip-without-batch.zip",
+ "name": "other.zip",
+ "read": {
+  "error": "StafImportError: This ZIP is not an EASI batch download (no batch-results.json)."
+ }
+}

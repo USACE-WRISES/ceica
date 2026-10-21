@@ -1,0 +1,599 @@
+[
+ {
+  "tree": [
+   "div",
+   {
+    "class": "a"
+   },
+   "text"
+  ],
+  "html": "<div class=\"a\">text</div>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "a"
+   }
+  ],
+  "html": "<div class=\"a\"></div>"
+ },
+ {
+  "tree": [
+   "input",
+   {
+    "type": "range",
+    "min": "0",
+    "value": "8",
+    "data-fid": "x",
+    "class": "sfari-fscore"
+   }
+  ],
+  "html": "<input type=\"range\" min=\"0\" value=\"8\" data-fid=\"x\" class=\"sfari-fscore\"/>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "staf-metric-ev"
+   },
+   [
+    "span",
+    {
+     "class": "staf-ev-tag"
+    },
+    "Desktop"
+   ],
+   [
+    "b",
+    {
+     "class": "staf-ev-val"
+    },
+    "1.4% <x> & \"y\""
+   ],
+   [
+    "span",
+    {
+     "onclick": "event.preventDefault();",
+     "tabindex": "0",
+     "data-tip": "it's \"q\" <b>",
+     "class": "easi-info"
+    },
+    "i"
+   ],
+   [
+    "span",
+    {
+     "class": "staf-suggest"
+    },
+    "Suggested: ",
+    [
+     "b",
+     {},
+     "Agree"
+    ],
+    [
+     "button",
+     {
+      "data-mid": "m",
+      "type": "button",
+      "class": "use"
+     },
+     "Use"
+    ]
+   ]
+  ],
+  "html": "<div class=\"staf-metric-ev\">\n  <span class=\"staf-ev-tag\">Desktop</span><b class=\"staf-ev-val\">1.4% &lt;x&gt; &amp; \"y\"</b><span onclick=\"event.preventDefault();\" tabindex=\"0\" data-tip=\"it&apos;s &quot;q&quot; &lt;b&gt;\" class=\"easi-info\">i</span><span class=\"staf-suggest\">Suggested: <b>Agree</b><button data-mid=\"m\" type=\"button\" class=\"use\">Use</button></span>\n</div>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "staf-metric-acts"
+   },
+   [
+    "button",
+    {
+     "type": "button",
+     "data-staf-panel": "note",
+     "class": "staf-act"
+    },
+    {
+     "html": "<svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M2 2h12\"/></svg>"
+    },
+    [
+     "span",
+     {
+      "class": "staf-act-label"
+     },
+     "Note"
+    ],
+    [
+     "span",
+     {
+      "class": "staf-act-dot"
+     }
+    ]
+   ]
+  ],
+  "html": "<div class=\"staf-metric-acts\">\n  <button type=\"button\" data-staf-panel=\"note\" class=\"staf-act\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M2 2h12\"/></svg><span class=\"staf-act-label\">Note</span><span class=\"staf-act-dot\"></span></button>\n</div>"
+ },
+ {
+  "tree": [
+   "select",
+   {
+    "data-mid": "m",
+    "class": "staf-rate"
+   },
+   [
+    "option",
+    {
+     "value": ""
+    },
+    "Rate…"
+   ],
+   [
+    "option",
+    {
+     "value": "A",
+     "selected": "selected"
+    },
+    "A"
+   ],
+   [
+    "option",
+    {
+     "value": "B"
+    },
+    "B"
+   ]
+  ],
+  "html": "<select data-mid=\"m\" class=\"staf-rate\">  <option value=\"\">Rate…</option>\n  <option value=\"A\" selected=\"selected\">A</option>\n  <option value=\"B\">B</option></select>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "data-panel": "photo",
+    "class": "p"
+   },
+   [
+    "div",
+    {
+     "data-mid": "m",
+     "class": "sfari-photos"
+    },
+    [
+     "label",
+     {
+      "class": "sfari-photo-btn"
+     },
+     {
+      "html": "<svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M2 2h12\"/></svg>"
+     },
+     "Add photo",
+     [
+      "input",
+      {
+       "type": "file",
+       "data-mid": "m",
+       "class": "sfari-photo"
+      }
+     ]
+    ]
+   ]
+  ],
+  "html": "<div data-panel=\"photo\" class=\"p\">\n  <div data-mid=\"m\" class=\"sfari-photos\">\n    <label class=\"sfari-photo-btn\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><path d=\"M2 2h12\"/></svg>Add photo<input type=\"file\" data-mid=\"m\" class=\"sfari-photo\"/></label>\n  </div>\n</div>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "outer"
+   },
+   [
+    "div",
+    {
+     "class": "inner"
+    },
+    [
+     "div",
+     {
+      "class": "deep"
+     },
+     "x",
+     [
+      "span",
+      {},
+      "y"
+     ],
+     "z"
+    ]
+   ],
+   [
+    "p",
+    {
+     "class": "s"
+    },
+    "statement"
+   ],
+   [
+    "textarea",
+    {
+     "data-fid": "f",
+     "class": "n"
+    },
+    ""
+   ]
+  ],
+  "html": "<div class=\"outer\">\n  <div class=\"inner\">\n    <div class=\"deep\">\n      x<span>y</span>z\n    </div>\n  </div>\n  <p class=\"s\">statement</p>\n  <textarea data-fid=\"f\" class=\"n\"></textarea>\n</div>"
+ },
+ {
+  "tree": [
+   "taglist",
+   [
+    "div",
+    {
+     "class": "a"
+    },
+    "one"
+   ],
+   [
+    "span",
+    {},
+    "two"
+   ],
+   [
+    "span",
+    {},
+    "three"
+   ],
+   [
+    "div",
+    {},
+    "four"
+   ]
+  ],
+  "html": "<div class=\"a\">one</div>\n<span>two</span><span>three</span>\n<div>four</div>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "x"
+   },
+   "lead ",
+   [
+    "b",
+    {},
+    "bold"
+   ],
+   " tail",
+   [
+    "div",
+    {},
+    "block"
+   ],
+   "after"
+  ],
+  "html": "<div class=\"x\">\n  lead <b>bold</b> tail\n  <div>block</div>\n  after\n</div>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "x"
+   },
+   [
+    "span",
+    {
+     "class": "y"
+    }
+   ],
+   [
+    "div",
+    {
+     "class": "z"
+    }
+   ]
+  ],
+  "html": "<div class=\"x\">\n  <span class=\"y\"></span>\n  <div class=\"z\"></div>\n</div>"
+ },
+ {
+  "tree": [
+   "span",
+   {
+    "class": "outer"
+   },
+   [
+    "div",
+    {
+     "class": "in"
+    },
+    "a"
+   ],
+   [
+    "span",
+    {},
+    "b"
+   ]
+  ],
+  "html": "<span class=\"outer\">  <div class=\"in\">a</div>\n  <span>b</span></span>"
+ },
+ {
+  "tree": [
+   "header",
+   {
+    "class": "ce-header"
+   },
+   [
+    "div",
+    {
+     "class": "ce-header-left"
+    },
+    [
+     "span",
+     {
+      "class": "ce-brand"
+     },
+     {
+      "html": "<svg class=\"ce-brand-mark\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"30\" rx=\"8\" fill=\"#41669f\"/></svg>"
+     },
+     "CEICA",
+     [
+      "small",
+      {},
+      "Cost-effectiveness"
+     ]
+    ],
+    [
+     "button",
+     {
+      "type": "button",
+      "class": "ce-version",
+      "title": "What's new",
+      "data-ev": "whatsnew"
+     },
+     "v1.2"
+    ],
+    [
+     "span",
+     {
+      "class": "ce-sep"
+     }
+    ]
+   ],
+   [
+    "nav",
+    {
+     "class": "ce-nav",
+     "aria-label": "Project"
+    },
+    [
+     "button",
+     {
+      "type": "button",
+      "data-ev": "start"
+     },
+     "Projects"
+    ]
+   ]
+  ],
+  "html": "<header class=\"ce-header\">\n  <div class=\"ce-header-left\">\n    <span class=\"ce-brand\"><svg class=\"ce-brand-mark\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect x=\"1\" y=\"1\" width=\"30\" height=\"30\" rx=\"8\" fill=\"#41669f\"/></svg>CEICA<small>Cost-effectiveness</small></span><button type=\"button\" class=\"ce-version\" title=\"What&apos;s new\" data-ev=\"whatsnew\">v1.2</button><span class=\"ce-sep\"></span>\n  </div>\n  <nav class=\"ce-nav\" aria-label=\"Project\">\n    <button type=\"button\" data-ev=\"start\">Projects</button>\n  </nav>\n</header>"
+ },
+ {
+  "tree": [
+   "button",
+   {
+    "type": "button",
+    "class": "ce-tool",
+    "disabled": "",
+    "title": "Nothing to undo",
+    "data-ev": "undo"
+   },
+   "Undo"
+  ],
+  "html": "<button type=\"button\" class=\"ce-tool\" disabled=\"\" title=\"Nothing to undo\" data-ev=\"undo\">Undo</button>"
+ },
+ {
+  "tree": [
+   "td",
+   {
+    "class": "num"
+   },
+   "1,234.50"
+  ],
+  "html": "<td class=\"num\">1,234.50</td>"
+ },
+ {
+  "tree": [
+   "td",
+   {
+    "class": "num"
+   }
+  ],
+  "html": "<td class=\"num\"></td>"
+ },
+ {
+  "tree": [
+   "tr",
+   {},
+   [
+    "th",
+    {
+     "scope": "row"
+    },
+    "17F2M"
+   ],
+   [
+    "td",
+    {},
+    "a & b"
+   ],
+   [
+    "td",
+    {
+     "class": "num"
+    },
+    "n/a"
+   ]
+  ],
+  "html": "<tr>\n  <th scope=\"row\">17F2M</th>\n  <td>a &amp; b</td>\n  <td class=\"num\">n/a</td>\n</tr>"
+ },
+ {
+  "tree": [
+   "div",
+   {
+    "class": "ce-chart"
+   },
+   {
+    "html": "<svg viewBox=\"0 0 10 10\"><text x=\"1\">A &amp; B</text></svg>"
+   }
+  ],
+  "html": "<div class=\"ce-chart\"><svg viewBox=\"0 0 10 10\"><text x=\"1\">A &amp; B</text></svg></div>"
+ },
+ {
+  "tree": [
+   "details",
+   {
+    "class": "ce-more"
+   },
+   [
+    "summary",
+    {},
+    "More"
+   ],
+   [
+    "p",
+    {},
+    "Text\nwith a line break"
+   ]
+  ],
+  "html": "<details class=\"ce-more\">\n  <summary>More</summary>\n  <p>Text\nwith a line break</p>\n</details>"
+ },
+ {
+  "tree": [
+   "input",
+   {
+    "type": "text",
+    "class": "ce-cell",
+    "value": "1,000",
+    "data-path": "c|S1|A1|first|construction",
+    "title": "line one\nline two\r",
+    "aria-label": "it's \"quoted\""
+   }
+  ],
+  "html": "<input type=\"text\" class=\"ce-cell\" value=\"1,000\" data-path=\"c|S1|A1|first|construction\" title=\"line one&#10;line two&#13;\" aria-label=\"it&apos;s &quot;quoted&quot;\"/>"
+ },
+ {
+  "tree": [
+   "ol",
+   {},
+   [
+    "li",
+    {},
+    [
+     "strong",
+     {},
+     "Inputs. "
+    ],
+    "Study settings."
+   ],
+   [
+    "li",
+    {},
+    "Second"
+   ]
+  ],
+  "html": "<ol>\n  <li>\n    <strong>Inputs. </strong>Study settings.\n  </li>\n  <li>Second</li>\n</ol>"
+ },
+ {
+  "tree": [
+   "div",
+   {},
+   {
+    "html": "<b>raw</b>"
+   },
+   "text",
+   {
+    "html": "more raw"
+   }
+  ],
+  "html": "<div>\n  <b>raw</b>textmore raw\n</div>"
+ },
+ {
+  "tree": [
+   "span",
+   {},
+   {
+    "html": "<i>x</i>"
+   }
+  ],
+  "html": "<span><i>x</i></span>"
+ },
+ {
+  "tree": [
+   "label",
+   {
+    "class": "ce-check"
+   },
+   [
+    "input",
+    {
+     "type": "checkbox",
+     "checked": ""
+    }
+   ],
+   " Carried"
+  ],
+  "html": "<label class=\"ce-check\"><input type=\"checkbox\" checked=\"\"/> Carried</label>"
+ },
+ {
+  "tree": [
+   "script",
+   {},
+   "if (a < b && c > d) {}"
+  ],
+  "html": "<script>if (a < b && c > d) {}</script>"
+ },
+ {
+  "tree": [
+   "p",
+   {
+    "class": "ce-note"
+   },
+   "50% <of> \"the\" 'cost' & more"
+  ],
+  "html": "<p class=\"ce-note\">50% &lt;of&gt; \"the\" 'cost' &amp; more</p>"
+ },
+ {
+  "tree": [
+   "taglist",
+   "text first",
+   [
+    "div",
+    {},
+    "a block"
+   ],
+   "text last"
+  ],
+  "html": "text first\n<div>a block</div>\ntext last"
+ },
+ {
+  "tree": [
+   "taglist",
+   [
+    "span",
+    {},
+    "one"
+   ],
+   "two",
+   [
+    "span",
+    {},
+    "three"
+   ]
+  ],
+  "html": "<span>one</span>two<span>three</span>"
+ }
+]

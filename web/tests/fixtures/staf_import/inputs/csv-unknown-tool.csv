@@ -1,0 +1,32 @@
+SFARIX Screening
+Stream,Wildcat Creek
+COMID,9311402
+Reach length (ft),1000
+
+Category,Function,Metric,Scale,Likert,Pulled evidence,Source,Origin,Describes,Note
+Hydrology,Catchment hydrology,Impervious surface area,,Agree,,,,,
+
+Category,Function,Function score (0-15),Condition,Justification
+Hydrology,Catchment hydrology,8,AR,
+Hydrology,Surface water storage,15,AR,
+Hydrology,Reach inflow,7,AR,
+Hydrology,Streamflow regime,12,AR,
+Hydraulics,Low flow and baseflow dynamics,4,AR,
+Hydraulics,High flow dynamics,11,AR,
+Hydraulics,Floodplain connectivity,9,AR,
+Hydraulics,Hyporheic connectivity,13,AR,
+Geomorphology,Channel evolution,5,AR,
+Geomorphology,Channel and floodplain dynamics,10,AR,
+Geomorphology,Sediment continuity,6,AR,
+Geomorphology,Bed composition and bedform dynamics,5,AR,
+Physicochemistry,Light and thermal regime,12,AR,
+Physicochemistry,Carbon processing,13,AR,
+Physicochemistry,Nutrient cycling,13,AR,
+Physicochemistry,Water and soil quality,10,AR,
+Biology,Habitat provision,2,AR,
+Biology,Population support,3,AR,
+Biology,Community dynamics,4,AR,
+Biology,Watershed connectivity,1,AR,
+
+Outcome,Sub-index
+Physical,0.55

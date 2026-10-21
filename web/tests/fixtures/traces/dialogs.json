@@ -1,0 +1,1025 @@
+{
+ "scenario": "dialogs",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event about",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "about",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">About CEICA</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div>\n          <p>\n            <strong>CEICA v1.0.0</strong>: Cost-effectiveness and incremental cost analysis.\n          </p>\n          <p>Cost-effectiveness and best buys follow the rules of IWR Planning Suite II, the certified USACE tool, including ties, duplicates and the No Action base. The Utoy Creek example reproduces the published analysis.</p>\n          <p>CEICA is not a certified planning model. Keep the Excel calculator with the decision record; its IWR input sheet supports an independent re-run in IWR Planning Suite II.</p>\n          <p>\n            <a href=\"https://github.com/USACE-WRISES/ceica\" target=\"_blank\" rel=\"noopener\">Source and issues</a>\n          </p>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event about",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event help",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "help",
+      "n": 3
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Help</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div>\n          <h3 style=\"font-size:var(--fs-3)\">The four stages</h3>\n          <ol>\n            <li>\n              <strong>Inputs. </strong>Study settings, sites and alternatives, benefits at target years and costs. Under Study, How benefits are measured lists the modules that add up to each alternative's benefit (for example, riparian and instream); their values are entered under Benefits. Everything recomputes as you type.\n            </li>\n            <li>\n              <strong>Sites. </strong>A plan is cost-effective when no other gives the same output for less, or more output for no more. Best buys have the lowest incremental cost per unit. Confirm the alternative each site carries forward.\n            </li>\n            <li>\n              <strong>Watershed. </strong>Every combination of the carried actions. Choose the final array (the best buys by default), say whether each step is worth it, and pick the tentatively selected plan.\n            </li>\n            <li>\n              <strong>Report. </strong>Download each figure (PNG, SVG) or table (Excel, CSV), the figures-and-tables document (Word, PDF) or everything in one .zip, with the Excel calculator. Document settings holds the document's title, Prepared by and date. The document stays a draft until every readiness item is checked.\n            </li>\n          </ol>\n          <h3 style=\"font-size:var(--fs-3)\">Keys</h3>\n          <p>Ctrl+Z undo, Ctrl+Y redo (outside text fields). Hover a plan to highlight it in the charts and tables; click a mark to pin the highlight; Esc clears it.</p>\n          <h3 style=\"font-size:var(--fs-3)\">Saving your work</h3>\n          <p>Your work is saved in this browser as you go, on this computer only. Clearing the browser's site data deletes it, so use Save to download the project file, the durable copy. CEICA runs entirely in this browser, so nothing you enter is sent anywhere.</p>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event help",
+   "client": {
+    "method": "update",
+    "data": {}
+   },
+   "server": []
+  },
+  {
+   "step": "event whatsnew",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "whatsnew",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">What's new</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"ce-whatsnew\">\n          <div>\n            <h2>v1.0.0 (2026-10-20)</h2>\n            <ul>\n              <li>CEICA on the web: it runs in your browser, with nothing to install.</li>\n              <li>Nothing you enter is sent anywhere; your work is saved in this browser.</li>\n              <li>Works offline after the first visit, and installs as an app in Edge or Chrome.</li>\n              <li>Updates install themselves; Reload to update saves and reopens your project.</li>\n              <li>Save still downloads the project file, the copy to keep and share.</li>\n              <li>Reports, figures, tables and the Excel calculator are made in the browser.</li>\n              <li>The same results and files as v0.1.0, checked file by file.</li>\n            </ul>\n          </div>\n          <div>\n            <h2>v0.1.0 (2026-09-27)</h2>\n            <ul>\n              <li>CE/ICA that follows IWR Planning Suite II, ties and duplicates included.</li>\n              <li>Average annual outputs and costs, with interest during construction and OMRRR.</li>\n              <li>Watershed plans from every combination of site actions, rules included.</li>\n              <li>Decisions: recommendations, final array and TSP, flagged when results change.</li>\n              <li>Benefit modules: habitat units, index x quantity, average values or STAF.</li>\n              <li>STAF: function scores roll up to the ECI; import SFARI, EASI or DEEP exports.</li>\n              <li>Inputs: paste from Excel, with undo, redo and autosave in the browser.</li>\n              <li>Report: every figure and table, a Word or PDF document, or all in one .zip.</li>\n              <li>Excel calculator with live formulas; edit it and import it back.</li>\n              <li>Examples: Utoy Creek as published, and a STAF demonstration.</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event whatsnew",
+   "client": {
+    "method": "update",
+    "data": {}
+   },
+   "server": []
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "new_project",
+      "n": 5
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">New project</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n            <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"STAF\"/> <span><span><span class=\"ce-choice-t\">STAF function scores</span><span class=\"ce-choice-s\">Score 20 stream functions (0 to 15) and a length at each target year. Condition units are the ECI times the length.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p class=\"ce-note\">This sets up the first module. Add more modules (for example, riparian and instream) under Inputs, Study.</p>\n        <bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n            </div>\n          </div>\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n            </div>\n          </div>\n        </bslib-layout-columns>\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n            <span class=\"action-label\">Create</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "",
+     "np_mode": "HU",
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": 50,
+     "np_years": "0, 1, 5, 10, 25, 50",
+     "np_create:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_years": "5"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for BenefitSpec\ntarget_years\n  Value error, at least two target years are needed [type=value_error, input_value=(5.0,), input_type=tuple]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_years": "5, 1"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 2
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for BenefitSpec\ntarget_years\n  Value error, target years must increase [type=value_error, input_value=(5.0, 1.0), input_type=tuple]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_years": "a, b"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 3
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: could not convert string to float: 'a'",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_years": "0, 50",
+     "np_rate:shiny.number": 30
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 4
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for Settings\ndiscount_rate\n  Input should be less than or equal to 0.25 [type=less_than_equal, input_value=0.3, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_rate:shiny.number": -1,
+     "np_poa:shiny.number": 500
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 5
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 2 validation errors for Settings\ndiscount_rate\n  Input should be greater than or equal to 0 [type=greater_than_equal, input_value=-0.01, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal\nperiod_of_analysis\n  Input should be less than or equal to 200 [type=less_than_equal, input_value=500, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": -5
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 6
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for Settings\nperiod_of_analysis\n  Input should be greater than or equal to 1 [type=greater_than_equal, input_value=-5, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than_equal",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_poa:shiny.number": 1e+300
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 7
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for Settings\nperiod_of_analysis\n  Input should be less than or equal to 200 [type=less_than_equal, input_value=1000000000000000052504760...472196386865459400540160, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/less_than_equal",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_years": "",
+     "np_poa:shiny.number": -5
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 8
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 1 validation error for BenefitSpec\ntarget_years\n  Value error, target years must increase [type=value_error, input_value=(0.0, -5.0), input_type=tuple]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_mode": "BOGUS",
+     "np_poa:shiny.number": 50
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 9
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not create the project: 'BOGUS'",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_mode": "HU",
+     "np_name": "  ",
+     "np_years": " ",
+     "np_rate:shiny.number": null,
+     "np_poa:shiny.number": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 10
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Untitled study (new).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Untitled study"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:b74e8fbd2b6cc8e2:145",
+      "panel_body": "sha256:4c308ece9c8e00ed:1725",
+      "page_sites": "sha256:3028fd58a2f6be51:253"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      },
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:da538980776adcdb:6260"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "new_project",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">New project</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n            <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"STAF\"/> <span><span><span class=\"ce-choice-t\">STAF function scores</span><span class=\"ce-choice-s\">Score 20 stream functions (0 to 15) and a length at each target year. Condition units are the ECI times the length.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p class=\"ce-note\">This sets up the first module. Add more modules (for example, riparian and instream) under Inputs, Study.</p>\n        <bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n            </div>\n          </div>\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n            </div>\n          </div>\n        </bslib-layout-columns>\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n            <span class=\"action-label\">Create</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "",
+     "np_mode": "HU",
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": 50,
+     "np_years": "0, 1, 5, 10, 25, 50",
+     "np_create:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": " Sandy Run ",
+     "np_mode": "STAF",
+     "np_years": "0; 1; 5, 50",
+     "np_rate:shiny.number": 2.75,
+     "np_poa:shiny.number": 50.7
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Sandy Run (new).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Sandy Run"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:ce84ebdc2fc80ff2:140",
+      "panel_body": "sha256:4c308ece9c8e00ed:1725",
+      "page_inputs": "sha256:408d34d5f969545f:6916"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "new_project",
+      "n": 7
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">New project</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n            <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"STAF\"/> <span><span><span class=\"ce-choice-t\">STAF function scores</span><span class=\"ce-choice-s\">Score 20 stream functions (0 to 15) and a length at each target year. Condition units are the ECI times the length.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p class=\"ce-note\">This sets up the first module. Add more modules (for example, riparian and instream) under Inputs, Study.</p>\n        <bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n            </div>\n          </div>\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n            </div>\n          </div>\n        </bslib-layout-columns>\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n            <span class=\"action-label\">Create</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "",
+     "np_mode": "HU",
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": 50,
+     "np_years": "0, 1, 5, 10, 25, 50",
+     "np_create:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "Index study",
+     "np_mode": "INDEX_X_QUANTITY",
+     "np_years": " 0 , 1_0 ,50 "
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Index study (new).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Index study"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:45f9912662740c7c:142",
+      "panel_body": "sha256:4c308ece9c8e00ed:1725",
+      "page_inputs": "sha256:73bc66e6ec568a3b:6238"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "new_project",
+      "n": 8
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">New project</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n            <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"STAF\"/> <span><span><span class=\"ce-choice-t\">STAF function scores</span><span class=\"ce-choice-s\">Score 20 stream functions (0 to 15) and a length at each target year. Condition units are the ECI times the length.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p class=\"ce-note\">This sets up the first module. Add more modules (for example, riparian and instream) under Inputs, Study.</p>\n        <bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n            </div>\n          </div>\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n            </div>\n          </div>\n        </bslib-layout-columns>\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n            <span class=\"action-label\">Create</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "",
+     "np_mode": "HU",
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": 50,
+     "np_years": "0, 1, 5, 10, 25, 50",
+     "np_create:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "new_project",
+      "n": 9
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">New project</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n            <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"STAF\"/> <span><span><span class=\"ce-choice-t\">STAF function scores</span><span class=\"ce-choice-s\">Score 20 stream functions (0 to 15) and a length at each target year. Condition units are the ECI times the length.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"np_mode\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p class=\"ce-note\">This sets up the first module. Add more modules (for example, riparian and instream) under Inputs, Study.</p>\n        <bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n            </div>\n          </div>\n          <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n            <div class=\"form-group shiny-input-container\">\n              <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n            </div>\n          </div>\n        </bslib-layout-columns>\n        <div class=\"form-group shiny-input-container\">\n          <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n            <span class=\"action-label\">Create</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event new_project",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "",
+     "np_mode": "HU",
+     "np_rate:shiny.number": 3,
+     "np_poa:shiny.number": 50,
+     "np_years": "0, 1, 5, 10, 25, 50",
+     "np_create:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_name": "Annual study",
+     "np_mode": "AAHU"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click np_create",
+   "client": {
+    "method": "update",
+    "data": {
+     "np_create:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Annual study (new).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Annual study"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:815a585a20242cfa:143",
+      "panel_body": "sha256:4c308ece9c8e00ed:1725",
+      "page_inputs": "sha256:286a105738dd5582:6259"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event start",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "start",
+      "n": 10
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event start",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event about",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "about",
+      "n": 11
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">About CEICA</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div>\n          <p>\n            <strong>CEICA v1.0.0</strong>: Cost-effectiveness and incremental cost analysis.\n          </p>\n          <p>Cost-effectiveness and best buys follow the rules of IWR Planning Suite II, the certified USACE tool, including ties, duplicates and the No Action base. The Utoy Creek example reproduces the published analysis.</p>\n          <p>CEICA is not a certified planning model. Keep the Excel calculator with the decision record; its IWR input sheet supports an independent re-run in IWR Planning Suite II.</p>\n          <p>\n            <a href=\"https://github.com/USACE-WRISES/ceica\" target=\"_blank\" rel=\"noopener\">Source and issues</a>\n          </p>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event about",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true
+    }
+   },
+   "server": []
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "input": "assessment-newer.json",
+ "name": "assessment.json",
+ "read": {
+  "error": "StafImportError: This STAF assessment file was saved by a newer version of STAF. Download its report CSV or GeoJSON and import that."
+ }
+}

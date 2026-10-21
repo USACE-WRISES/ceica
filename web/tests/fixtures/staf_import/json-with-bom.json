@@ -1,0 +1,7 @@
+{
+ "input": "json-with-bom.json",
+ "name": "bom.json",
+ "read": {
+  "error": "StafImportError: This CSV is not a SFARI, EASI or DEEP report."
+ }
+}

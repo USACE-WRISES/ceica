@@ -1,0 +1,80 @@
+{
+ "names": [
+  {
+   "text": "Utoy Creek Section 206",
+   "safe": "Utoy Creek Section 206",
+   "safe20": "Utoy Creek Section 2"
+  },
+  {
+   "text": "  Sandy  Run\t206  ",
+   "safe": "Sandy Run_206",
+   "safe20": "Sandy Run_206"
+  },
+  {
+   "text": "a/b\\c:d*e?f\"g<h>i|j",
+   "safe": "a_b_c_d_e_f_g_h_i_j",
+   "safe20": "a_b_c_d_e_f_g_h_i_j"
+  },
+  {
+   "text": "Ríos y Cañadas",
+   "safe": "Ríos y Cañadas",
+   "safe20": "Ríos y Cañadas"
+  },
+  {
+   "text": "Москва-река",
+   "safe": "Москва-река",
+   "safe20": "Москва-река"
+  },
+  {
+   "text": "東京 湾",
+   "safe": "東京 湾",
+   "safe20": "東京 湾"
+  },
+  {
+   "text": "Ünïcødé — dash",
+   "safe": "Ünïcødé _ dash",
+   "safe20": "Ünïcødé _ dash"
+  },
+  {
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "safe": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "safe20": "xxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "text": "",
+   "safe": "",
+   "safe20": ""
+  },
+  {
+   "text": "   ",
+   "safe": "",
+   "safe20": ""
+  },
+  {
+   "text": "Plan #1, (draft).v2",
+   "safe": "Plan _1, _draft_.v2",
+   "safe20": "Plan _1, _draft_.v2"
+  },
+  {
+   "text": "tab\there",
+   "safe": "tab_here",
+   "safe20": "tab_here"
+  },
+  {
+   "text": "line\nbreak",
+   "safe": "line_break",
+   "safe20": "line_break"
+  },
+  {
+   "text": "émoji 😀 here",
+   "safe": "émoji _ here",
+   "safe20": "émoji _ here"
+  },
+  {
+   "text": "one                                                                                          two",
+   "safe": "one two",
+   "safe20": "one two"
+  }
+ ],
+ "stem_none": "CEICA CE-ICA 2026-10-18"
+}

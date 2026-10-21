@@ -1,0 +1,26 @@
+EASI Report
+Stream,Mill Creek
+COMID,123
+Reach length (ft),"2,640"
+
+Discipline,Function,Metric,Value,Rating,Index,FunctionScore
+Hydrology,Catchment hydrology,m,,,,13
+Hydrology,Surface water storage,m,,,,13
+Hydrology,Reach inflow,m,,,,13
+Hydrology,Streamflow regime,m,,,,13
+Hydraulics,Low flow and baseflow dynamics,m,,,,13
+Hydraulics,High flow dynamics,m,,,,13
+Hydraulics,Floodplain connectivity,m,,,,13
+Hydraulics,Hyporheic connectivity,m,,,,13
+Geomorphology,Channel evolution,m,,,,13
+Geomorphology,Channel and floodplain dynamics,m,,,,13
+Geomorphology,Sediment continuity,m,,,,13
+Geomorphology,Bed composition and large wood,m,,,,13
+Physicochemistry,Light & thermal regime,m,,,,13
+Physicochemistry,Carbon processing,m,,,,13
+Physicochemistry,Nutrient cycling,m,,,,13
+Physicochemistry,Water & soil quality,m,,,,13
+Biology,Habitat provision,m,,,,13
+Biology,Population support,m,,,,13
+Biology,Community dynamics,m,,,,13
+Biology,Watershed connectivity,m,,,,

@@ -1,0 +1,37 @@
+{
+ "csv": {
+  "settings": {
+   "text": "﻿Setting,Value\r\nStudy,Every warning\r\nSites,\"3 sites with 4 alternatives, No Action included\"\r\nOutput,Average annual habitat units (AAHU); lift is the output above No Action\r\nBenefit module,Habitat: values at each target year\r\nTarget years,\"1, 5, 40\"\r\nPeriod of analysis,50 years\r\nDiscount rate,10 percent\r\nAverage annual output,\"Straight lines between target years, averaged over the span of the years\"\r\nAverage annual cost,\"Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year\"\r\nComparisons,\"Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them\"\r\nPlan formation,One alternative per site: each site's recommendation\r\nRules,Up is not combinable with Ghost\r\nNot carried,up (No Action recommended)\r\nPlans,2 plans: 2 cost-effective and 2 best buys\r\nFinal array,\"2 plans: P1, P2\"\r\nTentatively selected plan,Not chosen yet\r\nRecord,\"CEICA 1.0.0, engine 1; project digest a95b09a27fb9\"\r\n"
+  },
+  "plans-bb": {
+   "text": "﻿Plan,Up,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Incremental cost per AAHU\r\nP1,0,0,0,0,,0\r\nP2,1,2.346,10035.49,100000,4277.7024722933,4277.7024722933\r\n"
+  },
+  "plans-final": {
+   "text": "﻿Plan,Up,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,,TRUE,TRUE\r\nP2,1,2.346,10035.49,100000,4277.7024722933,TRUE,TRUE\r\n"
+  },
+  "plans-all": {
+   "text": "﻿Plan,Up,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,,TRUE,TRUE\r\nP2,1,2.346,10035.49,100000,4277.7024722933,TRUE,TRUE\r\n"
+  },
+  "sites-alts": {
+   "text": "﻿Site,Alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Incremental cost per AAHU,Construction cost,Cost-effective,Best buy\r\nUp,No Action,0,0,,0,500,TRUE,TRUE\r\nUp,A1,2.346,10035.49,4277.7024722933,7223.3786685755,100000,TRUE,TRUE\r\nUp,A2,0.949,-55.57,-58.5563751317,-58.5563751317,-50,TRUE,TRUE\r\nup,No Action,0,0,,0,0,TRUE,TRUE\r\n"
+  },
+  "site-recs": {
+   "text": "﻿Site,Recommended alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Construction cost,Carried to plans,Status\r\nUp,A1,2.346,10035.49,4277.7024722933,100000,Yes,Suggested\r\nup,No Action,0,0,,0,No,Suggested\r\nEmpty,,,,,,No,Inputs incomplete\r\n"
+  },
+  "decisions": {
+   "text": "﻿Subject,Decision,Reason\r\nSite Up,\"A1, suggested, not yet confirmed\",No reason recorded.\r\nSite up,\"No Action, suggested, not yet confirmed\",No reason recorded.\r\nTentatively selected plan,Not chosen yet,\r\n"
+  },
+  "inputs": {
+   "text": "﻿Site,Alternative,Output (AAHU),Lift (AAHU),Construction cost,Annualized cost,Unit cost ($/AAHU)\r\nUp,No Action,1,0,500,50.4295870231,\r\nUp,A1,3.3461538462,2.346,100000,10085.917404612,4277.7024722933\r\nUp,A2,1.9487179487,0.949,-50,-5.1445671548,-58.5563751317\r\nup,No Action,2,0,0,0,\r\n"
+  },
+  "costs": {
+   "text": "﻿Site,Alternative,Months,Construction,Monitoring,Adaptive management,Interest during construction,OMRRR annual cost,Annualized cost\r\nUp,No Action,0,500,0,0,0,0,50.4295870231\r\nUp,A1,0,100000,0,0,0,0,10085.917404612\r\nUp,A2,6,-50,0,0,-1.0074289567,0,-5.1445671548\r\nup,No Action,0,0,0,0,0,0,0\r\n"
+  }
+ },
+ "readme": {
+  "text": "Every warning\nCost-effectiveness and incremental cost analysis: figures and tables\n\nStudy: Every warning\nPrepared by: n/a\nDate: October 18, 2026\nStatus: Draft\nMade by CEICA 1.0.0 (engine 1); project digest a95b09a27fb9\n\nIn this folder\n  Figures and tables.docx, .pdf and .html: every figure and table with its number and caption, and the methods.\n  Figures: each figure as PNG (300 dpi, for documents and slides) and SVG (to edit).\n  Tables: each table as CSV, and All tables.xlsx with a sheet per table.\n  Every warning calculator.xlsx: every input and result as live formulas.\n  Every warning.ceica: the project file. Open it in CEICA to continue the study.\n\nFigures\n  Figure 1. Cost-effectiveness (A) and incremental cost (B) of the alternatives at site Up.\n    Figures/Figure 01 Site Up.png and .svg\n  Figure 2. Habitat units over time (A) and average annual cost by part (B) of the alternatives at site Up.\n    Figures/Figure 02 Benefits and costs, site Up.png and .svg\n\nTables\n  Table 1. Study settings and the record of this analysis.\n    Tables/Table 01 Study settings.csv\n  Table 2. Best-buy plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 02 Best-buy plans.csv\n  Table 3. Final array of plans. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 03 Final array.csv\n  Table 4. The plans: lift, cost and status (2 plans). Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 04 All plans.csv\n  Table 5. Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.\n    Tables/Table 05 Alternatives at every site.csv\n  Table 6. The alternative each site carries forward, and the status of that decision.\n    Tables/Table 06 Site recommendations.csv\n  Table 7. Decisions and the reasons recorded for them.\n    Tables/Table 07 Decision record.csv\n  Table 8. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.\n    Tables/Table 08 Benefit and cost inputs.csv\n  Table 9. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.\n    Tables/Table 09 Cost by category.csv\n\nReading the data files\n  CSV files hold plain numbers: lift and cost are the rounded values the analysis compared, so sorting reproduces its ties. TRUE and FALSE mark cost-effective plans and best buys. A blank cell has no value; in a plan table, a blank site column means the site is not in the plan.\n  In All tables.xlsx, numbers keep their full precision under the display format, and a missing value reads n/a.\n"
+ },
+ "html": {
+  "digest": "sha256:82cb9911d0e6928e:35835"
+ }
+}

@@ -1,0 +1,5092 @@
+{
+ "numbers": [
+  {
+   "text": "1,234.5",
+   "parse_number": "1234.5",
+   "float_error": "could not convert string to float: '1,234.5'"
+  },
+  {
+   "text": "$1,234",
+   "parse_number": "1234.0",
+   "float_error": "could not convert string to float: '$1,234'"
+  },
+  {
+   "text": "12.5%",
+   "parse_number": "12.5",
+   "float_error": "could not convert string to float: '12.5%'"
+  },
+  {
+   "text": "",
+   "parse_number": null,
+   "float_error": "could not convert string to float: ''"
+  },
+  {
+   "text": "  ",
+   "parse_number": null,
+   "float_error": "could not convert string to float: '  '"
+  },
+  {
+   "text": "n/a",
+   "parse_number": null,
+   "float_error": "could not convert string to float: 'n/a'"
+  },
+  {
+   "text": "NA",
+   "parse_number": null,
+   "float_error": "could not convert string to float: 'NA'"
+  },
+  {
+   "text": "-",
+   "parse_number": null,
+   "float_error": "could not convert string to float: '-'"
+  },
+  {
+   "text": "(1,000)",
+   "parse_number": "-1000.0",
+   "float_error": "could not convert string to float: '(1,000)'"
+  },
+  {
+   "text": "1_000",
+   "parse_number": "1000.0",
+   "float": "1000.0"
+  },
+  {
+   "text": "1__0",
+   "parse_number_error": "'1__0' is not a number.",
+   "float_error": "could not convert string to float: '1__0'"
+  },
+  {
+   "text": "_1",
+   "parse_number_error": "'_1' is not a number.",
+   "float_error": "could not convert string to float: '_1'"
+  },
+  {
+   "text": "1_",
+   "parse_number_error": "'1_' is not a number.",
+   "float_error": "could not convert string to float: '1_'"
+  },
+  {
+   "text": "1e3",
+   "parse_number": "1000.0",
+   "float": "1000.0"
+  },
+  {
+   "text": "1E-2",
+   "parse_number": "0.01",
+   "float": "0.01"
+  },
+  {
+   "text": ".5",
+   "parse_number": "0.5",
+   "float": "0.5"
+  },
+  {
+   "text": "5.",
+   "parse_number": "5.0",
+   "float": "5.0"
+  },
+  {
+   "text": ".",
+   "parse_number_error": "'.' is not a number.",
+   "float_error": "could not convert string to float: '.'"
+  },
+  {
+   "text": "inf",
+   "parse_number": "inf",
+   "float": "inf"
+  },
+  {
+   "text": "-Infinity",
+   "parse_number": "-inf",
+   "float": "-inf"
+  },
+  {
+   "text": "nan",
+   "parse_number": "nan",
+   "float": "nan"
+  },
+  {
+   "text": "+5",
+   "parse_number": "5.0",
+   "float": "5.0"
+  },
+  {
+   "text": "abc",
+   "parse_number_error": "'abc' is not a number.",
+   "float_error": "could not convert string to float: 'abc'"
+  },
+  {
+   "text": "١٢٣",
+   "parse_number": "123.0",
+   "float": "123.0"
+  },
+  {
+   "text": "１２",
+   "parse_number": "12.0",
+   "float": "12.0"
+  },
+  {
+   "text": "1 000",
+   "parse_number_error": "'1 000' is not a number.",
+   "float_error": "could not convert string to float: '1 000'"
+  },
+  {
+   "text": "0x10",
+   "parse_number_error": "'0x10' is not a number.",
+   "float_error": "could not convert string to float: '0x10'"
+  },
+  {
+   "text": "1e",
+   "parse_number_error": "'1e' is not a number.",
+   "float_error": "could not convert string to float: '1e'"
+  },
+  {
+   "text": "e5",
+   "parse_number_error": "'e5' is not a number.",
+   "float_error": "could not convert string to float: 'e5'"
+  },
+  {
+   "text": "--5",
+   "parse_number_error": "'--5' is not a number.",
+   "float_error": "could not convert string to float: '--5'"
+  },
+  {
+   "text": "(5",
+   "parse_number_error": "'(5' is not a number.",
+   "float_error": "could not convert string to float: '(5'"
+  },
+  {
+   "text": "5)",
+   "parse_number_error": "'5)' is not a number.",
+   "float_error": "could not convert string to float: '5)'"
+  },
+  {
+   "text": "1.2.3",
+   "parse_number_error": "'1.2.3' is not a number.",
+   "float_error": "could not convert string to float: '1.2.3'"
+  },
+  {
+   "text": " 12 ",
+   "parse_number": "12.0",
+   "float": "12.0"
+  },
+  {
+   "text": "12 ",
+   "parse_number": "12.0",
+   "float": "12.0"
+  },
+  {
+   "text": "\t7\n",
+   "parse_number": "7.0",
+   "float": "7.0"
+  },
+  {
+   "text": "1e400",
+   "parse_number": "inf",
+   "float": "inf"
+  },
+  {
+   "text": "-0",
+   "parse_number": "-0.0",
+   "float": "-0.0"
+  },
+  {
+   "text": "0.1",
+   "parse_number": "0.1",
+   "float": "0.1"
+  },
+  {
+   "text": "123456789012345678901234567890",
+   "parse_number": "1.2345678901234568e+29",
+   "float": "1.2345678901234568e+29"
+  },
+  {
+   "text": "1_0.5e1_0",
+   "parse_number": "105000000000.0",
+   "float": "105000000000.0"
+  },
+  {
+   "text": "infinity",
+   "parse_number": "inf",
+   "float": "inf"
+  },
+  {
+   "text": "INF",
+   "parse_number": "inf",
+   "float": "inf"
+  },
+  {
+   "text": " -nan ",
+   "parse_number": "nan",
+   "float": "nan"
+  },
+  {
+   "text": "1 ",
+   "parse_number": "1.0",
+   "float": "1.0"
+  },
+  {
+   "text": "(-5)",
+   "parse_number_error": "'(-5)' is not a number.",
+   "float_error": "could not convert string to float: '(-5)'"
+  },
+  {
+   "text": "$(1,0)",
+   "parse_number": "-10.0",
+   "float_error": "could not convert string to float: '$(1,0)'"
+  },
+  {
+   "text": "%",
+   "parse_number_error": "'%' is not a number.",
+   "float_error": "could not convert string to float: '%'"
+  },
+  {
+   "text": "1,2,3",
+   "parse_number": "123.0",
+   "float_error": "could not convert string to float: '1,2,3'"
+  }
+ ],
+ "scripts": [
+  {
+   "project": "utoy-creek",
+   "steps": [
+    {
+     "op": "recommend",
+     "args": [
+      "17F2M",
+      "Alternative2"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "7634d294224910a35ab493df5bf4fc25b6439a778a0c40f603062b16763e8f4c",
+      "same": false
+     }
+    },
+    {
+     "op": "recommend",
+     "args": [
+      "17F2M",
+      "Nope"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "That alternative no longer exists."
+     ]
+    },
+    {
+     "op": "keep_recommendation",
+     "args": [
+      "17F2M"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "7634d294224910a35ab493df5bf4fc25b6439a778a0c40f603062b16763e8f4c",
+      "same": true
+     }
+    },
+    {
+     "op": "alt_note",
+     "args": [
+      "17F2M",
+      "Alternative1",
+      "  Too costly  "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "a34516f0ce14e2dc92565241feb460baa987c8ea0a1cc5ae875c2780a8f87b1f",
+      "same": false
+     }
+    },
+    {
+     "op": "alt_note",
+     "args": [
+      "17F2M",
+      "Alternative1",
+      "   "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "7634d294224910a35ab493df5bf4fc25b6439a778a0c40f603062b16763e8f4c",
+      "same": false
+     }
+    },
+    {
+     "op": "alt_note",
+     "args": [
+      "17D2E",
+      "FWOP",
+      "No change"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "87d40a443902c0f4fc44c9491acf6be85dfc1177f7628c98cbd5b5691854d48c",
+      "same": false
+     }
+    },
+    {
+     "op": "site_rationale",
+     "args": [
+      "17F2M",
+      "Best value "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "618dd9215e8128931b1b81395b1bdb046e1b0640ff0b0654abc5ba9964de27fd",
+      "same": false
+     }
+    },
+    {
+     "op": "set_final",
+     "args": [
+      "2A=Alternative1;2B=Alternative1",
+      false
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "618dd9215e8128931b1b81395b1bdb046e1b0640ff0b0654abc5ba9964de27fd",
+      "same": true
+     }
+    },
+    {
+     "op": "set_final",
+     "args": [
+      "3F=Alternative1",
+      true
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "a972733b2eb28a49be1d972f326711ce98b6fd3bb68ce88510406d6ddab3ac2d",
+      "same": false
+     }
+    },
+    {
+     "op": "final_note",
+     "args": [
+      "3F=Alternative1",
+      " Kept for comparison "
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "a30c11d7c644f92577deb7770148234061048f8cfcd04c2a02f5e1d0ce11e7b9",
+      "same": false
+     }
+    },
+    {
+     "op": "set_final",
+     "args": [
+      "2A=Alternative1;2B=Alternative1",
+      true
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "6611d8d48f3773079e9913456d707f2da2d5238632171452370b082314d11855",
+      "same": false
+     }
+    },
+    {
+     "op": "final_note",
+     "args": [
+      "2A=Alternative1",
+      "A note"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "45eaabe6307e007344ed5b7512ea1e79b2da848bb5cb3b3ed04f3e2a424759a6",
+      "same": false
+     }
+    },
+    {
+     "op": "step_worth",
+     "args": [
+      " > 3F=Alternative1",
+      "YES"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "4db5e3645d3ff63b22174707d7fc14acf46e0702214e92447b9d68b771b047c8",
+      "same": false
+     }
+    },
+    {
+     "op": "step_worth",
+     "args": [
+      "3F=Alternative1 > 2A=Alternative1;2B=Alternative1",
+      "maybe"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "abb42f3260d0bb2eee9215f25c190009e9eb3aab8f67f31bf1b525c0dca24b23",
+      "same": false
+     }
+    },
+    {
+     "op": "step_why",
+     "args": [
+      " > 3F=Alternative1",
+      "  because  "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "713dde6314259e3fb13b93d2623e7d5682732d841aa13b8a26d190bdfc218bd6",
+      "same": false
+     }
+    },
+    {
+     "op": "set_tsp",
+     "args": [
+      "2A=Alternative1;2B=Alternative1"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "8f703af4088f1facee99e2d805ea98bf57efddb51f5185ad83793f5c2f3b39d9",
+      "same": false
+     }
+    },
+    {
+     "op": "keep_tsp",
+     "args": [],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "8f703af4088f1facee99e2d805ea98bf57efddb51f5185ad83793f5c2f3b39d9",
+      "same": true
+     }
+    },
+    {
+     "op": "tsp_text",
+     "args": [
+      "tsp_plan_type",
+      " NER plan "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "401151485afd66cf6d2dc01ee079087f1be0bc3e87c3f733e841939157f68bc5",
+      "same": false
+     }
+    },
+    {
+     "op": "tsp_text",
+     "args": [
+      "tsp_rationale",
+      "It is the best."
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "f7977ab940982b604150d273c71f30e8cfee492b86e95aa8edce6f600f56be05",
+      "same": false
+     }
+    },
+    {
+     "op": "tsp_text",
+     "args": [
+      "bogus",
+      "x"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown field."
+     ]
+    },
+    {
+     "op": "watershed_mode",
+     "args": [
+      "BOGUS"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "Unknown plan formation mode."
+     ]
+    },
+    {
+     "op": "watershed_mode",
+     "args": [
+      "MULTI"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "55c6666bef24ac2e219c4d8ff3bc18bbf413a5c2c7d7893e27f9584f81b25bd5",
+      "same": false
+     }
+    },
+    {
+     "op": "carry",
+     "args": [
+      "17D2E",
+      "Alternative1",
+      true,
+      [
+       "Alternative1"
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "55c6666bef24ac2e219c4d8ff3bc18bbf413a5c2c7d7893e27f9584f81b25bd5",
+      "same": true
+     }
+    },
+    {
+     "op": "carry",
+     "args": [
+      "17D2E",
+      "Alternative2",
+      false,
+      [
+       "Alternative1"
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "55c6666bef24ac2e219c4d8ff3bc18bbf413a5c2c7d7893e27f9584f81b25bd5",
+      "same": true
+     }
+    },
+    {
+     "op": "watershed_mode",
+     "args": [
+      "RECOMMENDED"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "aa94ca4dd5186cbd54d0616730c80d130cd936a99206aa9660b3de02ed1d9689",
+      "same": false
+     }
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "17F2M",
+      "DEPENDS_ON",
+      "17D2E"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "5618f3b029a4476dc8e1ea6ed773745b2f334645f64d5140a19652e0a536c6e0",
+      "same": false
+     }
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "17F2M",
+      "DEPENDS_ON",
+      "17D2E"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "5618f3b029a4476dc8e1ea6ed773745b2f334645f64d5140a19652e0a536c6e0",
+      "same": true
+     }
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "17F2M",
+      "NOT_COMBINABLE",
+      "17F2M"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "A rule needs two different sites."
+     ]
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "17F2M",
+      "BOGUS",
+      "17D2E"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown rule."
+     ]
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "17D2E",
+      "NOT_COMBINABLE",
+      "17B"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d50633699adf4a1d339d58cee6c246a1082a7003ef9fc06c4a4700f3555158c4",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_rule",
+     "args": [
+      0
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "08e503cc4cd4c375a9d91d2b7c746ba40b41a01c3802a2fa08e17d694bb849f5",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_rule",
+     "args": [
+      7
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "08e503cc4cd4c375a9d91d2b7c746ba40b41a01c3802a2fa08e17d694bb849f5",
+      "same": true
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "name",
+      "Utoy, renamed "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "58bd19af3e03131a60d1cdb2c9ac57ec6c6ba5e09d7d813e7ce399523e1cc49e",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "name",
+      "  "
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The study needs a name."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "description",
+      " A study. "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ad7d344593f473a5cdf7bcd08f594dbcea0bbafc8e7b2ccfaa34cf8bf396a6d6",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "discount_rate",
+      "3.5"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "f1b123dd1ae49159d5a670f94ae0078554df9dc6102bef2ef247a9d196e2c14a",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "discount_rate",
+      "2,5%"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "0510fcd662c2bd4ac863bd4383083e5c16456897232b9747909bac2a325043bb",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "discount_rate",
+      "30"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The discount rate must be between 0 and 25 percent."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "discount_rate",
+      "abc"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The discount rate must be a number."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "period_of_analysis",
+      "40"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "61104fd265e4d6e4dd2cd804b42327537d634d958a51939b596394002a2dacbe",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "period_of_analysis",
+      "40.5"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The period of analysis must be a whole number of years (1 to 200)."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "period_of_analysis",
+      "0"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The period of analysis must be a whole number of years (1 to 200)."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "period_of_analysis",
+      "x"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The period of analysis must be a number."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "price_level",
+      "FY2026"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "2a6c2e7d96ee44337f971ceed48f4e50284e819e4a218e62e03f682be4022f36",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "aahu_method",
+      "IWR_YEARLY_2DP"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "06016b0a98648c931e7ba701f8c53ebe8affcddcebdbd8f6f1c2d7a6556b4a11",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "idc_method",
+      "MIDDLE"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "faac02af709d951a6d678d3a6a9aba37ec43b9dcd93fa506b05539cde34c848a",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "recurring_timing",
+      "MID_YEAR"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "8b9f76fb5942db02e78699da1e6dcc5990e9223eaa43f8813c14f0fdf937d267",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "rounding",
+      "FULL"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "8b9f76fb5942db02e78699da1e6dcc5990e9223eaa43f8813c14f0fdf937d267",
+      "same": true
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "rounding",
+      "IWR"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "22d5f66d650520e23f11021b0658102ca362f39ef657be47c4c8f68a56b4385b",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "0;2;10;50"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "22d5f66d650520e23f11021b0658102ca362f39ef657be47c4c8f68a56b4385b",
+      "same": true
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "0, 1, 5, 10, 25, 50"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "693e2254710dbcb3b7bcf20b590c8d1d74464a080a17993823aaf346575fd415",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "0 5"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "34b715952e435d3bc7a6c389604f91c33a51cbfe406c721f7ee5d83b15c44f45",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "5 0"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Target years must increase, with at least two."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "a, b"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Target years must be numbers separated by commas."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "0"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Target years must increase, with at least two."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      " 0 ,1,  2.5,50 "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "8962343831e3eebfd87a24796901116d0bcdc236cd6d3fc567ef3776b160ca91",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "staf_mapping",
+      "B"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "This setting applies to STAF projects."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "output_name",
+      "Acre units"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "3b765f9b60c5343666dc95da88046f41b082348ec4d803d15885c9593216958a",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "output_short",
+      "AU"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "73c9a113e11cb186bf6534d1991ba7893a4f450fb060214a9cb7cce38f8984aa",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "output_name",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The output units need a name and an abbreviation."
+     ]
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "bogus",
+      "x"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown field 'bogus'."
+     ]
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "title",
+      " My report "
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "3da913065a0956534bbd976963fa1a0a55d9895b86aa66719afb8de888b28658",
+      "same": false
+     }
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "status",
+      "FINAL"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "The report can be final once every readiness item is checked."
+     ]
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "status",
+      "DRAFT"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "3da913065a0956534bbd976963fa1a0a55d9895b86aa66719afb8de888b28658",
+      "same": true
+     }
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "contents",
+      "SUMMARY"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "c731714ec52632ea2063ba67e0ce4fe5030acdba1fcc1b2124a8e5054b866f9f",
+      "same": false
+     }
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "contents",
+      "X"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "Unknown report contents."
+     ]
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "bogus",
+      "x"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "Unknown report setting."
+     ]
+    },
+    {
+     "op": "report_field",
+     "args": [
+      "date",
+      " Oct 1 "
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "e0baba2b9c6f507308fa3dd1512c3fae2983d5488797622a7709c796bb1b8150",
+      "same": false
+     }
+    },
+    {
+     "op": "report_settings",
+     "args": [],
+     "kw": {
+      "title": "Utoy, renamed",
+      "prepared_by": " An office ",
+      "date": "October 1, 2026",
+      "contents": "FULL"
+     },
+     "res": false,
+     "ok": {
+      "digest": "501fcff7500e79bd9fe219a8674aa9b19de4f5fa198130b13cdee3c8e1caf704",
+      "same": false
+     }
+    },
+    {
+     "op": "report_settings",
+     "args": [],
+     "kw": {
+      "title": "Other",
+      "prepared_by": "",
+      "date": "",
+      "contents": "BAD"
+     },
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown report contents."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Riparian",
+      "INDEX_X_QUANTITY",
+      "acres"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "01cd75a067743bb95e1759746773b8a41fa73160508961e700ff47e4df3081ff",
+      "same": false
+     }
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "riparian",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "There is already a module named riparian."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The module needs a name."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Stream",
+      "STAF",
+      "mi"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "STAF modules cannot be combined with other methods in one study."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Wetland",
+      "AAHU",
+      "ignored"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "90e295fecf36d56390b9bb63317498c8e47a7d87986b2fb034e4da77bb27d5f3",
+      "same": false
+     }
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "M2",
+      "Riparian zone",
+      "INDEX_X_QUANTITY",
+      " ac "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "699c3ce3143e46df0a8cffc969a5c709a40f38282d1beba32392bd4f47bdc656",
+      "same": false
+     }
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "M2",
+      "Riparian zone",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "0216395fde5866781f90e2f65559839f4ea3777a511b803a20a24ab95b220a28",
+      "same": false
+     }
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "M3",
+      "riparian zone",
+      "AAHU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "gone",
+      "x",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "remove_module",
+     "args": [
+      "M3"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "remove_module",
+     "args": [
+      "M2"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "01cd75a067743bb95e1759746773b8a41fa73160508961e700ff47e4df3081ff",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_module",
+     "args": [
+      "gone"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "add_site",
+     "args": [],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d716222d03356f24278a0d2256107e32fd4add8181041ac2f1659140d9c10a6c",
+      "same": false
+     }
+    },
+    {
+     "op": "add_alternative",
+     "args": [
+      "S1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "5f85a7bd33341a1c299572d667652f0ad090360687bec11bf819d1d941698b8d",
+      "same": false
+     }
+    },
+    {
+     "op": "add_alternative",
+     "args": [
+      "nope"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That site no longer exists."
+     ]
+    },
+    {
+     "op": "remove_alternative",
+     "args": [
+      "S1",
+      "Alternative1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "106188135101e56dba46dae6977dbbe666271b3e56d7d5ec701fddd408e4251e",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_alternative",
+     "args": [
+      "S1",
+      "FWOP"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "No Action cannot be removed."
+     ]
+    },
+    {
+     "op": "add_item",
+     "args": [
+      "S1",
+      "Alternative2"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "4bc6fcc2cdee3b7479b1837b944e3986dcbf54fdd7cee820b8514e22145583ba",
+      "same": false
+     }
+    },
+    {
+     "op": "add_item",
+     "args": [
+      "S1",
+      "Alternative2"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "e50ba6562ce5c5dfece66a4013af7a60d9c878c1cd7131ca3b6414a045879e14",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_item",
+     "args": [
+      "S1",
+      "Alternative2",
+      "item1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d210f903ddad948a557e53b92d5aa7d5735e723b322390c7b9aff5a774b834c2",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_site",
+     "args": [
+      "S1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "01cd75a067743bb95e1759746773b8a41fa73160508961e700ff47e4df3081ff",
+      "same": false
+     }
+    },
+    {
+     "op": "copy_items_to_site",
+     "args": [
+      "17F2M",
+      "Alternative1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "1301bc21c0588cf2c66a824834a77832d7908279bfef7677d929d6c5ed095dfe",
+      "same": false
+     }
+    },
+    {
+     "op": "copy_items_to_site",
+     "args": [
+      "17F2M",
+      "Nope"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That alternative no longer exists."
+     ]
+    },
+    {
+     "op": "remove_item",
+     "args": [
+      "17F2M",
+      "Nope",
+      "x"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That alternative no longer exists."
+     ]
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "17F2M",
+      "17F2M-x"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "b6371181acab2b1548fc97a492c8cea0e5ce3ccbb2f024557243ef5caf1f54a5",
+      "same": false
+     }
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "17F2M-x",
+      "17D2E"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "Site 17D2E already exists."
+     ]
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "17F2M-x",
+      "bad id"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "IDs use letters, digits, dot, underscore or hyphen (up to 32)."
+     ]
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "17F2M-x",
+      " 17F2M "
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "1301bc21c0588cf2c66a824834a77832d7908279bfef7677d929d6c5ed095dfe",
+      "same": false
+     }
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "17F2M",
+      "17F2M"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "1301bc21c0588cf2c66a824834a77832d7908279bfef7677d929d6c5ed095dfe",
+      "same": true
+     }
+    },
+    {
+     "op": "rename_alternative",
+     "args": [
+      "17F2M",
+      "Alternative1",
+      "Alt1"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "35d2454efcbd4877f1b00fd53f6f296af393072180d6f83c3c99ebef9c7b3c2d",
+      "same": false
+     }
+    },
+    {
+     "op": "rename_alternative",
+     "args": [
+      "17F2M",
+      "Alt1",
+      "Alternative2"
+     ],
+     "kw": {},
+     "res": true,
+     "error": [
+      "EditError",
+      "Alternative Alternative2 already exists at 17F2M."
+     ]
+    },
+    {
+     "op": "rename_alternative",
+     "args": [
+      "17F2M",
+      "Alt1",
+      "Alternative1"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "1301bc21c0588cf2c66a824834a77832d7908279bfef7677d929d6c5ed095dfe",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|construction",
+      "776,100"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "9b14d2483c39b9c47f62a201fed98fea8b9757e71fb15116a95247d845663f10",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|construction",
+      "-5"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Costs cannot be negative."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|construction",
+      "(1,000)"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Costs cannot be negative."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|construction",
+      "abc"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "'abc' is not a number."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|monitoring",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "e51e768e302baffa89c3f543fee437f6445dbd6d278fa31aafb3d8148a253c0a",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|first|newcat",
+      "5"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "dc2e63045801f5d08cf301dceeb8c8fc2fcf3601fcb81ec9a84d76683db1745c",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|months",
+      " 12 "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ac7acea25809c430738717926303d1cc52ee674444a500843122c0f03b603d49",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|months",
+      "-1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Months cannot be negative."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|override",
+      "$5,000"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "0bc3bdf2411f002ba2ad26521f21493f623cad02d9d4918187237c7f9b5f34e1",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|override",
+      "n/a"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ac7acea25809c430738717926303d1cc52ee674444a500843122c0f03b603d49",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M|Alternative1|other",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ac7acea25809c430738717926303d1cc52ee674444a500843122c0f03b603d49",
+      "same": true
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|values|1",
+      "0.5"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "09be92b2070dc36c49b95f5421b846992b4cb79ffdc3e3cd03bf2c6378332192",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|values|1",
+      "1_000"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "b2bca7df6e56dde3097ebeaee33c3ec6b46a849fbaf8f9290163b657fcc76ee4",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|values|9",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That cell no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|values|-1",
+      "0.25"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "f81f09d38cb2273fda02cae9ceaca7309fde897f96d3c9eedea530b527dcb391",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|quantity|0",
+      "12.5%"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "914e806197b5b34424480ad6e7c3667879c6b5eaadd39d8dfafb6fe6bcf02c75",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|aahu",
+      "3"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "249392ed78b518bbbea10c6e29c2bbf3a5d0376775135d06078f27d48f32ba0d",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M1|other|0",
+      "3"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Unknown cell."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|17F2M|Alternative1|M9|values|0",
+      "3"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|name",
+      "  "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "249392ed78b518bbbea10c6e29c2bbf3a5d0376775135d06078f27d48f32ba0d",
+      "same": true
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|name",
+      "Upkeep"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "915ac053b43042fe4854f9e0285d759d6c359f1079778f460ad0d75d8302b0ab",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|basis",
+      "Percent of first cost"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "2c2729a2081ddef1971e67359d3aa88a411e96a7fb1aa8adb8ffbe5d9922efa5",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|basis",
+      "sometimes"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "'sometimes' is not a basis (Amount, Percent of first cost or Rate x quantity)."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|category_id",
+      "Construction"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "5ac08a553b06c0f38d86a80ef64ed91e22bf61a889f0a4a513a06589c47acd9f",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|category_id",
+      "nothing"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "'nothing' is not a first-cost category."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|percent",
+      "10%"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "91ac2d12435e60e04be89ffbc84554bbf628a0c6604a7e2ad880e191a81da86c",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|every_years",
+      "0"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Every N years must be 1 or more."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|every_years",
+      "2.7"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "36096a434fb67f15723a17edd73679ff3770939f3dd1b32dca2dd75deb4909a5",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|first_year",
+      "3"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d95bf7189ec6cdd127fbe0eaafd5fceaa891592a4871df1a768a6df20a74b7dc",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|last_year",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d95bf7189ec6cdd127fbe0eaafd5fceaa891592a4871df1a768a6df20a74b7dc",
+      "same": true
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|general|amount",
+      "$1,000"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "dceac05edda6866d7364977f2d02808d794709bb1ab608eba9449e50b4e9eacb",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "r|17F2M|Alternative1|gone|amount",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That row no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "t|17F2M|name",
+      "  Upper reach "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "df4d5008d3bfb16117c941b3e076670e43b61f690fcb0d8e73fd1501a9fc3345",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "t|17F2M|Alternative1|description",
+      " Grade control "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "fa50c55aff9f6954fd886bc7bbe3c99d8f249ff043d48e1c713ec53ef01b3b8b",
+      "same": false
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "t|17F2M|Nope|description",
+      "x"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That row no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "x|a|b",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That row no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|17F2M",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That cell no longer exists."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "c|Nope|Alternative1|months",
+      "1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That row no longer exists."
+     ]
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        "c|17F2M|FWOP|first|construction",
+        "c|17F2M|FWOP|first|monitoring",
+        "c|17F2M|FWOP|first|adaptive_management",
+        "c|17F2M|FWOP|months",
+        "c|17F2M|FWOP|override"
+       ],
+       [
+        "c|17F2M|Alternative1|first|construction",
+        "c|17F2M|Alternative1|first|monitoring",
+        "c|17F2M|Alternative1|first|adaptive_management",
+        "c|17F2M|Alternative1|months",
+        "c|17F2M|Alternative1|override"
+       ],
+       [
+        "c|17F2M|Alternative2|first|construction",
+        "c|17F2M|Alternative2|first|monitoring",
+        "c|17F2M|Alternative2|first|adaptive_management",
+        "c|17F2M|Alternative2|months",
+        "c|17F2M|Alternative2|override"
+       ],
+       [
+        "c|17F2M|Alternative3|first|construction",
+        "c|17F2M|Alternative3|first|monitoring",
+        "c|17F2M|Alternative3|first|adaptive_management",
+        "c|17F2M|Alternative3|months",
+        "c|17F2M|Alternative3|override"
+       ],
+       [
+        "c|17D2E|FWOP|first|construction",
+        "c|17D2E|FWOP|first|monitoring",
+        "c|17D2E|FWOP|first|adaptive_management",
+        "c|17D2E|FWOP|months",
+        "c|17D2E|FWOP|override"
+       ],
+       [
+        "c|17D2E|Alternative1|first|construction",
+        "c|17D2E|Alternative1|first|monitoring",
+        "c|17D2E|Alternative1|first|adaptive_management",
+        "c|17D2E|Alternative1|months",
+        "c|17D2E|Alternative1|override"
+       ],
+       [
+        "c|17D2E|Alternative2|first|construction",
+        "c|17D2E|Alternative2|first|monitoring",
+        "c|17D2E|Alternative2|first|adaptive_management",
+        "c|17D2E|Alternative2|months",
+        "c|17D2E|Alternative2|override"
+       ],
+       [
+        "c|17D2E|Alternative3|first|construction",
+        "c|17D2E|Alternative3|first|monitoring",
+        "c|17D2E|Alternative3|first|adaptive_management",
+        "c|17D2E|Alternative3|months",
+        "c|17D2E|Alternative3|override"
+       ],
+       [
+        "c|17B|FWOP|first|construction",
+        "c|17B|FWOP|first|monitoring",
+        "c|17B|FWOP|first|adaptive_management",
+        "c|17B|FWOP|months",
+        "c|17B|FWOP|override"
+       ],
+       [
+        "c|17B|Alternative1|first|construction",
+        "c|17B|Alternative1|first|monitoring",
+        "c|17B|Alternative1|first|adaptive_management",
+        "c|17B|Alternative1|months",
+        "c|17B|Alternative1|override"
+       ],
+       [
+        "c|17B|Alternative2|first|construction",
+        "c|17B|Alternative2|first|monitoring",
+        "c|17B|Alternative2|first|adaptive_management",
+        "c|17B|Alternative2|months",
+        "c|17B|Alternative2|override"
+       ],
+       [
+        "c|17B|Alternative3|first|construction",
+        "c|17B|Alternative3|first|monitoring",
+        "c|17B|Alternative3|first|adaptive_management",
+        "c|17B|Alternative3|months",
+        "c|17B|Alternative3|override"
+       ],
+       [
+        "c|2A|FWOP|first|construction",
+        "c|2A|FWOP|first|monitoring",
+        "c|2A|FWOP|first|adaptive_management",
+        "c|2A|FWOP|months",
+        "c|2A|FWOP|override"
+       ],
+       [
+        "c|2A|Alternative1|first|construction",
+        "c|2A|Alternative1|first|monitoring",
+        "c|2A|Alternative1|first|adaptive_management",
+        "c|2A|Alternative1|months",
+        "c|2A|Alternative1|override"
+       ],
+       [
+        "c|2A|Alternative2|first|construction",
+        "c|2A|Alternative2|first|monitoring",
+        "c|2A|Alternative2|first|adaptive_management",
+        "c|2A|Alternative2|months",
+        "c|2A|Alternative2|override"
+       ],
+       [
+        "c|2A|Alternative3|first|construction",
+        "c|2A|Alternative3|first|monitoring",
+        "c|2A|Alternative3|first|adaptive_management",
+        "c|2A|Alternative3|months",
+        "c|2A|Alternative3|override"
+       ],
+       [
+        "c|2B|FWOP|first|construction",
+        "c|2B|FWOP|first|monitoring",
+        "c|2B|FWOP|first|adaptive_management",
+        "c|2B|FWOP|months",
+        "c|2B|FWOP|override"
+       ],
+       [
+        "c|2B|Alternative1|first|construction",
+        "c|2B|Alternative1|first|monitoring",
+        "c|2B|Alternative1|first|adaptive_management",
+        "c|2B|Alternative1|months",
+        "c|2B|Alternative1|override"
+       ],
+       [
+        "c|2B|Alternative2|first|construction",
+        "c|2B|Alternative2|first|monitoring",
+        "c|2B|Alternative2|first|adaptive_management",
+        "c|2B|Alternative2|months",
+        "c|2B|Alternative2|override"
+       ],
+       [
+        "c|2B|Alternative3|first|construction",
+        "c|2B|Alternative3|first|monitoring",
+        "c|2B|Alternative3|first|adaptive_management",
+        "c|2B|Alternative3|months",
+        "c|2B|Alternative3|override"
+       ],
+       [
+        "c|3E|FWOP|first|construction",
+        "c|3E|FWOP|first|monitoring",
+        "c|3E|FWOP|first|adaptive_management",
+        "c|3E|FWOP|months",
+        "c|3E|FWOP|override"
+       ],
+       [
+        "c|3E|Alternative1|first|construction",
+        "c|3E|Alternative1|first|monitoring",
+        "c|3E|Alternative1|first|adaptive_management",
+        "c|3E|Alternative1|months",
+        "c|3E|Alternative1|override"
+       ],
+       [
+        "c|3E|Alternative2|first|construction",
+        "c|3E|Alternative2|first|monitoring",
+        "c|3E|Alternative2|first|adaptive_management",
+        "c|3E|Alternative2|months",
+        "c|3E|Alternative2|override"
+       ],
+       [
+        "c|3E|Alternative3|first|construction",
+        "c|3E|Alternative3|first|monitoring",
+        "c|3E|Alternative3|first|adaptive_management",
+        "c|3E|Alternative3|months",
+        "c|3E|Alternative3|override"
+       ],
+       [
+        "c|3F|FWOP|first|construction",
+        "c|3F|FWOP|first|monitoring",
+        "c|3F|FWOP|first|adaptive_management",
+        "c|3F|FWOP|months",
+        "c|3F|FWOP|override"
+       ],
+       [
+        "c|3F|Alternative1|first|construction",
+        "c|3F|Alternative1|first|monitoring",
+        "c|3F|Alternative1|first|adaptive_management",
+        "c|3F|Alternative1|months",
+        "c|3F|Alternative1|override"
+       ],
+       [
+        "c|3F|Alternative2|first|construction",
+        "c|3F|Alternative2|first|monitoring",
+        "c|3F|Alternative2|first|adaptive_management",
+        "c|3F|Alternative2|months",
+        "c|3F|Alternative2|override"
+       ],
+       [
+        "c|3F|Alternative3|first|construction",
+        "c|3F|Alternative3|first|monitoring",
+        "c|3F|Alternative3|first|adaptive_management",
+        "c|3F|Alternative3|months",
+        "c|3F|Alternative3|override"
+       ],
+       [
+        "c|19A|FWOP|first|construction",
+        "c|19A|FWOP|first|monitoring",
+        "c|19A|FWOP|first|adaptive_management",
+        "c|19A|FWOP|months",
+        "c|19A|FWOP|override"
+       ],
+       [
+        "c|19A|Alternative2|first|construction",
+        "c|19A|Alternative2|first|monitoring",
+        "c|19A|Alternative2|first|adaptive_management",
+        "c|19A|Alternative2|months",
+        "c|19A|Alternative2|override"
+       ],
+       [
+        "c|19A|Alternative3|first|construction",
+        "c|19A|Alternative3|first|monitoring",
+        "c|19A|Alternative3|first|adaptive_management",
+        "c|19A|Alternative3|months",
+        "c|19A|Alternative3|override"
+       ]
+      ],
+      0,
+      0,
+      [
+       [
+        "1000",
+        "2000"
+       ],
+       [
+        "3,000",
+        "",
+        "4"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "82a304fc72fa23a894bc9a3de2a1e1d137ca08ce731e1a01633e3bd033c45e62",
+      "same": false,
+      "cells": 5
+     }
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        "c|17F2M|FWOP|first|construction",
+        "c|17F2M|FWOP|first|monitoring",
+        "c|17F2M|FWOP|first|adaptive_management",
+        "c|17F2M|FWOP|months",
+        "c|17F2M|FWOP|override"
+       ],
+       [
+        "c|17F2M|Alternative1|first|construction",
+        "c|17F2M|Alternative1|first|monitoring",
+        "c|17F2M|Alternative1|first|adaptive_management",
+        "c|17F2M|Alternative1|months",
+        "c|17F2M|Alternative1|override"
+       ],
+       [
+        "c|17F2M|Alternative2|first|construction",
+        "c|17F2M|Alternative2|first|monitoring",
+        "c|17F2M|Alternative2|first|adaptive_management",
+        "c|17F2M|Alternative2|months",
+        "c|17F2M|Alternative2|override"
+       ],
+       [
+        "c|17F2M|Alternative3|first|construction",
+        "c|17F2M|Alternative3|first|monitoring",
+        "c|17F2M|Alternative3|first|adaptive_management",
+        "c|17F2M|Alternative3|months",
+        "c|17F2M|Alternative3|override"
+       ],
+       [
+        "c|17D2E|FWOP|first|construction",
+        "c|17D2E|FWOP|first|monitoring",
+        "c|17D2E|FWOP|first|adaptive_management",
+        "c|17D2E|FWOP|months",
+        "c|17D2E|FWOP|override"
+       ],
+       [
+        "c|17D2E|Alternative1|first|construction",
+        "c|17D2E|Alternative1|first|monitoring",
+        "c|17D2E|Alternative1|first|adaptive_management",
+        "c|17D2E|Alternative1|months",
+        "c|17D2E|Alternative1|override"
+       ],
+       [
+        "c|17D2E|Alternative2|first|construction",
+        "c|17D2E|Alternative2|first|monitoring",
+        "c|17D2E|Alternative2|first|adaptive_management",
+        "c|17D2E|Alternative2|months",
+        "c|17D2E|Alternative2|override"
+       ],
+       [
+        "c|17D2E|Alternative3|first|construction",
+        "c|17D2E|Alternative3|first|monitoring",
+        "c|17D2E|Alternative3|first|adaptive_management",
+        "c|17D2E|Alternative3|months",
+        "c|17D2E|Alternative3|override"
+       ],
+       [
+        "c|17B|FWOP|first|construction",
+        "c|17B|FWOP|first|monitoring",
+        "c|17B|FWOP|first|adaptive_management",
+        "c|17B|FWOP|months",
+        "c|17B|FWOP|override"
+       ],
+       [
+        "c|17B|Alternative1|first|construction",
+        "c|17B|Alternative1|first|monitoring",
+        "c|17B|Alternative1|first|adaptive_management",
+        "c|17B|Alternative1|months",
+        "c|17B|Alternative1|override"
+       ],
+       [
+        "c|17B|Alternative2|first|construction",
+        "c|17B|Alternative2|first|monitoring",
+        "c|17B|Alternative2|first|adaptive_management",
+        "c|17B|Alternative2|months",
+        "c|17B|Alternative2|override"
+       ],
+       [
+        "c|17B|Alternative3|first|construction",
+        "c|17B|Alternative3|first|monitoring",
+        "c|17B|Alternative3|first|adaptive_management",
+        "c|17B|Alternative3|months",
+        "c|17B|Alternative3|override"
+       ],
+       [
+        "c|2A|FWOP|first|construction",
+        "c|2A|FWOP|first|monitoring",
+        "c|2A|FWOP|first|adaptive_management",
+        "c|2A|FWOP|months",
+        "c|2A|FWOP|override"
+       ],
+       [
+        "c|2A|Alternative1|first|construction",
+        "c|2A|Alternative1|first|monitoring",
+        "c|2A|Alternative1|first|adaptive_management",
+        "c|2A|Alternative1|months",
+        "c|2A|Alternative1|override"
+       ],
+       [
+        "c|2A|Alternative2|first|construction",
+        "c|2A|Alternative2|first|monitoring",
+        "c|2A|Alternative2|first|adaptive_management",
+        "c|2A|Alternative2|months",
+        "c|2A|Alternative2|override"
+       ],
+       [
+        "c|2A|Alternative3|first|construction",
+        "c|2A|Alternative3|first|monitoring",
+        "c|2A|Alternative3|first|adaptive_management",
+        "c|2A|Alternative3|months",
+        "c|2A|Alternative3|override"
+       ],
+       [
+        "c|2B|FWOP|first|construction",
+        "c|2B|FWOP|first|monitoring",
+        "c|2B|FWOP|first|adaptive_management",
+        "c|2B|FWOP|months",
+        "c|2B|FWOP|override"
+       ],
+       [
+        "c|2B|Alternative1|first|construction",
+        "c|2B|Alternative1|first|monitoring",
+        "c|2B|Alternative1|first|adaptive_management",
+        "c|2B|Alternative1|months",
+        "c|2B|Alternative1|override"
+       ],
+       [
+        "c|2B|Alternative2|first|construction",
+        "c|2B|Alternative2|first|monitoring",
+        "c|2B|Alternative2|first|adaptive_management",
+        "c|2B|Alternative2|months",
+        "c|2B|Alternative2|override"
+       ],
+       [
+        "c|2B|Alternative3|first|construction",
+        "c|2B|Alternative3|first|monitoring",
+        "c|2B|Alternative3|first|adaptive_management",
+        "c|2B|Alternative3|months",
+        "c|2B|Alternative3|override"
+       ],
+       [
+        "c|3E|FWOP|first|construction",
+        "c|3E|FWOP|first|monitoring",
+        "c|3E|FWOP|first|adaptive_management",
+        "c|3E|FWOP|months",
+        "c|3E|FWOP|override"
+       ],
+       [
+        "c|3E|Alternative1|first|construction",
+        "c|3E|Alternative1|first|monitoring",
+        "c|3E|Alternative1|first|adaptive_management",
+        "c|3E|Alternative1|months",
+        "c|3E|Alternative1|override"
+       ],
+       [
+        "c|3E|Alternative2|first|construction",
+        "c|3E|Alternative2|first|monitoring",
+        "c|3E|Alternative2|first|adaptive_management",
+        "c|3E|Alternative2|months",
+        "c|3E|Alternative2|override"
+       ],
+       [
+        "c|3E|Alternative3|first|construction",
+        "c|3E|Alternative3|first|monitoring",
+        "c|3E|Alternative3|first|adaptive_management",
+        "c|3E|Alternative3|months",
+        "c|3E|Alternative3|override"
+       ],
+       [
+        "c|3F|FWOP|first|construction",
+        "c|3F|FWOP|first|monitoring",
+        "c|3F|FWOP|first|adaptive_management",
+        "c|3F|FWOP|months",
+        "c|3F|FWOP|override"
+       ],
+       [
+        "c|3F|Alternative1|first|construction",
+        "c|3F|Alternative1|first|monitoring",
+        "c|3F|Alternative1|first|adaptive_management",
+        "c|3F|Alternative1|months",
+        "c|3F|Alternative1|override"
+       ],
+       [
+        "c|3F|Alternative2|first|construction",
+        "c|3F|Alternative2|first|monitoring",
+        "c|3F|Alternative2|first|adaptive_management",
+        "c|3F|Alternative2|months",
+        "c|3F|Alternative2|override"
+       ],
+       [
+        "c|3F|Alternative3|first|construction",
+        "c|3F|Alternative3|first|monitoring",
+        "c|3F|Alternative3|first|adaptive_management",
+        "c|3F|Alternative3|months",
+        "c|3F|Alternative3|override"
+       ],
+       [
+        "c|19A|FWOP|first|construction",
+        "c|19A|FWOP|first|monitoring",
+        "c|19A|FWOP|first|adaptive_management",
+        "c|19A|FWOP|months",
+        "c|19A|FWOP|override"
+       ],
+       [
+        "c|19A|Alternative2|first|construction",
+        "c|19A|Alternative2|first|monitoring",
+        "c|19A|Alternative2|first|adaptive_management",
+        "c|19A|Alternative2|months",
+        "c|19A|Alternative2|override"
+       ],
+       [
+        "c|19A|Alternative3|first|construction",
+        "c|19A|Alternative3|first|monitoring",
+        "c|19A|Alternative3|first|adaptive_management",
+        "c|19A|Alternative3|months",
+        "c|19A|Alternative3|override"
+       ]
+      ],
+      1,
+      2,
+      [
+       [
+        "5"
+       ],
+       [
+        "x"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "Pasted row 2, column 1: 'x' is not a number."
+     ]
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        "c|17F2M|FWOP|first|construction",
+        "c|17F2M|FWOP|first|monitoring",
+        "c|17F2M|FWOP|first|adaptive_management",
+        "c|17F2M|FWOP|months",
+        "c|17F2M|FWOP|override"
+       ],
+       [
+        "c|17F2M|Alternative1|first|construction",
+        "c|17F2M|Alternative1|first|monitoring",
+        "c|17F2M|Alternative1|first|adaptive_management",
+        "c|17F2M|Alternative1|months",
+        "c|17F2M|Alternative1|override"
+       ],
+       [
+        "c|17F2M|Alternative2|first|construction",
+        "c|17F2M|Alternative2|first|monitoring",
+        "c|17F2M|Alternative2|first|adaptive_management",
+        "c|17F2M|Alternative2|months",
+        "c|17F2M|Alternative2|override"
+       ],
+       [
+        "c|17F2M|Alternative3|first|construction",
+        "c|17F2M|Alternative3|first|monitoring",
+        "c|17F2M|Alternative3|first|adaptive_management",
+        "c|17F2M|Alternative3|months",
+        "c|17F2M|Alternative3|override"
+       ],
+       [
+        "c|17D2E|FWOP|first|construction",
+        "c|17D2E|FWOP|first|monitoring",
+        "c|17D2E|FWOP|first|adaptive_management",
+        "c|17D2E|FWOP|months",
+        "c|17D2E|FWOP|override"
+       ],
+       [
+        "c|17D2E|Alternative1|first|construction",
+        "c|17D2E|Alternative1|first|monitoring",
+        "c|17D2E|Alternative1|first|adaptive_management",
+        "c|17D2E|Alternative1|months",
+        "c|17D2E|Alternative1|override"
+       ],
+       [
+        "c|17D2E|Alternative2|first|construction",
+        "c|17D2E|Alternative2|first|monitoring",
+        "c|17D2E|Alternative2|first|adaptive_management",
+        "c|17D2E|Alternative2|months",
+        "c|17D2E|Alternative2|override"
+       ],
+       [
+        "c|17D2E|Alternative3|first|construction",
+        "c|17D2E|Alternative3|first|monitoring",
+        "c|17D2E|Alternative3|first|adaptive_management",
+        "c|17D2E|Alternative3|months",
+        "c|17D2E|Alternative3|override"
+       ],
+       [
+        "c|17B|FWOP|first|construction",
+        "c|17B|FWOP|first|monitoring",
+        "c|17B|FWOP|first|adaptive_management",
+        "c|17B|FWOP|months",
+        "c|17B|FWOP|override"
+       ],
+       [
+        "c|17B|Alternative1|first|construction",
+        "c|17B|Alternative1|first|monitoring",
+        "c|17B|Alternative1|first|adaptive_management",
+        "c|17B|Alternative1|months",
+        "c|17B|Alternative1|override"
+       ],
+       [
+        "c|17B|Alternative2|first|construction",
+        "c|17B|Alternative2|first|monitoring",
+        "c|17B|Alternative2|first|adaptive_management",
+        "c|17B|Alternative2|months",
+        "c|17B|Alternative2|override"
+       ],
+       [
+        "c|17B|Alternative3|first|construction",
+        "c|17B|Alternative3|first|monitoring",
+        "c|17B|Alternative3|first|adaptive_management",
+        "c|17B|Alternative3|months",
+        "c|17B|Alternative3|override"
+       ],
+       [
+        "c|2A|FWOP|first|construction",
+        "c|2A|FWOP|first|monitoring",
+        "c|2A|FWOP|first|adaptive_management",
+        "c|2A|FWOP|months",
+        "c|2A|FWOP|override"
+       ],
+       [
+        "c|2A|Alternative1|first|construction",
+        "c|2A|Alternative1|first|monitoring",
+        "c|2A|Alternative1|first|adaptive_management",
+        "c|2A|Alternative1|months",
+        "c|2A|Alternative1|override"
+       ],
+       [
+        "c|2A|Alternative2|first|construction",
+        "c|2A|Alternative2|first|monitoring",
+        "c|2A|Alternative2|first|adaptive_management",
+        "c|2A|Alternative2|months",
+        "c|2A|Alternative2|override"
+       ],
+       [
+        "c|2A|Alternative3|first|construction",
+        "c|2A|Alternative3|first|monitoring",
+        "c|2A|Alternative3|first|adaptive_management",
+        "c|2A|Alternative3|months",
+        "c|2A|Alternative3|override"
+       ],
+       [
+        "c|2B|FWOP|first|construction",
+        "c|2B|FWOP|first|monitoring",
+        "c|2B|FWOP|first|adaptive_management",
+        "c|2B|FWOP|months",
+        "c|2B|FWOP|override"
+       ],
+       [
+        "c|2B|Alternative1|first|construction",
+        "c|2B|Alternative1|first|monitoring",
+        "c|2B|Alternative1|first|adaptive_management",
+        "c|2B|Alternative1|months",
+        "c|2B|Alternative1|override"
+       ],
+       [
+        "c|2B|Alternative2|first|construction",
+        "c|2B|Alternative2|first|monitoring",
+        "c|2B|Alternative2|first|adaptive_management",
+        "c|2B|Alternative2|months",
+        "c|2B|Alternative2|override"
+       ],
+       [
+        "c|2B|Alternative3|first|construction",
+        "c|2B|Alternative3|first|monitoring",
+        "c|2B|Alternative3|first|adaptive_management",
+        "c|2B|Alternative3|months",
+        "c|2B|Alternative3|override"
+       ],
+       [
+        "c|3E|FWOP|first|construction",
+        "c|3E|FWOP|first|monitoring",
+        "c|3E|FWOP|first|adaptive_management",
+        "c|3E|FWOP|months",
+        "c|3E|FWOP|override"
+       ],
+       [
+        "c|3E|Alternative1|first|construction",
+        "c|3E|Alternative1|first|monitoring",
+        "c|3E|Alternative1|first|adaptive_management",
+        "c|3E|Alternative1|months",
+        "c|3E|Alternative1|override"
+       ],
+       [
+        "c|3E|Alternative2|first|construction",
+        "c|3E|Alternative2|first|monitoring",
+        "c|3E|Alternative2|first|adaptive_management",
+        "c|3E|Alternative2|months",
+        "c|3E|Alternative2|override"
+       ],
+       [
+        "c|3E|Alternative3|first|construction",
+        "c|3E|Alternative3|first|monitoring",
+        "c|3E|Alternative3|first|adaptive_management",
+        "c|3E|Alternative3|months",
+        "c|3E|Alternative3|override"
+       ],
+       [
+        "c|3F|FWOP|first|construction",
+        "c|3F|FWOP|first|monitoring",
+        "c|3F|FWOP|first|adaptive_management",
+        "c|3F|FWOP|months",
+        "c|3F|FWOP|override"
+       ],
+       [
+        "c|3F|Alternative1|first|construction",
+        "c|3F|Alternative1|first|monitoring",
+        "c|3F|Alternative1|first|adaptive_management",
+        "c|3F|Alternative1|months",
+        "c|3F|Alternative1|override"
+       ],
+       [
+        "c|3F|Alternative2|first|construction",
+        "c|3F|Alternative2|first|monitoring",
+        "c|3F|Alternative2|first|adaptive_management",
+        "c|3F|Alternative2|months",
+        "c|3F|Alternative2|override"
+       ],
+       [
+        "c|3F|Alternative3|first|construction",
+        "c|3F|Alternative3|first|monitoring",
+        "c|3F|Alternative3|first|adaptive_management",
+        "c|3F|Alternative3|months",
+        "c|3F|Alternative3|override"
+       ],
+       [
+        "c|19A|FWOP|first|construction",
+        "c|19A|FWOP|first|monitoring",
+        "c|19A|FWOP|first|adaptive_management",
+        "c|19A|FWOP|months",
+        "c|19A|FWOP|override"
+       ],
+       [
+        "c|19A|Alternative2|first|construction",
+        "c|19A|Alternative2|first|monitoring",
+        "c|19A|Alternative2|first|adaptive_management",
+        "c|19A|Alternative2|months",
+        "c|19A|Alternative2|override"
+       ],
+       [
+        "c|19A|Alternative3|first|construction",
+        "c|19A|Alternative3|first|monitoring",
+        "c|19A|Alternative3|first|adaptive_management",
+        "c|19A|Alternative3|months",
+        "c|19A|Alternative3|override"
+       ]
+      ],
+      30,
+      0,
+      [
+       [
+        "7",
+        "8"
+       ],
+       [
+        "9",
+        "10"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "9a11fe21e7efd30e54799c6711bc1ff767c91aa6dfd1bbcecceb841487fb4551",
+      "same": false,
+      "cells": 2
+     }
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        "r|17F2M|Alternative1|general|name",
+        "r|17F2M|Alternative1|general|basis",
+        "r|17F2M|Alternative1|general|amount",
+        "r|17F2M|Alternative1|general|percent",
+        "r|17F2M|Alternative1|general|category_id",
+        "r|17F2M|Alternative1|general|unit_rate",
+        "r|17F2M|Alternative1|general|quantity",
+        "r|17F2M|Alternative1|general|every_years",
+        "r|17F2M|Alternative1|general|first_year",
+        "r|17F2M|Alternative1|general|last_year"
+       ],
+       [
+        "r|17F2M|Alternative1|inspection|name",
+        "r|17F2M|Alternative1|inspection|basis",
+        "r|17F2M|Alternative1|inspection|amount",
+        "r|17F2M|Alternative1|inspection|percent",
+        "r|17F2M|Alternative1|inspection|category_id",
+        "r|17F2M|Alternative1|inspection|unit_rate",
+        "r|17F2M|Alternative1|inspection|quantity",
+        "r|17F2M|Alternative1|inspection|every_years",
+        "r|17F2M|Alternative1|inspection|first_year",
+        "r|17F2M|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|17F2M|Alternative1|invasives|name",
+        "r|17F2M|Alternative1|invasives|basis",
+        "r|17F2M|Alternative1|invasives|amount",
+        "r|17F2M|Alternative1|invasives|percent",
+        "r|17F2M|Alternative1|invasives|category_id",
+        "r|17F2M|Alternative1|invasives|unit_rate",
+        "r|17F2M|Alternative1|invasives|quantity",
+        "r|17F2M|Alternative1|invasives|every_years",
+        "r|17F2M|Alternative1|invasives|first_year",
+        "r|17F2M|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|17F2M|Alternative1|repair|name",
+        "r|17F2M|Alternative1|repair|basis",
+        "r|17F2M|Alternative1|repair|amount",
+        "r|17F2M|Alternative1|repair|percent",
+        "r|17F2M|Alternative1|repair|category_id",
+        "r|17F2M|Alternative1|repair|unit_rate",
+        "r|17F2M|Alternative1|repair|quantity",
+        "r|17F2M|Alternative1|repair|every_years",
+        "r|17F2M|Alternative1|repair|first_year",
+        "r|17F2M|Alternative1|repair|last_year"
+       ],
+       [
+        "r|17F2M|Alternative2|general|name",
+        "r|17F2M|Alternative2|general|basis",
+        "r|17F2M|Alternative2|general|amount",
+        "r|17F2M|Alternative2|general|percent",
+        "r|17F2M|Alternative2|general|category_id",
+        "r|17F2M|Alternative2|general|unit_rate",
+        "r|17F2M|Alternative2|general|quantity",
+        "r|17F2M|Alternative2|general|every_years",
+        "r|17F2M|Alternative2|general|first_year",
+        "r|17F2M|Alternative2|general|last_year"
+       ],
+       [
+        "r|17F2M|Alternative2|inspection|name",
+        "r|17F2M|Alternative2|inspection|basis",
+        "r|17F2M|Alternative2|inspection|amount",
+        "r|17F2M|Alternative2|inspection|percent",
+        "r|17F2M|Alternative2|inspection|category_id",
+        "r|17F2M|Alternative2|inspection|unit_rate",
+        "r|17F2M|Alternative2|inspection|quantity",
+        "r|17F2M|Alternative2|inspection|every_years",
+        "r|17F2M|Alternative2|inspection|first_year",
+        "r|17F2M|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|17F2M|Alternative2|invasives|name",
+        "r|17F2M|Alternative2|invasives|basis",
+        "r|17F2M|Alternative2|invasives|amount",
+        "r|17F2M|Alternative2|invasives|percent",
+        "r|17F2M|Alternative2|invasives|category_id",
+        "r|17F2M|Alternative2|invasives|unit_rate",
+        "r|17F2M|Alternative2|invasives|quantity",
+        "r|17F2M|Alternative2|invasives|every_years",
+        "r|17F2M|Alternative2|invasives|first_year",
+        "r|17F2M|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|17F2M|Alternative2|repair|name",
+        "r|17F2M|Alternative2|repair|basis",
+        "r|17F2M|Alternative2|repair|amount",
+        "r|17F2M|Alternative2|repair|percent",
+        "r|17F2M|Alternative2|repair|category_id",
+        "r|17F2M|Alternative2|repair|unit_rate",
+        "r|17F2M|Alternative2|repair|quantity",
+        "r|17F2M|Alternative2|repair|every_years",
+        "r|17F2M|Alternative2|repair|first_year",
+        "r|17F2M|Alternative2|repair|last_year"
+       ],
+       [
+        "r|17F2M|Alternative3|general|name",
+        "r|17F2M|Alternative3|general|basis",
+        "r|17F2M|Alternative3|general|amount",
+        "r|17F2M|Alternative3|general|percent",
+        "r|17F2M|Alternative3|general|category_id",
+        "r|17F2M|Alternative3|general|unit_rate",
+        "r|17F2M|Alternative3|general|quantity",
+        "r|17F2M|Alternative3|general|every_years",
+        "r|17F2M|Alternative3|general|first_year",
+        "r|17F2M|Alternative3|general|last_year"
+       ],
+       [
+        "r|17F2M|Alternative3|inspection|name",
+        "r|17F2M|Alternative3|inspection|basis",
+        "r|17F2M|Alternative3|inspection|amount",
+        "r|17F2M|Alternative3|inspection|percent",
+        "r|17F2M|Alternative3|inspection|category_id",
+        "r|17F2M|Alternative3|inspection|unit_rate",
+        "r|17F2M|Alternative3|inspection|quantity",
+        "r|17F2M|Alternative3|inspection|every_years",
+        "r|17F2M|Alternative3|inspection|first_year",
+        "r|17F2M|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|17F2M|Alternative3|invasives|name",
+        "r|17F2M|Alternative3|invasives|basis",
+        "r|17F2M|Alternative3|invasives|amount",
+        "r|17F2M|Alternative3|invasives|percent",
+        "r|17F2M|Alternative3|invasives|category_id",
+        "r|17F2M|Alternative3|invasives|unit_rate",
+        "r|17F2M|Alternative3|invasives|quantity",
+        "r|17F2M|Alternative3|invasives|every_years",
+        "r|17F2M|Alternative3|invasives|first_year",
+        "r|17F2M|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|17F2M|Alternative3|repair|name",
+        "r|17F2M|Alternative3|repair|basis",
+        "r|17F2M|Alternative3|repair|amount",
+        "r|17F2M|Alternative3|repair|percent",
+        "r|17F2M|Alternative3|repair|category_id",
+        "r|17F2M|Alternative3|repair|unit_rate",
+        "r|17F2M|Alternative3|repair|quantity",
+        "r|17F2M|Alternative3|repair|every_years",
+        "r|17F2M|Alternative3|repair|first_year",
+        "r|17F2M|Alternative3|repair|last_year"
+       ],
+       [
+        "r|17D2E|Alternative1|general|name",
+        "r|17D2E|Alternative1|general|basis",
+        "r|17D2E|Alternative1|general|amount",
+        "r|17D2E|Alternative1|general|percent",
+        "r|17D2E|Alternative1|general|category_id",
+        "r|17D2E|Alternative1|general|unit_rate",
+        "r|17D2E|Alternative1|general|quantity",
+        "r|17D2E|Alternative1|general|every_years",
+        "r|17D2E|Alternative1|general|first_year",
+        "r|17D2E|Alternative1|general|last_year"
+       ],
+       [
+        "r|17D2E|Alternative1|inspection|name",
+        "r|17D2E|Alternative1|inspection|basis",
+        "r|17D2E|Alternative1|inspection|amount",
+        "r|17D2E|Alternative1|inspection|percent",
+        "r|17D2E|Alternative1|inspection|category_id",
+        "r|17D2E|Alternative1|inspection|unit_rate",
+        "r|17D2E|Alternative1|inspection|quantity",
+        "r|17D2E|Alternative1|inspection|every_years",
+        "r|17D2E|Alternative1|inspection|first_year",
+        "r|17D2E|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|17D2E|Alternative1|invasives|name",
+        "r|17D2E|Alternative1|invasives|basis",
+        "r|17D2E|Alternative1|invasives|amount",
+        "r|17D2E|Alternative1|invasives|percent",
+        "r|17D2E|Alternative1|invasives|category_id",
+        "r|17D2E|Alternative1|invasives|unit_rate",
+        "r|17D2E|Alternative1|invasives|quantity",
+        "r|17D2E|Alternative1|invasives|every_years",
+        "r|17D2E|Alternative1|invasives|first_year",
+        "r|17D2E|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|17D2E|Alternative1|repair|name",
+        "r|17D2E|Alternative1|repair|basis",
+        "r|17D2E|Alternative1|repair|amount",
+        "r|17D2E|Alternative1|repair|percent",
+        "r|17D2E|Alternative1|repair|category_id",
+        "r|17D2E|Alternative1|repair|unit_rate",
+        "r|17D2E|Alternative1|repair|quantity",
+        "r|17D2E|Alternative1|repair|every_years",
+        "r|17D2E|Alternative1|repair|first_year",
+        "r|17D2E|Alternative1|repair|last_year"
+       ],
+       [
+        "r|17D2E|Alternative2|general|name",
+        "r|17D2E|Alternative2|general|basis",
+        "r|17D2E|Alternative2|general|amount",
+        "r|17D2E|Alternative2|general|percent",
+        "r|17D2E|Alternative2|general|category_id",
+        "r|17D2E|Alternative2|general|unit_rate",
+        "r|17D2E|Alternative2|general|quantity",
+        "r|17D2E|Alternative2|general|every_years",
+        "r|17D2E|Alternative2|general|first_year",
+        "r|17D2E|Alternative2|general|last_year"
+       ],
+       [
+        "r|17D2E|Alternative2|inspection|name",
+        "r|17D2E|Alternative2|inspection|basis",
+        "r|17D2E|Alternative2|inspection|amount",
+        "r|17D2E|Alternative2|inspection|percent",
+        "r|17D2E|Alternative2|inspection|category_id",
+        "r|17D2E|Alternative2|inspection|unit_rate",
+        "r|17D2E|Alternative2|inspection|quantity",
+        "r|17D2E|Alternative2|inspection|every_years",
+        "r|17D2E|Alternative2|inspection|first_year",
+        "r|17D2E|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|17D2E|Alternative2|invasives|name",
+        "r|17D2E|Alternative2|invasives|basis",
+        "r|17D2E|Alternative2|invasives|amount",
+        "r|17D2E|Alternative2|invasives|percent",
+        "r|17D2E|Alternative2|invasives|category_id",
+        "r|17D2E|Alternative2|invasives|unit_rate",
+        "r|17D2E|Alternative2|invasives|quantity",
+        "r|17D2E|Alternative2|invasives|every_years",
+        "r|17D2E|Alternative2|invasives|first_year",
+        "r|17D2E|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|17D2E|Alternative2|repair|name",
+        "r|17D2E|Alternative2|repair|basis",
+        "r|17D2E|Alternative2|repair|amount",
+        "r|17D2E|Alternative2|repair|percent",
+        "r|17D2E|Alternative2|repair|category_id",
+        "r|17D2E|Alternative2|repair|unit_rate",
+        "r|17D2E|Alternative2|repair|quantity",
+        "r|17D2E|Alternative2|repair|every_years",
+        "r|17D2E|Alternative2|repair|first_year",
+        "r|17D2E|Alternative2|repair|last_year"
+       ],
+       [
+        "r|17D2E|Alternative3|general|name",
+        "r|17D2E|Alternative3|general|basis",
+        "r|17D2E|Alternative3|general|amount",
+        "r|17D2E|Alternative3|general|percent",
+        "r|17D2E|Alternative3|general|category_id",
+        "r|17D2E|Alternative3|general|unit_rate",
+        "r|17D2E|Alternative3|general|quantity",
+        "r|17D2E|Alternative3|general|every_years",
+        "r|17D2E|Alternative3|general|first_year",
+        "r|17D2E|Alternative3|general|last_year"
+       ],
+       [
+        "r|17D2E|Alternative3|inspection|name",
+        "r|17D2E|Alternative3|inspection|basis",
+        "r|17D2E|Alternative3|inspection|amount",
+        "r|17D2E|Alternative3|inspection|percent",
+        "r|17D2E|Alternative3|inspection|category_id",
+        "r|17D2E|Alternative3|inspection|unit_rate",
+        "r|17D2E|Alternative3|inspection|quantity",
+        "r|17D2E|Alternative3|inspection|every_years",
+        "r|17D2E|Alternative3|inspection|first_year",
+        "r|17D2E|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|17D2E|Alternative3|invasives|name",
+        "r|17D2E|Alternative3|invasives|basis",
+        "r|17D2E|Alternative3|invasives|amount",
+        "r|17D2E|Alternative3|invasives|percent",
+        "r|17D2E|Alternative3|invasives|category_id",
+        "r|17D2E|Alternative3|invasives|unit_rate",
+        "r|17D2E|Alternative3|invasives|quantity",
+        "r|17D2E|Alternative3|invasives|every_years",
+        "r|17D2E|Alternative3|invasives|first_year",
+        "r|17D2E|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|17D2E|Alternative3|repair|name",
+        "r|17D2E|Alternative3|repair|basis",
+        "r|17D2E|Alternative3|repair|amount",
+        "r|17D2E|Alternative3|repair|percent",
+        "r|17D2E|Alternative3|repair|category_id",
+        "r|17D2E|Alternative3|repair|unit_rate",
+        "r|17D2E|Alternative3|repair|quantity",
+        "r|17D2E|Alternative3|repair|every_years",
+        "r|17D2E|Alternative3|repair|first_year",
+        "r|17D2E|Alternative3|repair|last_year"
+       ],
+       [
+        "r|17B|Alternative1|general|name",
+        "r|17B|Alternative1|general|basis",
+        "r|17B|Alternative1|general|amount",
+        "r|17B|Alternative1|general|percent",
+        "r|17B|Alternative1|general|category_id",
+        "r|17B|Alternative1|general|unit_rate",
+        "r|17B|Alternative1|general|quantity",
+        "r|17B|Alternative1|general|every_years",
+        "r|17B|Alternative1|general|first_year",
+        "r|17B|Alternative1|general|last_year"
+       ],
+       [
+        "r|17B|Alternative1|inspection|name",
+        "r|17B|Alternative1|inspection|basis",
+        "r|17B|Alternative1|inspection|amount",
+        "r|17B|Alternative1|inspection|percent",
+        "r|17B|Alternative1|inspection|category_id",
+        "r|17B|Alternative1|inspection|unit_rate",
+        "r|17B|Alternative1|inspection|quantity",
+        "r|17B|Alternative1|inspection|every_years",
+        "r|17B|Alternative1|inspection|first_year",
+        "r|17B|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|17B|Alternative1|invasives|name",
+        "r|17B|Alternative1|invasives|basis",
+        "r|17B|Alternative1|invasives|amount",
+        "r|17B|Alternative1|invasives|percent",
+        "r|17B|Alternative1|invasives|category_id",
+        "r|17B|Alternative1|invasives|unit_rate",
+        "r|17B|Alternative1|invasives|quantity",
+        "r|17B|Alternative1|invasives|every_years",
+        "r|17B|Alternative1|invasives|first_year",
+        "r|17B|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|17B|Alternative1|repair|name",
+        "r|17B|Alternative1|repair|basis",
+        "r|17B|Alternative1|repair|amount",
+        "r|17B|Alternative1|repair|percent",
+        "r|17B|Alternative1|repair|category_id",
+        "r|17B|Alternative1|repair|unit_rate",
+        "r|17B|Alternative1|repair|quantity",
+        "r|17B|Alternative1|repair|every_years",
+        "r|17B|Alternative1|repair|first_year",
+        "r|17B|Alternative1|repair|last_year"
+       ],
+       [
+        "r|17B|Alternative2|general|name",
+        "r|17B|Alternative2|general|basis",
+        "r|17B|Alternative2|general|amount",
+        "r|17B|Alternative2|general|percent",
+        "r|17B|Alternative2|general|category_id",
+        "r|17B|Alternative2|general|unit_rate",
+        "r|17B|Alternative2|general|quantity",
+        "r|17B|Alternative2|general|every_years",
+        "r|17B|Alternative2|general|first_year",
+        "r|17B|Alternative2|general|last_year"
+       ],
+       [
+        "r|17B|Alternative2|inspection|name",
+        "r|17B|Alternative2|inspection|basis",
+        "r|17B|Alternative2|inspection|amount",
+        "r|17B|Alternative2|inspection|percent",
+        "r|17B|Alternative2|inspection|category_id",
+        "r|17B|Alternative2|inspection|unit_rate",
+        "r|17B|Alternative2|inspection|quantity",
+        "r|17B|Alternative2|inspection|every_years",
+        "r|17B|Alternative2|inspection|first_year",
+        "r|17B|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|17B|Alternative2|invasives|name",
+        "r|17B|Alternative2|invasives|basis",
+        "r|17B|Alternative2|invasives|amount",
+        "r|17B|Alternative2|invasives|percent",
+        "r|17B|Alternative2|invasives|category_id",
+        "r|17B|Alternative2|invasives|unit_rate",
+        "r|17B|Alternative2|invasives|quantity",
+        "r|17B|Alternative2|invasives|every_years",
+        "r|17B|Alternative2|invasives|first_year",
+        "r|17B|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|17B|Alternative2|repair|name",
+        "r|17B|Alternative2|repair|basis",
+        "r|17B|Alternative2|repair|amount",
+        "r|17B|Alternative2|repair|percent",
+        "r|17B|Alternative2|repair|category_id",
+        "r|17B|Alternative2|repair|unit_rate",
+        "r|17B|Alternative2|repair|quantity",
+        "r|17B|Alternative2|repair|every_years",
+        "r|17B|Alternative2|repair|first_year",
+        "r|17B|Alternative2|repair|last_year"
+       ],
+       [
+        "r|17B|Alternative3|general|name",
+        "r|17B|Alternative3|general|basis",
+        "r|17B|Alternative3|general|amount",
+        "r|17B|Alternative3|general|percent",
+        "r|17B|Alternative3|general|category_id",
+        "r|17B|Alternative3|general|unit_rate",
+        "r|17B|Alternative3|general|quantity",
+        "r|17B|Alternative3|general|every_years",
+        "r|17B|Alternative3|general|first_year",
+        "r|17B|Alternative3|general|last_year"
+       ],
+       [
+        "r|17B|Alternative3|inspection|name",
+        "r|17B|Alternative3|inspection|basis",
+        "r|17B|Alternative3|inspection|amount",
+        "r|17B|Alternative3|inspection|percent",
+        "r|17B|Alternative3|inspection|category_id",
+        "r|17B|Alternative3|inspection|unit_rate",
+        "r|17B|Alternative3|inspection|quantity",
+        "r|17B|Alternative3|inspection|every_years",
+        "r|17B|Alternative3|inspection|first_year",
+        "r|17B|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|17B|Alternative3|invasives|name",
+        "r|17B|Alternative3|invasives|basis",
+        "r|17B|Alternative3|invasives|amount",
+        "r|17B|Alternative3|invasives|percent",
+        "r|17B|Alternative3|invasives|category_id",
+        "r|17B|Alternative3|invasives|unit_rate",
+        "r|17B|Alternative3|invasives|quantity",
+        "r|17B|Alternative3|invasives|every_years",
+        "r|17B|Alternative3|invasives|first_year",
+        "r|17B|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|17B|Alternative3|repair|name",
+        "r|17B|Alternative3|repair|basis",
+        "r|17B|Alternative3|repair|amount",
+        "r|17B|Alternative3|repair|percent",
+        "r|17B|Alternative3|repair|category_id",
+        "r|17B|Alternative3|repair|unit_rate",
+        "r|17B|Alternative3|repair|quantity",
+        "r|17B|Alternative3|repair|every_years",
+        "r|17B|Alternative3|repair|first_year",
+        "r|17B|Alternative3|repair|last_year"
+       ],
+       [
+        "r|2A|Alternative1|general|name",
+        "r|2A|Alternative1|general|basis",
+        "r|2A|Alternative1|general|amount",
+        "r|2A|Alternative1|general|percent",
+        "r|2A|Alternative1|general|category_id",
+        "r|2A|Alternative1|general|unit_rate",
+        "r|2A|Alternative1|general|quantity",
+        "r|2A|Alternative1|general|every_years",
+        "r|2A|Alternative1|general|first_year",
+        "r|2A|Alternative1|general|last_year"
+       ],
+       [
+        "r|2A|Alternative1|inspection|name",
+        "r|2A|Alternative1|inspection|basis",
+        "r|2A|Alternative1|inspection|amount",
+        "r|2A|Alternative1|inspection|percent",
+        "r|2A|Alternative1|inspection|category_id",
+        "r|2A|Alternative1|inspection|unit_rate",
+        "r|2A|Alternative1|inspection|quantity",
+        "r|2A|Alternative1|inspection|every_years",
+        "r|2A|Alternative1|inspection|first_year",
+        "r|2A|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|2A|Alternative1|invasives|name",
+        "r|2A|Alternative1|invasives|basis",
+        "r|2A|Alternative1|invasives|amount",
+        "r|2A|Alternative1|invasives|percent",
+        "r|2A|Alternative1|invasives|category_id",
+        "r|2A|Alternative1|invasives|unit_rate",
+        "r|2A|Alternative1|invasives|quantity",
+        "r|2A|Alternative1|invasives|every_years",
+        "r|2A|Alternative1|invasives|first_year",
+        "r|2A|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|2A|Alternative1|repair|name",
+        "r|2A|Alternative1|repair|basis",
+        "r|2A|Alternative1|repair|amount",
+        "r|2A|Alternative1|repair|percent",
+        "r|2A|Alternative1|repair|category_id",
+        "r|2A|Alternative1|repair|unit_rate",
+        "r|2A|Alternative1|repair|quantity",
+        "r|2A|Alternative1|repair|every_years",
+        "r|2A|Alternative1|repair|first_year",
+        "r|2A|Alternative1|repair|last_year"
+       ],
+       [
+        "r|2A|Alternative2|general|name",
+        "r|2A|Alternative2|general|basis",
+        "r|2A|Alternative2|general|amount",
+        "r|2A|Alternative2|general|percent",
+        "r|2A|Alternative2|general|category_id",
+        "r|2A|Alternative2|general|unit_rate",
+        "r|2A|Alternative2|general|quantity",
+        "r|2A|Alternative2|general|every_years",
+        "r|2A|Alternative2|general|first_year",
+        "r|2A|Alternative2|general|last_year"
+       ],
+       [
+        "r|2A|Alternative2|inspection|name",
+        "r|2A|Alternative2|inspection|basis",
+        "r|2A|Alternative2|inspection|amount",
+        "r|2A|Alternative2|inspection|percent",
+        "r|2A|Alternative2|inspection|category_id",
+        "r|2A|Alternative2|inspection|unit_rate",
+        "r|2A|Alternative2|inspection|quantity",
+        "r|2A|Alternative2|inspection|every_years",
+        "r|2A|Alternative2|inspection|first_year",
+        "r|2A|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|2A|Alternative2|invasives|name",
+        "r|2A|Alternative2|invasives|basis",
+        "r|2A|Alternative2|invasives|amount",
+        "r|2A|Alternative2|invasives|percent",
+        "r|2A|Alternative2|invasives|category_id",
+        "r|2A|Alternative2|invasives|unit_rate",
+        "r|2A|Alternative2|invasives|quantity",
+        "r|2A|Alternative2|invasives|every_years",
+        "r|2A|Alternative2|invasives|first_year",
+        "r|2A|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|2A|Alternative2|repair|name",
+        "r|2A|Alternative2|repair|basis",
+        "r|2A|Alternative2|repair|amount",
+        "r|2A|Alternative2|repair|percent",
+        "r|2A|Alternative2|repair|category_id",
+        "r|2A|Alternative2|repair|unit_rate",
+        "r|2A|Alternative2|repair|quantity",
+        "r|2A|Alternative2|repair|every_years",
+        "r|2A|Alternative2|repair|first_year",
+        "r|2A|Alternative2|repair|last_year"
+       ],
+       [
+        "r|2A|Alternative3|general|name",
+        "r|2A|Alternative3|general|basis",
+        "r|2A|Alternative3|general|amount",
+        "r|2A|Alternative3|general|percent",
+        "r|2A|Alternative3|general|category_id",
+        "r|2A|Alternative3|general|unit_rate",
+        "r|2A|Alternative3|general|quantity",
+        "r|2A|Alternative3|general|every_years",
+        "r|2A|Alternative3|general|first_year",
+        "r|2A|Alternative3|general|last_year"
+       ],
+       [
+        "r|2A|Alternative3|inspection|name",
+        "r|2A|Alternative3|inspection|basis",
+        "r|2A|Alternative3|inspection|amount",
+        "r|2A|Alternative3|inspection|percent",
+        "r|2A|Alternative3|inspection|category_id",
+        "r|2A|Alternative3|inspection|unit_rate",
+        "r|2A|Alternative3|inspection|quantity",
+        "r|2A|Alternative3|inspection|every_years",
+        "r|2A|Alternative3|inspection|first_year",
+        "r|2A|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|2A|Alternative3|invasives|name",
+        "r|2A|Alternative3|invasives|basis",
+        "r|2A|Alternative3|invasives|amount",
+        "r|2A|Alternative3|invasives|percent",
+        "r|2A|Alternative3|invasives|category_id",
+        "r|2A|Alternative3|invasives|unit_rate",
+        "r|2A|Alternative3|invasives|quantity",
+        "r|2A|Alternative3|invasives|every_years",
+        "r|2A|Alternative3|invasives|first_year",
+        "r|2A|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|2A|Alternative3|repair|name",
+        "r|2A|Alternative3|repair|basis",
+        "r|2A|Alternative3|repair|amount",
+        "r|2A|Alternative3|repair|percent",
+        "r|2A|Alternative3|repair|category_id",
+        "r|2A|Alternative3|repair|unit_rate",
+        "r|2A|Alternative3|repair|quantity",
+        "r|2A|Alternative3|repair|every_years",
+        "r|2A|Alternative3|repair|first_year",
+        "r|2A|Alternative3|repair|last_year"
+       ],
+       [
+        "r|2B|Alternative1|general|name",
+        "r|2B|Alternative1|general|basis",
+        "r|2B|Alternative1|general|amount",
+        "r|2B|Alternative1|general|percent",
+        "r|2B|Alternative1|general|category_id",
+        "r|2B|Alternative1|general|unit_rate",
+        "r|2B|Alternative1|general|quantity",
+        "r|2B|Alternative1|general|every_years",
+        "r|2B|Alternative1|general|first_year",
+        "r|2B|Alternative1|general|last_year"
+       ],
+       [
+        "r|2B|Alternative1|inspection|name",
+        "r|2B|Alternative1|inspection|basis",
+        "r|2B|Alternative1|inspection|amount",
+        "r|2B|Alternative1|inspection|percent",
+        "r|2B|Alternative1|inspection|category_id",
+        "r|2B|Alternative1|inspection|unit_rate",
+        "r|2B|Alternative1|inspection|quantity",
+        "r|2B|Alternative1|inspection|every_years",
+        "r|2B|Alternative1|inspection|first_year",
+        "r|2B|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|2B|Alternative1|invasives|name",
+        "r|2B|Alternative1|invasives|basis",
+        "r|2B|Alternative1|invasives|amount",
+        "r|2B|Alternative1|invasives|percent",
+        "r|2B|Alternative1|invasives|category_id",
+        "r|2B|Alternative1|invasives|unit_rate",
+        "r|2B|Alternative1|invasives|quantity",
+        "r|2B|Alternative1|invasives|every_years",
+        "r|2B|Alternative1|invasives|first_year",
+        "r|2B|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|2B|Alternative1|repair|name",
+        "r|2B|Alternative1|repair|basis",
+        "r|2B|Alternative1|repair|amount",
+        "r|2B|Alternative1|repair|percent",
+        "r|2B|Alternative1|repair|category_id",
+        "r|2B|Alternative1|repair|unit_rate",
+        "r|2B|Alternative1|repair|quantity",
+        "r|2B|Alternative1|repair|every_years",
+        "r|2B|Alternative1|repair|first_year",
+        "r|2B|Alternative1|repair|last_year"
+       ],
+       [
+        "r|2B|Alternative2|general|name",
+        "r|2B|Alternative2|general|basis",
+        "r|2B|Alternative2|general|amount",
+        "r|2B|Alternative2|general|percent",
+        "r|2B|Alternative2|general|category_id",
+        "r|2B|Alternative2|general|unit_rate",
+        "r|2B|Alternative2|general|quantity",
+        "r|2B|Alternative2|general|every_years",
+        "r|2B|Alternative2|general|first_year",
+        "r|2B|Alternative2|general|last_year"
+       ],
+       [
+        "r|2B|Alternative2|inspection|name",
+        "r|2B|Alternative2|inspection|basis",
+        "r|2B|Alternative2|inspection|amount",
+        "r|2B|Alternative2|inspection|percent",
+        "r|2B|Alternative2|inspection|category_id",
+        "r|2B|Alternative2|inspection|unit_rate",
+        "r|2B|Alternative2|inspection|quantity",
+        "r|2B|Alternative2|inspection|every_years",
+        "r|2B|Alternative2|inspection|first_year",
+        "r|2B|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|2B|Alternative2|invasives|name",
+        "r|2B|Alternative2|invasives|basis",
+        "r|2B|Alternative2|invasives|amount",
+        "r|2B|Alternative2|invasives|percent",
+        "r|2B|Alternative2|invasives|category_id",
+        "r|2B|Alternative2|invasives|unit_rate",
+        "r|2B|Alternative2|invasives|quantity",
+        "r|2B|Alternative2|invasives|every_years",
+        "r|2B|Alternative2|invasives|first_year",
+        "r|2B|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|2B|Alternative2|repair|name",
+        "r|2B|Alternative2|repair|basis",
+        "r|2B|Alternative2|repair|amount",
+        "r|2B|Alternative2|repair|percent",
+        "r|2B|Alternative2|repair|category_id",
+        "r|2B|Alternative2|repair|unit_rate",
+        "r|2B|Alternative2|repair|quantity",
+        "r|2B|Alternative2|repair|every_years",
+        "r|2B|Alternative2|repair|first_year",
+        "r|2B|Alternative2|repair|last_year"
+       ],
+       [
+        "r|2B|Alternative3|general|name",
+        "r|2B|Alternative3|general|basis",
+        "r|2B|Alternative3|general|amount",
+        "r|2B|Alternative3|general|percent",
+        "r|2B|Alternative3|general|category_id",
+        "r|2B|Alternative3|general|unit_rate",
+        "r|2B|Alternative3|general|quantity",
+        "r|2B|Alternative3|general|every_years",
+        "r|2B|Alternative3|general|first_year",
+        "r|2B|Alternative3|general|last_year"
+       ],
+       [
+        "r|2B|Alternative3|inspection|name",
+        "r|2B|Alternative3|inspection|basis",
+        "r|2B|Alternative3|inspection|amount",
+        "r|2B|Alternative3|inspection|percent",
+        "r|2B|Alternative3|inspection|category_id",
+        "r|2B|Alternative3|inspection|unit_rate",
+        "r|2B|Alternative3|inspection|quantity",
+        "r|2B|Alternative3|inspection|every_years",
+        "r|2B|Alternative3|inspection|first_year",
+        "r|2B|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|2B|Alternative3|invasives|name",
+        "r|2B|Alternative3|invasives|basis",
+        "r|2B|Alternative3|invasives|amount",
+        "r|2B|Alternative3|invasives|percent",
+        "r|2B|Alternative3|invasives|category_id",
+        "r|2B|Alternative3|invasives|unit_rate",
+        "r|2B|Alternative3|invasives|quantity",
+        "r|2B|Alternative3|invasives|every_years",
+        "r|2B|Alternative3|invasives|first_year",
+        "r|2B|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|2B|Alternative3|repair|name",
+        "r|2B|Alternative3|repair|basis",
+        "r|2B|Alternative3|repair|amount",
+        "r|2B|Alternative3|repair|percent",
+        "r|2B|Alternative3|repair|category_id",
+        "r|2B|Alternative3|repair|unit_rate",
+        "r|2B|Alternative3|repair|quantity",
+        "r|2B|Alternative3|repair|every_years",
+        "r|2B|Alternative3|repair|first_year",
+        "r|2B|Alternative3|repair|last_year"
+       ],
+       [
+        "r|3E|Alternative1|general|name",
+        "r|3E|Alternative1|general|basis",
+        "r|3E|Alternative1|general|amount",
+        "r|3E|Alternative1|general|percent",
+        "r|3E|Alternative1|general|category_id",
+        "r|3E|Alternative1|general|unit_rate",
+        "r|3E|Alternative1|general|quantity",
+        "r|3E|Alternative1|general|every_years",
+        "r|3E|Alternative1|general|first_year",
+        "r|3E|Alternative1|general|last_year"
+       ],
+       [
+        "r|3E|Alternative1|inspection|name",
+        "r|3E|Alternative1|inspection|basis",
+        "r|3E|Alternative1|inspection|amount",
+        "r|3E|Alternative1|inspection|percent",
+        "r|3E|Alternative1|inspection|category_id",
+        "r|3E|Alternative1|inspection|unit_rate",
+        "r|3E|Alternative1|inspection|quantity",
+        "r|3E|Alternative1|inspection|every_years",
+        "r|3E|Alternative1|inspection|first_year",
+        "r|3E|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|3E|Alternative1|invasives|name",
+        "r|3E|Alternative1|invasives|basis",
+        "r|3E|Alternative1|invasives|amount",
+        "r|3E|Alternative1|invasives|percent",
+        "r|3E|Alternative1|invasives|category_id",
+        "r|3E|Alternative1|invasives|unit_rate",
+        "r|3E|Alternative1|invasives|quantity",
+        "r|3E|Alternative1|invasives|every_years",
+        "r|3E|Alternative1|invasives|first_year",
+        "r|3E|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|3E|Alternative1|repair|name",
+        "r|3E|Alternative1|repair|basis",
+        "r|3E|Alternative1|repair|amount",
+        "r|3E|Alternative1|repair|percent",
+        "r|3E|Alternative1|repair|category_id",
+        "r|3E|Alternative1|repair|unit_rate",
+        "r|3E|Alternative1|repair|quantity",
+        "r|3E|Alternative1|repair|every_years",
+        "r|3E|Alternative1|repair|first_year",
+        "r|3E|Alternative1|repair|last_year"
+       ],
+       [
+        "r|3E|Alternative2|general|name",
+        "r|3E|Alternative2|general|basis",
+        "r|3E|Alternative2|general|amount",
+        "r|3E|Alternative2|general|percent",
+        "r|3E|Alternative2|general|category_id",
+        "r|3E|Alternative2|general|unit_rate",
+        "r|3E|Alternative2|general|quantity",
+        "r|3E|Alternative2|general|every_years",
+        "r|3E|Alternative2|general|first_year",
+        "r|3E|Alternative2|general|last_year"
+       ],
+       [
+        "r|3E|Alternative2|inspection|name",
+        "r|3E|Alternative2|inspection|basis",
+        "r|3E|Alternative2|inspection|amount",
+        "r|3E|Alternative2|inspection|percent",
+        "r|3E|Alternative2|inspection|category_id",
+        "r|3E|Alternative2|inspection|unit_rate",
+        "r|3E|Alternative2|inspection|quantity",
+        "r|3E|Alternative2|inspection|every_years",
+        "r|3E|Alternative2|inspection|first_year",
+        "r|3E|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|3E|Alternative2|invasives|name",
+        "r|3E|Alternative2|invasives|basis",
+        "r|3E|Alternative2|invasives|amount",
+        "r|3E|Alternative2|invasives|percent",
+        "r|3E|Alternative2|invasives|category_id",
+        "r|3E|Alternative2|invasives|unit_rate",
+        "r|3E|Alternative2|invasives|quantity",
+        "r|3E|Alternative2|invasives|every_years",
+        "r|3E|Alternative2|invasives|first_year",
+        "r|3E|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|3E|Alternative2|repair|name",
+        "r|3E|Alternative2|repair|basis",
+        "r|3E|Alternative2|repair|amount",
+        "r|3E|Alternative2|repair|percent",
+        "r|3E|Alternative2|repair|category_id",
+        "r|3E|Alternative2|repair|unit_rate",
+        "r|3E|Alternative2|repair|quantity",
+        "r|3E|Alternative2|repair|every_years",
+        "r|3E|Alternative2|repair|first_year",
+        "r|3E|Alternative2|repair|last_year"
+       ],
+       [
+        "r|3E|Alternative3|general|name",
+        "r|3E|Alternative3|general|basis",
+        "r|3E|Alternative3|general|amount",
+        "r|3E|Alternative3|general|percent",
+        "r|3E|Alternative3|general|category_id",
+        "r|3E|Alternative3|general|unit_rate",
+        "r|3E|Alternative3|general|quantity",
+        "r|3E|Alternative3|general|every_years",
+        "r|3E|Alternative3|general|first_year",
+        "r|3E|Alternative3|general|last_year"
+       ],
+       [
+        "r|3E|Alternative3|inspection|name",
+        "r|3E|Alternative3|inspection|basis",
+        "r|3E|Alternative3|inspection|amount",
+        "r|3E|Alternative3|inspection|percent",
+        "r|3E|Alternative3|inspection|category_id",
+        "r|3E|Alternative3|inspection|unit_rate",
+        "r|3E|Alternative3|inspection|quantity",
+        "r|3E|Alternative3|inspection|every_years",
+        "r|3E|Alternative3|inspection|first_year",
+        "r|3E|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|3E|Alternative3|invasives|name",
+        "r|3E|Alternative3|invasives|basis",
+        "r|3E|Alternative3|invasives|amount",
+        "r|3E|Alternative3|invasives|percent",
+        "r|3E|Alternative3|invasives|category_id",
+        "r|3E|Alternative3|invasives|unit_rate",
+        "r|3E|Alternative3|invasives|quantity",
+        "r|3E|Alternative3|invasives|every_years",
+        "r|3E|Alternative3|invasives|first_year",
+        "r|3E|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|3E|Alternative3|repair|name",
+        "r|3E|Alternative3|repair|basis",
+        "r|3E|Alternative3|repair|amount",
+        "r|3E|Alternative3|repair|percent",
+        "r|3E|Alternative3|repair|category_id",
+        "r|3E|Alternative3|repair|unit_rate",
+        "r|3E|Alternative3|repair|quantity",
+        "r|3E|Alternative3|repair|every_years",
+        "r|3E|Alternative3|repair|first_year",
+        "r|3E|Alternative3|repair|last_year"
+       ],
+       [
+        "r|3F|Alternative1|general|name",
+        "r|3F|Alternative1|general|basis",
+        "r|3F|Alternative1|general|amount",
+        "r|3F|Alternative1|general|percent",
+        "r|3F|Alternative1|general|category_id",
+        "r|3F|Alternative1|general|unit_rate",
+        "r|3F|Alternative1|general|quantity",
+        "r|3F|Alternative1|general|every_years",
+        "r|3F|Alternative1|general|first_year",
+        "r|3F|Alternative1|general|last_year"
+       ],
+       [
+        "r|3F|Alternative1|inspection|name",
+        "r|3F|Alternative1|inspection|basis",
+        "r|3F|Alternative1|inspection|amount",
+        "r|3F|Alternative1|inspection|percent",
+        "r|3F|Alternative1|inspection|category_id",
+        "r|3F|Alternative1|inspection|unit_rate",
+        "r|3F|Alternative1|inspection|quantity",
+        "r|3F|Alternative1|inspection|every_years",
+        "r|3F|Alternative1|inspection|first_year",
+        "r|3F|Alternative1|inspection|last_year"
+       ],
+       [
+        "r|3F|Alternative1|invasives|name",
+        "r|3F|Alternative1|invasives|basis",
+        "r|3F|Alternative1|invasives|amount",
+        "r|3F|Alternative1|invasives|percent",
+        "r|3F|Alternative1|invasives|category_id",
+        "r|3F|Alternative1|invasives|unit_rate",
+        "r|3F|Alternative1|invasives|quantity",
+        "r|3F|Alternative1|invasives|every_years",
+        "r|3F|Alternative1|invasives|first_year",
+        "r|3F|Alternative1|invasives|last_year"
+       ],
+       [
+        "r|3F|Alternative1|repair|name",
+        "r|3F|Alternative1|repair|basis",
+        "r|3F|Alternative1|repair|amount",
+        "r|3F|Alternative1|repair|percent",
+        "r|3F|Alternative1|repair|category_id",
+        "r|3F|Alternative1|repair|unit_rate",
+        "r|3F|Alternative1|repair|quantity",
+        "r|3F|Alternative1|repair|every_years",
+        "r|3F|Alternative1|repair|first_year",
+        "r|3F|Alternative1|repair|last_year"
+       ],
+       [
+        "r|3F|Alternative2|general|name",
+        "r|3F|Alternative2|general|basis",
+        "r|3F|Alternative2|general|amount",
+        "r|3F|Alternative2|general|percent",
+        "r|3F|Alternative2|general|category_id",
+        "r|3F|Alternative2|general|unit_rate",
+        "r|3F|Alternative2|general|quantity",
+        "r|3F|Alternative2|general|every_years",
+        "r|3F|Alternative2|general|first_year",
+        "r|3F|Alternative2|general|last_year"
+       ],
+       [
+        "r|3F|Alternative2|inspection|name",
+        "r|3F|Alternative2|inspection|basis",
+        "r|3F|Alternative2|inspection|amount",
+        "r|3F|Alternative2|inspection|percent",
+        "r|3F|Alternative2|inspection|category_id",
+        "r|3F|Alternative2|inspection|unit_rate",
+        "r|3F|Alternative2|inspection|quantity",
+        "r|3F|Alternative2|inspection|every_years",
+        "r|3F|Alternative2|inspection|first_year",
+        "r|3F|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|3F|Alternative2|invasives|name",
+        "r|3F|Alternative2|invasives|basis",
+        "r|3F|Alternative2|invasives|amount",
+        "r|3F|Alternative2|invasives|percent",
+        "r|3F|Alternative2|invasives|category_id",
+        "r|3F|Alternative2|invasives|unit_rate",
+        "r|3F|Alternative2|invasives|quantity",
+        "r|3F|Alternative2|invasives|every_years",
+        "r|3F|Alternative2|invasives|first_year",
+        "r|3F|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|3F|Alternative2|repair|name",
+        "r|3F|Alternative2|repair|basis",
+        "r|3F|Alternative2|repair|amount",
+        "r|3F|Alternative2|repair|percent",
+        "r|3F|Alternative2|repair|category_id",
+        "r|3F|Alternative2|repair|unit_rate",
+        "r|3F|Alternative2|repair|quantity",
+        "r|3F|Alternative2|repair|every_years",
+        "r|3F|Alternative2|repair|first_year",
+        "r|3F|Alternative2|repair|last_year"
+       ],
+       [
+        "r|3F|Alternative3|general|name",
+        "r|3F|Alternative3|general|basis",
+        "r|3F|Alternative3|general|amount",
+        "r|3F|Alternative3|general|percent",
+        "r|3F|Alternative3|general|category_id",
+        "r|3F|Alternative3|general|unit_rate",
+        "r|3F|Alternative3|general|quantity",
+        "r|3F|Alternative3|general|every_years",
+        "r|3F|Alternative3|general|first_year",
+        "r|3F|Alternative3|general|last_year"
+       ],
+       [
+        "r|3F|Alternative3|inspection|name",
+        "r|3F|Alternative3|inspection|basis",
+        "r|3F|Alternative3|inspection|amount",
+        "r|3F|Alternative3|inspection|percent",
+        "r|3F|Alternative3|inspection|category_id",
+        "r|3F|Alternative3|inspection|unit_rate",
+        "r|3F|Alternative3|inspection|quantity",
+        "r|3F|Alternative3|inspection|every_years",
+        "r|3F|Alternative3|inspection|first_year",
+        "r|3F|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|3F|Alternative3|invasives|name",
+        "r|3F|Alternative3|invasives|basis",
+        "r|3F|Alternative3|invasives|amount",
+        "r|3F|Alternative3|invasives|percent",
+        "r|3F|Alternative3|invasives|category_id",
+        "r|3F|Alternative3|invasives|unit_rate",
+        "r|3F|Alternative3|invasives|quantity",
+        "r|3F|Alternative3|invasives|every_years",
+        "r|3F|Alternative3|invasives|first_year",
+        "r|3F|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|3F|Alternative3|repair|name",
+        "r|3F|Alternative3|repair|basis",
+        "r|3F|Alternative3|repair|amount",
+        "r|3F|Alternative3|repair|percent",
+        "r|3F|Alternative3|repair|category_id",
+        "r|3F|Alternative3|repair|unit_rate",
+        "r|3F|Alternative3|repair|quantity",
+        "r|3F|Alternative3|repair|every_years",
+        "r|3F|Alternative3|repair|first_year",
+        "r|3F|Alternative3|repair|last_year"
+       ],
+       [
+        "r|19A|Alternative2|general|name",
+        "r|19A|Alternative2|general|basis",
+        "r|19A|Alternative2|general|amount",
+        "r|19A|Alternative2|general|percent",
+        "r|19A|Alternative2|general|category_id",
+        "r|19A|Alternative2|general|unit_rate",
+        "r|19A|Alternative2|general|quantity",
+        "r|19A|Alternative2|general|every_years",
+        "r|19A|Alternative2|general|first_year",
+        "r|19A|Alternative2|general|last_year"
+       ],
+       [
+        "r|19A|Alternative2|inspection|name",
+        "r|19A|Alternative2|inspection|basis",
+        "r|19A|Alternative2|inspection|amount",
+        "r|19A|Alternative2|inspection|percent",
+        "r|19A|Alternative2|inspection|category_id",
+        "r|19A|Alternative2|inspection|unit_rate",
+        "r|19A|Alternative2|inspection|quantity",
+        "r|19A|Alternative2|inspection|every_years",
+        "r|19A|Alternative2|inspection|first_year",
+        "r|19A|Alternative2|inspection|last_year"
+       ],
+       [
+        "r|19A|Alternative2|invasives|name",
+        "r|19A|Alternative2|invasives|basis",
+        "r|19A|Alternative2|invasives|amount",
+        "r|19A|Alternative2|invasives|percent",
+        "r|19A|Alternative2|invasives|category_id",
+        "r|19A|Alternative2|invasives|unit_rate",
+        "r|19A|Alternative2|invasives|quantity",
+        "r|19A|Alternative2|invasives|every_years",
+        "r|19A|Alternative2|invasives|first_year",
+        "r|19A|Alternative2|invasives|last_year"
+       ],
+       [
+        "r|19A|Alternative2|repair|name",
+        "r|19A|Alternative2|repair|basis",
+        "r|19A|Alternative2|repair|amount",
+        "r|19A|Alternative2|repair|percent",
+        "r|19A|Alternative2|repair|category_id",
+        "r|19A|Alternative2|repair|unit_rate",
+        "r|19A|Alternative2|repair|quantity",
+        "r|19A|Alternative2|repair|every_years",
+        "r|19A|Alternative2|repair|first_year",
+        "r|19A|Alternative2|repair|last_year"
+       ],
+       [
+        "r|19A|Alternative3|general|name",
+        "r|19A|Alternative3|general|basis",
+        "r|19A|Alternative3|general|amount",
+        "r|19A|Alternative3|general|percent",
+        "r|19A|Alternative3|general|category_id",
+        "r|19A|Alternative3|general|unit_rate",
+        "r|19A|Alternative3|general|quantity",
+        "r|19A|Alternative3|general|every_years",
+        "r|19A|Alternative3|general|first_year",
+        "r|19A|Alternative3|general|last_year"
+       ],
+       [
+        "r|19A|Alternative3|inspection|name",
+        "r|19A|Alternative3|inspection|basis",
+        "r|19A|Alternative3|inspection|amount",
+        "r|19A|Alternative3|inspection|percent",
+        "r|19A|Alternative3|inspection|category_id",
+        "r|19A|Alternative3|inspection|unit_rate",
+        "r|19A|Alternative3|inspection|quantity",
+        "r|19A|Alternative3|inspection|every_years",
+        "r|19A|Alternative3|inspection|first_year",
+        "r|19A|Alternative3|inspection|last_year"
+       ],
+       [
+        "r|19A|Alternative3|invasives|name",
+        "r|19A|Alternative3|invasives|basis",
+        "r|19A|Alternative3|invasives|amount",
+        "r|19A|Alternative3|invasives|percent",
+        "r|19A|Alternative3|invasives|category_id",
+        "r|19A|Alternative3|invasives|unit_rate",
+        "r|19A|Alternative3|invasives|quantity",
+        "r|19A|Alternative3|invasives|every_years",
+        "r|19A|Alternative3|invasives|first_year",
+        "r|19A|Alternative3|invasives|last_year"
+       ],
+       [
+        "r|19A|Alternative3|repair|name",
+        "r|19A|Alternative3|repair|basis",
+        "r|19A|Alternative3|repair|amount",
+        "r|19A|Alternative3|repair|percent",
+        "r|19A|Alternative3|repair|category_id",
+        "r|19A|Alternative3|repair|unit_rate",
+        "r|19A|Alternative3|repair|quantity",
+        "r|19A|Alternative3|repair|every_years",
+        "r|19A|Alternative3|repair|first_year",
+        "r|19A|Alternative3|repair|last_year"
+       ]
+      ],
+      0,
+      0,
+      [
+       [
+        "Mowing",
+        "Rate x quantity",
+        "",
+        "",
+        "",
+        "2",
+        "100"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "53358e9f2b19182a7ba0d5a68cdb896ebd3fec9685e14b6db5c20e5bca0686d2",
+      "same": false,
+      "cells": 7
+     }
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        "c|17F2M|FWOP|first|construction",
+        "c|17F2M|FWOP|first|monitoring",
+        "c|17F2M|FWOP|first|adaptive_management",
+        "c|17F2M|FWOP|months",
+        "c|17F2M|FWOP|override"
+       ],
+       [
+        "c|17F2M|Alternative1|first|construction",
+        "c|17F2M|Alternative1|first|monitoring",
+        "c|17F2M|Alternative1|first|adaptive_management",
+        "c|17F2M|Alternative1|months",
+        "c|17F2M|Alternative1|override"
+       ],
+       [
+        "c|17F2M|Alternative2|first|construction",
+        "c|17F2M|Alternative2|first|monitoring",
+        "c|17F2M|Alternative2|first|adaptive_management",
+        "c|17F2M|Alternative2|months",
+        "c|17F2M|Alternative2|override"
+       ],
+       [
+        "c|17F2M|Alternative3|first|construction",
+        "c|17F2M|Alternative3|first|monitoring",
+        "c|17F2M|Alternative3|first|adaptive_management",
+        "c|17F2M|Alternative3|months",
+        "c|17F2M|Alternative3|override"
+       ],
+       [
+        "c|17D2E|FWOP|first|construction",
+        "c|17D2E|FWOP|first|monitoring",
+        "c|17D2E|FWOP|first|adaptive_management",
+        "c|17D2E|FWOP|months",
+        "c|17D2E|FWOP|override"
+       ],
+       [
+        "c|17D2E|Alternative1|first|construction",
+        "c|17D2E|Alternative1|first|monitoring",
+        "c|17D2E|Alternative1|first|adaptive_management",
+        "c|17D2E|Alternative1|months",
+        "c|17D2E|Alternative1|override"
+       ],
+       [
+        "c|17D2E|Alternative2|first|construction",
+        "c|17D2E|Alternative2|first|monitoring",
+        "c|17D2E|Alternative2|first|adaptive_management",
+        "c|17D2E|Alternative2|months",
+        "c|17D2E|Alternative2|override"
+       ],
+       [
+        "c|17D2E|Alternative3|first|construction",
+        "c|17D2E|Alternative3|first|monitoring",
+        "c|17D2E|Alternative3|first|adaptive_management",
+        "c|17D2E|Alternative3|months",
+        "c|17D2E|Alternative3|override"
+       ],
+       [
+        "c|17B|FWOP|first|construction",
+        "c|17B|FWOP|first|monitoring",
+        "c|17B|FWOP|first|adaptive_management",
+        "c|17B|FWOP|months",
+        "c|17B|FWOP|override"
+       ],
+       [
+        "c|17B|Alternative1|first|construction",
+        "c|17B|Alternative1|first|monitoring",
+        "c|17B|Alternative1|first|adaptive_management",
+        "c|17B|Alternative1|months",
+        "c|17B|Alternative1|override"
+       ],
+       [
+        "c|17B|Alternative2|first|construction",
+        "c|17B|Alternative2|first|monitoring",
+        "c|17B|Alternative2|first|adaptive_management",
+        "c|17B|Alternative2|months",
+        "c|17B|Alternative2|override"
+       ],
+       [
+        "c|17B|Alternative3|first|construction",
+        "c|17B|Alternative3|first|monitoring",
+        "c|17B|Alternative3|first|adaptive_management",
+        "c|17B|Alternative3|months",
+        "c|17B|Alternative3|override"
+       ],
+       [
+        "c|2A|FWOP|first|construction",
+        "c|2A|FWOP|first|monitoring",
+        "c|2A|FWOP|first|adaptive_management",
+        "c|2A|FWOP|months",
+        "c|2A|FWOP|override"
+       ],
+       [
+        "c|2A|Alternative1|first|construction",
+        "c|2A|Alternative1|first|monitoring",
+        "c|2A|Alternative1|first|adaptive_management",
+        "c|2A|Alternative1|months",
+        "c|2A|Alternative1|override"
+       ],
+       [
+        "c|2A|Alternative2|first|construction",
+        "c|2A|Alternative2|first|monitoring",
+        "c|2A|Alternative2|first|adaptive_management",
+        "c|2A|Alternative2|months",
+        "c|2A|Alternative2|override"
+       ],
+       [
+        "c|2A|Alternative3|first|construction",
+        "c|2A|Alternative3|first|monitoring",
+        "c|2A|Alternative3|first|adaptive_management",
+        "c|2A|Alternative3|months",
+        "c|2A|Alternative3|override"
+       ],
+       [
+        "c|2B|FWOP|first|construction",
+        "c|2B|FWOP|first|monitoring",
+        "c|2B|FWOP|first|adaptive_management",
+        "c|2B|FWOP|months",
+        "c|2B|FWOP|override"
+       ],
+       [
+        "c|2B|Alternative1|first|construction",
+        "c|2B|Alternative1|first|monitoring",
+        "c|2B|Alternative1|first|adaptive_management",
+        "c|2B|Alternative1|months",
+        "c|2B|Alternative1|override"
+       ],
+       [
+        "c|2B|Alternative2|first|construction",
+        "c|2B|Alternative2|first|monitoring",
+        "c|2B|Alternative2|first|adaptive_management",
+        "c|2B|Alternative2|months",
+        "c|2B|Alternative2|override"
+       ],
+       [
+        "c|2B|Alternative3|first|construction",
+        "c|2B|Alternative3|first|monitoring",
+        "c|2B|Alternative3|first|adaptive_management",
+        "c|2B|Alternative3|months",
+        "c|2B|Alternative3|override"
+       ],
+       [
+        "c|3E|FWOP|first|construction",
+        "c|3E|FWOP|first|monitoring",
+        "c|3E|FWOP|first|adaptive_management",
+        "c|3E|FWOP|months",
+        "c|3E|FWOP|override"
+       ],
+       [
+        "c|3E|Alternative1|first|construction",
+        "c|3E|Alternative1|first|monitoring",
+        "c|3E|Alternative1|first|adaptive_management",
+        "c|3E|Alternative1|months",
+        "c|3E|Alternative1|override"
+       ],
+       [
+        "c|3E|Alternative2|first|construction",
+        "c|3E|Alternative2|first|monitoring",
+        "c|3E|Alternative2|first|adaptive_management",
+        "c|3E|Alternative2|months",
+        "c|3E|Alternative2|override"
+       ],
+       [
+        "c|3E|Alternative3|first|construction",
+        "c|3E|Alternative3|first|monitoring",
+        "c|3E|Alternative3|first|adaptive_management",
+        "c|3E|Alternative3|months",
+        "c|3E|Alternative3|override"
+       ],
+       [
+        "c|3F|FWOP|first|construction",
+        "c|3F|FWOP|first|monitoring",
+        "c|3F|FWOP|first|adaptive_management",
+        "c|3F|FWOP|months",
+        "c|3F|FWOP|override"
+       ],
+       [
+        "c|3F|Alternative1|first|construction",
+        "c|3F|Alternative1|first|monitoring",
+        "c|3F|Alternative1|first|adaptive_management",
+        "c|3F|Alternative1|months",
+        "c|3F|Alternative1|override"
+       ],
+       [
+        "c|3F|Alternative2|first|construction",
+        "c|3F|Alternative2|first|monitoring",
+        "c|3F|Alternative2|first|adaptive_management",
+        "c|3F|Alternative2|months",
+        "c|3F|Alternative2|override"
+       ],
+       [
+        "c|3F|Alternative3|first|construction",
+        "c|3F|Alternative3|first|monitoring",
+        "c|3F|Alternative3|first|adaptive_management",
+        "c|3F|Alternative3|months",
+        "c|3F|Alternative3|override"
+       ],
+       [
+        "c|19A|FWOP|first|construction",
+        "c|19A|FWOP|first|monitoring",
+        "c|19A|FWOP|first|adaptive_management",
+        "c|19A|FWOP|months",
+        "c|19A|FWOP|override"
+       ],
+       [
+        "c|19A|Alternative2|first|construction",
+        "c|19A|Alternative2|first|monitoring",
+        "c|19A|Alternative2|first|adaptive_management",
+        "c|19A|Alternative2|months",
+        "c|19A|Alternative2|override"
+       ],
+       [
+        "c|19A|Alternative3|first|construction",
+        "c|19A|Alternative3|first|monitoring",
+        "c|19A|Alternative3|first|adaptive_management",
+        "c|19A|Alternative3|months",
+        "c|19A|Alternative3|override"
+       ]
+      ],
+      0,
+      99,
+      [
+       [
+        "1"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "53358e9f2b19182a7ba0d5a68cdb896ebd3fec9685e14b6db5c20e5bca0686d2",
+      "same": true,
+      "cells": 0
+     }
+    }
+   ]
+  },
+  {
+   "project": "staf-demo",
+   "steps": [
+    {
+     "op": "staf_fill",
+     "args": [
+      "R1",
+      "A1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "79c72a6c133e388150f85a66829abedf4ce08a8dcf9ebcf1710cec455015b449",
+      "same": true
+     }
+    },
+    {
+     "op": "staf_fill",
+     "args": [
+      "R1",
+      "A1",
+      "condition"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "79c72a6c133e388150f85a66829abedf4ce08a8dcf9ebcf1710cec455015b449",
+      "same": true
+     }
+    },
+    {
+     "op": "staf_fill",
+     "args": [
+      "R1",
+      "A1",
+      "nope"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "This applies to STAF modules."
+     ]
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "F1",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown STAF function."
+     ]
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "F1",
+      true
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown STAF function."
+     ]
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "nope",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown STAF function."
+     ]
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "catchment-hydrology",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ef3abf1cc482950e4fc21f760d09717bca5107d6807b5311d869c7ed9752042a",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "surface-water-storage",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "94d398f3d3c60ef5b43c3940ca597bbb0c1d9e5a5daa4e2671e1b1d4a121ebce",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "reach-inflow",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "1eaab928be6d66427fb00d882e06ae4d25e088a832c3843e37a877da89c1666d",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "streamflow-regime",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "99a732d47b2d61a77713d59375e4200a6cf98b83f08fa312d9eea9263b78f25a",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "low-flow-baseflow-dynamics",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "5b70a8b8a6730f95397c0aae485fb3205015f9fa5c69cf448a7783bb28b618ad",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "high-flow-dynamics",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "fede898347036a1dd103dec466cda0e8a4435a413b5b4cc691a436d15e13e3d2",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "floodplain-connectivity",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "9fbe5bec00dc45162480c94aebf3038ede75f9a06a8c85f5820fabb1db2a9fe2",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "hyporheic-connectivity",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "7f1d32006ea63f9e275fa015428435a989a8fcade5314cd17a14c52af71d12e9",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "channel-evolution",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "0978b7f75710703e05b23aff23af6ea0edc258a1aedd66309303ac9f7ce127ce",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "channel-floodplain-dynamics",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d93fa63af54938630be810880806cad431607a2efcdd757f94ba6bfaf342ff04",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "sediment-continuity",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d407b136ea3de9873603c91d69ba1d3211878bc704e07d4bf4f8d8562c6a2a67",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "bed-composition-bedform-dynamics",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "3f9afe55e07adc3ec0fcf6ff63362895025720c924df8676dcfb7e2480878603",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "light-thermal-regime",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "1855ecce540792790932f67bf873436f0a709ace5f87935c50bca2b94505af56",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "carbon-processing",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "17f99ee029eb2839124afdead7d233ff705e799ab853a1802160322492c0d186",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "nutrient-cycling",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "e8b926d7cabbd40e9daba935cd63d23e1ced00ffa83b46bd53e313eb8ab8f70e",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "water-soil-quality",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "e79663df6423fd65b4c7f7cccf6183cefcdc55d8dfeee243f3ff6ff514677413",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "habitat-provision",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d6c14be27deca5fee7b781ec39b0e04db6918896a83eb67165fd365e4fef00f0",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "population-support",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "c91580105fe8bc96467ece79465587a0bef8ec5661788fb93d6ff9a779b7acdb",
+      "same": false
+     }
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "community-dynamics",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "The chemical outcome needs at least one assessed function that drives it."
+     ]
+    },
+    {
+     "op": "staf_assessed",
+     "args": [
+      "R1",
+      "watershed-connectivity",
+      false
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "820db9b3db934c4ad458988d84baf4860590a43bb49f39ae66bf9e13b7e6306b",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "staf_mapping",
+      "B"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "ac9be522c170f84806fe2a025367a1e8060e1c63b2c8ce37a7370334b396de7a",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "staf_mapping",
+      "C"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "Unknown STAF outcome mapping."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Habitat",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "STAF modules cannot be combined with other methods in one study."
+     ]
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Second reach",
+      "STAF",
+      " mi "
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "a7873b5141ac61fd8bd4f3c5c5946ac82c3b9a1d66e6795f168f70f1d840cffd",
+      "same": false
+     }
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "condition",
+      "Stream condition",
+      "STAF",
+      "ft"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "a7873b5141ac61fd8bd4f3c5c5946ac82c3b9a1d66e6795f168f70f1d840cffd",
+      "same": true
+     }
+    },
+    {
+     "op": "apply",
+     "args": [
+      "f|R1|A1|condition|F1|0",
+      "16"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "STAF function scores run from 0 to 15."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "f|R1|A1|condition|F1|1",
+      "7.5"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That value is not valid here: unknown STAF function F1."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "f|R1|A1|condition|F2|0",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "That value is not valid here: unknown STAF function F2."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "f|R1|A1|condition|F2|0",
+      "-1"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "CellError",
+      "STAF function scores run from 0 to 15."
+     ]
+    },
+    {
+     "op": "apply",
+     "args": [
+      "b|R1|A1|condition|quantity|1",
+      "2.5"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "8d03e93373ffe4e4fa9c42947b33d3b75e3c00b266f56e90439e3db2cfb2db87",
+      "same": false
+     }
+    },
+    {
+     "op": "apply_block",
+     "args": [
+      [
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        "f|R1|A1|condition|community-dynamics|0",
+        "f|R1|A1|condition|community-dynamics|1",
+        "f|R1|A1|condition|community-dynamics|2",
+        "f|R1|A1|condition|community-dynamics|3",
+        "f|R1|A1|condition|community-dynamics|4",
+        "f|R1|A1|condition|community-dynamics|5"
+       ],
+       [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+       ],
+       [
+        "b|R1|A1|condition|quantity|0",
+        "b|R1|A1|condition|quantity|1",
+        "b|R1|A1|condition|quantity|2",
+        "b|R1|A1|condition|quantity|3",
+        "b|R1|A1|condition|quantity|4",
+        "b|R1|A1|condition|quantity|5"
+       ]
+      ],
+      0,
+      0,
+      [
+       [
+        "10",
+        "11"
+       ],
+       [
+        "12"
+       ],
+       [
+        "13",
+        "14"
+       ]
+      ]
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "8d03e93373ffe4e4fa9c42947b33d3b75e3c00b266f56e90439e3db2cfb2db87",
+      "same": true,
+      "cells": 0
+     }
+    },
+    {
+     "op": "remove_module",
+     "args": [
+      "M2"
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "That module no longer exists."
+     ]
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "condition",
+      "Habitat",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "error": [
+      "EditError",
+      "STAF modules cannot be combined with other methods in one study."
+     ]
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "condition",
+      "Stream condition",
+      "STAF",
+      "mi"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "b547f4ee50179fd2a619c79097b197578ad5414f97d15bfcf666f86045ba48e1",
+      "same": false
+     }
+    }
+   ]
+  },
+  {
+   "project": "mixed",
+   "steps": [
+    {
+     "op": "edit_module",
+     "args": [
+      "hab",
+      "Renamed",
+      "HU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "7b3c1a0f3967a997722b4955b3b1360bdf446024e03d7eed4eb7203323043ee5",
+      "same": false
+     }
+    },
+    {
+     "op": "edit_module",
+     "args": [
+      "hab",
+      "Renamed",
+      "AAHU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "0ed3beb03638475087e8fd38988b9707720504b80d75824a0783a92e9519f988",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_module",
+     "args": [
+      "wet"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "a6e2ec9ca2c0d2b5157ab620f482f0100caeabb81855c52b291ce283c1bd1834",
+      "same": false
+     }
+    },
+    {
+     "op": "study_field",
+     "args": [
+      "target_years",
+      "0, 3, 50"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "54923e27fe960547d099d5f34dfd6484f2ec8dbadbb115ae88512525117a079b",
+      "same": false
+     }
+    }
+   ]
+  },
+  {
+   "project": "empty",
+   "steps": [
+    {
+     "op": "add_site",
+     "args": [],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "c5749fbe9c7f70910fd86e2d4eb7060e51fb783e847fb53963662be79c60ebd0",
+      "same": false
+     }
+    },
+    {
+     "op": "add_site",
+     "args": [],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "792bf97da2a9d8b033f1acd4d7713a3d091340648ff0cc4d2e3476ae12a1fc7b",
+      "same": false
+     }
+    },
+    {
+     "op": "add_alternative",
+     "args": [
+      "S1"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "7e8c82b3a2a5b493642ddf106cd293eb11f5bb2452a325f4dcf187f3e018758f",
+      "same": false
+     }
+    },
+    {
+     "op": "add_module",
+     "args": [
+      "Second",
+      "AAHU",
+      ""
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "d151c3ec0cf1e0f1e3dbd1e503e6a2394f82090d562b69547aed30cd3a9fb05d",
+      "same": false
+     }
+    },
+    {
+     "op": "add_site",
+     "args": [],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "3130e5fde2093466294adee053df3846714a579fc804045d1b91c9689c68c649",
+      "same": false
+     }
+    },
+    {
+     "op": "remove_site",
+     "args": [
+      "S2"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "822b88d0438c3b78b54c5091a8c7f666b32fd675cef2297d10a57eebce476686",
+      "same": false
+     }
+    },
+    {
+     "op": "add_rule",
+     "args": [
+      "S1",
+      "DEPENDS_ON",
+      "S3"
+     ],
+     "kw": {},
+     "res": false,
+     "ok": {
+      "digest": "58af2172effa8b24805b80089c176d9fe39173084b17ce14a2bd8d0a616544c7",
+      "same": false
+     }
+    },
+    {
+     "op": "rename_site",
+     "args": [
+      "S1",
+      "Upper"
+     ],
+     "kw": {},
+     "res": true,
+     "ok": {
+      "digest": "acaae7443efcb85b8f8e232923e17a4a2d7d2b45323a3c708566af8b4117eed9",
+      "same": false
+     }
+    }
+   ]
+  }
+ ]
+}

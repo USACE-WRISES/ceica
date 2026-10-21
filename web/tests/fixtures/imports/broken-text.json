@@ -1,0 +1,9 @@
+{
+ "input": "broken-text.xlsx",
+ "read": {
+  "error": "BadZipFile: File is not a zip file"
+ },
+ "result": {
+  "error": "WorkbookError: This file could not be read as an Excel workbook (File is not a zip file)."
+ }
+}

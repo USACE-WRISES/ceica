@@ -1,0 +1,57 @@
+{
+ "input": {
+  "blank": "AAHU"
+ },
+ "read": {
+  "sheets": [
+   {
+    "title": "Study",
+    "state": "visible",
+    "max_row": 13,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'CEICA input template'\n2,1\ts\tstr\t'Fill the sheets, then open this file in CEICA (Open a file). Keep the header rows.'\n4,1\ts\tstr\t'Setting'\n4,2\ts\tstr\t'Value'\n5,1\ts\tstr\t'Study name'\n5,2\ts\tstr\t'New study'\n6,1\ts\tstr\t'Description'\n6,2\tinlineStr\tNoneType\tNone\n7,1\ts\tstr\t'Discount rate'\n7,2\tn\tfloat\t0.03\n8,1\ts\tstr\t'Period of analysis (years)'\n8,2\tn\tint\t50\n9,1\ts\tstr\t'Price level'\n9,2\tinlineStr\tNoneType\tNone\n10,1\ts\tstr\t'Target years (comma separated)'\n10,2\ts\tstr\t'0, 2, 10, 50'\n11,1\ts\tstr\t'Output name'\n11,2\ts\tstr\t'Habitat units'\n12,1\ts\tstr\t'Output abbreviation'\n12,2\ts\tstr\t'HU'\n13,1\ts\tstr\t'STAF mapping (A or B)'\n13,2\ts\tstr\t'A'"
+   },
+   {
+    "title": "Modules",
+    "state": "visible",
+    "max_row": 5,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Modules'\n2,1\ts\tstr\t'The parts the output is built from; the output is their sum. Method: Habitat units, Index x quantity, STAF function scores or Average annual value (STAF modules cannot be mixed with the others).'\n4,1\ts\tstr\t'Name'\n4,2\ts\tstr\t'Method'\n4,3\ts\tstr\t'Quantity units'\n4,4\ts\tstr\t'Id'\n5,1\ts\tstr\t'Habitat'\n5,2\ts\tstr\t'Average annual value'\n5,3\tinlineStr\tNoneType\tNone\n5,4\ts\tstr\t'M1'"
+   },
+   {
+    "title": "Alternatives",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 6,
+    "cells": "1,1\ts\tstr\t'Alternatives'\n2,1\ts\tstr\t'One row per alternative, including one No Action row per site.'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Site name'\n4,3\ts\tstr\t'Alternative'\n4,4\ts\tstr\t'Alternative name'\n4,5\ts\tstr\t'Description'\n4,6\ts\tstr\t'No Action'"
+   },
+   {
+    "title": "Benefits",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Benefits'\n2,1\ts\tstr\t'One row per alternative and module. Year columns: the output (habitat-unit modules) or the index (index-x-quantity modules); Quantity columns: the quantity; Average: the average annual value (average-annual modules).'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Module'\n4,4\ts\tstr\t'Average'"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 7,
+    "cells": "1,1\ts\tstr\t'Costs'\n2,1\ts\tstr\t'First costs by category (base-year dollars), construction months, and an optional average annual cost that replaces the computation.'\n3,3\ts\tstr\t'construction'\n3,4\ts\tstr\t'monitoring'\n3,5\ts\tstr\t'adaptive_management'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Construction'\n4,4\ts\tstr\t'Monitoring'\n4,5\ts\tstr\t'Adaptive management'\n4,6\ts\tstr\t'Construction months'\n4,7\ts\tstr\t'Average annual cost entered'"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 12,
+    "cells": "1,1\ts\tstr\t'OMRRR'\n2,1\ts\tstr\t\"Recurring costs. Basis: FIXED (Amount), PERCENT (Percent of a Category's first cost) or RATE (Unit rate x Quantity). Blank first year: every N years.\"\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Item'\n4,4\ts\tstr\t'Basis'\n4,5\ts\tstr\t'Amount'\n4,6\ts\tstr\t'Percent'\n4,7\ts\tstr\t'Category'\n4,8\ts\tstr\t'Unit rate'\n4,9\ts\tstr\t'Quantity'\n4,10\ts\tstr\t'Every N years'\n4,11\ts\tstr\t'First year'\n4,12\ts\tstr\t'Last year'"
+   }
+  ]
+ },
+ "result": {
+  "source": "template",
+  "changes": [],
+  "warnings": [],
+  "project": "{\"benefits\":{\"modules\":[{\"id\":\"M1\",\"method\":\"AAHU\",\"name\":\"Habitat\",\"quantity_units\":\"\"}],\"staf_mapping\":\"A\",\"target_years\":[0.0,2.0,10.0,50.0]},\"cost_categories\":[{\"id\":\"construction\",\"idc_applies\":true,\"name\":\"Construction\"},{\"id\":\"monitoring\",\"idc_applies\":false,\"name\":\"Monitoring\"},{\"id\":\"adaptive_management\",\"idc_applies\":false,\"name\":\"Adaptive management\"}],\"decisions\":{\"sites\":{},\"watershed\":{\"basis\":null,\"final_array\":{},\"steps\":{},\"tsp\":null,\"tsp_plan_type\":\"National Ecosystem Restoration (NER) plan\",\"tsp_rationale\":\"\"}},\"description\":\"\",\"labels\":{\"annual_output_name\":\"Average annual habitat units\",\"annual_output_short\":\"AAHU\",\"lift_name\":\"Ecological lift\",\"output_name\":\"Habitat units\",\"output_short\":\"HU\"},\"name\":\"New study\",\"project_id\":\"template\",\"provenance\":{},\"report\":{\"contents\":\"FULL\",\"date\":\"\",\"prepared_by\":\"\",\"status\":\"DRAFT\",\"title\":\"\"},\"schema_version\":\"ceica-project/3\",\"settings\":{\"aahu_method\":\"TRAPEZOID\",\"cost_decimals\":2,\"discount_rate\":0.03,\"idc_method\":\"END\",\"idc_periods_per_year\":12,\"output_decimals\":3,\"period_of_analysis\":50,\"price_level\":\"\",\"recurring_timing\":\"END_OF_YEAR\"},\"sites\":[],\"watershed\":{\"carried\":{},\"mode\":\"RECOMMENDED\",\"rules\":[]}}"
+ }
+}

@@ -1,0 +1,2440 @@
+{
+ "scenario": "edits",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "utoy-creek",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event recommend",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "recommend",
+      "site": "17F2M",
+      "alt": "Alternative2",
+      "n": 3
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ab987ec216daa910:3662",
+      "page_sites": "sha256:4dff7fb88a314ecf:32976",
+      "panel_foot": "sha256:5e00052cc5d16f8d:301"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event recommend",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "recommend",
+      "site": "17F2M",
+      "alt": "Nope",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "That alternative no longer exists.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event keep_rec",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "keep_rec",
+      "site": "17F2M",
+      "n": 5
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event alt_note",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "alt_note",
+      "site": "17F2M",
+      "alt": "Alternative1",
+      "value": "Too costly",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ab987ec216daa910:3662",
+      "page_sites": "sha256:6390a4dc5c72b18e:32986",
+      "panel_foot": "sha256:d3258b1e1bef2402:290"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event alt_note",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "alt_note",
+      "site": "17F2M",
+      "alt": "Alternative1",
+      "value": "Too costly, by far",
+      "n": 7
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ab987ec216daa910:3662",
+      "page_sites": "sha256:518649ffeeef3cc5:32994",
+      "panel_foot": "sha256:d3258b1e1bef2402:290"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site_rationale",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site_rationale",
+      "site": "17F2M",
+      "value": "Best value",
+      "n": 8
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ab987ec216daa910:3662",
+      "page_sites": "sha256:c6177041b70d2d1c:32866",
+      "panel_foot": "sha256:a3dc0bc7a5f1c1d2:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "n": 9
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:26f4f2fb2cf10724:3651"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "watershed"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": true,
+     ".clientdata_output_page_watershed_hidden": false,
+     "page": "watershed"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:55ab02423ebbf221:116300"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event final",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "final",
+      "key": "2A=Alternative1;2B=Alternative1",
+      "value": false,
+      "n": 10
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event final",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "final",
+      "key": "2A=Alternative1;2B=Alternative1",
+      "value": true,
+      "n": 11
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:26f4f2fb2cf10724:3651",
+      "page_watershed": "sha256:cd9d6501c039ccee:117222",
+      "panel_foot": "sha256:f778cbca1a17f5ba:292"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event final_note",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "final_note",
+      "key": "19A=Alternative2;2A=Alternative1;2B=Alternative1",
+      "value": "A note",
+      "n": 12
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:26f4f2fb2cf10724:3651",
+      "page_watershed": "sha256:cd9d6501c039ccee:117222",
+      "panel_foot": "sha256:1e6c6b20d78caaea:293"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event worth",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "worth",
+      "step": " > 19A=Alternative2;2A=Alternative1;2B=Alternative1",
+      "value": "YES",
+      "n": 13
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event why",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "why",
+      "step": " > 19A=Alternative2;2A=Alternative1;2B=Alternative1",
+      "value": "because",
+      "n": 14
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:26f4f2fb2cf10724:3651",
+      "page_watershed": "sha256:cd9d6501c039ccee:117222",
+      "panel_foot": "sha256:3bf677f6acd96d37:286"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event tsp",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "tsp",
+      "key": "19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1",
+      "n": 15
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:0700fdb4e03ddb50:119983",
+      "panel_foot": "sha256:7cf34aaa9c006c31:284"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event keep_tsp",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "keep_tsp",
+      "n": 16
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event tsp_type",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "tsp_type",
+      "value": "NER plan",
+      "n": 17
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:2b386ebeb9d69ffd:119950",
+      "panel_foot": "sha256:a92f075c28ed4227:288"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event tsp_rationale",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "tsp_rationale",
+      "value": "It is the best.",
+      "n": 18
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:c7e00a0c9af15357:119757",
+      "panel_foot": "sha256:7dcc0ecab7e6c89b:292"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event ws_mode",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "ws_mode",
+      "value": "MULTI",
+      "n": 19
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:5519dfe4bb0d00e3:119833",
+      "panel_foot": "sha256:bfbd694240e5478d:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event carry",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "carry",
+      "site": "17D2E",
+      "alt": "Alternative1",
+      "value": true,
+      "n": 20
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event ws_mode",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "ws_mode",
+      "value": "RECOMMENDED",
+      "n": 21
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:c7e00a0c9af15357:119757",
+      "panel_foot": "sha256:bfbd694240e5478d:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event rule_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "rule_add",
+      "site": "17F2M",
+      "kind": "DEPENDS_ON",
+      "other": "17D2E",
+      "n": 22
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:26f4f2fb2cf10724:3651",
+      "page_watershed": "sha256:b1aea637ee159a26:102023",
+      "panel_foot": "sha256:4646edda14b2401e:280"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event rule_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "rule_add",
+      "site": "17F2M",
+      "kind": "DEPENDS_ON",
+      "other": "17D2E",
+      "n": 23
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event rule_remove",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "rule_remove",
+      "index": "0",
+      "n": 24
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:51bcc591519eb966:3555",
+      "page_watershed": "sha256:c7e00a0c9af15357:119757",
+      "panel_foot": "sha256:b4d023a411d05b36:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event rule_remove",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "rule_remove",
+      "index": "x",
+      "n": 25
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not apply that change: invalid literal for int() with base 10: 'x'",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 8000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event recommend",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "recommend",
+      "site": "17F2M",
+      "n": 26
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not apply that change: 'alt'",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 8000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "study",
+      "n": 27
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:e995e94c05f2d028:3566"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:b908190f6075876b:7934"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event study",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "study",
+      "field": "name",
+      "value": "Utoy, renamed",
+      "n": 28
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:e995e94c05f2d028:3566",
+      "page_inputs": "sha256:eb23b5f96f874c7e:7925",
+      "panel_foot": "sha256:614b4449dbf5a702:289"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event study",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "study",
+      "field": "discount_rate",
+      "value": "abc",
+      "n": 29
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "The discount rate must be a number.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event study",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "study",
+      "field": "target_years",
+      "value": "0, 1, 5, 10, 25, 50",
+      "n": 30
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:ceab47b99b843840:3863",
+      "page_inputs": "sha256:7f71e895b8111726:7932",
+      "panel_foot": "sha256:0f16a9631f8367d9:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event module_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "module_add",
+      "n": 31
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Add a module</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"mod_name-label\" for=\"mod_name\">Name</label><input id=\"mod_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Riparian, left bank\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"mod_method\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"mod_method-label\">\n            <label class=\"control-label\" id=\"mod_method-label\" for=\"mod_method\">How values are entered</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"HU\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"INDEX_X_QUANTITY\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"shiny-panel-conditional\" data-display-if=\"[&apos;INDEX_X_QUANTITY&apos;, &apos;STAF&apos;].indexOf(input.mod_method) &gt;= 0\" data-ns-prefix=\"\">\n          <div class=\"form-group shiny-input-container\">\n            <label class=\"control-label\" id=\"mod_units-label\" for=\"mod_units\">Quantity units</label><input id=\"mod_units\" type=\"text\" class=\"shiny-input-text form-control\" value=\"acres\" placeholder=\"For example, acres, ft or mi\" autocomplete=\"off\" data-update-on=\"change\"/>\n          </div>\n        </div>\n        <p class=\"ce-note\">STAF stays on its own: a study uses only STAF modules, or none.</p>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"ce-modal-foot\">\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"mod_save\" type=\"button\">\n            <span class=\"action-label\">Add module</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event module_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "",
+     "mod_method": "INDEX_X_QUANTITY",
+     "mod_units": "acres",
+     "mod_save:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "Wetland",
+     "mod_method": "AAHU",
+     "mod_units": ""
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_save:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Added Wetland. Sites are incomplete until its values are entered.",
+       "action": "<button type=\"button\" class=\"btn btn-sm btn-primary\" data-ev=\"nav\" data-page=\"inputs\" data-section=\"benefits\" data-toast=\"module-added\">Enter its values</button>",
+       "closeButton": true,
+       "id": "module-added",
+       "type": "default",
+       "duration": 12000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_scroll_to": {
+       "id": "mod-edit-M1",
+       "output": "page_inputs",
+       "block": "nearest"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:0eff405b20714d13:3863",
+      "page_inputs": "sha256:988180bbdf031528:8509",
+      "panel_foot": "sha256:6f3e48f329200734:292"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "benefits",
+      "toast": "module-added",
+      "n": 32
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "remove",
+      "id": "module-added"
+     }
+    },
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:0c499a1991952fa5:3863",
+      "page_inputs": "sha256:3f52e071ef7d6905:17017"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "study",
+      "n": 33
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:0eff405b20714d13:3863",
+      "page_inputs": "sha256:988180bbdf031528:8509"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event module_edit",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "module_edit",
+      "module": "M1",
+      "n": 34
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Edit Wetland</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"mod_name-label\" for=\"mod_name\">Name</label><input id=\"mod_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"Wetland\" placeholder=\"For example, Riparian, left bank\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"mod_method\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"mod_method-label\">\n            <label class=\"control-label\" id=\"mod_method-label\" for=\"mod_method\">How values are entered</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"HU\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"AAHU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"shiny-panel-conditional\" data-display-if=\"[&apos;INDEX_X_QUANTITY&apos;, &apos;STAF&apos;].indexOf(input.mod_method) &gt;= 0\" data-ns-prefix=\"\">\n          <div class=\"form-group shiny-input-container\">\n            <label class=\"control-label\" id=\"mod_units-label\" for=\"mod_units\">Quantity units</label><input id=\"mod_units\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, acres, ft or mi\" autocomplete=\"off\" data-update-on=\"change\"/>\n          </div>\n        </div>\n        <div class=\"shiny-panel-conditional\" data-display-if=\"input.mod_method !== &apos;AAHU&apos;\" data-ns-prefix=\"\">\n          <div class=\"ce-issues\" style=\"margin-bottom:10px\">Changing how values are entered clears this module's values in every alternative. Undo brings them back.</div>\n        </div>\n        <p class=\"ce-note\">STAF stays on its own: a study uses only STAF modules, or none.</p>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"ce-modal-foot\">\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"mod_save\" type=\"button\">\n            <span class=\"action-label\">Save</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event module_edit",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "Wetland",
+     "mod_method": "AAHU",
+     "mod_units": "",
+     "mod_save:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "Wetland",
+     "mod_method": "HU",
+     "mod_units": ""
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_save:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Wetland is now entered differently, so its values were cleared. Undo brings them back.",
+       "action": "",
+       "closeButton": true,
+       "id": "module-changed",
+       "type": "default",
+       "duration": 8000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_scroll_to": {
+       "id": "mod-edit-M1",
+       "output": "page_inputs",
+       "block": "nearest"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:6b210608d33970dc:3863",
+      "page_inputs": "sha256:6aaf83a8d229ded3:8522",
+      "panel_foot": "sha256:59ec4c5aae178d80:293"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event module_edit",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "module_edit",
+      "module": "gone",
+      "n": 35
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "That module no longer exists.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event module_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "module_add",
+      "n": 36
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Add a module</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"mod_name-label\" for=\"mod_name\">Name</label><input id=\"mod_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Riparian, left bank\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"mod_method\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"mod_method-label\">\n            <label class=\"control-label\" id=\"mod_method-label\" for=\"mod_method\">How values are entered</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index (0 to 1) and a quantity, such as acres, at each target year. Habitat units are the index times the quantity.</span></span></span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"mod_method\" value=\"AAHU\"/> <span><span><span class=\"ce-choice-t\">Average annual value</span><span class=\"ce-choice-s\">Enter the average annual habitat units, worked out elsewhere.</span></span></span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div class=\"shiny-panel-conditional\" data-display-if=\"[&apos;INDEX_X_QUANTITY&apos;, &apos;STAF&apos;].indexOf(input.mod_method) &gt;= 0\" data-ns-prefix=\"\">\n          <div class=\"form-group shiny-input-container\">\n            <label class=\"control-label\" id=\"mod_units-label\" for=\"mod_units\">Quantity units</label><input id=\"mod_units\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, acres, ft or mi\" autocomplete=\"off\" data-update-on=\"change\"/>\n          </div>\n        </div>\n        <p class=\"ce-note\">STAF stays on its own: a study uses only STAF modules, or none.</p>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"ce-modal-foot\">\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"mod_save\" type=\"button\">\n            <span class=\"action-label\">Add module</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event module_add",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "",
+     "mod_method": "HU",
+     "mod_units": "",
+     "mod_save:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_name": "wetland",
+     "mod_method": "HU",
+     "mod_units": ""
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click mod_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "mod_save:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "There is already a module named wetland.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 6000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event module_remove",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "module_remove",
+      "module": "M1",
+      "n": 37
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Removed Wetland and its values. Undo brings them back.",
+       "action": "",
+       "closeButton": true,
+       "id": "module-removed",
+       "type": "default",
+       "duration": 6000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_scroll_to": {
+       "id": "study-modules",
+       "output": "page_inputs",
+       "block": "nearest"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:ceab47b99b843840:3863",
+      "page_inputs": "sha256:7f71e895b8111726:7932",
+      "panel_foot": "sha256:6d8a52d853b2e1e0:295"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "costs",
+      "n": 38
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:fb70671cc7575873:3863",
+      "page_inputs": "sha256:148c1aa6d3546990:322978"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event cell",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "cell",
+      "path": "c|17F2M|Alternative1|first|construction",
+      "value": "776,100",
+      "n": 39
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:fb70671cc7575873:3863",
+      "page_inputs": "sha256:033a1922bb8b4056:322978",
+      "panel_foot": "sha256:8b86a789eec907db:282"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event cell",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "cell",
+      "path": "c|17F2M|Alternative1|first|construction",
+      "value": "abc",
+      "n": 40
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "'abc' is not a number.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_cell_error": {
+       "path": "c|17F2M|Alternative1|first|construction",
+       "message": "'abc' is not a number."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event paste",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "paste",
+      "grid": "costs",
+      "r": "0",
+      "c": "0",
+      "text": "1000\t2000\r\n3,000\t\t4\r\n",
+      "n": 41
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Pasted 5 cells.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:fb70671cc7575873:3863",
+      "page_inputs": "sha256:1fc05191ed5bf9a1:322966",
+      "panel_foot": "sha256:9db5b04d26669a26:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event paste",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "paste",
+      "grid": "costs",
+      "r": "0",
+      "c": "99",
+      "text": "1",
+      "n": 42
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "sites",
+      "n": 43
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:547a3f91fbfb2a57:3863",
+      "page_inputs": "sha256:1037068d8ea19566:45949"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event add_site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "add_site",
+      "n": 44
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_focus": {
+       "path": "t|S1|name"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:a4ce179d36ae0a71:4115",
+      "page_inputs": "sha256:2a4806cc2a869011:49096",
+      "panel_foot": "sha256:48898b810bd04679:280"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event add_alt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "add_alt",
+      "site": "S1",
+      "n": 45
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_focus": {
+       "path": "t|S1|Alternative2|name"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:fa9c291aa9d93876:4115",
+      "page_inputs": "sha256:37a20b7a773e7a37:50202",
+      "panel_foot": "sha256:01269c1640b1c4d0:288"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event add_item",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "add_item",
+      "site": "S1",
+      "alt": "Alternative2",
+      "n": 46
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_focus": {
+       "path": "r|S1|Alternative2|item1|name"
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:fa9c291aa9d93876:4115",
+      "page_inputs": "sha256:37a20b7a773e7a37:50202",
+      "panel_foot": "sha256:5e732b139d1f7512:287"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event remove_item",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "remove_item",
+      "site": "S1",
+      "alt": "Alternative2",
+      "item": "item1",
+      "n": 47
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:fa9c291aa9d93876:4115",
+      "page_inputs": "sha256:37a20b7a773e7a37:50202",
+      "panel_foot": "sha256:5c9a0256677aa5d7:290"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event remove_alt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "remove_alt",
+      "site": "S1",
+      "alt": "Alternative2",
+      "n": 48
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:a4ce179d36ae0a71:4115",
+      "page_inputs": "sha256:2a4806cc2a869011:49096",
+      "panel_foot": "sha256:cbffbe8391b13991:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event remove_site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "remove_site",
+      "site": "S1",
+      "n": 49
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:547a3f91fbfb2a57:3863",
+      "page_inputs": "sha256:1037068d8ea19566:45949",
+      "panel_foot": "sha256:dca0887ed3867260:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event copy_items",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "copy_items",
+      "site": "17F2M",
+      "alt": "Alternative1",
+      "n": 50
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:547a3f91fbfb2a57:3863",
+      "page_inputs": "sha256:1037068d8ea19566:45949",
+      "panel_foot": "sha256:5c76c5c6e118a0c6:286"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event cell",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "cell",
+      "path": "id|17F2M",
+      "value": "17F2M-x",
+      "n": 51
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:e50dbbf0e765e269:3869",
+      "page_inputs": "sha256:40976c47f93f39c5:46021",
+      "panel_foot": "sha256:f6f45309f411a431:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event cell",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "cell",
+      "path": "id|17F2M-x|Alternative1",
+      "value": "Alt1",
+      "n": 52
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:e50dbbf0e765e269:3869",
+      "page_inputs": "sha256:ccfc05b2934d2c38:45957",
+      "panel_foot": "sha256:bc1cf13cad6545d7:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event cell",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "cell",
+      "path": "id|17F2M-x",
+      "value": "17D2E",
+      "n": 53
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Site 17D2E already exists.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_cell_error": {
+       "path": "id|17F2M-x",
+       "message": "Site 17D2E already exists."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "report",
+      "n": 54
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:45431d29b22e6977:3858"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "report"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_report_hidden": false,
+     "page": "report"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_report": "sha256:35ae6fae2e8e173f:9554"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event report_field",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "report_field",
+      "field": "title",
+      "value": "My report",
+      "n": 55
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:ac7c2afcaf7e9e1a:9541",
+      "panel_foot": "sha256:9da6a54cf95e132c:294"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event report_field",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "report_field",
+      "field": "contents",
+      "value": "X",
+      "n": 56
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Unknown report contents.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event report_settings",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "report_settings",
+      "n": 57
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Document settings</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"rep_title-label\" for=\"rep_title\">Title</label><input id=\"rep_title\" type=\"text\" class=\"shiny-input-text form-control\" value=\"My report\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"rep_by-label\" for=\"rep_by\">Prepared by</label><input id=\"rep_by\" type=\"text\" class=\"shiny-input-text form-control\" value=\"CEICA example, Mobile District\" placeholder=\"A name or an office\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n          <label class=\"control-label\" id=\"rep_date-label\" for=\"rep_date\">Date</label><input id=\"rep_date\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"Blank prints the day of download (October 18, 2026)\" autocomplete=\"off\" data-update-on=\"change\"/>\n        </div>\n        <div class=\"ce-choices\">\n          <div id=\"rep_contents\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"rep_contents-label\">\n            <label class=\"control-label\" id=\"rep_contents-label\" for=\"rep_contents\">Contents</label>\n            <div class=\"shiny-options-group\">\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"rep_contents\" value=\"FULL\" checked=\"checked\"/> <span>Every figure and table, with the methods</span></label>\n              </div>\n              <div class=\"radio\">\n                <label><input type=\"radio\" name=\"rep_contents\" value=\"SUMMARY\"/> <span>Key figures and tables: the plans, the recommendations and the decisions</span></label>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"rep_save\" type=\"button\">\n            <span class=\"action-label\">Save</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "event report_settings",
+   "client": {
+    "method": "update",
+    "data": {
+     "rep_title": "My report",
+     "rep_by": "CEICA example, Mobile District",
+     "rep_date": "",
+     "rep_contents": "FULL",
+     "rep_save:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click rep_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "rep_title": "Utoy report",
+     "rep_by": "An office",
+     "rep_date": "October 1, 2026",
+     "rep_contents": "SUMMARY"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click rep_save",
+   "client": {
+    "method": "update",
+    "data": {
+     "rep_save:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:608bda3248180dfd:9547",
+      "panel_foot": "sha256:580490ab801e5bb9:296"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event undo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "undo",
+      "n": 58
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Undid: edit the document settings.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:ac7c2afcaf7e9e1a:9541",
+      "panel_foot": "sha256:4b02d510269d7432:299"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event undo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "undo",
+      "n": 59
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Undid: edit the report settings.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:35ae6fae2e8e173f:9554",
+      "panel_foot": "sha256:97641258de35dadf:294"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event undo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "undo",
+      "n": 60
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Undid: rename an alternative.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:d67d664e204f5aae:9554",
+      "panel_foot": "sha256:40cc0a1c9175f52d:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event redo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "redo",
+      "n": 61
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Redid: rename an alternative.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:35ae6fae2e8e173f:9554",
+      "panel_foot": "sha256:97641258de35dadf:294"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event redo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "redo",
+      "n": 62
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Redid: edit the report settings.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy, renamed"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2f86f8723e16d32f:144",
+      "panel_body": "sha256:45431d29b22e6977:3858",
+      "page_report": "sha256:ac7c2afcaf7e9e1a:9541",
+      "panel_foot": "sha256:4b02d510269d7432:299"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "n": 63
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:cd7cbeed92f196cd:3858"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_report_hidden": true,
+     "page": "sites"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_sites": "sha256:edc1b635505356ad:2848"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  }
+ ]
+}

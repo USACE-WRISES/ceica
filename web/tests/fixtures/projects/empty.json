@@ -1,0 +1,120 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "a464a1010103c3068060568dac903fa76794a7c2537959612efc876c3a6ccbb2",
+ "issues": [
+  [
+   "error",
+   "E_NO_SITES",
+   "Add at least one site with alternatives.",
+   "sites",
+   null,
+   null
+  ]
+ ],
+ "benefits": [],
+ "costs": [],
+ "analysis": {
+  "sites": [],
+  "watershed": {
+   "ready": false,
+   "reasons": [
+    "No site carries an action, so there is nothing to combine."
+   ],
+   "mode": "RECOMMENDED",
+   "carried": [],
+   "sources": [],
+   "notCarried": [],
+   "blocked": [],
+   "fingerprint": "",
+   "nPlans": 0,
+   "nCe": 0,
+   "nBb": 0,
+   "space": [
+    [],
+    []
+   ]
+  },
+  "decisions": {
+   "sites": [],
+   "finalKeys": [],
+   "added": [],
+   "removed": [],
+   "ladder": [],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 0,
+   "nStale": 0
+  },
+  "issues": [
+   [
+    "error",
+    "E_NO_SITES",
+    "Add at least one site with alternatives.",
+    "sites",
+    null,
+    null
+   ]
+  ],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "attention",
+     1,
+     "Inputs need attention."
+    ],
+    [
+     "sites",
+     "locked",
+     0,
+     "No site can be analyzed yet."
+    ],
+    [
+     "watershed",
+     "locked",
+     0,
+     "No site carries an action, so there is nothing to combine."
+    ],
+    [
+     "report",
+     "locked",
+     1,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     false,
+     "1 input problems to fix",
+     "inputs"
+    ],
+    [
+     true,
+     "Every site recommendation is the team's",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": true,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Plans",
+    "Report"
+   ]
+  },
+  "stamped": "a464a1010103c3068060568dac903fa76794a7c2537959612efc876c3a6ccbb2",
+  "carried": "a464a1010103c3068060568dac903fa76794a7c2537959612efc876c3a6ccbb2",
+  "planCountWarning": false
+ }
+}

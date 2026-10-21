@@ -1,0 +1,7 @@
+{
+ "input": "csv-no-function-column.csv",
+ "name": "x.csv",
+ "read": {
+  "error": "ValueError: 'Function' is not in list"
+ }
+}

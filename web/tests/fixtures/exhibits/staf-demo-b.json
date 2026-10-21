@@ -1,0 +1,3263 @@
+{
+ "stem": "STAF demonstration CE-ICA 2026-10-18",
+ "safe": "STAF demonstration",
+ "catalog": [
+  {
+   "id": "settings",
+   "kind": "table",
+   "group": "study",
+   "number": 1,
+   "label": "Table 1",
+   "title": "Study settings",
+   "caption": "Study settings and the record of this analysis.",
+   "key": true,
+   "n_rows": 17,
+   "file": "Table 01 Study settings"
+  },
+  {
+   "id": "fig-plans",
+   "kind": "figure",
+   "group": "plans",
+   "number": 1,
+   "label": "Figure 1",
+   "title": "Watershed plans",
+   "caption": "Cost-effectiveness (A) and incremental cost (B) of the watershed plans.",
+   "key": true,
+   "n_rows": null,
+   "file": "Figure 01 Watershed plans"
+  },
+  {
+   "id": "plans-bb",
+   "kind": "table",
+   "group": "plans",
+   "number": 2,
+   "label": "Table 2",
+   "title": "Best-buy plans",
+   "caption": "Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": true,
+   "n_rows": 4,
+   "file": "Table 02 Best-buy plans"
+  },
+  {
+   "id": "plans-final",
+   "kind": "table",
+   "group": "plans",
+   "number": 3,
+   "label": "Table 3",
+   "title": "Final array",
+   "caption": "Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": true,
+   "n_rows": 4,
+   "file": "Table 03 Final array"
+  },
+  {
+   "id": "plans-all",
+   "kind": "table",
+   "group": "plans",
+   "number": 4,
+   "label": "Table 4",
+   "title": "All plans",
+   "caption": "The watershed plans: lift, cost and status (8 plans). Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": false,
+   "n_rows": 8,
+   "file": "Table 04 All plans"
+  },
+  {
+   "id": "fig-site-R1",
+   "kind": "figure",
+   "group": "sites",
+   "number": 2,
+   "label": "Figure 2",
+   "title": "Site R1",
+   "caption": "Cost-effectiveness (A) and incremental cost (B) of the alternatives at site R1 (Example Reach).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 02 Site R1"
+  },
+  {
+   "id": "fig-site-R2",
+   "kind": "figure",
+   "group": "sites",
+   "number": 3,
+   "label": "Figure 3",
+   "title": "Site R2",
+   "caption": "Cost-effectiveness (A) and incremental cost (B) of the alternatives at site R2 (Urban tributary).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 03 Site R2"
+  },
+  {
+   "id": "fig-site-R3",
+   "kind": "figure",
+   "group": "sites",
+   "number": 4,
+   "label": "Figure 4",
+   "title": "Site R3",
+   "caption": "Cost-effectiveness (A) and incremental cost (B) of the alternatives at site R3 (Rural headwater).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 04 Site R3"
+  },
+  {
+   "id": "sites-alts",
+   "kind": "table",
+   "group": "sites",
+   "number": 5,
+   "label": "Table 5",
+   "title": "Alternatives at every site",
+   "caption": "Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.",
+   "key": false,
+   "n_rows": 10,
+   "file": "Table 05 Alternatives at every site"
+  },
+  {
+   "id": "site-recs",
+   "kind": "table",
+   "group": "sites",
+   "number": 6,
+   "label": "Table 6",
+   "title": "Site recommendations",
+   "caption": "The alternative each site carries forward, and the status of that decision.",
+   "key": true,
+   "n_rows": 3,
+   "file": "Table 06 Site recommendations"
+  },
+  {
+   "id": "fig-staf-R1-condition",
+   "kind": "figure",
+   "group": "staf",
+   "number": 5,
+   "label": "Figure 5",
+   "title": "STAF, site R1",
+   "caption": "Ecosystem Condition Index over time (A) and lift by outcome (B) at site R1. The existing condition is 0.52 (Functioning-at-Risk); Bench, buffer and instream structure reaches 0.67 (Functioning-at-Risk) by year 50.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 05 STAF, site R1"
+  },
+  {
+   "id": "fig-staf-R2-condition",
+   "kind": "figure",
+   "group": "staf",
+   "number": 6,
+   "label": "Figure 6",
+   "title": "STAF, site R2",
+   "caption": "Ecosystem Condition Index over time (A) and lift by outcome (B) at site R2. The existing condition is 0.23 (Non-Functioning); Daylight and reconnect the floodplain reaches 0.49 (Functioning-at-Risk) by year 50.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 06 STAF, site R2"
+  },
+  {
+   "id": "fig-staf-R3-condition",
+   "kind": "figure",
+   "group": "staf",
+   "number": 7,
+   "label": "Figure 7",
+   "title": "STAF, site R3",
+   "caption": "Ecosystem Condition Index over time (A) and lift by outcome (B) at site R3. The existing condition is 0.58 (Functioning-at-Risk); Livestock exclusion and culvert replacement reaches 0.70 (Functioning) by year 50.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 07 STAF, site R3"
+  },
+  {
+   "id": "staf-outcomes",
+   "kind": "table",
+   "group": "staf",
+   "number": 7,
+   "label": "Table 7",
+   "title": "Lift by outcome",
+   "caption": "Lift of the recommended alternatives by outcome.",
+   "key": false,
+   "n_rows": 3,
+   "file": "Table 07 Lift by outcome"
+  },
+  {
+   "id": "decisions",
+   "kind": "table",
+   "group": "decisions",
+   "number": 8,
+   "label": "Table 8",
+   "title": "Decision record",
+   "caption": "Decisions and the reasons recorded for them.",
+   "key": true,
+   "n_rows": 4,
+   "file": "Table 08 Decision record"
+  },
+  {
+   "id": "fig-bc-R1",
+   "kind": "figure",
+   "group": "inputs",
+   "number": 8,
+   "label": "Figure 8",
+   "title": "Benefits and costs, site R1",
+   "caption": "Condition units over time (A) and average annual cost by part (B) of the alternatives at site R1 (Example Reach).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 08 Benefits and costs, site R1"
+  },
+  {
+   "id": "fig-bc-R2",
+   "kind": "figure",
+   "group": "inputs",
+   "number": 9,
+   "label": "Figure 9",
+   "title": "Benefits and costs, site R2",
+   "caption": "Condition units over time (A) and average annual cost by part (B) of the alternatives at site R2 (Urban tributary).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 09 Benefits and costs, site R2"
+  },
+  {
+   "id": "fig-bc-R3",
+   "kind": "figure",
+   "group": "inputs",
+   "number": 10,
+   "label": "Figure 10",
+   "title": "Benefits and costs, site R3",
+   "caption": "Condition units over time (A) and average annual cost by part (B) of the alternatives at site R3 (Rural headwater).",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 10 Benefits and costs, site R3"
+  },
+  {
+   "id": "inputs",
+   "kind": "table",
+   "group": "inputs",
+   "number": 9,
+   "label": "Table 9",
+   "title": "Benefit and cost inputs",
+   "caption": "Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.",
+   "key": false,
+   "n_rows": 10,
+   "file": "Table 09 Benefit and cost inputs"
+  },
+  {
+   "id": "omrrr",
+   "kind": "table",
+   "group": "inputs",
+   "number": 10,
+   "label": "Table 10",
+   "title": "OMRRR present value",
+   "caption": "Present value of operations, maintenance, repair, replacement and rehabilitation (OMRRR) costs by item.",
+   "key": false,
+   "n_rows": 10,
+   "file": "Table 10 OMRRR present value"
+  },
+  {
+   "id": "costs",
+   "kind": "table",
+   "group": "inputs",
+   "number": 11,
+   "label": "Table 11",
+   "title": "Cost by category",
+   "caption": "First costs by category, interest during construction, OMRRR and annualized cost of every alternative.",
+   "key": false,
+   "n_rows": 10,
+   "file": "Table 11 Cost by category"
+  }
+ ],
+ "tables": {
+  "settings": {
+   "columns": [
+    [
+     "Setting",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Value",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "Study"
+     ],
+     [
+      "s",
+      "STAF demonstration"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Prepared by"
+     ],
+     [
+      "s",
+      "CEICA example"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Sites"
+     ],
+     [
+      "s",
+      "3 sites with 10 alternatives, No Action included"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Output"
+     ],
+     [
+      "s",
+      "Average annual condition units (AACU); lift is the output above No Action"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Benefit module"
+     ],
+     [
+      "s",
+      "Stream condition: the STAF Ecosystem Condition Index times ft at each target year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Target years"
+     ],
+     [
+      "s",
+      "0, 1, 5, 10, 25, 50"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Period of analysis"
+     ],
+     [
+      "s",
+      "50 years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Discount rate"
+     ],
+     [
+      "s",
+      "3 percent"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual output"
+     ],
+     [
+      "s",
+      "Straight lines between target years, averaged over the span of the years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual cost"
+     ],
+     [
+      "s",
+      "Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Comparisons"
+     ],
+     [
+      "s",
+      "Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them"
+     ]
+    ],
+    [
+     [
+      "s",
+      "STAF outcome mapping"
+     ],
+     [
+      "s",
+      "SFARI calculator (B)"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plan formation"
+     ],
+     [
+      "s",
+      "One alternative per site: each site's recommendation"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plans"
+     ],
+     [
+      "s",
+      "8 plans: 6 cost-effective and 4 best buys"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Final array"
+     ],
+     [
+      "s",
+      "4 plans: P1, P2, P4, P8"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Tentatively selected plan"
+     ],
+     [
+      "s",
+      "Not chosen yet"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Record"
+     ],
+     [
+      "s",
+      "CEICA 1.0.0, engine 1; project digest 25d285053802"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-bb": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "R1",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "R2",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "R3",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AACU",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P4"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "758.991"
+     ],
+     [
+      "f",
+      "204923.32"
+     ],
+     [
+      "f",
+      "3920000.0"
+     ],
+     [
+      "f",
+      "269.99440046061153"
+     ],
+     [
+      "f",
+      "311.6923745876633"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P8"
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "899.153"
+     ],
+     [
+      "f",
+      "254905.67"
+     ],
+     [
+      "f",
+      "4830000.0"
+     ],
+     [
+      "f",
+      "283.4953228204766"
+     ],
+     [
+      "f",
+      "356.6041437764872"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-bb/actions": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Actions",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AACU",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P4"
+     ],
+     [
+      "s",
+      "R2 + R3"
+     ],
+     [
+      "f",
+      "758.991"
+     ],
+     [
+      "f",
+      "204923.32"
+     ],
+     [
+      "f",
+      "3920000.0"
+     ],
+     [
+      "f",
+      "269.99440046061153"
+     ],
+     [
+      "f",
+      "311.6923745876633"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P8"
+     ],
+     [
+      "s",
+      "R1 + R2 + R3"
+     ],
+     [
+      "f",
+      "899.153"
+     ],
+     [
+      "f",
+      "254905.67"
+     ],
+     [
+      "f",
+      "4830000.0"
+     ],
+     [
+      "f",
+      "283.4953228204766"
+     ],
+     [
+      "f",
+      "356.6041437764872"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-final": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "R1",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "R2",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "R3",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P4"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "758.991"
+     ],
+     [
+      "f",
+      "204923.32"
+     ],
+     [
+      "f",
+      "3920000.0"
+     ],
+     [
+      "f",
+      "269.99440046061153"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P8"
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "899.153"
+     ],
+     [
+      "f",
+      "254905.67"
+     ],
+     [
+      "f",
+      "4830000.0"
+     ],
+     [
+      "f",
+      "283.4953228204766"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-final/actions": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Actions",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P4"
+     ],
+     [
+      "s",
+      "R2 + R3"
+     ],
+     [
+      "f",
+      "758.991"
+     ],
+     [
+      "f",
+      "204923.32"
+     ],
+     [
+      "f",
+      "3920000.0"
+     ],
+     [
+      "f",
+      "269.99440046061153"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P8"
+     ],
+     [
+      "s",
+      "R1 + R2 + R3"
+     ],
+     [
+      "f",
+      "899.153"
+     ],
+     [
+      "f",
+      "254905.67"
+     ],
+     [
+      "f",
+      "4830000.0"
+     ],
+     [
+      "f",
+      "283.4953228204766"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "sites-alts": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AACU",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Riparian buffer"
+     ],
+     [
+      "f",
+      "43.521"
+     ],
+     [
+      "f",
+      "12646.48"
+     ],
+     [
+      "f",
+      "290.58339652121964"
+     ],
+     [
+      "f",
+      "290.58339652121964"
+     ],
+     [
+      "f",
+      "180000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Floodplain bench and buffer"
+     ],
+     [
+      "f",
+      "89.247"
+     ],
+     [
+      "f",
+      "34892.71"
+     ],
+     [
+      "f",
+      "390.9678756708909"
+     ],
+     [
+      "s",
+      ""
+     ],
+     [
+      "f",
+      "620000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      false
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "140.162"
+     ],
+     [
+      "f",
+      "49982.35"
+     ],
+     [
+      "f",
+      "356.6041437764872"
+     ],
+     [
+      "f",
+      "386.3357167247855"
+     ],
+     [
+      "f",
+      "910000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Bank regrading and planting"
+     ],
+     [
+      "f",
+      "190.505"
+     ],
+     [
+      "f",
+      "46747.34"
+     ],
+     [
+      "f",
+      "245.38642030392904"
+     ],
+     [
+      "f",
+      "245.38642030392904"
+     ],
+     [
+      "f",
+      "850000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "572.651"
+     ],
+     [
+      "f",
+      "178490.95"
+     ],
+     [
+      "f",
+      "311.6923745876633"
+     ],
+     [
+      "f",
+      "344.7467983440884"
+     ],
+     [
+      "f",
+      "3400000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion"
+     ],
+     [
+      "f",
+      "139.792"
+     ],
+     [
+      "f",
+      "8678.84"
+     ],
+     [
+      "f",
+      "62.083953302048755"
+     ],
+     [
+      "f",
+      "62.083953302048755"
+     ],
+     [
+      "f",
+      "140000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "f",
+      "381.40263813697686"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "site-recs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Recommended alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Carried to plans",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Status",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "140.162"
+     ],
+     [
+      "f",
+      "49982.35"
+     ],
+     [
+      "f",
+      "356.6041437764872"
+     ],
+     [
+      "f",
+      "910000.0"
+     ],
+     [
+      "s",
+      "Yes"
+     ],
+     [
+      "s",
+      "Suggested"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "572.651"
+     ],
+     [
+      "f",
+      "178490.95"
+     ],
+     [
+      "f",
+      "311.6923745876633"
+     ],
+     [
+      "f",
+      "3400000.0"
+     ],
+     [
+      "s",
+      "Yes"
+     ],
+     [
+      "s",
+      "Suggested"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "26432.37"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "s",
+      "Yes"
+     ],
+     [
+      "s",
+      "Suggested"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "staf-outcomes": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Physical (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Chemical (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Biological (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "33.87165109034269"
+     ],
+     [
+      "f",
+      "35.511111111111106"
+     ],
+     [
+      "f",
+      "70.7789898989899"
+     ],
+     [
+      "f",
+      "140.1617521004437"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "165.66180685358256"
+     ],
+     [
+      "f",
+      "212.66488888888887"
+     ],
+     [
+      "f",
+      "194.32436363636364"
+     ],
+     [
+      "f",
+      "572.651059378835"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "33.13408805031447"
+     ],
+     [
+      "f",
+      "70.5200987654321"
+     ],
+     [
+      "f",
+      "82.68562962962963"
+     ],
+     [
+      "f",
+      "186.3398164453762"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "decisions": {
+   "columns": [
+    [
+     "Subject",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Decision",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Reason",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "Site R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure, suggested, not yet confirmed"
+     ],
+     [
+      "s",
+      "No reason recorded."
+     ]
+    ],
+    [
+     [
+      "s",
+      "Site R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain, suggested, not yet confirmed"
+     ],
+     [
+      "s",
+      "No reason recorded."
+     ]
+    ],
+    [
+     [
+      "s",
+      "Site R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement, suggested, not yet confirmed"
+     ],
+     [
+      "s",
+      "No reason recorded."
+     ]
+    ],
+    [
+     [
+      "s",
+      "Tentatively selected plan"
+     ],
+     [
+      "s",
+      "Not chosen yet"
+     ],
+     [
+      "s",
+      ""
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "inputs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Output (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Lift (AACU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Annualized cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AACU)",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "509.64590201076186"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Riparian buffer"
+     ],
+     [
+      "f",
+      "553.1666589047275"
+     ],
+     [
+      "f",
+      "43.521"
+     ],
+     [
+      "f",
+      "180000.0"
+     ],
+     [
+      "f",
+      "12646.480728504628"
+     ],
+     [
+      "f",
+      "290.58339652121964"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Floodplain bench and buffer"
+     ],
+     [
+      "f",
+      "598.892900762558"
+     ],
+     [
+      "f",
+      "89.247"
+     ],
+     [
+      "f",
+      "620000.0"
+     ],
+     [
+      "f",
+      "34892.71370584147"
+     ],
+     [
+      "f",
+      "390.9678756708909"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "649.8076541112055"
+     ],
+     [
+      "f",
+      "140.162"
+     ],
+     [
+      "f",
+      "910000.0"
+     ],
+     [
+      "f",
+      "49982.34712741726"
+     ],
+     [
+      "f",
+      "356.6041437764872"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "538.4208771830454"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Bank regrading and planting"
+     ],
+     [
+      "f",
+      "728.9255158437961"
+     ],
+     [
+      "f",
+      "190.505"
+     ],
+     [
+      "f",
+      "850000.0"
+     ],
+     [
+      "f",
+      "46747.33547718361"
+     ],
+     [
+      "f",
+      "245.38642030392904"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "1111.0719365618806"
+     ],
+     [
+      "f",
+      "572.651"
+     ],
+     [
+      "f",
+      "3400000.0"
+     ],
+     [
+      "f",
+      "178490.95185438314"
+     ],
+     [
+      "f",
+      "311.6923745876633"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "915.169967854647"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion"
+     ],
+     [
+      "f",
+      "1054.9621355695317"
+     ],
+     [
+      "f",
+      "139.792"
+     ],
+     [
+      "f",
+      "140000.0"
+     ],
+     [
+      "f",
+      "8678.839720481927"
+     ],
+     [
+      "f",
+      "62.083953302048755"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "1101.509784300023"
+     ],
+     [
+      "f",
+      "186.34"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "26432.37001243781"
+     ],
+     [
+      "f",
+      "141.85022002790598"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "omrrr": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Annual maintenance",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Repair and replanting",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Structure inspection",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Fence repair",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Total OMRRR",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "i",
+      0
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Riparian buffer"
+     ],
+     [
+      "f",
+      "64324.41001752049"
+     ],
+     [
+      "f",
+      "40399.56628492546"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "104723.97630244595"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Floodplain bench and buffer"
+     ],
+     [
+      "f",
+      "128648.82003504098"
+     ],
+     [
+      "f",
+      "43754.184241187584"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "172403.00427622854"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "154378.58404204916"
+     ],
+     [
+      "f",
+      "64219.85106367855"
+     ],
+     [
+      "f",
+      "7269.478007666994"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "225867.9131133947"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "i",
+      0
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Bank regrading and planting"
+     ],
+     [
+      "f",
+      "154378.58404204916"
+     ],
+     [
+      "f",
+      "59985.57516937007"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "214364.15921141923"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "308757.1680840983"
+     ],
+     [
+      "f",
+      "381551.45935762936"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "690308.6274417277"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "i",
+      0
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion"
+     ],
+     [
+      "f",
+      "38594.64601051229"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "14364.290234640164"
+     ],
+     [
+      "f",
+      "52958.93624515245"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "77189.29202102458"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "9692.63734355599"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "86881.92936458057"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "costs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Months",
+     "number",
+     1,
+     ""
+    ],
+    [
+     "Construction",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Monitoring",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Adaptive management",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Interest during construction",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "OMRRR annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Annualized cost",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Riparian buffer"
+     ],
+     [
+      "f",
+      "4.0"
+     ],
+     [
+      "f",
+      "180000.0"
+     ],
+     [
+      "f",
+      "25000.0"
+     ],
+     [
+      "f",
+      "15000.0"
+     ],
+     [
+      "f",
+      "666.9883611555349"
+     ],
+     [
+      "f",
+      "4070.149118892869"
+     ],
+     [
+      "f",
+      "12646.480728504628"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Floodplain bench and buffer"
+     ],
+     [
+      "f",
+      "8.0"
+     ],
+     [
+      "f",
+      "620000.0"
+     ],
+     [
+      "f",
+      "40000.0"
+     ],
+     [
+      "f",
+      "60000.0"
+     ],
+     [
+      "f",
+      "5378.284939173738"
+     ],
+     [
+      "f",
+      "6700.528004425916"
+     ],
+     [
+      "f",
+      "34892.71370584147"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "Bench, buffer and instream structure"
+     ],
+     [
+      "f",
+      "10.0"
+     ],
+     [
+      "f",
+      "910000.0"
+     ],
+     [
+      "f",
+      "50000.0"
+     ],
+     [
+      "f",
+      "90000.0"
+     ],
+     [
+      "f",
+      "10166.08299141646"
+     ],
+     [
+      "f",
+      "8778.468121661484"
+     ],
+     [
+      "f",
+      "49982.34712741726"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Bank regrading and planting"
+     ],
+     [
+      "f",
+      "9.0"
+     ],
+     [
+      "f",
+      "850000.0"
+     ],
+     [
+      "f",
+      "45000.0"
+     ],
+     [
+      "f",
+      "85000.0"
+     ],
+     [
+      "f",
+      "8433.75057295798"
+     ],
+     [
+      "f",
+      "8331.369038325853"
+     ],
+     [
+      "f",
+      "46747.33547718361"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R2"
+     ],
+     [
+      "s",
+      "Daylight and reconnect the floodplain"
+     ],
+     [
+      "f",
+      "18.0"
+     ],
+     [
+      "f",
+      "3400000.0"
+     ],
+     [
+      "f",
+      "90000.0"
+     ],
+     [
+      "f",
+      "340000.0"
+     ],
+     [
+      "f",
+      "72221.44115781624"
+     ],
+     [
+      "f",
+      "26829.1861228771"
+     ],
+     [
+      "f",
+      "178490.95185438314"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion"
+     ],
+     [
+      "f",
+      "3.0"
+     ],
+     [
+      "f",
+      "140000.0"
+     ],
+     [
+      "f",
+      "20000.0"
+     ],
+     [
+      "f",
+      "10000.0"
+     ],
+     [
+      "f",
+      "345.56161749670355"
+     ],
+     [
+      "f",
+      "2058.275242273019"
+     ],
+     [
+      "f",
+      "8678.839720481927"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R3"
+     ],
+     [
+      "s",
+      "Livestock exclusion and culvert replacement"
+     ],
+     [
+      "f",
+      "6.0"
+     ],
+     [
+      "f",
+      "520000.0"
+     ],
+     [
+      "f",
+      "30000.0"
+     ],
+     [
+      "f",
+      "40000.0"
+     ],
+     [
+      "f",
+      "3216.713201365238"
+     ],
+     [
+      "f",
+      "3376.7091428011486"
+     ],
+     [
+      "f",
+      "26432.37001243781"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  }
+ },
+ "figures": {
+  "fig-plans": {
+   "svg": "sha256:d73c58ab5b48787e:9578",
+   "filename": "STAF demonstration Figure 01 Watershed plans.svg"
+  },
+  "fig-site-R1": {
+   "svg": "sha256:3fb3be59d42e0287:8227",
+   "filename": "STAF demonstration Figure 02 Site R1.svg"
+  },
+  "fig-site-R2": {
+   "svg": "sha256:62a3772538de2465:8015",
+   "filename": "STAF demonstration Figure 03 Site R2.svg"
+  },
+  "fig-site-R3": {
+   "svg": "sha256:4938ace95330b44f:8242",
+   "filename": "STAF demonstration Figure 04 Site R3.svg"
+  },
+  "fig-staf-R1-condition": {
+   "svg": "sha256:28611ce577509edd:11324",
+   "filename": "STAF demonstration Figure 05 STAF, site R1.svg"
+  },
+  "fig-staf-R2-condition": {
+   "svg": "sha256:1a584aed80bc2c58:9968",
+   "filename": "STAF demonstration Figure 06 STAF, site R2.svg"
+  },
+  "fig-staf-R3-condition": {
+   "svg": "sha256:0ffdf172ede93a3a:10193",
+   "filename": "STAF demonstration Figure 07 STAF, site R3.svg"
+  },
+  "fig-bc-R1": {
+   "svg": "sha256:21b9c22f35c92fec:11044",
+   "filename": "STAF demonstration Figure 08 Benefits and costs, site R1.svg"
+  },
+  "fig-bc-R2": {
+   "svg": "sha256:1c4b4a2d45813fee:10176",
+   "filename": "STAF demonstration Figure 09 Benefits and costs, site R2.svg"
+  },
+  "fig-bc-R3": {
+   "svg": "sha256:137f9429bfcc91f0:9908",
+   "filename": "STAF demonstration Figure 10 Benefits and costs, site R3.svg"
+  }
+ },
+ "project_file": "STAF demonstration CE-ICA 2026-10-18.ceica"
+}

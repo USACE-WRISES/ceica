@@ -1,0 +1,64 @@
+{
+ "input": {
+  "template": "staf-unassessed"
+ },
+ "read": {
+  "sheets": [
+   {
+    "title": "Study",
+    "state": "visible",
+    "max_row": 13,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'CEICA input template'\n2,1\ts\tstr\t'Fill the sheets, then open this file in CEICA (Open a file). Keep the header rows.'\n4,1\ts\tstr\t'Setting'\n4,2\ts\tstr\t'Value'\n5,1\ts\tstr\t'Study name'\n5,2\ts\tstr\t'Two STAF modules'\n6,1\ts\tstr\t'Description'\n6,2\tinlineStr\tNoneType\tNone\n7,1\ts\tstr\t'Discount rate'\n7,2\tn\tfloat\t0.03\n8,1\ts\tstr\t'Period of analysis (years)'\n8,2\tn\tint\t50\n9,1\ts\tstr\t'Price level'\n9,2\tinlineStr\tNoneType\tNone\n10,1\ts\tstr\t'Target years (comma separated)'\n10,2\ts\tstr\t'0, 10, 50'\n11,1\ts\tstr\t'Output name'\n11,2\ts\tstr\t'Habitat units'\n12,1\ts\tstr\t'Output abbreviation'\n12,2\ts\tstr\t'HU'\n13,1\ts\tstr\t'STAF mapping (A or B)'\n13,2\ts\tstr\t'A'"
+   },
+   {
+    "title": "Modules",
+    "state": "visible",
+    "max_row": 6,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Modules'\n2,1\ts\tstr\t'The parts the output is built from; the output is their sum. Method: Habitat units, Index x quantity, STAF function scores or Average annual value (STAF modules cannot be mixed with the others).'\n4,1\ts\tstr\t'Name'\n4,2\ts\tstr\t'Method'\n4,3\ts\tstr\t'Quantity units'\n4,4\ts\tstr\t'Id'\n5,1\ts\tstr\t'Mainstem'\n5,2\ts\tstr\t'STAF function scores'\n5,3\ts\tstr\t'ft'\n5,4\ts\tstr\t'main'\n6,1\ts\tstr\t'Tributary'\n6,2\ts\tstr\t'STAF function scores'\n6,3\ts\tstr\t'ft'\n6,4\ts\tstr\t'trib'"
+   },
+   {
+    "title": "Alternatives",
+    "state": "visible",
+    "max_row": 7,
+    "max_column": 6,
+    "cells": "1,1\ts\tstr\t'Alternatives'\n2,1\ts\tstr\t'One row per alternative, including one No Action row per site.'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Site name'\n4,3\ts\tstr\t'Alternative'\n4,4\ts\tstr\t'Alternative name'\n4,5\ts\tstr\t'Description'\n4,6\ts\tstr\t'No Action'\n5,1\ts\tstr\t'R1'\n5,2\tinlineStr\tNoneType\tNone\n5,3\ts\tstr\t'FWOP'\n5,4\tinlineStr\tNoneType\tNone\n5,5\tinlineStr\tNoneType\tNone\n5,6\ts\tstr\t'Yes'\n6,1\ts\tstr\t'R1'\n6,2\tinlineStr\tNoneType\tNone\n6,3\ts\tstr\t'A1'\n6,4\tinlineStr\tNoneType\tNone\n6,5\tinlineStr\tNoneType\tNone\n6,6\ts\tstr\t'No'\n7,1\ts\tstr\t'R1'\n7,2\tinlineStr\tNoneType\tNone\n7,3\ts\tstr\t'A2'\n7,4\tinlineStr\tNoneType\tNone\n7,5\tinlineStr\tNoneType\tNone\n7,6\ts\tstr\t'No'"
+   },
+   {
+    "title": "STAF scores",
+    "state": "visible",
+    "max_row": 22,
+    "max_column": 25,
+    "cells": "sha256:7d48fb17ec392cb7:8560"
+   },
+   {
+    "title": "STAF assessed",
+    "state": "visible",
+    "max_row": 6,
+    "max_column": 22,
+    "cells": "1,1\ts\tstr\t'STAF assessed'\n2,1\ts\tstr\t'1 where the function was assessed at the site, 0 where it was not (left out of both sums).'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Module'\n4,3\ts\tstr\t'Catchment hydrology'\n4,4\ts\tstr\t'Surface water storage'\n4,5\ts\tstr\t'Reach inflow'\n4,6\ts\tstr\t'Streamflow regime'\n4,7\ts\tstr\t'Low flow and baseflow dynamics'\n4,8\ts\tstr\t'High flow dynamics'\n4,9\ts\tstr\t'Floodplain connectivity'\n4,10\ts\tstr\t'Hyporheic connectivity'\n4,11\ts\tstr\t'Channel evolution'\n4,12\ts\tstr\t'Channel and floodplain dynamics'\n4,13\ts\tstr\t'Sediment continuity'\n4,14\ts\tstr\t'Bed composition and large wood'\n4,15\ts\tstr\t'Light & thermal regime'\n4,16\ts\tstr\t'Carbon processing'\n4,17\ts\tstr\t'Nutrient cycling'\n4,18\ts\tstr\t'Water & soil quality'\n4,19\ts\tstr\t'Habitat provision'\n4,20\ts\tstr\t'Population support'\n4,21\ts\tstr\t'Community dynamics'\n4,22\ts\tstr\t'Watershed connectivity'\n5,1\ts\tstr\t'R1'\n5,2\ts\tstr\t'Mainstem'\n5,3\tn\tint\t1\n5,4\tn\tint\t1\n5,5\tn\tint\t1\n5,6\tn\tint\t1\n5,7\tn\tint\t1\n5,8\tn\tint\t1\n5,9\tn\tint\t1\n5,10\tn\tint\t1\n5,11\tn\tint\t1\n5,12\tn\tint\t1\n5,13\tn\tint\t1\n5,14\tn\tint\t1\n5,15\tn\tint\t1\n5,16\tn\tint\t1\n5,17\tn\tint\t1\n5,18\tn\tint\t1\n5,19\tn\tint\t1\n5,20\tn\tint\t1\n5,21\tn\tint\t1\n5,22\tn\tint\t1\n6,1\ts\tstr\t'R1'\n6,2\ts\tstr\t'Tributary'\n6,3\tn\tint\t0\n6,4\tn\tint\t0\n6,5\tn\tint\t0\n6,6\tn\tint\t0\n6,7\tn\tint\t0\n6,8\tn\tint\t0\n6,9\tn\tint\t0\n6,10\tn\tint\t0\n6,11\tn\tint\t0\n6,12\tn\tint\t0\n6,13\tn\tint\t0\n6,14\tn\tint\t0\n6,15\tn\tint\t0\n6,16\tn\tint\t0\n6,17\tn\tint\t0\n6,18\tn\tint\t0\n6,19\tn\tint\t0\n6,20\tn\tint\t0\n6,21\tn\tint\t0\n6,22\tn\tint\t0"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 7,
+    "max_column": 7,
+    "cells": "1,1\ts\tstr\t'Costs'\n2,1\ts\tstr\t'First costs by category (base-year dollars), construction months, and an optional average annual cost that replaces the computation.'\n3,3\ts\tstr\t'construction'\n3,4\ts\tstr\t'monitoring'\n3,5\ts\tstr\t'adaptive_management'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Construction'\n4,4\ts\tstr\t'Monitoring'\n4,5\ts\tstr\t'Adaptive management'\n4,6\ts\tstr\t'Construction months'\n4,7\ts\tstr\t'Average annual cost entered'\n5,1\ts\tstr\t'R1'\n5,2\ts\tstr\t'FWOP'\n5,3\tn\tint\t0\n5,4\tn\tNoneType\tNone\n5,5\tn\tNoneType\tNone\n5,6\tn\tint\t6\n5,7\tn\tNoneType\tNone\n6,1\ts\tstr\t'R1'\n6,2\ts\tstr\t'A1'\n6,3\tn\tint\t200000\n6,4\tn\tNoneType\tNone\n6,5\tn\tNoneType\tNone\n6,6\tn\tint\t6\n6,7\tn\tNoneType\tNone\n7,1\ts\tstr\t'R1'\n7,2\ts\tstr\t'A2'\n7,3\tn\tint\t450000\n7,4\tn\tNoneType\tNone\n7,5\tn\tNoneType\tNone\n7,6\tn\tint\t6\n7,7\tn\tNoneType\tNone"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 12,
+    "cells": "1,1\ts\tstr\t'OMRRR'\n2,1\ts\tstr\t\"Recurring costs. Basis: FIXED (Amount), PERCENT (Percent of a Category's first cost) or RATE (Unit rate x Quantity). Blank first year: every N years.\"\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Item'\n4,4\ts\tstr\t'Basis'\n4,5\ts\tstr\t'Amount'\n4,6\ts\tstr\t'Percent'\n4,7\ts\tstr\t'Category'\n4,8\ts\tstr\t'Unit rate'\n4,9\ts\tstr\t'Quantity'\n4,10\ts\tstr\t'Every N years'\n4,11\ts\tstr\t'First year'\n4,12\ts\tstr\t'Last year'"
+   }
+  ]
+ },
+ "result": {
+  "source": "template",
+  "changes": [],
+  "warnings": [],
+  "project": "sha256:6acba7d882207ce5:7470"
+ }
+}

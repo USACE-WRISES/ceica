@@ -1,0 +1,7 @@
+{
+ "input": "assessment-other-tool.json",
+ "name": "assessment.json",
+ "read": {
+  "error": "StafImportError: This JSON is not a SFARI session, an EASI batch or a report GeoJSON."
+ }
+}

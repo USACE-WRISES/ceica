@@ -1,0 +1,7 @@
+{
+ "input": "unknown-json.json",
+ "name": "x.json",
+ "read": {
+  "error": "StafImportError: This JSON is not a SFARI session, an EASI batch or a report GeoJSON."
+ }
+}

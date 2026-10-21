@@ -1,0 +1,57 @@
+{
+ "input": {
+  "template": "synthetic-30x3"
+ },
+ "read": {
+  "sheets": [
+   {
+    "title": "Study",
+    "state": "visible",
+    "max_row": 13,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'CEICA input template'\n2,1\ts\tstr\t'Fill the sheets, then open this file in CEICA (Open a file). Keep the header rows.'\n4,1\ts\tstr\t'Setting'\n4,2\ts\tstr\t'Value'\n5,1\ts\tstr\t'Study name'\n5,2\ts\tstr\t'Untitled study'\n6,1\ts\tstr\t'Description'\n6,2\tinlineStr\tNoneType\tNone\n7,1\ts\tstr\t'Discount rate'\n7,2\tn\tfloat\t0.03\n8,1\ts\tstr\t'Period of analysis (years)'\n8,2\tn\tint\t50\n9,1\ts\tstr\t'Price level'\n9,2\tinlineStr\tNoneType\tNone\n10,1\ts\tstr\t'Target years (comma separated)'\n10,2\ts\tstr\t'0, 2, 10, 50'\n11,1\ts\tstr\t'Output name'\n11,2\ts\tstr\t'Habitat units'\n12,1\ts\tstr\t'Output abbreviation'\n12,2\ts\tstr\t'HU'\n13,1\ts\tstr\t'STAF mapping (A or B)'\n13,2\ts\tstr\t'A'"
+   },
+   {
+    "title": "Modules",
+    "state": "visible",
+    "max_row": 5,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Modules'\n2,1\ts\tstr\t'The parts the output is built from; the output is their sum. Method: Habitat units, Index x quantity, STAF function scores or Average annual value (STAF modules cannot be mixed with the others).'\n4,1\ts\tstr\t'Name'\n4,2\ts\tstr\t'Method'\n4,3\ts\tstr\t'Quantity units'\n4,4\ts\tstr\t'Id'\n5,1\ts\tstr\t'Total'\n5,2\ts\tstr\t'Average annual value'\n5,3\tinlineStr\tNoneType\tNone\n5,4\ts\tstr\t'total'"
+   },
+   {
+    "title": "Alternatives",
+    "state": "visible",
+    "max_row": 124,
+    "max_column": 6,
+    "cells": "sha256:c565f9a832f518f7:16671"
+   },
+   {
+    "title": "Benefits",
+    "state": "visible",
+    "max_row": 124,
+    "max_column": 4,
+    "cells": "sha256:b6366a36504998a3:9788"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 124,
+    "max_column": 7,
+    "cells": "sha256:4d8ebd89fe34067b:16791"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 12,
+    "cells": "1,1\ts\tstr\t'OMRRR'\n2,1\ts\tstr\t\"Recurring costs. Basis: FIXED (Amount), PERCENT (Percent of a Category's first cost) or RATE (Unit rate x Quantity). Blank first year: every N years.\"\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Item'\n4,4\ts\tstr\t'Basis'\n4,5\ts\tstr\t'Amount'\n4,6\ts\tstr\t'Percent'\n4,7\ts\tstr\t'Category'\n4,8\ts\tstr\t'Unit rate'\n4,9\ts\tstr\t'Quantity'\n4,10\ts\tstr\t'Every N years'\n4,11\ts\tstr\t'First year'\n4,12\ts\tstr\t'Last year'"
+   }
+  ]
+ },
+ "result": {
+  "source": "template",
+  "changes": [],
+  "warnings": [],
+  "project": "sha256:4d21dda6a23d6f91:34854"
+ }
+}

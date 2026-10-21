@@ -1,0 +1,141 @@
+{
+ "input": {
+  "calculator": "synthetic-30x3"
+ },
+ "read": {
+  "sheets": [
+   {
+    "title": "Read me",
+    "state": "visible",
+    "max_row": 23,
+    "max_column": 2,
+    "cells": "sha256:4c54adda2c537029:5816"
+   },
+   {
+    "title": "Parameters",
+    "state": "visible",
+    "max_row": 14,
+    "max_column": 5,
+    "cells": "1,1\ts\tstr\t'Parameters'\n2,1\ts\tstr\t'Economics and conventions. Orange cells are inputs.'\n3,1\ts\tstr\t'Parameter'\n3,2\ts\tstr\t'Value'\n4,1\ts\tstr\t'Discount rate'\n4,2\tn\tfloat\t0.03\n5,1\ts\tstr\t'Period of analysis (years)'\n5,2\tn\tint\t50\n6,1\ts\tstr\t'Interest during construction: periods per year'\n6,2\tn\tint\t12\n7,1\ts\tstr\t'Interest during construction: spending in each period (END, MIDDLE or START)'\n7,2\ts\tstr\t'END'\n8,1\ts\tstr\t'OMRRR discounting (END_OF_YEAR or MID_YEAR)'\n8,2\ts\tstr\t'END_OF_YEAR'\n9,1\ts\tstr\t'Cost decimals kept for CE/ICA'\n9,2\tn\tint\t2\n10,1\ts\tstr\t'Output decimals kept for CE/ICA'\n10,2\tn\tint\t3\n11,1\ts\tstr\t'Capital recovery factor'\n11,2\tf\tstr\t'=IF(in_rate=0,1/in_poa,in_rate*(1+in_rate)^in_poa/((1+in_rate)^in_poa-1))'\n13,1\ts\tstr\t'Target years'\n13,2\ts\tstr\t'Year 1'\n13,3\ts\tstr\t'Year 2'\n13,4\ts\tstr\t'Year 3'\n13,5\ts\tstr\t'Year 4'\n14,1\ts\tstr\t'Years (first to last)'\n14,2\tn\tint\t0\n14,3\tn\tint\t2\n14,4\tn\tint\t10\n14,5\tn\tint\t50"
+   },
+   {
+    "title": "Benefits",
+    "state": "visible",
+    "max_row": 125,
+    "max_column": 6,
+    "cells": "sha256:8c0464e41c410206:17221"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 125,
+    "max_column": 18,
+    "cells": "sha256:5f9ed1deac637eeb:85565"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 19,
+    "cells": "1,1\ts\tstr\t'OMRRR: recurring operation, maintenance, repair, replacement and rehabilitation'\n2,1\ts\tstr\t'Each item costs the amount per occurrence every N years from the first year to the last (blank: every N years through the period of analysis). Basis: FIXED amount, PERCENT of a first-cost category, or RATE x quantity.'\n4,1\ts\tstr\t'Key'\n4,2\ts\tstr\t'Site'\n4,3\ts\tstr\t'Alternative'\n4,4\ts\tstr\t'Item'\n4,5\ts\tstr\t'Basis'\n4,6\ts\tstr\t'Amount'\n4,7\ts\tstr\t'Percent'\n4,8\ts\tstr\t'Category'\n4,9\ts\tstr\t'Unit rate'\n4,10\ts\tstr\t'Quantity'\n4,11\ts\tstr\t'Every N years'\n4,12\ts\tstr\t'First year'\n4,13\ts\tstr\t'Last year'\n4,14\ts\tstr\t'Amount per occurrence'\n4,15\ts\tstr\t'First'\n4,16\ts\tstr\t'Last'\n4,17\ts\tstr\t'Occurrences'\n4,18\ts\tstr\t'Present value, end of year'\n4,19\ts\tstr\t'Present value'"
+   },
+   {
+    "title": "Summary",
+    "state": "visible",
+    "max_row": 124,
+    "max_column": 14,
+    "cells": "sha256:dac7045d7ce39327:46223"
+   },
+   {
+    "title": "Site CE-ICA",
+    "state": "visible",
+    "max_row": 183,
+    "max_column": 24,
+    "cells": "sha256:bed63c7bf17f91b8:183424"
+   },
+   {
+    "title": "Sites",
+    "state": "visible",
+    "max_row": 34,
+    "max_column": 13,
+    "cells": "sha256:a9e315ed8c073667:27333"
+   },
+   {
+    "title": "Watershed plans",
+    "state": "visible",
+    "max_row": 504,
+    "max_column": 11,
+    "cells": "sha256:9e058e155c19b7ba:214197"
+   },
+   {
+    "title": "Watershed summary",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 1,
+    "cells": "1,1\ts\tstr\t'Watershed summary: best buys, final array and the tentatively selected plan'\n2,1\ts\tstr\t'Tables read the watershed plans sheet. Choose the TSP from the final array.'\n4,1\ts\tstr\t'See the Watershed plans sheet (values from the app).'"
+   },
+   {
+    "title": "IWR input",
+    "state": "visible",
+    "max_row": 125,
+    "max_column": 4,
+    "cells": "sha256:8e1fa281d717ec64:15396"
+   },
+   {
+    "title": "snap Parameters",
+    "state": "veryHidden",
+    "max_row": 14,
+    "max_column": 5,
+    "cells": "4,2\tn\tfloat\t0.03\n5,2\tn\tint\t50\n6,2\tn\tint\t12\n7,2\ts\tstr\t'END'\n8,2\ts\tstr\t'END_OF_YEAR'\n9,2\tn\tint\t2\n10,2\tn\tint\t3\n14,2\tn\tint\t0\n14,3\tn\tint\t2\n14,4\tn\tint\t10\n14,5\tn\tint\t50"
+   },
+   {
+    "title": "snap Benefits",
+    "state": "veryHidden",
+    "max_row": 125,
+    "max_column": 6,
+    "cells": "6,6\tn\tint\t0\n7,6\tn\tfloat\t20.96104336331001\n8,6\tn\tfloat\t6.622224896065716\n9,6\tn\tfloat\t13.16142662840893\n10,6\tn\tint\t0\n11,6\tn\tfloat\t33.28040115899723\n12,6\tn\tfloat\t22.43415381924932\n13,6\tn\tfloat\t30.38701123831746\n14,6\tn\tint\t0\n15,6\tn\tfloat\t13.85953694346459\n16,6\tn\tfloat\t12.82459834237415\n17,6\tn\tfloat\t6.227626192639425\n18,6\tn\tint\t0\n19,6\tn\tfloat\t8.934754386369836\n20,6\tn\tfloat\t30.26422223257205\n21,6\tn\tfloat\t19.92244800283377\n22,6\tn\tint\t0\n23,6\tn\tfloat\t38.50463055288768\n24,6\tn\tfloat\t22.10784736634993\n25,6\tn\tfloat\t7.265428342229947\n26,6\tn\tint\t0\n27,6\tn\tfloat\t21.12667483636727\n28,6\tn\tfloat\t25.31610046596252\n29,6\tn\tfloat\t24.90712874106858\n30,6\tn\tint\t0\n31,6\tn\tfloat\t2.544122189903911\n32,6\tn\tfloat\t18.91409943253074\n33,6\tn\tfloat\t26.01179859643563\n34,6\tn\tint\t0\n35,6\tn\tfloat\t24.12469970606708\n36,6\tn\tfloat\t33.75537932022494\n37,6\tn\tfloat\t20.92466649419479\n38,6\tn\tint\t0\n39,6\tn\tfloat\t6.768959395613305\n40,6\tn\tfloat\t27.64818933412703\n41,6\tn\tfloat\t8.473034101785274\n42,6\tn\tint\t0\n43,6\tn\tfloat\t8.46163311623081\n44,6\tn\tfloat\t34.35385199719574\n45,6\tn\tfloat\t35.18494676024664\n46,6\tn\tint\t0\n47,6\tn\tfloat\t11.68788715593501\n48,6\tn\tfloat\t26.18311492742297\n49,6\tn\tfloat\t33.58719944351069\n50,6\tn\tint\t0\n51,6\tn\tfloat\t9.39350851935597\n52,6\tn\tfloat\t32.39713849265538\n53,6\tn\tfloat\t6.870468386425921\n54,6\tn\tint\t0\n55,6\tn\tfloat\t35.89391862565077\n56,6\tn\tfloat\t23.99058042127788\n57,6\tn\tfloat\t27.26493559896462\n58,6\tn\tint\t0\n59,6\tn\tfloat\t33.24618785271212\n60,6\tn\tfloat\t26.75385984030041\n61,6\tn\tfloat\t30.97216295695392\n62,6\tn\tint\t0\n63,6\tn\tfloat\t33.41971855191399\n64,6\tn\tfloat\t33.19402472234868\n65,6\tn\tfloat\t15.63073286336903\n66,6\tn\tint\t0\n67,6\tn\tfloat\t27.96214437583191\n68,6\tn\tfloat\t16.45399032646247\n69,6\tn\tfloat\t11.23729379725396\n70,6\tn\tint\t0\n71,6\tn\tfloat\t5.130928231585654\n72,6\tn\tfloat\t15.83654652557476\n73,6\tn\tfloat\t26.50077443166738\n74,6\tn\tint\t0\n75,6\tn\tfloat\t34.82549972004577\n76,6\tn\tfloat\t32.60069973214566\n77,6\tn\tfloat\t22.20310229706977\n78,6\tn\tint\t0\n79,6\tn\tfloat\t39.84950641462649\n80,6\tn\tfloat\t11.01783122185701\n81,6\tn\tfloat\t11.05432164087273\n82,6\tn\tint\t0\n83,6\tn\tfloat\t28.21784925664017\n84,6\tn\tfloat\t15.67330155569567\n85,6\tn\tfloat\t26.93438560811647\n86,6\tn\tint\t0\n87,6\tn\tfloat\t23.87421474619573\n88,6\tn\tfloat\t29.33247080218245\n89,6\tn\tfloat\t18.48745606443489\n90,6\tn\tint\t0\n91,6\tn\tfloat\t5.279651896261173\n92,6\tn\tfloat\t12.06845306882111\n93,6\tn\tfloat\t13.20886649397757\n94,6\tn\tint\t0\n95,6\tn\tfloat\t38.89590904917043\n96,6\tn\tfloat\t31.85422397873941\n97,6\tn\tfloat\t24.2825214904265\n98,6\tn\tint\t0\n99,6\tn\tfloat\t27.89557606243616\n100,6\tn\tfloat\t4.006268531521012\n101,6\tn\tfloat\t9.30040881827304\n102,6\tn\tint\t0\n103,6\tn\tfloat\t20.73653197864554\n104,6\tn\tfloat\t12.50525126941526\n105,6\tn\tfloat\t21.49955140332791\n106,6\tn\tint\t0\n107,6\tn\tfloat\t38.63374201520969\n108,6\tn\tfloat\t12.51413597084514\n109,6\tn\tfloat\t5.853952968103713\n110,6\tn\tint\t0\n111,6\tn\tfloat\t8.325164960053264\n112,6\tn\tfloat\t10.0440952600234\n113,6\tn\tfloat\t16.21290752565461\n114,6\tn\tint\t0\n115,6\tn\tfloat\t25.38519789218917\n116,6\tn\tfloat\t21.33947976316428\n117,6\tn\tfloat\t16.42670042104472\n118,6\tn\tint\t0\n119,6\tn\tfloat\t8.846924828261914\n120,6\tn\tfloat\t30.57392861814892\n121,6\tn\tfloat\t26.01902999071853\n122,6\tn\tint\t0\n123,6\tn\tfloat\t15.87822437295688\n124,6\tn\tfloat\t1.652190043779706\n125,6\tn\tfloat\t38.89233812442863"
+   },
+   {
+    "title": "snap Costs",
+    "state": "veryHidden",
+    "max_row": 125,
+    "max_column": 12,
+    "cells": "sha256:f81c9ab6f96aad20:4895"
+   },
+   {
+    "title": "snap Sites",
+    "state": "veryHidden",
+    "max_row": 34,
+    "max_column": 3,
+    "cells": "5,3\ts\tstr\t'A1'\n6,3\ts\tstr\t'A1'\n7,3\ts\tstr\t'A1'\n8,3\ts\tstr\t'A2'\n9,3\ts\tstr\t'A1'\n10,3\ts\tstr\t'A2'\n11,3\ts\tstr\t'A3'\n12,3\ts\tstr\t'A2'\n13,3\ts\tstr\t'A2'\n14,3\ts\tstr\t'A3'\n15,3\ts\tstr\t'A3'\n16,3\ts\tstr\t'A2'\n17,3\ts\tstr\t'A1'\n18,3\ts\tstr\t'A1'\n19,3\ts\tstr\t'A1'\n20,3\ts\tstr\t'A1'\n21,3\ts\tstr\t'A3'\n22,3\ts\tstr\t'A1'\n23,3\ts\tstr\t'A1'\n24,3\ts\tstr\t'A1'\n25,3\ts\tstr\t'A2'\n26,3\ts\tstr\t'A3'\n27,3\ts\tstr\t'A1'\n28,3\ts\tstr\t'A1'\n29,3\ts\tstr\t'A3'\n30,3\ts\tstr\t'A1'\n31,3\ts\tstr\t'A3'\n32,3\ts\tstr\t'A1'\n33,3\ts\tstr\t'A2'\n34,3\ts\tstr\t'A3'"
+   },
+   {
+    "title": "snap Summary",
+    "state": "veryHidden",
+    "max_row": 124,
+    "max_column": 12,
+    "cells": "sha256:c0aad1a477ee5db0:6506"
+   },
+   {
+    "title": "snap Site CE-ICA",
+    "state": "veryHidden",
+    "max_row": 183,
+    "max_column": 16,
+    "cells": "6,12\tn\tint\t1\n6,16\tn\tint\t1\n7,12\tn\tint\t1\n7,16\tn\tint\t1\n8,12\tn\tint\t0\n8,16\tn\tint\t0\n9,12\tn\tint\t1\n9,16\tn\tint\t1\n12,12\tn\tint\t1\n12,16\tn\tint\t1\n13,12\tn\tint\t1\n13,16\tn\tint\t1\n14,12\tn\tint\t1\n14,16\tn\tint\t1\n15,12\tn\tint\t0\n15,16\tn\tint\t0\n18,12\tn\tint\t1\n18,16\tn\tint\t1\n19,12\tn\tint\t1\n19,16\tn\tint\t1\n20,12\tn\tint\t1\n20,16\tn\tint\t1\n21,12\tn\tint\t1\n21,16\tn\tint\t0\n24,12\tn\tint\t1\n24,16\tn\tint\t1\n25,12\tn\tint\t1\n25,16\tn\tint\t0\n26,12\tn\tint\t1\n26,16\tn\tint\t1\n27,12\tn\tint\t0\n27,16\tn\tint\t0\n30,12\tn\tint\t1\n30,16\tn\tint\t1\n31,12\tn\tint\t1\n31,16\tn\tint\t1\n32,12\tn\tint\t1\n32,16\tn\tint\t1\n33,12\tn\tint\t0\n33,16\tn\tint\t0\n36,12\tn\tint\t1\n36,16\tn\tint\t1\n37,12\tn\tint\t1\n37,16\tn\tint\t1\n38,12\tn\tint\t1\n38,16\tn\tint\t1\n39,12\tn\tint\t0\n39,16\tn\tint\t0\n42,12\tn\tint\t1\n42,16\tn\tint\t1\n43,12\tn\tint\t0\n43,16\tn\tint\t0\n44,12\tn\tint\t1\n44,16\tn\tint\t1\n45,12\tn\tint\t1\n45,16\tn\tint\t1\n48,12\tn\tint\t1\n48,16\tn\tint\t1\n49,12\tn\tint\t1\n49,16\tn\tint\t1\n50,12\tn\tint\t1\n50,16\tn\tint\t1\n51,12\tn\tint\t0\n51,16\tn\tint\t0\n54,12\tn\tint\t1\n54,16\tn\tint\t1\n55,12\tn\tint\t0\n55,16\tn\tint\t0\n56,12\tn\tint\t1\n56,16\tn\tint\t1\n57,12\tn\tint\t0\n57,16\tn\tint\t0\n60,12\tn\tint\t1\n60,16\tn\tint\t1\n61,12\tn\tint\t1\n61,16\tn\tint\t0\n62,12\tn\tint\t0\n62,16\tn\tint\t0\n63,12\tn\tint\t1\n63,16\tn\tint\t1\n66,12\tn\tint\t1\n66,16\tn\tint\t1\n67,12\tn\tint\t1\n67,16\tn\tint\t1\n68,12\tn\tint\t0\n68,16\tn\tint\t0\n69,12\tn\tint\t1\n69,16\tn\tint\t1\n72,12\tn\tint\t1\n72,16\tn\tint\t1\n73,12\tn\tint\t1\n73,16\tn\tint\t0\n74,12\tn\tint\t1\n74,16\tn\tint\t1\n75,12\tn\tint\t1\n75,16\tn\tint\t0\n78,12\tn\tint\t1\n78,16\tn\tint\t1\n79,12\tn\tint\t1\n79,16\tn\tint\t1\n80,12\tn\tint\t1\n80,16\tn\tint\t1\n81,12\tn\tint\t0\n81,16\tn\tint\t0\n84,12\tn\tint\t1\n84,16\tn\tint\t1\n85,12\tn\tint\t1\n85,16\tn\tint\t1\n86,12\tn\tint\t0\n86,16\tn\tint\t0\n87,12\tn\tint\t1\n87,16\tn\tint\t1\n90,12\tn\tint\t1\n90,16\tn\tint\t1\n91,12\tn\tint\t1\n91,16\tn\tint\t1\n92,12\tn\tint\t0\n92,16\tn\tint\t0\n93,12\tn\tint\t0\n93,16\tn\tint\t0\n96,12\tn\tint\t1\n96,16\tn\tint\t1\n97,12\tn\tint\t1\n97,16\tn\tint\t1\n98,12\tn\tint\t1\n98,16\tn\tint\t1\n99,12\tn\tint\t0\n99,16\tn\tint\t0\n102,12\tn\tint\t1\n102,16\tn\tint\t1\n103,12\tn\tint\t0\n103,16\tn\tint\t0\n104,12\tn\tint\t0\n104,16\tn\tint\t0\n105,12\tn\tint\t1\n105,16\tn\tint\t1\n108,12\tn\tint\t1\n108,16\tn\tint\t1\n109,12\tn\tint\t1\n109,16\tn\tint\t1\n110,12\tn\tint\t1\n110,16\tn\tint\t1\n111,12\tn\tint\t1\n111,16\tn\tint\t1\n114,12\tn\tint\t1\n114,16\tn\tint\t1\n115,12\tn\tint\t1\n115,16\tn\tint\t1\n116,12\tn\tint\t1\n116,16\tn\tint\t0\n117,12\tn\tint\t0\n117,16\tn\tint\t0\n120,12\tn\tint\t1\n120,16\tn\tint\t1\n121,12\tn\tint\t1\n121,16\tn\tint\t1\n122,12\tn\tint\t0\n122,16\tn\tint\t0\n123,12\tn\tint\t0\n123,16\tn\tint\t0\n126,12\tn\tint\t1\n126,16\tn\tint\t1\n127,12\tn\tint\t0\n127,16\tn\tint\t0\n128,12\tn\tint\t1\n128,16\tn\tint\t1\n129,12\tn\tint\t0\n129,16\tn\tint\t0\n132,12\tn\tint\t1\n132,16\tn\tint\t1\n133,12\tn\tint\t1\n133,16\tn\tint\t0\n134,12\tn\tint\t1\n134,16\tn\tint\t1\n135,12\tn\tint\t1\n135,16\tn\tint\t1\n138,12\tn\tint\t1\n138,16\tn\tint\t1\n139,12\tn\tint\t1\n139,16\tn\tint\t1\n140,12\tn\tint\t1\n140,16\tn\tint\t0\n141,12\tn\tint\t0\n141,16\tn\tint\t0\n144,12\tn\tint\t1\n144,16\tn\tint\t1\n145,12\tn\tint\t1\n145,16\tn\tint\t1\n146,12\tn\tint\t0\n146,16\tn\tint\t0\n147,12\tn\tint\t1\n147,16\tn\tint\t0\n150,12\tn\tint\t1\n150,16\tn\tint\t1\n151,12\tn\tint\t0\n151,16\tn\tint\t0\n152,12\tn\tint\t0\n152,16\tn\tint\t0\n153,12\tn\tint\t1\n153,16\tn\tint\t1\n156,12\tn\tint\t1\n156,16\tn\tint\t1\n157,12\tn\tint\t1\n157,16\tn\tint\t1\n158,12\tn\tint\t0\n158,16\tn\tint\t0\n159,12\tn\tint\t0\n159,16\tn\tint\t0\n162,12\tn\tint\t1\n162,16\tn\tint\t1\n163,12\tn\tint\t1\n163,16\tn\tint\t1\n164,12\tn\tint\t1\n164,16\tn\tint\t0\n165,12\tn\tint\t1\n165,16\tn\tint\t1\n168,12\tn\tint\t1\n168,16\tn\tint\t1\n169,12\tn\tint\t1\n169,16\tn\tint\t1\n170,12\tn\tint\t1\n170,16\tn\tint\t1\n171,12\tn\tint\t0\n171,16\tn\tint\t0\n174,12\tn\tint\t1\n174,16\tn\tint\t1\n175,12\tn\tint\t0\n175,16\tn\tint\t0\n176,12\tn\tint\t1\n176,16\tn\tint\t1\n177,12\tn\tint\t0\n177,16\tn\tint\t0\n180,12\tn\tint\t1\n180,16\tn\tint\t1\n181,12\tn\tint\t0\n181,16\tn\tint\t0\n182,12\tn\tint\t0\n182,16\tn\tint\t0\n183,12\tn\tint\t1\n183,16\tn\tint\t1"
+   },
+   {
+    "title": "manifest",
+    "state": "veryHidden",
+    "max_row": 3,
+    "max_column": 6,
+    "cells": "sha256:6a92dfac394afabc:126669"
+   }
+  ]
+ },
+ "result": {
+  "source": "calculator",
+  "changes": [],
+  "warnings": [],
+  "project": "sha256:1a905498cf6ea6e6:35300"
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "input": "broken-no-workbook.xlsx",
+ "read": {
+  "error": "OSError: File contains no valid workbook part"
+ },
+ "result": {
+  "error": "WorkbookError: This file could not be read as an Excel workbook (File contains no valid workbook part)."
+ }
+}

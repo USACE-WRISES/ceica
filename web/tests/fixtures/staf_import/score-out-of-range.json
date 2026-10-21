@@ -1,0 +1,7 @@
+{
+ "input": "score-out-of-range.json",
+ "name": "s.json",
+ "read": {
+  "error": "StafImportError: A function score of 22 is outside 0 to 15."
+ }
+}

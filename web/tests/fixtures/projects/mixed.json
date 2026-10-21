@@ -1,0 +1,1326 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "8030b2b0f57f65dab71aeea2a4c66af50d8ad87be55635a5f57cbd3b49813969",
+ "issues": [],
+ "benefits": [
+  [
+   "A",
+   "NA",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       1.0,
+       1.0
+      ]
+     ],
+     [
+      "rip",
+      [
+       0.6000000000000001,
+       0.6000000000000001,
+       0.6000000000000001
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      1.0
+     ],
+     [
+      "rip",
+      0.6000000000000001
+     ],
+     [
+      "wet",
+      0.0
+     ]
+    ],
+    "aahu": 1.6,
+    "lift_by_module": [
+     [
+      "hab",
+      0.0
+     ],
+     [
+      "rip",
+      0.0
+     ],
+     [
+      "wet",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "A",
+   "A1",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       4.0,
+       5.0
+      ]
+     ],
+     [
+      "rip",
+      [
+       0.6000000000000001,
+       1.75,
+       2.4499999999999997
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      4.3
+     ],
+     [
+      "rip",
+      2.0075
+     ],
+     [
+      "wet",
+      1.5
+     ]
+    ],
+    "aahu": 7.807499999999999,
+    "lift_by_module": [
+     [
+      "hab",
+      3.3
+     ],
+     [
+      "rip",
+      1.4074999999999998
+     ],
+     [
+      "wet",
+      1.5
+     ]
+    ],
+    "lift": 6.2075,
+    "missing": []
+   }
+  ],
+  [
+   "A",
+   "A2",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       2.0,
+       2.5
+      ]
+     ],
+     [
+      "rip",
+      [
+       0.6000000000000001,
+       1.7999999999999998,
+       2.4000000000000004
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      2.175
+     ],
+     [
+      "rip",
+      2.01
+     ],
+     [
+      "wet",
+      0.5
+     ]
+    ],
+    "aahu": 4.685,
+    "lift_by_module": [
+     [
+      "hab",
+      1.1749999999999998
+     ],
+     [
+      "rip",
+      1.4099999999999997
+     ],
+     [
+      "wet",
+      0.5
+     ]
+    ],
+    "lift": 3.0849999999999995,
+    "missing": []
+   }
+  ],
+  [
+   "B",
+   "NA",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       2.0,
+       2.0,
+       2.0
+      ]
+     ],
+     [
+      "rip",
+      [
+       0.4,
+       0.4,
+       0.4
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      2.0
+     ],
+     [
+      "rip",
+      0.4
+     ],
+     [
+      "wet",
+      0.0
+     ]
+    ],
+    "aahu": 2.4,
+    "lift_by_module": [
+     [
+      "hab",
+      0.0
+     ],
+     [
+      "rip",
+      0.0
+     ],
+     [
+      "wet",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "B",
+   "B1",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       2.0,
+       5.0,
+       6.0
+      ]
+     ],
+     [
+      "rip",
+      [
+       0.4,
+       0.4,
+       1.8
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      5.3
+     ],
+     [
+      "rip",
+      1.0300000000000002
+     ],
+     [
+      "wet",
+      2.0
+     ]
+    ],
+    "aahu": 8.33,
+    "lift_by_module": [
+     [
+      "hab",
+      3.3
+     ],
+     [
+      "rip",
+      0.6300000000000002
+     ],
+     [
+      "wet",
+      2.0
+     ]
+    ],
+    "lift": 5.93,
+    "missing": []
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "A",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "A",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      250000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 250000.0,
+    "idc": 926.3727238271318,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 250926.37272382714,
+    "annual": 9752.377544367695,
+    "annual_parts": [
+     [
+      "construction",
+      9716.373610418872
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      36.003933948823175
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 9752.377544367695
+   }
+  ],
+  [
+   "A",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      180000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 180000.0,
+    "idc": 666.9883611555349,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 180666.98836115553,
+    "annual": 7021.71183194474,
+    "annual_parts": [
+     [
+      "construction",
+      6995.788999501588
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      25.922832443152686
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 7021.71183194474
+   }
+  ],
+  [
+   "B",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "B",
+   "B1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      300000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 300000.0,
+    "idc": 1111.6472685925582,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 301111.64726859255,
+    "annual": 11702.853053241233,
+    "annual_parts": [
+     [
+      "construction",
+      11659.648332502646
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      43.20472073858781
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 11702.853053241233
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "A",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      1.6,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      7.807499999999999,
+      6.2075,
+      9752.377544367695,
+      9752.377544367695,
+      250000.0,
+      250000.0,
+      1570.9375,
+      true,
+      true,
+      1,
+      1570.9375,
+      6.208,
+      9752.38,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      4.685,
+      3.0849999999999995,
+      7021.71183194474,
+      7021.71183194474,
+      180000.0,
+      180000.0,
+      2276.0810372771475,
+      true,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ]
+    ],
+    "A1",
+    "867f0633fcc7e962",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2"
+     ],
+     "c": [
+      0,
+      975238,
+      702171
+     ],
+     "q": [
+      0,
+      6208,
+      3085
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "111",
+     "bb": "110",
+     "ceRaw": "111",
+     "witness": [
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       9752.38,
+       6.208,
+       1570.9375,
+       9752.38,
+       6.208,
+       1570.9375,
+       "NA"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A1"
+    ]
+   ],
+   [
+    "B",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      2.4,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "B1",
+      "B1",
+      "",
+      false,
+      8.33,
+      5.93,
+      11702.853053241233,
+      11702.853053241233,
+      300000.0,
+      300000.0,
+      1973.4991568296796,
+      true,
+      true,
+      1,
+      1973.4991568296796,
+      5.93,
+      11702.85,
+      null,
+      0
+     ]
+    ],
+    "B1",
+    "51d097f316eceb50",
+    {
+     "ids": [
+      "NA",
+      "B1"
+     ],
+     "c": [
+      0,
+      1170285
+     ],
+     "q": [
+      0,
+      5930
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "11",
+     "bb": "11",
+     "ceRaw": "11",
+     "witness": [
+      -1,
+      -1
+     ],
+     "reason": "00",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "B1",
+       11702.85,
+       5.93,
+       1973.4991568296796,
+       11702.85,
+       5.93,
+       1973.4991568296796,
+       "NA"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "B1"
+    ]
+   ]
+  ],
+  "watershed": {
+   "ready": true,
+   "reasons": [],
+   "mode": "RECOMMENDED",
+   "carried": [
+    [
+     "A",
+     [
+      "A1"
+     ]
+    ],
+    [
+     "B",
+     [
+      "B1"
+     ]
+    ]
+   ],
+   "sources": [
+    [
+     "A",
+     "suggested"
+    ],
+    [
+     "B",
+     "suggested"
+    ]
+   ],
+   "notCarried": [],
+   "blocked": [],
+   "fingerprint": "f5c90e02f0f9b8ea",
+   "nPlans": 4,
+   "nCe": 3,
+   "nBb": 3,
+   "space": [
+    [
+     "A",
+     "B"
+    ],
+    [
+     [
+      "A1"
+     ],
+     [
+      "B1"
+     ]
+    ]
+   ],
+   "nValid": 4,
+   "ceOnly": false,
+   "digest": "969b322ff0f5155bcc2347ab6883ac58be507aa564c1f65915bd1c7d4385b0a0",
+   "na": 0,
+   "base": [
+    0,
+    0,
+    true
+   ],
+   "walk": [
+    2,
+    3
+   ],
+   "inc": [
+    [
+     0,
+     "P1",
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     null
+    ],
+    [
+     2,
+     "P3",
+     9752.38,
+     6.208,
+     1570.9375,
+     9752.38,
+     6.208,
+     1570.9375,
+     "P1"
+    ],
+    [
+     3,
+     "P4",
+     21455.23,
+     12.138,
+     1767.6083374526281,
+     11702.85,
+     5.93,
+     1973.4991568296796,
+     "P3"
+    ]
+   ],
+   "bbRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "A=A1",
+     [
+      [
+       "A",
+       "A1"
+      ]
+     ],
+     "A",
+     6.208,
+     9752.38,
+     250000.0,
+     1570.9375,
+     true,
+     true,
+     1,
+     1570.9375,
+     6.208,
+     9752.38
+    ],
+    [
+     3,
+     "P4",
+     "A=A1;B=B1",
+     [
+      [
+       "A",
+       "A1"
+      ],
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "A + B",
+     12.138,
+     21455.23,
+     550000.0,
+     1767.6083374526281,
+     true,
+     true,
+     2,
+     1973.4991568296796,
+     5.93,
+     11702.85
+    ]
+   ],
+   "ceRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "A=A1",
+     [
+      [
+       "A",
+       "A1"
+      ]
+     ],
+     "A",
+     6.208,
+     9752.38,
+     250000.0,
+     1570.9375,
+     true,
+     true,
+     1,
+     1570.9375,
+     6.208,
+     9752.38
+    ],
+    [
+     3,
+     "P4",
+     "A=A1;B=B1",
+     [
+      [
+       "A",
+       "A1"
+      ],
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "A + B",
+     12.138,
+     21455.23,
+     550000.0,
+     1767.6083374526281,
+     true,
+     true,
+     2,
+     1973.4991568296796,
+     5.93,
+     11702.85
+    ]
+   ],
+   "allHead": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "B=B1",
+     [
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "B",
+     5.93,
+     11702.85,
+     300000.0,
+     1973.4991568296796,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "A=A1",
+     [
+      [
+       "A",
+       "A1"
+      ]
+     ],
+     "A",
+     6.208,
+     9752.38,
+     250000.0,
+     1570.9375,
+     true,
+     true,
+     1,
+     1570.9375,
+     6.208,
+     9752.38
+    ],
+    [
+     3,
+     "P4",
+     "A=A1;B=B1",
+     [
+      [
+       "A",
+       "A1"
+      ],
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "A + B",
+     12.138,
+     21455.23,
+     550000.0,
+     1767.6083374526281,
+     true,
+     true,
+     2,
+     1973.4991568296796,
+     5.93,
+     11702.85
+    ]
+   ],
+   "allTail": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "B=B1",
+     [
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "B",
+     5.93,
+     11702.85,
+     300000.0,
+     1973.4991568296796,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "A=A1",
+     [
+      [
+       "A",
+       "A1"
+      ]
+     ],
+     "A",
+     6.208,
+     9752.38,
+     250000.0,
+     1570.9375,
+     true,
+     true,
+     1,
+     1570.9375,
+     6.208,
+     9752.38
+    ],
+    [
+     3,
+     "P4",
+     "A=A1;B=B1",
+     [
+      [
+       "A",
+       "A1"
+      ],
+      [
+       "B",
+       "B1"
+      ]
+     ],
+     "A + B",
+     12.138,
+     21455.23,
+     550000.0,
+     1767.6083374526281,
+     true,
+     true,
+     2,
+     1973.4991568296796,
+     5.93,
+     11702.85
+    ]
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "A",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "B",
+     "B1",
+     "suggested",
+     "B1",
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [
+    "",
+    "A=A1",
+    "A=A1;B=B1"
+   ],
+   "added": [],
+   "removed": [],
+   "ladder": [
+    [
+     "",
+     "A=A1",
+     "P1",
+     "P3",
+     [
+      "A"
+     ],
+     [],
+     6.208,
+     9752.38,
+     1570.9374999999998,
+     null,
+     " > A=A1"
+    ],
+    [
+     "A=A1",
+     "A=A1;B=B1",
+     "P3",
+     "P4",
+     [
+      "B"
+     ],
+     [],
+     5.93,
+     11702.85,
+     1973.4991568296798,
+     null,
+     "A=A1 > A=A1;B=B1"
+    ]
+   ],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 2,
+   "nStale": 0
+  },
+  "issues": [],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "done",
+     0,
+     ""
+    ],
+    [
+     "sites",
+     "attention",
+     2,
+     "2 site recommendations to confirm or review."
+    ],
+    [
+     "watershed",
+     "",
+     0,
+     "Choose the final array and TSP."
+    ],
+    [
+     "report",
+     "attention",
+     2,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     true,
+     "Inputs have no problems",
+     "inputs"
+    ],
+    [
+     false,
+     "2 site recommendations are still suggestions",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ],
+    [
+     false,
+     "Choose the tentatively selected plan",
+     "watershed"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": false,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Watershed",
+    "Report"
+   ]
+  },
+  "stamped": "8030b2b0f57f65dab71aeea2a4c66af50d8ad87be55635a5f57cbd3b49813969",
+  "carried": "cccce8bdfe61b95641383097aab829fffd7cdc6ae98b9f0c5e698ee0a62f3f44",
+  "planCountWarning": false
+ }
+}

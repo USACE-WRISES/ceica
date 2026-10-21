@@ -1,0 +1,183 @@
+{
+ "stem": "Nothing yet CE-ICA 2026-10-18",
+ "safe": "Nothing yet",
+ "catalog": [
+  {
+   "id": "settings",
+   "kind": "table",
+   "group": "study",
+   "number": 1,
+   "label": "Table 1",
+   "title": "Study settings",
+   "caption": "Study settings and the record of this analysis.",
+   "key": true,
+   "n_rows": 14,
+   "file": "Table 01 Study settings"
+  }
+ ],
+ "tables": {
+  "settings": {
+   "columns": [
+    [
+     "Setting",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Value",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "Study"
+     ],
+     [
+      "s",
+      "Nothing yet"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Sites"
+     ],
+     [
+      "s",
+      "0 sites with 0 alternatives, No Action included"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Output"
+     ],
+     [
+      "s",
+      "Average annual habitat units (AAHU); lift is the output above No Action"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Benefit module"
+     ],
+     [
+      "s",
+      "Habitat: values at each target year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Target years"
+     ],
+     [
+      "s",
+      "0, 2, 10, 50"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Period of analysis"
+     ],
+     [
+      "s",
+      "50 years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Discount rate"
+     ],
+     [
+      "s",
+      "3 percent"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual output"
+     ],
+     [
+      "s",
+      "Straight lines between target years, averaged over the span of the years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual cost"
+     ],
+     [
+      "s",
+      "Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Comparisons"
+     ],
+     [
+      "s",
+      "Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plan formation"
+     ],
+     [
+      "s",
+      "One alternative per site: each site's recommendation"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plans"
+     ],
+     [
+      "s",
+      "No site carries an action, so there is nothing to combine."
+     ]
+    ],
+    [
+     [
+      "s",
+      "Tentatively selected plan"
+     ],
+     [
+      "s",
+      "Not chosen yet"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Record"
+     ],
+     [
+      "s",
+      "CEICA 1.0.0, engine 1; project digest a464a1010103"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  }
+ },
+ "figures": {},
+ "project_file": "Nothing yet CE-ICA 2026-10-18.ceica"
+}

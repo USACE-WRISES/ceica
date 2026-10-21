@@ -1,0 +1,417 @@
+{
+ "scenario": "narrow",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": false,
+     ".clientdata_output_panel_body_hidden": true,
+     ".clientdata_output_panel_foot_hidden": true,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "stagebar": "sha256:701cd9d0e3f3efe0:1218",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "utoy-creek",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "stagebar": "sha256:473cb32a88a02781:1078",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event undo",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "undo",
+      "n": 3
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "costs",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "stagebar": "sha256:1eb47110870d4b0d:1078"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:148c1aa6d3546990:322978"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "resize desktop",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "panel_body": "sha256:1c60afd44f266f21:3566",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "n": 5
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:d9efbc9ae021a3de:3555"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "watershed"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_watershed_hidden": false,
+     "page": "watershed"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:9e3b14cbab36bb5d:119303"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "resize narrow",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_stagebar_hidden": false,
+     ".clientdata_output_panel_body_hidden": true,
+     ".clientdata_output_panel_foot_hidden": true
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "stagebar": "sha256:6f79f1d5d988b146:1078"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "stagebar": "sha256:473cb32a88a02781:1078"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     "page": "sites"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "tick": 1
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "tick": 1
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "tick": 1
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_autosave": {
+       "id": "utoy-creek",
+       "name": "Utoy Creek Section 206",
+       "json": "sha256:06867ae2e01317d0:92178",
+       "at": "Oct 18, 09:30"
+      }
+     }
+    },
+    {
+     "values": {
+      "stagebar": "sha256:2336ad727eb16e6d:1109"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  }
+ ]
+}

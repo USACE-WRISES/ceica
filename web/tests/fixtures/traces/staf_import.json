@@ -1,0 +1,785 @@
+{
+ "scenario": "staf_import",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "utoy-creek",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "upload sfari-assessment.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "sfari-assessment.json",
+       "size": 2582,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/sfari-assessment.json"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Import STAF scores into a STAF module.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "staf-demo",
+      "n": 3
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened STAF demonstration (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:f1ac2dda471a559a:2515",
+      "page_sites": "sha256:849c524d57cda20a:55459"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "benefits",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:3a70c41086053e2c:2515"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:e69499497388ef53:55436"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "staf_site",
+      "value": "R2",
+      "n": 5
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:3532d7d02019424c:55245"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload sfari-assessment.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "sfari-assessment.json",
+       "size": 2582,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/sfari-assessment.json"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Import existing condition</h4>\n      </div>\n      <div class=\"modal-body\">\n        <p>SFARI assessment: sfari-assessment.json. The scores become each site's existing condition (No Action at the first target year); functions the source did not assess are marked not assessed.</p>\n        <div class=\"ce-table-wrap\">\n          <table class=\"ce-table\">\n            <thead>\n              <tr>\n                <th>Reach</th>\n                <th class=\"num\">Length</th>\n                <th class=\"num\">Functions</th>\n                <th class=\"num\">ECI</th>\n                <th>Put into</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>\n                  <strong>Wildcat Creek</strong>\n                  <div class=\"ce-muted\">9311402</div>\n                </td>\n                <td class=\"num\">1,000 ft</td>\n                <td class=\"num\">20 of 20</td>\n                <td class=\"num\">0.53</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_0-label\" for=\"staf_target_0\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_0\">                        <option value=\"new\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\" selected=\"\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n        <ul class=\"ce-note\">\n          <li>SFARI uses the SFARI calculator (B) mapping; this project uses STAF documentation, EASI and DEEP (A), so the ECI here differs from SFARI's. Change the mapping under Inputs, Study, to match.</li>\n          <li>1 function(s) had no score and were imported as 0, as SFARI scores them. Mark them not assessed if that fits the assessment better.</li>\n        </ul>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"staf_import_ok\" type=\"button\">\n            <span class=\"action-label\">Import</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload sfari-assessment.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "R2",
+     "staf_import_ok:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click staf_import_ok",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_import_ok:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Imported the existing condition for 1 site. Use Start from existing condition to fill each alternative, then change what it improves.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 8000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:3a70c41086053e2c:2515",
+      "page_inputs": "sha256:8093f5bec573fb84:55254",
+      "panel_foot": "sha256:a2e89a67df73de8c:310"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload easi_batch.zip",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "easi_batch.zip",
+       "size": 1616,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/easi-batch-zip.zip"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Import existing condition</h4>\n      </div>\n      <div class=\"modal-body\">\n        <p>EASI batch: easi_batch.zip. The scores become each site's existing condition (No Action at the first target year); functions the source did not assess are marked not assessed.</p>\n        <div class=\"ce-table-wrap\">\n          <table class=\"ce-table\">\n            <thead>\n              <tr>\n                <th>Reach</th>\n                <th class=\"num\">Length</th>\n                <th class=\"num\">Functions</th>\n                <th class=\"num\">ECI</th>\n                <th>Put into</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>\n                  <strong>Creek SITE-0001</strong>\n                  <div class=\"ce-muted\">SITE-0001</div>\n                </td>\n                <td class=\"num\">1,500 ft</td>\n                <td class=\"num\">20 of 20</td>\n                <td class=\"num\">0.53</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_0-label\" for=\"staf_target_0\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_0\">                        <option value=\"new\" selected=\"\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n              <tr>\n                <td>\n                  <strong>Creek SITE 0002</strong>\n                  <div class=\"ce-muted\">SITE 0002</div>\n                </td>\n                <td class=\"num\">800 ft</td>\n                <td class=\"num\">17 of 20</td>\n                <td class=\"num\">0.53</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_1-label\" for=\"staf_target_1\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_1\">                        <option value=\"new\" selected=\"\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"staf_import_ok\" type=\"button\">\n            <span class=\"action-label\">Import</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload easi_batch.zip",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "new",
+     "staf_target_1": "new",
+     "staf_import_ok:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "upload easi_batch.zip",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "easi_batch.zip",
+       "size": 1616,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/easi-batch-zip.zip"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Import existing condition</h4>\n      </div>\n      <div class=\"modal-body\">\n        <p>EASI batch: easi_batch.zip. The scores become each site's existing condition (No Action at the first target year); functions the source did not assess are marked not assessed.</p>\n        <div class=\"ce-table-wrap\">\n          <table class=\"ce-table\">\n            <thead>\n              <tr>\n                <th>Reach</th>\n                <th class=\"num\">Length</th>\n                <th class=\"num\">Functions</th>\n                <th class=\"num\">ECI</th>\n                <th>Put into</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>\n                  <strong>Creek SITE-0001</strong>\n                  <div class=\"ce-muted\">SITE-0001</div>\n                </td>\n                <td class=\"num\">1,500 ft</td>\n                <td class=\"num\">20 of 20</td>\n                <td class=\"num\">0.53</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_0-label\" for=\"staf_target_0\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_0\">                        <option value=\"new\" selected=\"\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n              <tr>\n                <td>\n                  <strong>Creek SITE 0002</strong>\n                  <div class=\"ce-muted\">SITE 0002</div>\n                </td>\n                <td class=\"num\">800 ft</td>\n                <td class=\"num\">17 of 20</td>\n                <td class=\"num\">0.53</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_1-label\" for=\"staf_target_1\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_1\">                        <option value=\"new\" selected=\"\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"staf_import_ok\" type=\"button\">\n            <span class=\"action-label\">Import</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload easi_batch.zip",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "new",
+     "staf_target_1": "new",
+     "staf_import_ok:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click staf_import_ok",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "R3",
+     "staf_target_1": ""
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click staf_import_ok",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_import_ok:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Imported the existing condition for 1 site. Use Start from existing condition to fill each alternative, then change what it improves.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 8000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:317536942f0ddf00:2579",
+      "page_inputs": "sha256:8093f5bec573fb84:55254",
+      "panel_foot": "sha256:4b9df31c6c2fc95f:309"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload deep-report.csv",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "deep-report.csv",
+       "size": 562,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/deep-report-csv.csv"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Import existing condition</h4>\n      </div>\n      <div class=\"modal-body\">\n        <p>DEEP report CSV: deep-report.csv. The scores become each site's existing condition (No Action at the first target year); functions the source did not assess are marked not assessed.</p>\n        <div class=\"ce-table-wrap\">\n          <table class=\"ce-table\">\n            <thead>\n              <tr>\n                <th>Reach</th>\n                <th class=\"num\">Length</th>\n                <th class=\"num\">Functions</th>\n                <th class=\"num\">ECI</th>\n                <th>Put into</th>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <td>\n                  <strong>Demo Creek</strong>\n                  <div class=\"ce-muted\">12345</div>\n                </td>\n                <td class=\"num\">1,000 ft</td>\n                <td class=\"num\">5 of 20</td>\n                <td class=\"num\">0.63</td>\n                <td>\n                  <div class=\"form-group shiny-input-container\" style=\"width:220px;\">\n                    <label class=\"control-label shiny-label-null\" id=\"staf_target_0-label\" for=\"staf_target_0\"></label>\n                    <div>\n                      <select class=\"shiny-input-select form-select\" id=\"staf_target_0\">                        <option value=\"new\">New site</option>\n                        <option value=\"R1\">R1  Example Reach</option>\n                        <option value=\"R2\" selected=\"\">R2  Urban tributary</option>\n                        <option value=\"R3\">R3  Rural headwater</option>\n                        <option value=\"\">Skip</option></select>\n                    </div>\n                  </div>\n                </td>\n              </tr>\n            </tbody>\n          </table>\n        </div>\n        <ul class=\"ce-note\">\n          <li>DEEP reports an ECI range for this assessment (0.09 to 0.84, condition not determinable, 15 of 20 functions not assessed): its bundle does not cover all 20 functions. CEICA scores the assessed functions only, so read the ECI as a relative measure for comparing alternatives, not as a condition claim.</li>\n        </ul>\n      </div>\n      <div class=\"modal-footer\">\n        <div>\n          <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>\n          <button class=\"btn btn-default action-button btn-primary\" id=\"staf_import_ok\" type=\"button\">\n            <span class=\"action-label\">Import</span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload deep-report.csv",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "R2",
+     "staf_import_ok:shiny.action": 0
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click staf_import_ok",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_target_0": "new"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "click staf_import_ok",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_import_ok:shiny.action": 1
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Imported the existing condition for 1 site. Use Start from existing condition to fill each alternative, then change what it improves.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 8000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:f2d5f75f76747715:2833",
+      "page_inputs": "sha256:562859358a47650a:55313",
+      "panel_foot": "sha256:8cfbce04af99ab7a:309"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload assessment.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "assessment.json",
+       "size": 335,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/assessment-deep.json"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "A DEEP saved assessment holds measurements, not function scores. Download DEEP's report CSV or GeoJSON and import that.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 10000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload broken.zip",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "broken.zip",
+       "size": 22,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/zip-broken.zip"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not read broken.zip: File is not a zip file",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 10000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload s.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "staf_file": [
+      {
+       "name": "s.json",
+       "size": 46,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/staf_import/inputs/scores-not-a-dict.json"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Could not read s.json: 'list' object has no attribute 'items'",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 10000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:052caa5d5f65774f:2833"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     "page": "sites"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_sites": "sha256:47f1b1bb953386ee:55509"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  }
+ ]
+}

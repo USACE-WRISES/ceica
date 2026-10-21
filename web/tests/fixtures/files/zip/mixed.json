@@ -1,0 +1,2144 @@
+{
+ "figures": {
+  "zip": {
+   "entries": [
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 01 Watershed plans.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 01 Watershed plans.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1272933732,
+     "csize": 1224,
+     "size": 8548
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 02 Site A.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 02 Site A.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3228118439,
+     "csize": 1221,
+     "size": 8332
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 03 Site B.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 03 Site B.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3901158684,
+     "csize": 1148,
+     "size": 8362
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 04 Benefits and costs, site A.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 04 Benefits and costs, site A.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 146294860,
+     "csize": 1369,
+     "size": 7892
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 05 Benefits and costs, site B.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18 figures/Figure 05 Benefits and costs, site B.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 2080571818,
+     "csize": 1269,
+     "size": 6735
+    }
+   ],
+   "parts": [
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 01 Watershed plans.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 01 Watershed plans.svg",
+     {
+      "digest": "sha256:b2ebb9c005cfe9aa:8548"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 02 Site A.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 02 Site A.svg",
+     {
+      "digest": "sha256:539c7dc1d04568b4:8332"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 03 Site B.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 03 Site B.svg",
+     {
+      "digest": "sha256:a65bfbbcbbb478fe:8362"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 04 Benefits and costs, site A.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 962,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 04 Benefits and costs, site A.svg",
+     {
+      "digest": "sha256:a775b6d09db0a646:7892"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 05 Benefits and costs, site B.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 962,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18 figures/Figure 05 Benefits and costs, site B.svg",
+     {
+      "digest": "sha256:9a1a48c6ff8c8a31:6735"
+     }
+    ]
+   ]
+  }
+ },
+ "everything": {
+  "zip": {
+   "entries": [
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/README.txt",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3699054241,
+     "csize": 1203,
+     "size": 3380
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 01 Study settings.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3673964190,
+     "csize": 640,
+     "size": 1132
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 02 Best-buy plans.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 696214234,
+     "csize": 177,
+     "size": 237
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 03 Final array.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1140416134,
+     "csize": 176,
+     "size": 237
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 04 All plans.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1566569815,
+     "csize": 211,
+     "size": 294
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 05 Alternatives at every site.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1732005383,
+     "csize": 236,
+     "size": 385
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 06 Site recommendations.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 2375581704,
+     "csize": 183,
+     "size": 234
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 07 Decision record.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 4095151172,
+     "csize": 129,
+     "size": 197
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 08 Benefit and cost inputs.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 526648343,
+     "csize": 224,
+     "size": 313
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 09 Output by module.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1994238594,
+     "csize": 183,
+     "size": 284
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/Table 10 Cost by category.csv",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1291899449,
+     "csize": 224,
+     "size": 347
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Tables/All tables.xlsx",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 4292710381,
+     "csize": 16425,
+     "size": 16425
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 01 Watershed plans.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 01 Watershed plans.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1272933732,
+     "csize": 1224,
+     "size": 8548
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 02 Site A.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 02 Site A.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3228118439,
+     "csize": 1221,
+     "size": 8332
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 03 Site B.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 03 Site B.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 3901158684,
+     "csize": 1148,
+     "size": 8362
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 04 Benefits and costs, site A.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 04 Benefits and costs, site A.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 146294860,
+     "csize": 1369,
+     "size": 7892
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 05 Benefits and costs, site B.png",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures/Figure 05 Benefits and costs, site B.svg",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 2080571818,
+     "csize": 1269,
+     "size": 6735
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures and tables.docx",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00"
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures and tables.pdf",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 4110219016,
+     "csize": 16244,
+     "size": 22141
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Figures and tables.html",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1468952503,
+     "csize": 7798,
+     "size": 66267
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Mixed test calculator.xlsx",
+     "method": 0,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 826953175,
+     "csize": 45706,
+     "size": 45706
+    },
+    {
+     "name": "Mixed test CE-ICA 2026-10-18/Mixed test.ceica",
+     "method": 8,
+     "flags": 8,
+     "made": 20,
+     "needed": 20,
+     "attr": 27525120,
+     "time": "2026-10-18 00:00:00",
+     "crc": 1775148740,
+     "csize": 1237,
+     "size": 6649
+    }
+   ],
+   "parts": [
+    [
+     "Mixed test CE-ICA 2026-10-18/README.txt",
+     {
+      "text": "Mixed test\nCost-effectiveness and incremental cost analysis: figures and tables\n\nStudy: Mixed test\nPrepared by: n/a\nDate: October 18, 2026\nStatus: Draft\nMade by CEICA 1.0.0 (engine 1); project digest 8030b2b0f57f\n\nIn this folder\n  Figures and tables.docx, .pdf and .html: every figure and table with its number and caption, and the methods.\n  Figures: each figure as PNG (300 dpi, for documents and slides) and SVG (to edit).\n  Tables: each table as CSV, and All tables.xlsx with a sheet per table.\n  Mixed test calculator.xlsx: every input and result as live formulas.\n  Mixed test.ceica: the project file. Open it in CEICA to continue the study.\n\nFigures\n  Figure 1. Cost-effectiveness (A) and incremental cost (B) of the watershed plans.\n    Figures/Figure 01 Watershed plans.png and .svg\n  Figure 2. Cost-effectiveness (A) and incremental cost (B) of the alternatives at site A.\n    Figures/Figure 02 Site A.png and .svg\n  Figure 3. Cost-effectiveness (A) and incremental cost (B) of the alternatives at site B.\n    Figures/Figure 03 Site B.png and .svg\n  Figure 4. Habitat units over time (A) and average annual cost by part (B) of the alternatives at site A. Wetland, entered as an average, is not in panel A.\n    Figures/Figure 04 Benefits and costs, site A.png and .svg\n  Figure 5. Habitat units over time (A) and average annual cost by part (B) of the alternatives at site B. Wetland, entered as an average, is not in panel A.\n    Figures/Figure 05 Benefits and costs, site B.png and .svg\n\nTables\n  Table 1. Study settings and the record of this analysis.\n    Tables/Table 01 Study settings.csv\n  Table 2. Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 02 Best-buy plans.csv\n  Table 3. Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 03 Final array.csv\n  Table 4. The watershed plans: lift, cost and status (4 plans). Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 04 All plans.csv\n  Table 5. Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.\n    Tables/Table 05 Alternatives at every site.csv\n  Table 6. The alternative each site carries forward, and the status of that decision.\n    Tables/Table 06 Site recommendations.csv\n  Table 7. Decisions and the reasons recorded for them.\n    Tables/Table 07 Decision record.csv\n  Table 8. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.\n    Tables/Table 08 Benefit and cost inputs.csv\n  Table 9. Average annual output by module, the total and the lift over No Action (all in AAHU).\n    Tables/Table 09 Output by module.csv\n  Table 10. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.\n    Tables/Table 10 Cost by category.csv\n\nReading the data files\n  CSV files hold plain numbers: lift and cost are the rounded values the analysis compared, so sorting reproduces its ties. TRUE and FALSE mark cost-effective plans and best buys. A blank cell has no value; in a plan table, a blank site column means the site is not in the plan.\n  In All tables.xlsx, numbers keep their full precision under the display format, and a missing value reads n/a.\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 01 Study settings.csv",
+     {
+      "text": "﻿Setting,Value\r\nStudy,Mixed test\r\nSites,\"2 sites with 5 alternatives, No Action included\"\r\nOutput,Average annual habitat units (AAHU); lift is the output above No Action\r\nBenefit modules,Habitat: values at each target year; Riparian: an index (0 to 1) times acres at each target year; Wetland: an average annual value entered directly\r\nTarget years,\"0, 5, 50\"\r\nPeriod of analysis,50 years\r\nDiscount rate,3 percent\r\nAverage annual output,\"Straight lines between target years, averaged over the span of the years\"\r\nAverage annual cost,\"Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year\"\r\nComparisons,\"Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them\"\r\nPlan formation,One alternative per site: each site's recommendation\r\nPlans,4 plans: 3 cost-effective and 3 best buys\r\nFinal array,\"3 plans: P1, P3, P4\"\r\nTentatively selected plan,Not chosen yet\r\nRecord,\"CEICA 1.0.0, engine 1; project digest 8030b2b0f57f\"\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 02 Best-buy plans.csv",
+     {
+      "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Incremental cost per AAHU\r\nP1,0,0,0,0,0,,0\r\nP3,1,0,6.208,9752.38,250000,1570.9375,1570.9375\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,1973.4991568297\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 03 Final array.csv",
+     {
+      "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,,TRUE,TRUE\r\nP3,1,0,6.208,9752.38,250000,1570.9375,TRUE,TRUE\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,TRUE,TRUE\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 04 All plans.csv",
+     {
+      "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,,TRUE,TRUE\r\nP2,0,1,5.93,11702.85,300000,1973.4991568297,FALSE,FALSE\r\nP3,1,0,6.208,9752.38,250000,1570.9375,TRUE,TRUE\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,TRUE,TRUE\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 05 Alternatives at every site.csv",
+     {
+      "text": "﻿Site,Alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Incremental cost per AAHU,Construction cost,Cost-effective,Best buy\r\nA,No Action,0,0,,0,0,TRUE,TRUE\r\nA,A1,6.208,9752.38,1570.9375,1570.9375,250000,TRUE,TRUE\r\nA,A2,3.085,7021.71,2276.0810372771,,180000,TRUE,FALSE\r\nB,No Action,0,0,,0,0,TRUE,TRUE\r\nB,B1,5.93,11702.85,1973.4991568297,1973.4991568297,300000,TRUE,TRUE\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 06 Site recommendations.csv",
+     {
+      "text": "﻿Site,Recommended alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Construction cost,Carried to plans,Status\r\nA,A1,6.208,9752.38,1570.9375,250000,Yes,Suggested\r\nB,B1,5.93,11702.85,1973.4991568297,300000,Yes,Suggested\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 07 Decision record.csv",
+     {
+      "text": "﻿Subject,Decision,Reason\r\nSite A,\"A1, suggested, not yet confirmed\",No reason recorded.\r\nSite B,\"B1, suggested, not yet confirmed\",No reason recorded.\r\nTentatively selected plan,Not chosen yet,\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 08 Benefit and cost inputs.csv",
+     {
+      "text": "﻿Site,Alternative,Output (AAHU),Lift (AAHU),Construction cost,Annualized cost,Unit cost ($/AAHU)\r\nA,No Action,1.6,0,0,0,\r\nA,A1,7.8075,6.208,250000,9752.3775443677,1570.9375\r\nA,A2,4.685,3.085,180000,7021.7118319447,2276.0810372771\r\nB,No Action,2.4,0,0,0,\r\nB,B1,8.33,5.93,300000,11702.8530532412,1973.4991568297\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 09 Output by module.csv",
+     {
+      "text": "﻿Site,Alternative,Habitat (AAHU),Riparian (AAHU),Wetland (AAHU),Total (AAHU),No Action total (AAHU),Lift (AAHU)\r\nA,No Action,1,0.6,0,1.6,1.6,0\r\nA,A1,4.3,2.0075,1.5,7.8075,1.6,6.2075\r\nA,A2,2.175,2.01,0.5,4.685,1.6,3.085\r\nB,No Action,2,0.4,0,2.4,2.4,0\r\nB,B1,5.3,1.03,2,8.33,2.4,5.93\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/Table 10 Cost by category.csv",
+     {
+      "text": "﻿Site,Alternative,Months,Construction,Monitoring,Adaptive management,Interest during construction,OMRRR annual cost,Annualized cost\r\nA,No Action,4,0,0,0,0,0,0\r\nA,A1,4,250000,0,0,926.3727238271,0,9752.3775443677\r\nA,A2,4,180000,0,0,666.9883611555,0,7021.7118319447\r\nB,No Action,4,0,0,0,0,0,0\r\nB,B1,4,300000,0,0,1111.6472685926,0,11702.8530532412\r\n"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Tables/All tables.xlsx",
+     {
+      "zip": {
+       "entries": [
+        {
+         "name": "docProps/app.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1213056838,
+         "csize": 149,
+         "size": 205
+        },
+        {
+         "name": "docProps/core.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2423599817,
+         "csize": 235,
+         "size": 555
+        },
+        {
+         "name": "xl/theme/theme1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 597449881,
+         "csize": 1552,
+         "size": 10140
+        },
+        {
+         "name": "xl/worksheets/sheet1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 644036407,
+         "csize": 1295,
+         "size": 4876
+        },
+        {
+         "name": "xl/worksheets/sheet2.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 707981297,
+         "csize": 1239,
+         "size": 3663
+        },
+        {
+         "name": "xl/worksheets/sheet3.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4211940239,
+         "csize": 832,
+         "size": 2680
+        },
+        {
+         "name": "xl/worksheets/sheet4.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 492241308,
+         "csize": 845,
+         "size": 2950
+        },
+        {
+         "name": "xl/worksheets/sheet5.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 486408402,
+         "csize": 929,
+         "size": 3378
+        },
+        {
+         "name": "xl/worksheets/sheet6.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1227411969,
+         "csize": 956,
+         "size": 3872
+        },
+        {
+         "name": "xl/worksheets/sheet7.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 931718653,
+         "csize": 783,
+         "size": 2395
+        },
+        {
+         "name": "xl/worksheets/sheet8.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3437236187,
+         "csize": 595,
+         "size": 1576
+        },
+        {
+         "name": "xl/worksheets/sheet9.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4265170091,
+         "csize": 923,
+         "size": 3171
+        },
+        {
+         "name": "xl/worksheets/sheet10.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 627852809,
+         "csize": 866,
+         "size": 3302
+        },
+        {
+         "name": "xl/worksheets/sheet11.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4255096480,
+         "csize": 936,
+         "size": 3661
+        },
+        {
+         "name": "xl/styles.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1935914274,
+         "csize": 860,
+         "size": 4634
+        },
+        {
+         "name": "_rels/.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 482052759,
+         "csize": 192,
+         "size": 531
+        },
+        {
+         "name": "xl/workbook.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2825060922,
+         "csize": 411,
+         "size": 1964
+        },
+        {
+         "name": "xl/_rels/workbook.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3952104048,
+         "csize": 236,
+         "size": 1960
+        },
+        {
+         "name": "[Content_Types].xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3427198577,
+         "csize": 321,
+         "size": 2337
+        }
+       ],
+       "parts": [
+        [
+         "docProps/app.xml",
+         {
+          "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+         }
+        ],
+        [
+         "docProps/core.xml",
+         {
+          "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+         }
+        ],
+        [
+         "xl/theme/theme1.xml",
+         {
+          "digest": "sha256:d15e8ebf78ef7b97:10140"
+         }
+        ],
+        [
+         "xl/worksheets/sheet1.xml",
+         {
+          "digest": "sha256:e05ee350d63e1e1f:4876"
+         }
+        ],
+        [
+         "xl/worksheets/sheet2.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:B18\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"27\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"60\" customWidth=\"1\" min=\"2\" max=\"2\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 1. Study settings and the record of this analysis.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Setting</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Value</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>Study</t></is></c><c r=\"B4\" s=\"5\" t=\"inlineStr\"><is><t>Mixed test</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>Sites</t></is></c><c r=\"B5\" s=\"5\" t=\"inlineStr\"><is><t>2 sites with 5 alternatives, No Action included</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>Output</t></is></c><c r=\"B6\" s=\"5\" t=\"inlineStr\"><is><t>Average annual habitat units (AAHU); lift is the output above No Action</t></is></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>Benefit modules</t></is></c><c r=\"B7\" s=\"5\" t=\"inlineStr\"><is><t>Habitat: values at each target year; Riparian: an index (0 to 1) times acres at each target year; Wetland: an average annual value entered directly</t></is></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>Target years</t></is></c><c r=\"B8\" s=\"5\" t=\"inlineStr\"><is><t>0, 5, 50</t></is></c></row><row r=\"9\"><c r=\"A9\" t=\"inlineStr\"><is><t>Period of analysis</t></is></c><c r=\"B9\" s=\"5\" t=\"inlineStr\"><is><t>50 years</t></is></c></row><row r=\"10\"><c r=\"A10\" t=\"inlineStr\"><is><t>Discount rate</t></is></c><c r=\"B10\" s=\"5\" t=\"inlineStr\"><is><t>3 percent</t></is></c></row><row r=\"11\"><c r=\"A11\" t=\"inlineStr\"><is><t>Average annual output</t></is></c><c r=\"B11\" s=\"5\" t=\"inlineStr\"><is><t>Straight lines between target years, averaged over the span of the years</t></is></c></row><row r=\"12\"><c r=\"A12\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"B12\" s=\"5\" t=\"inlineStr\"><is><t>Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year</t></is></c></row><row r=\"13\"><c r=\"A13\" t=\"inlineStr\"><is><t>Comparisons</t></is></c><c r=\"B13\" s=\"5\" t=\"inlineStr\"><is><t>Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them</t></is></c></row><row r=\"14\"><c r=\"A14\" t=\"inlineStr\"><is><t>Plan formation</t></is></c><c r=\"B14\" s=\"5\" t=\"inlineStr\"><is><t>One alternative per site: each site's recommendation</t></is></c></row><row r=\"15\"><c r=\"A15\" t=\"inlineStr\"><is><t>Plans</t></is></c><c r=\"B15\" s=\"5\" t=\"inlineStr\"><is><t>4 plans: 3 cost-effective and 3 best buys</t></is></c></row><row r=\"16\"><c r=\"A16\" t=\"inlineStr\"><is><t>Final array</t></is></c><c r=\"B16\" s=\"5\" t=\"inlineStr\"><is><t>3 plans: P1, P3, P4</t></is></c></row><row r=\"17\"><c r=\"A17\" t=\"inlineStr\"><is><t>Tentatively selected plan</t></is></c><c r=\"B17\" s=\"5\" t=\"inlineStr\"><is><t>Not chosen yet</t></is></c></row><row r=\"18\"><c r=\"A18\" t=\"inlineStr\"><is><t>Record</t></is></c><c r=\"B18\" s=\"5\" t=\"inlineStr\"><is><t>CEICA 1.0.0, engine 1; project digest 8030b2b0f57f</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet3.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:H6\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"8\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"8\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"13\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"21\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"19\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"20\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"27\" customWidth=\"1\" min=\"8\" max=\"8\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 2. Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Plan</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Incremental cost per AAHU</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>P1</t></is></c><c r=\"B4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"C4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c><c r=\"H4\" s=\"10\" t=\"n\"><v>0</v></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>P3</t></is></c><c r=\"B5\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C5\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D5\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>9752.379999999999</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"H5\" s=\"10\" t=\"n\"><v>1570.9375</v></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>P4</t></is></c><c r=\"B6\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C6\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"D6\" s=\"9\" t=\"n\"><v>12.138</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>21455.23</v></c><c r=\"F6\" s=\"10\" t=\"n\"><v>550000</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>1767.608337452628</v></c><c r=\"H6\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet4.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:I6\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"8\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"8\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"13\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"21\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"19\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"20\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"16\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"10\" customWidth=\"1\" min=\"9\" max=\"9\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 3. Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Plan</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Cost-effective</t></is></c><c r=\"I3\" s=\"3\" t=\"inlineStr\"><is><t>Best buy</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>P1</t></is></c><c r=\"B4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"C4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c><c r=\"H4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>P3</t></is></c><c r=\"B5\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C5\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D5\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>9752.379999999999</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"H5\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I5\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>P4</t></is></c><c r=\"B6\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C6\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"D6\" s=\"9\" t=\"n\"><v>12.138</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>21455.23</v></c><c r=\"F6\" s=\"10\" t=\"n\"><v>550000</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>1767.608337452628</v></c><c r=\"H6\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I6\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet5.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:I7\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"8\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"8\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"13\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"21\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"19\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"20\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"16\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"10\" customWidth=\"1\" min=\"9\" max=\"9\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 4. The watershed plans: lift, cost and status (4 plans). Site columns: 1 when the plan includes the site, 0 when not.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Plan</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Cost-effective</t></is></c><c r=\"I3\" s=\"3\" t=\"inlineStr\"><is><t>Best buy</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>P1</t></is></c><c r=\"B4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"C4\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c><c r=\"H4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>P2</t></is></c><c r=\"B5\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"C5\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"D5\" s=\"9\" t=\"n\"><v>5.93</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>11702.85</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>300000</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c><c r=\"H5\" s=\"11\" t=\"inlineStr\"><is><t>No</t></is></c><c r=\"I5\" s=\"11\" t=\"inlineStr\"><is><t>No</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>P3</t></is></c><c r=\"B6\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C6\" s=\"8\" t=\"n\"><v>0</v></c><c r=\"D6\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>9752.379999999999</v></c><c r=\"F6\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"H6\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I6\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>P4</t></is></c><c r=\"B7\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"C7\" s=\"8\" t=\"n\"><v>1</v></c><c r=\"D7\" s=\"9\" t=\"n\"><v>12.138</v></c><c r=\"E7\" s=\"10\" t=\"n\"><v>21455.23</v></c><c r=\"F7\" s=\"10\" t=\"n\"><v>550000</v></c><c r=\"G7\" s=\"10\" t=\"n\"><v>1767.608337452628</v></c><c r=\"H7\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I7\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet6.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:I8\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"13\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"13\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"21\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"20\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"27\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"19\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"16\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"10\" customWidth=\"1\" min=\"9\" max=\"9\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 5. Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Incremental cost per AAHU</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Cost-effective</t></is></c><c r=\"I3\" s=\"3\" t=\"inlineStr\"><is><t>Best buy</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"D4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"H4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I4\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>A1</t></is></c><c r=\"C5\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"D5\" s=\"10\" t=\"n\"><v>9752.379999999999</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"H5\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I5\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B6\" t=\"inlineStr\"><is><t>A2</t></is></c><c r=\"C6\" s=\"9\" t=\"n\"><v>3.085</v></c><c r=\"D6\" s=\"10\" t=\"n\"><v>7021.71</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>2276.081037277148</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>180000</v></c><c r=\"H6\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I6\" s=\"11\" t=\"inlineStr\"><is><t>No</t></is></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B7\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C7\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"D7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"E7\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c><c r=\"F7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"H7\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I7\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B8\" t=\"inlineStr\"><is><t>B1</t></is></c><c r=\"C8\" s=\"9\" t=\"n\"><v>5.93</v></c><c r=\"D8\" s=\"10\" t=\"n\"><v>11702.85</v></c><c r=\"E8\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c><c r=\"F8\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c><c r=\"G8\" s=\"10\" t=\"n\"><v>300000</v></c><c r=\"H8\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"I8\" s=\"11\" t=\"inlineStr\"><is><t>Yes</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet7.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:H5\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"25\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"13\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"21\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"20\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"19\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"18\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"11\" customWidth=\"1\" min=\"8\" max=\"8\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 6. The alternative each site carries forward, and the status of that decision.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Recommended alternative</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Carried to plans</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Status</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>A1</t></is></c><c r=\"C4\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"D4\" s=\"10\" t=\"n\"><v>9752.379999999999</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>1570.9375</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"G4\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"H4\" t=\"inlineStr\"><is><t>Suggested</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>B1</t></is></c><c r=\"C5\" s=\"9\" t=\"n\"><v>5.93</v></c><c r=\"D5\" s=\"10\" t=\"n\"><v>11702.85</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>300000</v></c><c r=\"G5\" t=\"inlineStr\"><is><t>Yes</t></is></c><c r=\"H5\" t=\"inlineStr\"><is><t>Suggested</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet8.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:C6\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"27\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"34\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"21\" customWidth=\"1\" min=\"3\" max=\"3\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 7. Decisions and the reasons recorded for them.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Subject</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Decision</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Reason</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>Site A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>A1, suggested, not yet confirmed</t></is></c><c r=\"C4\" t=\"inlineStr\"><is><t>No reason recorded.</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>Site B</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>B1, suggested, not yet confirmed</t></is></c><c r=\"C5\" t=\"inlineStr\"><is><t>No reason recorded.</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>Tentatively selected plan</t></is></c><c r=\"B6\" t=\"inlineStr\"><is><t>Not chosen yet</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet9.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:G8\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"13\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"15\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"13\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"19\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"17\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"20\" customWidth=\"1\" min=\"7\" max=\"7\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 8. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Output (AAHU)</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Construction cost</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Annualized cost</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Unit cost ($/AAHU)</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C4\" s=\"9\" t=\"n\"><v>1.6</v></c><c r=\"D4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>A1</t></is></c><c r=\"C5\" s=\"9\" t=\"n\"><v>7.807499999999999</v></c><c r=\"D5\" s=\"9\" t=\"n\"><v>6.208</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>9752.377544367695</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>1570.9375</v></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B6\" t=\"inlineStr\"><is><t>A2</t></is></c><c r=\"C6\" s=\"9\" t=\"n\"><v>4.685</v></c><c r=\"D6\" s=\"9\" t=\"n\"><v>3.085</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>180000</v></c><c r=\"F6\" s=\"10\" t=\"n\"><v>7021.71183194474</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>2276.081037277148</v></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B7\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C7\" s=\"9\" t=\"n\"><v>2.4</v></c><c r=\"D7\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"E7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G7\" s=\"11\" t=\"inlineStr\"><is><t>n/a</t></is></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B8\" t=\"inlineStr\"><is><t>B1</t></is></c><c r=\"C8\" s=\"9\" t=\"n\"><v>8.33</v></c><c r=\"D8\" s=\"9\" t=\"n\"><v>5.93</v></c><c r=\"E8\" s=\"10\" t=\"n\"><v>300000</v></c><c r=\"F8\" s=\"10\" t=\"n\"><v>11702.85305324123</v></c><c r=\"G8\" s=\"10\" t=\"n\"><v>1973.49915682968</v></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet10.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:H8\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"13\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"16\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"17\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"16\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"14\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"24\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"13\" customWidth=\"1\" min=\"8\" max=\"8\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 9. Average annual output by module, the total and the lift over No Action (all in AAHU).</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Habitat (AAHU)</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Riparian (AAHU)</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Wetland (AAHU)</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Total (AAHU)</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>No Action total (AAHU)</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>Lift (AAHU)</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C4\" s=\"9\" t=\"n\"><v>1</v></c><c r=\"D4\" s=\"9\" t=\"n\"><v>0.6000000000000001</v></c><c r=\"E4\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"9\" t=\"n\"><v>1.6</v></c><c r=\"G4\" s=\"9\" t=\"n\"><v>1.6</v></c><c r=\"H4\" s=\"9\" t=\"n\"><v>0</v></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>A1</t></is></c><c r=\"C5\" s=\"9\" t=\"n\"><v>4.3</v></c><c r=\"D5\" s=\"9\" t=\"n\"><v>2.0075</v></c><c r=\"E5\" s=\"9\" t=\"n\"><v>1.5</v></c><c r=\"F5\" s=\"9\" t=\"n\"><v>7.807499999999999</v></c><c r=\"G5\" s=\"9\" t=\"n\"><v>1.6</v></c><c r=\"H5\" s=\"9\" t=\"n\"><v>6.2075</v></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B6\" t=\"inlineStr\"><is><t>A2</t></is></c><c r=\"C6\" s=\"9\" t=\"n\"><v>2.175</v></c><c r=\"D6\" s=\"9\" t=\"n\"><v>2.01</v></c><c r=\"E6\" s=\"9\" t=\"n\"><v>0.5</v></c><c r=\"F6\" s=\"9\" t=\"n\"><v>4.685</v></c><c r=\"G6\" s=\"9\" t=\"n\"><v>1.6</v></c><c r=\"H6\" s=\"9\" t=\"n\"><v>3.085</v></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B7\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C7\" s=\"9\" t=\"n\"><v>2</v></c><c r=\"D7\" s=\"9\" t=\"n\"><v>0.4</v></c><c r=\"E7\" s=\"9\" t=\"n\"><v>0</v></c><c r=\"F7\" s=\"9\" t=\"n\"><v>2.4</v></c><c r=\"G7\" s=\"9\" t=\"n\"><v>2.4</v></c><c r=\"H7\" s=\"9\" t=\"n\"><v>0</v></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B8\" t=\"inlineStr\"><is><t>B1</t></is></c><c r=\"C8\" s=\"9\" t=\"n\"><v>5.3</v></c><c r=\"D8\" s=\"9\" t=\"n\"><v>1.03</v></c><c r=\"E8\" s=\"9\" t=\"n\"><v>2</v></c><c r=\"F8\" s=\"9\" t=\"n\"><v>8.33</v></c><c r=\"G8\" s=\"9\" t=\"n\"><v>2.4</v></c><c r=\"H8\" s=\"9\" t=\"n\"><v>5.93</v></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet11.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:I8\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"8\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"13\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"8\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"14\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"12\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"21\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"30\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"19\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"17\" customWidth=\"1\" min=\"9\" max=\"9\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 10. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"C3\" s=\"3\" t=\"inlineStr\"><is><t>Months</t></is></c><c r=\"D3\" s=\"3\" t=\"inlineStr\"><is><t>Construction</t></is></c><c r=\"E3\" s=\"3\" t=\"inlineStr\"><is><t>Monitoring</t></is></c><c r=\"F3\" s=\"3\" t=\"inlineStr\"><is><t>Adaptive management</t></is></c><c r=\"G3\" s=\"3\" t=\"inlineStr\"><is><t>Interest during construction</t></is></c><c r=\"H3\" s=\"3\" t=\"inlineStr\"><is><t>OMRRR annual cost</t></is></c><c r=\"I3\" s=\"3\" t=\"inlineStr\"><is><t>Annualized cost</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B4\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C4\" s=\"12\" t=\"n\"><v>4</v></c><c r=\"D4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"E4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"H4\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"I4\" s=\"10\" t=\"n\"><v>0</v></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B5\" t=\"inlineStr\"><is><t>A1</t></is></c><c r=\"C5\" s=\"12\" t=\"n\"><v>4</v></c><c r=\"D5\" s=\"10\" t=\"n\"><v>250000</v></c><c r=\"E5\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F5\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G5\" s=\"10\" t=\"n\"><v>926.3727238271318</v></c><c r=\"H5\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"I5\" s=\"10\" t=\"n\"><v>9752.377544367695</v></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>A</t></is></c><c r=\"B6\" t=\"inlineStr\"><is><t>A2</t></is></c><c r=\"C6\" s=\"12\" t=\"n\"><v>4</v></c><c r=\"D6\" s=\"10\" t=\"n\"><v>180000</v></c><c r=\"E6\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F6\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G6\" s=\"10\" t=\"n\"><v>666.9883611555349</v></c><c r=\"H6\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"I6\" s=\"10\" t=\"n\"><v>7021.71183194474</v></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B7\" t=\"inlineStr\"><is><t>No Action</t></is></c><c r=\"C7\" s=\"12\" t=\"n\"><v>4</v></c><c r=\"D7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"E7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"H7\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"I7\" s=\"10\" t=\"n\"><v>0</v></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>B</t></is></c><c r=\"B8\" t=\"inlineStr\"><is><t>B1</t></is></c><c r=\"C8\" s=\"12\" t=\"n\"><v>4</v></c><c r=\"D8\" s=\"10\" t=\"n\"><v>300000</v></c><c r=\"E8\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"F8\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"G8\" s=\"10\" t=\"n\"><v>1111.647268592558</v></c><c r=\"H8\" s=\"10\" t=\"n\"><v>0</v></c><c r=\"I8\" s=\"10\" t=\"n\"><v>11702.85305324123</v></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/styles.xml",
+         {
+          "digest": "sha256:8eb1af2cba813bf0:4634"
+         }
+        ],
+        [
+         "_rels/.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+         }
+        ],
+        [
+         "xl/workbook.xml",
+         {
+          "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Contents\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 1\" sheetId=\"2\" state=\"visible\" r:id=\"rId2\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 2\" sheetId=\"3\" state=\"visible\" r:id=\"rId3\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 3\" sheetId=\"4\" state=\"visible\" r:id=\"rId4\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 4\" sheetId=\"5\" state=\"visible\" r:id=\"rId5\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 5\" sheetId=\"6\" state=\"visible\" r:id=\"rId6\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 6\" sheetId=\"7\" state=\"visible\" r:id=\"rId7\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 7\" sheetId=\"8\" state=\"visible\" r:id=\"rId8\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 8\" sheetId=\"9\" state=\"visible\" r:id=\"rId9\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 9\" sheetId=\"10\" state=\"visible\" r:id=\"rId10\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 10\" sheetId=\"11\" state=\"visible\" r:id=\"rId11\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+         }
+        ],
+        [
+         "xl/_rels/workbook.xml.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet2.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet3.xml\" Id=\"rId3\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet4.xml\" Id=\"rId4\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet5.xml\" Id=\"rId5\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet6.xml\" Id=\"rId6\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet7.xml\" Id=\"rId7\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet8.xml\" Id=\"rId8\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet9.xml\" Id=\"rId9\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet10.xml\" Id=\"rId10\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet11.xml\" Id=\"rId11\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId12\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId13\"/></Relationships>"
+         }
+        ],
+        [
+         "[Content_Types].xml",
+         {
+          "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet2.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet3.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet4.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet5.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet6.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet7.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet8.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet9.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet10.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet11.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+         }
+        ]
+       ]
+      },
+      "digest": "sha256:5e6a454c38719278:16425"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 01 Watershed plans.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 01 Watershed plans.svg",
+     {
+      "digest": "sha256:b2ebb9c005cfe9aa:8548"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 02 Site A.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 02 Site A.svg",
+     {
+      "digest": "sha256:539c7dc1d04568b4:8332"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 03 Site B.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 1087,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 03 Site B.svg",
+     {
+      "digest": "sha256:a65bfbbcbbb478fe:8362"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 04 Benefits and costs, site A.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 962,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 04 Benefits and costs, site A.svg",
+     {
+      "digest": "sha256:a775b6d09db0a646:7892"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 05 Benefits and costs, site B.png",
+     {
+      "png": {
+       "width": 3050,
+       "height": 962,
+       "ppm": [
+        11811,
+        11811
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures/Figure 05 Benefits and costs, site B.svg",
+     {
+      "digest": "sha256:9a1a48c6ff8c8a31:6735"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures and tables.docx",
+     {
+      "zip": {
+       "entries": [
+        {
+         "name": "[Content_Types].xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 2300411807,
+         "csize": 431,
+         "size": 2044
+        },
+        {
+         "name": "_rels/.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1078666873,
+         "csize": 248,
+         "size": 734
+        },
+        {
+         "name": "docProps/core.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 432879953,
+         "csize": 418,
+         "size": 813
+        },
+        {
+         "name": "docProps/app.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 400284660,
+         "csize": 491,
+         "size": 1132
+        },
+        {
+         "name": "word/document.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 3458099409,
+         "csize": 5599,
+         "size": 108123
+        },
+        {
+         "name": "word/_rels/document.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1471084477,
+         "csize": 379,
+         "size": 2149
+        },
+        {
+         "name": "word/styles.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 699805720,
+         "csize": 12170,
+         "size": 349538
+        },
+        {
+         "name": "word/stylesWithEffects.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 3548543328,
+         "csize": 13625,
+         "size": 438131
+        },
+        {
+         "name": "word/settings.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1598439331,
+         "csize": 959,
+         "size": 2535
+        },
+        {
+         "name": "word/webSettings.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1407539944,
+         "csize": 256,
+         "size": 438
+        },
+        {
+         "name": "word/fontTable.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1939880443,
+         "csize": 611,
+         "size": 2811
+        },
+        {
+         "name": "word/theme/theme1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 3089252756,
+         "csize": 1734,
+         "size": 10939
+        },
+        {
+         "name": "customXml/item1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 3610935454,
+         "csize": 167,
+         "size": 262
+        },
+        {
+         "name": "customXml/_rels/item1.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 3588606526,
+         "csize": 189,
+         "size": 295
+        },
+        {
+         "name": "customXml/itemProps1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1296874421,
+         "csize": 225,
+         "size": 354
+        },
+        {
+         "name": "word/numbering.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 2307379344,
+         "csize": 875,
+         "size": 5513
+        },
+        {
+         "name": "word/header1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 313959484,
+         "csize": 431,
+         "size": 1392
+        },
+        {
+         "name": "word/footer1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 2624124168,
+         "csize": 557,
+         "size": 2584
+        },
+        {
+         "name": "word/media/image1.png",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00"
+        },
+        {
+         "name": "word/media/image2.png",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00"
+        },
+        {
+         "name": "word/media/image3.png",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00"
+        },
+        {
+         "name": "word/media/image4.png",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00"
+        },
+        {
+         "name": "word/media/image5.png",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00"
+        },
+        {
+         "name": "docProps/thumbnail.jpeg",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "2026-10-18 12:00:00",
+         "crc": 1742129314,
+         "csize": 1469,
+         "size": 8324
+        }
+       ],
+       "parts": [
+        [
+         "[Content_Types].xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"jpeg\" ContentType=\"image/jpeg\"/><Default Extension=\"png\" ContentType=\"image/png\"/><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/customXml/itemProps1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.customXmlProperties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/word/document.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml\"/><Override PartName=\"/word/fontTable.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml\"/><Override PartName=\"/word/footer1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml\"/><Override PartName=\"/word/header1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml\"/><Override PartName=\"/word/numbering.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml\"/><Override PartName=\"/word/settings.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml\"/><Override PartName=\"/word/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml\"/><Override PartName=\"/word/stylesWithEffects.xml\" ContentType=\"application/vnd.ms-word.stylesWithEffects+xml\"/><Override PartName=\"/word/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/word/webSettings.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml\"/></Types>"
+         }
+        ],
+        [
+         "_rels/.rels",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId3\" Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\"/><Relationship Id=\"rId4\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\"/><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"word/document.xml\"/><Relationship Id=\"rId2\" Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail\" Target=\"docProps/thumbnail.jpeg\"/></Relationships>"
+         }
+        ],
+        [
+         "docProps/core.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>Mixed test</dc:title><dc:subject>Cost-effectiveness and incremental cost analysis: figures and tables</dc:subject><dc:creator>n/a</dc:creator><cp:keywords/><dc:description>generated by python-docx</dc:description><cp:lastModifiedBy/><cp:revision>1</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2013-12-23T23:15:00Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2013-12-23T23:15:00Z</dcterms:modified><cp:category/></cp:coreProperties>"
+         }
+        ],
+        [
+         "docProps/app.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\" xmlns:vt=\"http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\">\n  <Template>Normal.dotm</Template>\n  <TotalTime>0</TotalTime>\n  <Pages>1</Pages>\n  <Words>0</Words>\n  <Characters>0</Characters>\n  <Application>Microsoft Macintosh Word</Application>\n  <DocSecurity>0</DocSecurity>\n  <Lines>0</Lines>\n  <Paragraphs>0</Paragraphs>\n  <ScaleCrop>false</ScaleCrop>\n  <HeadingPairs>\n    <vt:vector size=\"2\" baseType=\"variant\">\n      <vt:variant>\n        <vt:lpstr>Title</vt:lpstr>\n      </vt:variant>\n      <vt:variant>\n        <vt:i4>1</vt:i4>\n      </vt:variant>\n    </vt:vector>\n  </HeadingPairs>\n  <TitlesOfParts>\n    <vt:vector size=\"1\" baseType=\"lpstr\">\n      <vt:lpstr/>\n    </vt:vector>\n  </TitlesOfParts>\n  <Manager/>\n  <Company/>\n  <LinksUpToDate>false</LinksUpToDate>\n  <CharactersWithSpaces>0</CharactersWithSpaces>\n  <SharedDoc>false</SharedDoc>\n  <HyperlinkBase/>\n  <HyperlinksChanged>false</HyperlinksChanged>\n  <AppVersion>14.0000</AppVersion>\n</Properties>\n"
+         }
+        ],
+        [
+         "word/document.xml",
+         {
+          "digest": "sha256:416a0ab683733aff:108123"
+         }
+        ],
+        [
+         "word/_rels/document.xml.rels",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId3\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\"/><Relationship Id=\"rId4\" Type=\"http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects\" Target=\"stylesWithEffects.xml\"/><Relationship Id=\"rId5\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings\" Target=\"settings.xml\"/><Relationship Id=\"rId6\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings\" Target=\"webSettings.xml\"/><Relationship Id=\"rId7\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable\" Target=\"fontTable.xml\"/><Relationship Id=\"rId8\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\"/><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml\" Target=\"../customXml/item1.xml\"/><Relationship Id=\"rId2\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering\" Target=\"numbering.xml\"/><Relationship Id=\"rId9\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/header\" Target=\"header1.xml\"/><Relationship Id=\"rId10\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer\" Target=\"footer1.xml\"/><Relationship Id=\"rId11\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image1.png\"/><Relationship Id=\"rId12\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image2.png\"/><Relationship Id=\"rId13\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image3.png\"/><Relationship Id=\"rId14\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image4.png\"/><Relationship Id=\"rId15\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image5.png\"/></Relationships>"
+         }
+        ],
+        [
+         "word/styles.xml",
+         {
+          "digest": "sha256:bfa18b8c730b69db:349538"
+         }
+        ],
+        [
+         "word/stylesWithEffects.xml",
+         {
+          "digest": "sha256:463ae0928cf0d847:438131"
+         }
+        ],
+        [
+         "word/settings.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:settings xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" mc:Ignorable=\"w14\"><w:zoom w:val=\"bestFit\"/><w:proofState w:spelling=\"clean\" w:grammar=\"clean\"/><w:defaultTabStop w:val=\"720\"/><w:characterSpacingControl w:val=\"doNotCompress\"/><w:savePreviewPicture/><w:compat><w:useFELayout/><w:compatSetting w:name=\"compatibilityMode\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"14\"/><w:compatSetting w:name=\"overrideTableStyleFontSizeAndJustification\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/><w:compatSetting w:name=\"enableOpenTypeFeatures\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/><w:compatSetting w:name=\"doNotFlipMirrorIndents\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/></w:compat><w:rsids><w:rsidRoot w:val=\"00B47730\"/><w:rsid w:val=\"00034616\"/><w:rsid w:val=\"0006063C\"/><w:rsid w:val=\"0015074B\"/><w:rsid w:val=\"0029639D\"/><w:rsid w:val=\"00326F90\"/><w:rsid w:val=\"00AA1D8D\"/><w:rsid w:val=\"00B47730\"/><w:rsid w:val=\"00CB0664\"/><w:rsid w:val=\"00FC693F\"/></w:rsids><m:mathPr><m:mathFont m:val=\"Cambria Math\"/><m:brkBin m:val=\"before\"/><m:brkBinSub m:val=\"--\"/><m:smallFrac m:val=\"0\"/><m:dispDef/><m:lMargin m:val=\"0\"/><m:rMargin m:val=\"0\"/><m:defJc m:val=\"centerGroup\"/><m:wrapIndent m:val=\"1440\"/><m:intLim m:val=\"subSup\"/><m:naryLim m:val=\"undOvr\"/></m:mathPr><w:themeFontLang w:val=\"en-US\" w:eastAsia=\"ja-JP\"/><w:clrSchemeMapping w:bg1=\"light1\" w:t1=\"dark1\" w:bg2=\"light2\" w:t2=\"dark2\" w:accent1=\"accent1\" w:accent2=\"accent2\" w:accent3=\"accent3\" w:accent4=\"accent4\" w:accent5=\"accent5\" w:accent6=\"accent6\" w:hyperlink=\"hyperlink\" w:followedHyperlink=\"followedHyperlink\"/><w:doNotAutoCompressPictures/><w:shapeDefaults><o:shapedefaults v:ext=\"edit\" spidmax=\"1027\"/><o:shapelayout v:ext=\"edit\"><o:idmap v:ext=\"edit\" data=\"1\"/></o:shapelayout></w:shapeDefaults><w:decimalSymbol w:val=\".\"/><w:listSeparator w:val=\",\"/><w14:docId w14:val=\"24062061\"/><w14:defaultImageDpi w14:val=\"300\"/></w:settings>"
+         }
+        ],
+        [
+         "word/webSettings.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:webSettings xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" mc:Ignorable=\"w14\">\n  <w:allowPNG/>\n  <w:doNotSaveAsSingleFile/>\n</w:webSettings>\n"
+         }
+        ],
+        [
+         "word/fontTable.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:fonts xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" mc:Ignorable=\"w14\">\n  <w:font w:name=\"Symbol\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"02\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"00000000\" w:usb1=\"10000000\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"80000000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Times New Roman\">\n    <w:panose1 w:val=\"02020603050405020304\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E0002AFF\" w:usb1=\"C0007841\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"000001FF\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Cambria\">\n    <w:panose1 w:val=\"02040503050406030204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E00002FF\" w:usb1=\"400004FF\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"0000019F\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"ＭＳ 明朝\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"80\"/>\n    <w:family w:val=\"roman\"/>\n    <w:notTrueType/>\n    <w:pitch w:val=\"fixed\"/>\n    <w:sig w:usb0=\"00000001\" w:usb1=\"08070000\" w:usb2=\"00000010\" w:usb3=\"00000000\" w:csb0=\"00020000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Calibri\">\n    <w:panose1 w:val=\"020F0502020204030204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E10002FF\" w:usb1=\"4000ACFF\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"0000019F\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"ＭＳ ゴシック\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"80\"/>\n    <w:family w:val=\"modern\"/>\n    <w:notTrueType/>\n    <w:pitch w:val=\"fixed\"/>\n    <w:sig w:usb0=\"00000001\" w:usb1=\"08070000\" w:usb2=\"00000010\" w:usb3=\"00000000\" w:csb0=\"00020000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Courier\">\n    <w:panose1 w:val=\"02000500000000000000\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"00000003\" w:usb1=\"00000000\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"00000001\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Arial\">\n    <w:panose1 w:val=\"020B0604020202020204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E0002AFF\" w:usb1=\"C0007843\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"000001FF\" w:csb1=\"00000000\"/>\n  </w:font>\n</w:fonts>\n"
+         }
+        ],
+        [
+         "word/theme/theme1.xml",
+         {
+          "digest": "sha256:e3a8ab7db9ca7afc:10939"
+         }
+        ],
+        [
+         "customXml/item1.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<b:Sources xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" SelectedStyle=\"/APA.XSL\" StyleName=\"APA\"/>\n"
+         }
+        ],
+        [
+         "customXml/_rels/item1.xml.rels",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps\" Target=\"itemProps1.xml\"/></Relationships>"
+         }
+        ],
+        [
+         "customXml/itemProps1.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<ds:datastoreItem xmlns:ds=\"http://schemas.openxmlformats.org/officeDocument/2006/customXml\" ds:itemID=\"{EF278816-EC6F-A645-907D-7F25AECB1D4A}\">\n  <ds:schemaRefs>\n    <ds:schemaRef ds:uri=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"/>\n  </ds:schemaRefs>\n</ds:datastoreItem>\n"
+         }
+        ],
+        [
+         "word/numbering.xml",
+         {
+          "digest": "sha256:70976f19cbcd896e:5513"
+         }
+        ],
+        [
+         "word/header1.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:hdr xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" mc:Ignorable=\"w14 wp14\"><w:p><w:pPr><w:pStyle w:val=\"Header\"/></w:pPr><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>Mixed test    DRAFT</w:t></w:r></w:p></w:hdr>"
+         }
+        ],
+        [
+         "word/footer1.xml",
+         {
+          "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:ftr xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" mc:Ignorable=\"w14 wp14\"><w:p><w:pPr><w:pStyle w:val=\"Footer\"/></w:pPr><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t xml:space=\"preserve\">CEICA 1.0.0 (engine 1) | inputs 8030b2b0f57f    Page </w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"begin\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:instrText xml:space=\"preserve\"> PAGE </w:instrText></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"separate\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>1</w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"end\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t xml:space=\"preserve\"> of </w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"begin\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:instrText xml:space=\"preserve\"> NUMPAGES </w:instrText></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"separate\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>1</w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"end\"/></w:r></w:p></w:ftr>"
+         }
+        ],
+        [
+         "word/media/image1.png",
+         {
+          "png": {
+           "width": 1321,
+           "height": 471,
+           "ppm": [
+            5118,
+            5118
+           ]
+          }
+         }
+        ],
+        [
+         "word/media/image2.png",
+         {
+          "png": {
+           "width": 1321,
+           "height": 471,
+           "ppm": [
+            5118,
+            5118
+           ]
+          }
+         }
+        ],
+        [
+         "word/media/image3.png",
+         {
+          "png": {
+           "width": 1321,
+           "height": 471,
+           "ppm": [
+            5118,
+            5118
+           ]
+          }
+         }
+        ],
+        [
+         "word/media/image4.png",
+         {
+          "png": {
+           "width": 1321,
+           "height": 417,
+           "ppm": [
+            5118,
+            5118
+           ]
+          }
+         }
+        ],
+        [
+         "word/media/image5.png",
+         {
+          "png": {
+           "width": 1321,
+           "height": 417,
+           "ppm": [
+            5118,
+            5118
+           ]
+          }
+         }
+        ],
+        [
+         "docProps/thumbnail.jpeg",
+         {
+          "digest": "sha256:96367138dc44ce09:8324"
+         }
+        ]
+       ]
+      }
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures and tables.pdf",
+     {
+      "digest": "sha256:81afd2b793d66e5c:22141"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Figures and tables.html",
+     {
+      "digest": "sha256:0916eaa7dd91905f:66267"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Mixed test calculator.xlsx",
+     {
+      "zip": {
+       "entries": [
+        {
+         "name": "docProps/app.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1213056838,
+         "csize": 149,
+         "size": 205
+        },
+        {
+         "name": "docProps/core.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2423599817,
+         "csize": 235,
+         "size": 555
+        },
+        {
+         "name": "xl/theme/theme1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 597449881,
+         "csize": 1552,
+         "size": 10140
+        },
+        {
+         "name": "xl/worksheets/sheet1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3479405958,
+         "csize": 1534,
+         "size": 4762
+        },
+        {
+         "name": "xl/worksheets/sheet2.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2605169961,
+         "csize": 1217,
+         "size": 3655
+        },
+        {
+         "name": "xl/worksheets/sheet3.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2965587451,
+         "csize": 2280,
+         "size": 12026
+        },
+        {
+         "name": "xl/worksheets/sheet4.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2992724971,
+         "csize": 2091,
+         "size": 9570
+        },
+        {
+         "name": "xl/worksheets/sheet5.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3166527304,
+         "csize": 1070,
+         "size": 3509
+        },
+        {
+         "name": "xl/worksheets/sheet6.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4208169472,
+         "csize": 1487,
+         "size": 6384
+        },
+        {
+         "name": "xl/worksheets/sheet7.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3957722535,
+         "csize": 2807,
+         "size": 14153
+        },
+        {
+         "name": "xl/worksheets/sheet8.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2585035049,
+         "csize": 1372,
+         "size": 5514
+        },
+        {
+         "name": "xl/worksheets/sheet9.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1011957269,
+         "csize": 3098,
+         "size": 15707
+        },
+        {
+         "name": "xl/worksheets/sheet10.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1244317340,
+         "csize": 7673,
+         "size": 86666
+        },
+        {
+         "name": "xl/worksheets/sheet11.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 513677641,
+         "csize": 1121,
+         "size": 4509
+        },
+        {
+         "name": "xl/worksheets/sheet12.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 301895323,
+         "csize": 1457,
+         "size": 8299
+        },
+        {
+         "name": "xl/drawings/drawing1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3171943224,
+         "csize": 319,
+         "size": 1321
+        },
+        {
+         "name": "xl/drawings/_rels/drawing1.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3355884336,
+         "csize": 148,
+         "size": 374
+        },
+        {
+         "name": "xl/worksheets/_rels/sheet12.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2233661303,
+         "csize": 141,
+         "size": 243
+        },
+        {
+         "name": "xl/worksheets/sheet13.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1000760926,
+         "csize": 537,
+         "size": 1227
+        },
+        {
+         "name": "xl/worksheets/sheet14.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1931573896,
+         "csize": 672,
+         "size": 2497
+        },
+        {
+         "name": "xl/worksheets/sheet15.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1292755768,
+         "csize": 489,
+         "size": 1136
+        },
+        {
+         "name": "xl/worksheets/sheet16.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1532088814,
+         "csize": 443,
+         "size": 878
+        },
+        {
+         "name": "xl/worksheets/sheet17.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2523981821,
+         "csize": 482,
+         "size": 1174
+        },
+        {
+         "name": "xl/worksheets/sheet18.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 166282119,
+         "csize": 772,
+         "size": 3812
+        },
+        {
+         "name": "xl/worksheets/sheet19.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4002563107,
+         "csize": 530,
+         "size": 1176
+        },
+        {
+         "name": "xl/worksheets/sheet20.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2455623837,
+         "csize": 476,
+         "size": 1124
+        },
+        {
+         "name": "xl/worksheets/sheet21.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 2381209529,
+         "csize": 2928,
+         "size": 22069
+        },
+        {
+         "name": "xl/charts/chart1.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 4036990786,
+         "csize": 975,
+         "size": 6700
+        },
+        {
+         "name": "xl/charts/chart2.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 3634294971,
+         "csize": 788,
+         "size": 4572
+        },
+        {
+         "name": "xl/styles.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 1943130671,
+         "csize": 1100,
+         "size": 7693
+        },
+        {
+         "name": "_rels/.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 482052759,
+         "csize": 192,
+         "size": 531
+        },
+        {
+         "name": "xl/workbook.xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 923427651,
+         "csize": 706,
+         "size": 4170
+        },
+        {
+         "name": "xl/_rels/workbook.xml.rels",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 994627054,
+         "csize": 294,
+         "size": 3430
+        },
+        {
+         "name": "[Content_Types].xml",
+         "method": 8,
+         "flags": 0,
+         "made": 20,
+         "needed": 20,
+         "attr": 25165824,
+         "time": "1980-01-01 00:00:00",
+         "crc": 473077128,
+         "csize": 391,
+         "size": 4075
+        }
+       ],
+       "parts": [
+        [
+         "docProps/app.xml",
+         {
+          "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+         }
+        ],
+        [
+         "docProps/core.xml",
+         {
+          "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+         }
+        ],
+        [
+         "xl/theme/theme1.xml",
+         {
+          "digest": "sha256:d15e8ebf78ef7b97:10140"
+         }
+        ],
+        [
+         "xl/worksheets/sheet1.xml",
+         {
+          "digest": "sha256:3f450ba095722b14:4762"
+         }
+        ],
+        [
+         "xl/worksheets/sheet2.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:D14\"/><sheetViews><sheetView showGridLines=\"0\" workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"62\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"18\" customWidth=\"1\" min=\"2\" max=\"2\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>Parameters</t></is></c></row><row r=\"2\"><c r=\"A2\" s=\"2\" t=\"inlineStr\"><is><t>Economics and conventions. Orange cells are inputs.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"12\" t=\"inlineStr\"><is><t>Parameter</t></is></c><c r=\"B3\" s=\"12\" t=\"inlineStr\"><is><t>Value</t></is></c></row><row r=\"4\"><c r=\"A4\" s=\"4\" t=\"inlineStr\"><is><t>Discount rate</t></is></c><c r=\"B4\" s=\"13\" t=\"n\"><v>0.03</v></c></row><row r=\"5\"><c r=\"A5\" s=\"4\" t=\"inlineStr\"><is><t>Period of analysis (years)</t></is></c><c r=\"B5\" s=\"14\" t=\"n\"><v>50</v></c></row><row r=\"6\"><c r=\"A6\" s=\"4\" t=\"inlineStr\"><is><t>Interest during construction: periods per year</t></is></c><c r=\"B6\" s=\"14\" t=\"n\"><v>12</v></c></row><row r=\"7\"><c r=\"A7\" s=\"4\" t=\"inlineStr\"><is><t>Interest during construction: spending in each period (END, MIDDLE or START)</t></is></c><c r=\"B7\" s=\"15\" t=\"inlineStr\"><is><t>END</t></is></c></row><row r=\"8\"><c r=\"A8\" s=\"4\" t=\"inlineStr\"><is><t>OMRRR discounting (END_OF_YEAR or MID_YEAR)</t></is></c><c r=\"B8\" s=\"15\" t=\"inlineStr\"><is><t>END_OF_YEAR</t></is></c></row><row r=\"9\"><c r=\"A9\" s=\"4\" t=\"inlineStr\"><is><t>Cost decimals kept for CE/ICA</t></is></c><c r=\"B9\" s=\"14\" t=\"n\"><v>2</v></c></row><row r=\"10\"><c r=\"A10\" s=\"4\" t=\"inlineStr\"><is><t>Output decimals kept for CE/ICA</t></is></c><c r=\"B10\" s=\"14\" t=\"n\"><v>3</v></c></row><row r=\"11\"><c r=\"A11\" s=\"3\" t=\"inlineStr\"><is><t>Capital recovery factor</t></is></c><c r=\"B11\" s=\"16\"><f>IF(in_rate=0,1/in_poa,in_rate*(1+in_rate)^in_poa/((1+in_rate)^in_poa-1))</f><v></v></c></row><row r=\"13\"><c r=\"A13\" s=\"12\" t=\"inlineStr\"><is><t>Target years</t></is></c><c r=\"B13\" s=\"12\" t=\"inlineStr\"><is><t>Year 1</t></is></c><c r=\"C13\" s=\"12\" t=\"inlineStr\"><is><t>Year 2</t></is></c><c r=\"D13\" s=\"12\" t=\"inlineStr\"><is><t>Year 3</t></is></c></row><row r=\"14\"><c r=\"A14\" s=\"4\" t=\"inlineStr\"><is><t>Years (first to last)</t></is></c><c r=\"B14\" s=\"17\" t=\"n\"><v>0</v></c><c r=\"C14\" s=\"17\" t=\"n\"><v>5</v></c><c r=\"D14\" s=\"17\" t=\"n\"><v>50</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"0\" scenarios=\"0\" formatColumns=\"0\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"0\" sort=\"0\" password=\"C644\"/><conditionalFormatting sqref=\"B4:B10\"><cfRule type=\"expression\" priority=\"1\" dxfId=\"0\" stopIfTrue=\"0\"><formula>B4&lt;&gt;'snap Parameters'!B4</formula></cfRule></conditionalFormatting><conditionalFormatting sqref=\"B14:D14\"><cfRule type=\"expression\" priority=\"2\" dxfId=\"0\" stopIfTrue=\"0\"><formula>B14&lt;&gt;'snap Parameters'!B14</formula></cfRule></conditionalFormatting><dataValidations count=\"2\"><dataValidation sqref=\"B7\" showDropDown=\"0\" showInputMessage=\"0\" showErrorMessage=\"0\" allowBlank=\"0\" type=\"list\"><formula1>\"END,MIDDLE,START\"</formula1></dataValidation><dataValidation sqref=\"B8\" showDropDown=\"0\" showInputMessage=\"0\" showErrorMessage=\"0\" allowBlank=\"0\" type=\"list\"><formula1>\"END_OF_YEAR,MID_YEAR\"</formula1></dataValidation></dataValidations><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet3.xml",
+         {
+          "digest": "sha256:985b2761d202455c:12026"
+         }
+        ],
+        [
+         "xl/worksheets/sheet4.xml",
+         {
+          "digest": "sha256:99db54da69fb0970:9570"
+         }
+        ],
+        [
+         "xl/worksheets/sheet5.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:S5\"/><sheetViews><sheetView showGridLines=\"0\" workbookViewId=\"0\"><pane xSplit=\"4\" ySplit=\"4\" topLeftCell=\"E5\" activePane=\"bottomRight\" state=\"frozen\"/><selection pane=\"topRight\"/><selection pane=\"bottomLeft\"/><selection pane=\"bottomRight\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col hidden=\"1\" width=\"4\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"9\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"14\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"26\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"9\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"12\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"9\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"13\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"10\" customWidth=\"1\" min=\"9\" max=\"9\"/><col width=\"11\" customWidth=\"1\" min=\"10\" max=\"10\"/><col width=\"9\" customWidth=\"1\" min=\"11\" max=\"11\"/><col width=\"8\" customWidth=\"1\" min=\"12\" max=\"12\"/><col width=\"8\" customWidth=\"1\" min=\"13\" max=\"13\"/><col width=\"13\" customWidth=\"1\" min=\"14\" max=\"14\"/><col width=\"7\" customWidth=\"1\" min=\"15\" max=\"15\"/><col width=\"7\" customWidth=\"1\" min=\"16\" max=\"16\"/><col width=\"11\" customWidth=\"1\" min=\"17\" max=\"17\"/><col width=\"14\" customWidth=\"1\" min=\"18\" max=\"18\"/><col width=\"14\" customWidth=\"1\" min=\"19\" max=\"19\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>OMRRR: recurring operation, maintenance, repair, replacement and rehabilitation</t></is></c></row><row r=\"2\"><c r=\"A2\" s=\"2\" t=\"inlineStr\"><is><t>Each item costs the amount per occurrence every N years from the first year to the last (blank: every N years through the period of analysis). Basis: FIXED amount, PERCENT of a first-cost category, or RATE x quantity.</t></is></c></row><row r=\"4\"><c r=\"A4\" s=\"12\" t=\"inlineStr\"><is><t>Key</t></is></c><c r=\"B4\" s=\"12\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"C4\" s=\"12\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"D4\" s=\"12\" t=\"inlineStr\"><is><t>Item</t></is></c><c r=\"E4\" s=\"12\" t=\"inlineStr\"><is><t>Basis</t></is></c><c r=\"F4\" s=\"12\" t=\"inlineStr\"><is><t>Amount</t></is></c><c r=\"G4\" s=\"12\" t=\"inlineStr\"><is><t>Percent</t></is></c><c r=\"H4\" s=\"12\" t=\"inlineStr\"><is><t>Category</t></is></c><c r=\"I4\" s=\"12\" t=\"inlineStr\"><is><t>Unit rate</t></is></c><c r=\"J4\" s=\"12\" t=\"inlineStr\"><is><t>Quantity</t></is></c><c r=\"K4\" s=\"12\" t=\"inlineStr\"><is><t>Every N years</t></is></c><c r=\"L4\" s=\"12\" t=\"inlineStr\"><is><t>First year</t></is></c><c r=\"M4\" s=\"12\" t=\"inlineStr\"><is><t>Last year</t></is></c><c r=\"N4\" s=\"12\" t=\"inlineStr\"><is><t>Amount per occurrence</t></is></c><c r=\"O4\" s=\"12\" t=\"inlineStr\"><is><t>First</t></is></c><c r=\"P4\" s=\"12\" t=\"inlineStr\"><is><t>Last</t></is></c><c r=\"Q4\" s=\"12\" t=\"inlineStr\"><is><t>Occurrences</t></is></c><c r=\"R4\" s=\"12\" t=\"inlineStr\"><is><t>Present value, end of year</t></is></c><c r=\"S4\" s=\"12\" t=\"inlineStr\"><is><t>Present value</t></is></c></row><row r=\"5\"></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"0\" scenarios=\"0\" formatColumns=\"0\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"0\" sort=\"0\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet6.xml",
+         {
+          "digest": "sha256:d8c18e4876e98e4d:6384"
+         }
+        ],
+        [
+         "xl/worksheets/sheet7.xml",
+         {
+          "digest": "sha256:5652e9c318019a32:14153"
+         }
+        ],
+        [
+         "xl/worksheets/sheet8.xml",
+         {
+          "digest": "sha256:c0596fbb71a9096d:5514"
+         }
+        ],
+        [
+         "xl/worksheets/sheet9.xml",
+         {
+          "digest": "sha256:6d432dbe28fb15b7:15707"
+         }
+        ],
+        [
+         "xl/worksheets/sheet10.xml",
+         {
+          "digest": "sha256:921ce2bd18eaae75:86666"
+         }
+        ],
+        [
+         "xl/worksheets/sheet11.xml",
+         {
+          "digest": "sha256:3647a90d7a9f8006:4509"
+         }
+        ],
+        [
+         "xl/worksheets/sheet12.xml",
+         {
+          "digest": "sha256:0cc6d8218492bffe:8299"
+         }
+        ],
+        [
+         "xl/drawings/drawing1.xml",
+         {
+          "text": "<wsDr xmlns=\"http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing\"><oneCellAnchor><from><col>0</col><colOff>0</colOff><row>3</row><rowOff>0</rowOff></from><ext cx=\"5760000\" cy=\"3420000\"/><graphicFrame><nvGraphicFramePr><cNvPr id=\"1\" name=\"Chart 1\"/><cNvGraphicFramePr/></nvGraphicFramePr><xfrm/><a:graphic xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:graphicData uri=\"http://schemas.openxmlformats.org/drawingml/2006/chart\"><c:chart xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" r:id=\"rId1\"/></a:graphicData></a:graphic></graphicFrame><clientData/></oneCellAnchor><oneCellAnchor><from><col>9</col><colOff>0</colOff><row>3</row><rowOff>0</rowOff></from><ext cx=\"5760000\" cy=\"3420000\"/><graphicFrame><nvGraphicFramePr><cNvPr id=\"2\" name=\"Chart 2\"/><cNvGraphicFramePr/></nvGraphicFramePr><xfrm/><a:graphic xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:graphicData uri=\"http://schemas.openxmlformats.org/drawingml/2006/chart\"><c:chart xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" r:id=\"rId2\"/></a:graphicData></a:graphic></graphicFrame><clientData/></oneCellAnchor></wsDr>"
+         }
+        ],
+        [
+         "xl/drawings/_rels/drawing1.xml.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart\" Target=\"/xl/charts/chart1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart\" Target=\"/xl/charts/chart2.xml\" Id=\"rId2\"/></Relationships>"
+         }
+        ],
+        [
+         "xl/worksheets/_rels/sheet12.xml.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing\" Target=\"/xl/drawings/drawing1.xml\" Id=\"rId1\"/></Relationships>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet13.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"B4:D14\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"4\"><c r=\"B4\" t=\"n\"><v>0.03</v></c></row><row r=\"5\"><c r=\"B5\" t=\"n\"><v>50</v></c></row><row r=\"6\"><c r=\"B6\" t=\"n\"><v>12</v></c></row><row r=\"7\"><c r=\"B7\" t=\"inlineStr\"><is><t>END</t></is></c></row><row r=\"8\"><c r=\"B8\" t=\"inlineStr\"><is><t>END_OF_YEAR</t></is></c></row><row r=\"9\"><c r=\"B9\" t=\"n\"><v>2</v></c></row><row r=\"10\"><c r=\"B10\" t=\"n\"><v>3</v></c></row><row r=\"14\"><c r=\"B14\" t=\"n\"><v>0</v></c><c r=\"C14\" t=\"n\"><v>5</v></c><c r=\"D14\" t=\"n\"><v>50</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet14.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"F6:O20\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"6\"><c r=\"L6\" t=\"n\"><v>1</v></c><c r=\"M6\" t=\"n\"><v>1</v></c><c r=\"N6\" t=\"n\"><v>1</v></c></row><row r=\"7\"><c r=\"L7\" t=\"n\"><v>1</v></c><c r=\"M7\" t=\"n\"><v>4</v></c><c r=\"N7\" t=\"n\"><v>5</v></c></row><row r=\"8\"><c r=\"L8\" t=\"n\"><v>1</v></c><c r=\"M8\" t=\"n\"><v>2</v></c><c r=\"N8\" t=\"n\"><v>2.5</v></c></row><row r=\"9\"><c r=\"L9\" t=\"n\"><v>2</v></c><c r=\"M9\" t=\"n\"><v>2</v></c><c r=\"N9\" t=\"n\"><v>2</v></c></row><row r=\"10\"><c r=\"L10\" t=\"n\"><v>2</v></c><c r=\"M10\" t=\"n\"><v>5</v></c><c r=\"N10\" t=\"n\"><v>6</v></c></row><row r=\"11\"><c r=\"F11\" t=\"n\"><v>0.2</v></c><c r=\"G11\" t=\"n\"><v>0.2</v></c><c r=\"H11\" t=\"n\"><v>0.2</v></c><c r=\"I11\" t=\"n\"><v>3</v></c><c r=\"J11\" t=\"n\"><v>3</v></c><c r=\"K11\" t=\"n\"><v>3</v></c></row><row r=\"12\"><c r=\"F12\" t=\"n\"><v>0.2</v></c><c r=\"G12\" t=\"n\"><v>0.5</v></c><c r=\"H12\" t=\"n\"><v>0.7</v></c><c r=\"I12\" t=\"n\"><v>3</v></c><c r=\"J12\" t=\"n\"><v>3.5</v></c><c r=\"K12\" t=\"n\"><v>3.5</v></c></row><row r=\"13\"><c r=\"F13\" t=\"n\"><v>0.2</v></c><c r=\"G13\" t=\"n\"><v>0.6</v></c><c r=\"H13\" t=\"n\"><v>0.8</v></c><c r=\"I13\" t=\"n\"><v>3</v></c><c r=\"J13\" t=\"n\"><v>3</v></c><c r=\"K13\" t=\"n\"><v>3</v></c></row><row r=\"14\"><c r=\"F14\" t=\"n\"><v>0.4</v></c><c r=\"G14\" t=\"n\"><v>0.4</v></c><c r=\"H14\" t=\"n\"><v>0.4</v></c><c r=\"I14\" t=\"n\"><v>1</v></c><c r=\"J14\" t=\"n\"><v>1</v></c><c r=\"K14\" t=\"n\"><v>1</v></c></row><row r=\"15\"><c r=\"F15\" t=\"n\"><v>0.4</v></c><c r=\"G15\" t=\"n\"><v>0.4</v></c><c r=\"H15\" t=\"n\"><v>0.9</v></c><c r=\"I15\" t=\"n\"><v>1</v></c><c r=\"J15\" t=\"n\"><v>1</v></c><c r=\"K15\" t=\"n\"><v>2</v></c></row><row r=\"16\"><c r=\"O16\" t=\"n\"><v>0</v></c></row><row r=\"17\"><c r=\"O17\" t=\"n\"><v>1.5</v></c></row><row r=\"18\"><c r=\"O18\" t=\"n\"><v>0.5</v></c></row><row r=\"19\"><c r=\"O19\" t=\"n\"><v>0</v></c></row><row r=\"20\"><c r=\"O20\" t=\"n\"><v>2</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet15.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"D6:L10\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"6\"><c r=\"D6\" t=\"n\"><v>0</v></c><c r=\"G6\" t=\"n\"><v>4</v></c></row><row r=\"7\"><c r=\"D7\" t=\"n\"><v>250000</v></c><c r=\"G7\" t=\"n\"><v>4</v></c></row><row r=\"8\"><c r=\"D8\" t=\"n\"><v>180000</v></c><c r=\"G8\" t=\"n\"><v>4</v></c></row><row r=\"9\"><c r=\"D9\" t=\"n\"><v>0</v></c><c r=\"G9\" t=\"n\"><v>4</v></c></row><row r=\"10\"><c r=\"D10\" t=\"n\"><v>300000</v></c><c r=\"G10\" t=\"n\"><v>4</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet16.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"C5:C6\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"5\"><c r=\"C5\" t=\"inlineStr\"><is><t>A1</t></is></c></row><row r=\"6\"><c r=\"C6\" t=\"inlineStr\"><is><t>B1</t></is></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet17.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"N12:Z15\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"12\"><c r=\"N12\" t=\"n\"><v>1</v></c><c r=\"R12\" t=\"n\"><v>1</v></c><c r=\"Z12\" t=\"n\"><v>1</v></c></row><row r=\"13\"><c r=\"N13\" t=\"n\"><v>0</v></c><c r=\"R13\" t=\"n\"><v>0</v></c><c r=\"Z13\" t=\"n\"><v>0</v></c></row><row r=\"14\"><c r=\"N14\" t=\"n\"><v>1</v></c><c r=\"R14\" t=\"n\"><v>1</v></c><c r=\"Z14\" t=\"n\"><v>1</v></c></row><row r=\"15\"><c r=\"N15\" t=\"n\"><v>1</v></c><c r=\"R15\" t=\"n\"><v>1</v></c><c r=\"Z15\" t=\"n\"><v>1</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet18.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"B50:L93\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"50\"><c r=\"K50\" t=\"inlineStr\"></c><c r=\"L50\" t=\"inlineStr\"></c></row><row r=\"51\"><c r=\"K51\" t=\"inlineStr\"></c><c r=\"L51\" t=\"inlineStr\"></c></row><row r=\"52\"><c r=\"K52\" t=\"inlineStr\"></c><c r=\"L52\" t=\"inlineStr\"></c></row><row r=\"53\"><c r=\"K53\" t=\"inlineStr\"></c><c r=\"L53\" t=\"inlineStr\"></c></row><row r=\"54\"><c r=\"K54\" t=\"inlineStr\"></c><c r=\"L54\" t=\"inlineStr\"></c></row><row r=\"55\"><c r=\"K55\" t=\"inlineStr\"></c><c r=\"L55\" t=\"inlineStr\"></c></row><row r=\"56\"><c r=\"K56\" t=\"inlineStr\"></c><c r=\"L56\" t=\"inlineStr\"></c></row><row r=\"57\"><c r=\"K57\" t=\"inlineStr\"></c><c r=\"L57\" t=\"inlineStr\"></c></row><row r=\"58\"><c r=\"K58\" t=\"inlineStr\"></c><c r=\"L58\" t=\"inlineStr\"></c></row><row r=\"59\"><c r=\"K59\" t=\"inlineStr\"></c><c r=\"L59\" t=\"inlineStr\"></c></row><row r=\"60\"><c r=\"K60\" t=\"inlineStr\"></c><c r=\"L60\" t=\"inlineStr\"></c></row><row r=\"61\"><c r=\"K61\" t=\"inlineStr\"></c><c r=\"L61\" t=\"inlineStr\"></c></row><row r=\"62\"><c r=\"K62\" t=\"inlineStr\"></c><c r=\"L62\" t=\"inlineStr\"></c></row><row r=\"63\"><c r=\"K63\" t=\"inlineStr\"></c><c r=\"L63\" t=\"inlineStr\"></c></row><row r=\"64\"><c r=\"K64\" t=\"inlineStr\"></c><c r=\"L64\" t=\"inlineStr\"></c></row><row r=\"65\"><c r=\"K65\" t=\"inlineStr\"></c><c r=\"L65\" t=\"inlineStr\"></c></row><row r=\"66\"><c r=\"K66\" t=\"inlineStr\"></c><c r=\"L66\" t=\"inlineStr\"></c></row><row r=\"67\"><c r=\"K67\" t=\"inlineStr\"></c><c r=\"L67\" t=\"inlineStr\"></c></row><row r=\"68\"><c r=\"K68\" t=\"inlineStr\"></c><c r=\"L68\" t=\"inlineStr\"></c></row><row r=\"69\"><c r=\"K69\" t=\"inlineStr\"></c><c r=\"L69\" t=\"inlineStr\"></c></row><row r=\"70\"><c r=\"K70\" t=\"inlineStr\"></c><c r=\"L70\" t=\"inlineStr\"></c></row><row r=\"71\"><c r=\"K71\" t=\"inlineStr\"></c><c r=\"L71\" t=\"inlineStr\"></c></row><row r=\"72\"><c r=\"K72\" t=\"inlineStr\"></c><c r=\"L72\" t=\"inlineStr\"></c></row><row r=\"73\"><c r=\"K73\" t=\"inlineStr\"></c><c r=\"L73\" t=\"inlineStr\"></c></row><row r=\"74\"><c r=\"K74\" t=\"inlineStr\"></c><c r=\"L74\" t=\"inlineStr\"></c></row><row r=\"75\"><c r=\"K75\" t=\"inlineStr\"></c><c r=\"L75\" t=\"inlineStr\"></c></row><row r=\"76\"><c r=\"K76\" t=\"inlineStr\"></c><c r=\"L76\" t=\"inlineStr\"></c></row><row r=\"77\"><c r=\"K77\" t=\"inlineStr\"></c><c r=\"L77\" t=\"inlineStr\"></c></row><row r=\"78\"><c r=\"K78\" t=\"inlineStr\"></c><c r=\"L78\" t=\"inlineStr\"></c></row><row r=\"79\"><c r=\"K79\" t=\"inlineStr\"></c><c r=\"L79\" t=\"inlineStr\"></c></row><row r=\"80\"><c r=\"K80\" t=\"inlineStr\"></c><c r=\"L80\" t=\"inlineStr\"></c></row><row r=\"81\"><c r=\"K81\" t=\"inlineStr\"></c><c r=\"L81\" t=\"inlineStr\"></c></row><row r=\"82\"><c r=\"K82\" t=\"inlineStr\"></c><c r=\"L82\" t=\"inlineStr\"></c></row><row r=\"83\"><c r=\"K83\" t=\"inlineStr\"></c><c r=\"L83\" t=\"inlineStr\"></c></row><row r=\"84\"><c r=\"K84\" t=\"inlineStr\"></c><c r=\"L84\" t=\"inlineStr\"></c></row><row r=\"85\"><c r=\"K85\" t=\"inlineStr\"></c><c r=\"L85\" t=\"inlineStr\"></c></row><row r=\"86\"><c r=\"K86\" t=\"inlineStr\"></c><c r=\"L86\" t=\"inlineStr\"></c></row><row r=\"87\"><c r=\"K87\" t=\"inlineStr\"></c><c r=\"L87\" t=\"inlineStr\"></c></row><row r=\"88\"><c r=\"K88\" t=\"inlineStr\"></c><c r=\"L88\" t=\"inlineStr\"></c></row><row r=\"89\"><c r=\"K89\" t=\"inlineStr\"></c><c r=\"L89\" t=\"inlineStr\"></c></row><row r=\"93\"></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet19.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"G5:L9\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"5\"><c r=\"G5\" t=\"n\"><v>0</v></c><c r=\"L5\" t=\"n\"><v>0</v></c></row><row r=\"6\"><c r=\"G6\" t=\"n\"><v>6.2075</v></c><c r=\"L6\" t=\"n\"><v>9752.377544367695</v></c></row><row r=\"7\"><c r=\"G7\" t=\"n\"><v>3.085</v></c><c r=\"L7\" t=\"n\"><v>7021.71183194474</v></c></row><row r=\"8\"><c r=\"G8\" t=\"n\"><v>0</v></c><c r=\"L8\" t=\"n\"><v>0</v></c></row><row r=\"9\"><c r=\"G9\" t=\"n\"><v>5.93</v></c><c r=\"L9\" t=\"n\"><v>11702.85305324123</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet20.xml",
+         {
+          "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"L6:P12\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"6\"><c r=\"L6\" t=\"n\"><v>1</v></c><c r=\"P6\" t=\"n\"><v>1</v></c></row><row r=\"7\"><c r=\"L7\" t=\"n\"><v>1</v></c><c r=\"P7\" t=\"n\"><v>1</v></c></row><row r=\"8\"><c r=\"L8\" t=\"n\"><v>1</v></c><c r=\"P8\" t=\"n\"><v>0</v></c></row><row r=\"11\"><c r=\"L11\" t=\"n\"><v>1</v></c><c r=\"P11\" t=\"n\"><v>1</v></c></row><row r=\"12\"><c r=\"L12\" t=\"n\"><v>1</v></c><c r=\"P12\" t=\"n\"><v>1</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+         }
+        ],
+        [
+         "xl/worksheets/sheet21.xml",
+         {
+          "digest": "sha256:5d1ff5da23617aa7:22069"
+         }
+        ],
+        [
+         "xl/charts/chart1.xml",
+         {
+          "digest": "sha256:b517935713420ee8:6700"
+         }
+        ],
+        [
+         "xl/charts/chart2.xml",
+         {
+          "digest": "sha256:f7ae8da968a83c6f:4572"
+         }
+        ],
+        [
+         "xl/styles.xml",
+         {
+          "digest": "sha256:e0bb69368e28fddd:7693"
+         }
+        ],
+        [
+         "_rels/.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+         }
+        ],
+        [
+         "xl/workbook.xml",
+         {
+          "digest": "sha256:e3a5684ba6694370:4170"
+         }
+        ],
+        [
+         "xl/_rels/workbook.xml.rels",
+         {
+          "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet2.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet3.xml\" Id=\"rId3\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet4.xml\" Id=\"rId4\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet5.xml\" Id=\"rId5\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet6.xml\" Id=\"rId6\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet7.xml\" Id=\"rId7\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet8.xml\" Id=\"rId8\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet9.xml\" Id=\"rId9\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet10.xml\" Id=\"rId10\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet11.xml\" Id=\"rId11\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet12.xml\" Id=\"rId12\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet13.xml\" Id=\"rId13\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet14.xml\" Id=\"rId14\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet15.xml\" Id=\"rId15\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet16.xml\" Id=\"rId16\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet17.xml\" Id=\"rId17\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet18.xml\" Id=\"rId18\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet19.xml\" Id=\"rId19\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet20.xml\" Id=\"rId20\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet21.xml\" Id=\"rId21\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId22\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId23\"/></Relationships>"
+         }
+        ],
+        [
+         "[Content_Types].xml",
+         {
+          "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet2.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet3.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet4.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet5.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet6.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet7.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet8.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet9.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet10.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet11.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet12.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/drawings/drawing1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.drawing+xml\"/><Override PartName=\"/xl/worksheets/sheet13.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet14.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet15.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet16.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet17.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet18.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet19.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet20.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet21.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/charts/chart1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.drawingml.chart+xml\"/><Override PartName=\"/xl/charts/chart2.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.drawingml.chart+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+         }
+        ]
+       ]
+      },
+      "digest": "sha256:a511cac8124e8b3f:45706"
+     }
+    ],
+    [
+     "Mixed test CE-ICA 2026-10-18/Mixed test.ceica",
+     {
+      "digest": "sha256:e288fd7c77469f96:6649"
+     }
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,477 @@
+{
+ "zip": {
+  "entries": [
+   {
+    "name": "docProps/app.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1213056838,
+    "csize": 149,
+    "size": 205
+   },
+   {
+    "name": "docProps/core.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 2423599817,
+    "csize": 235,
+    "size": 555
+   },
+   {
+    "name": "xl/theme/theme1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 597449881,
+    "csize": 1552,
+    "size": 10140
+   },
+   {
+    "name": "xl/worksheets/sheet1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1798841438,
+    "csize": 1522,
+    "size": 4820
+   },
+   {
+    "name": "xl/worksheets/sheet2.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1595457202,
+    "csize": 1229,
+    "size": 3750
+   },
+   {
+    "name": "xl/worksheets/sheet3.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3975248644,
+    "csize": 2810,
+    "size": 17214
+   },
+   {
+    "name": "xl/worksheets/sheet4.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1965421292,
+    "csize": 7411,
+    "size": 49761
+   },
+   {
+    "name": "xl/worksheets/sheet5.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3166527304,
+    "csize": 1070,
+    "size": 3509
+   },
+   {
+    "name": "xl/worksheets/sheet6.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3412647088,
+    "csize": 4866,
+    "size": 33766
+   },
+   {
+    "name": "xl/worksheets/sheet7.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 2708675539,
+    "csize": 13197,
+    "size": 90928
+   },
+   {
+    "name": "xl/worksheets/sheet8.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 2476589459,
+    "csize": 1859,
+    "size": 11155
+   },
+   {
+    "name": "xl/worksheets/sheet9.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3142881641,
+    "csize": 4887,
+    "size": 28408
+   },
+   {
+    "name": "xl/worksheets/sheet10.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 746814270,
+    "csize": 562,
+    "size": 1167
+   },
+   {
+    "name": "xl/worksheets/sheet11.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 2328784757,
+    "csize": 1839,
+    "size": 12437
+   },
+   {
+    "name": "xl/worksheets/sheet12.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3976918380,
+    "csize": 542,
+    "size": 1257
+   },
+   {
+    "name": "xl/worksheets/sheet13.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 2321756718,
+    "csize": 1103,
+    "size": 3294
+   },
+   {
+    "name": "xl/worksheets/sheet14.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1682278617,
+    "csize": 1212,
+    "size": 4507
+   },
+   {
+    "name": "xl/worksheets/sheet15.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3126364045,
+    "csize": 483,
+    "size": 1133
+   },
+   {
+    "name": "xl/worksheets/sheet16.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 349120624,
+    "csize": 1653,
+    "size": 5079
+   },
+   {
+    "name": "xl/worksheets/sheet17.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 3675454737,
+    "csize": 814,
+    "size": 3933
+   },
+   {
+    "name": "xl/worksheets/sheet18.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1100230497,
+    "csize": 4391,
+    "size": 45917
+   },
+   {
+    "name": "xl/styles.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1876385331,
+    "csize": 1049,
+    "size": 6972
+   },
+   {
+    "name": "_rels/.rels",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 482052759,
+    "csize": 192,
+    "size": 531
+   },
+   {
+    "name": "xl/workbook.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 597081322,
+    "csize": 673,
+    "size": 3708
+   },
+   {
+    "name": "xl/_rels/workbook.xml.rels",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1289555519,
+    "csize": 277,
+    "size": 2989
+   },
+   {
+    "name": "[Content_Types].xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "1980-01-01 00:00:00",
+    "crc": 1722040385,
+    "csize": 347,
+    "size": 3296
+   }
+  ],
+  "parts": [
+   [
+    "docProps/app.xml",
+    {
+     "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+    }
+   ],
+   [
+    "docProps/core.xml",
+    {
+     "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+    }
+   ],
+   [
+    "xl/theme/theme1.xml",
+    {
+     "digest": "sha256:d15e8ebf78ef7b97:10140"
+    }
+   ],
+   [
+    "xl/worksheets/sheet1.xml",
+    {
+     "digest": "sha256:dd4a90cb5f281e72:4820"
+    }
+   ],
+   [
+    "xl/worksheets/sheet2.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:E14\"/><sheetViews><sheetView showGridLines=\"0\" workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"62\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"18\" customWidth=\"1\" min=\"2\" max=\"2\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>Parameters</t></is></c></row><row r=\"2\"><c r=\"A2\" s=\"2\" t=\"inlineStr\"><is><t>Economics and conventions. Orange cells are inputs.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"12\" t=\"inlineStr\"><is><t>Parameter</t></is></c><c r=\"B3\" s=\"12\" t=\"inlineStr\"><is><t>Value</t></is></c></row><row r=\"4\"><c r=\"A4\" s=\"4\" t=\"inlineStr\"><is><t>Discount rate</t></is></c><c r=\"B4\" s=\"13\" t=\"n\"><v>0.03</v></c></row><row r=\"5\"><c r=\"A5\" s=\"4\" t=\"inlineStr\"><is><t>Period of analysis (years)</t></is></c><c r=\"B5\" s=\"14\" t=\"n\"><v>50</v></c></row><row r=\"6\"><c r=\"A6\" s=\"4\" t=\"inlineStr\"><is><t>Interest during construction: periods per year</t></is></c><c r=\"B6\" s=\"14\" t=\"n\"><v>12</v></c></row><row r=\"7\"><c r=\"A7\" s=\"4\" t=\"inlineStr\"><is><t>Interest during construction: spending in each period (END, MIDDLE or START)</t></is></c><c r=\"B7\" s=\"15\" t=\"inlineStr\"><is><t>END</t></is></c></row><row r=\"8\"><c r=\"A8\" s=\"4\" t=\"inlineStr\"><is><t>OMRRR discounting (END_OF_YEAR or MID_YEAR)</t></is></c><c r=\"B8\" s=\"15\" t=\"inlineStr\"><is><t>END_OF_YEAR</t></is></c></row><row r=\"9\"><c r=\"A9\" s=\"4\" t=\"inlineStr\"><is><t>Cost decimals kept for CE/ICA</t></is></c><c r=\"B9\" s=\"14\" t=\"n\"><v>2</v></c></row><row r=\"10\"><c r=\"A10\" s=\"4\" t=\"inlineStr\"><is><t>Output decimals kept for CE/ICA</t></is></c><c r=\"B10\" s=\"14\" t=\"n\"><v>3</v></c></row><row r=\"11\"><c r=\"A11\" s=\"3\" t=\"inlineStr\"><is><t>Capital recovery factor</t></is></c><c r=\"B11\" s=\"16\"><f>IF(in_rate=0,1/in_poa,in_rate*(1+in_rate)^in_poa/((1+in_rate)^in_poa-1))</f><v></v></c></row><row r=\"13\"><c r=\"A13\" s=\"12\" t=\"inlineStr\"><is><t>Target years</t></is></c><c r=\"B13\" s=\"12\" t=\"inlineStr\"><is><t>Year 1</t></is></c><c r=\"C13\" s=\"12\" t=\"inlineStr\"><is><t>Year 2</t></is></c><c r=\"D13\" s=\"12\" t=\"inlineStr\"><is><t>Year 3</t></is></c><c r=\"E13\" s=\"12\" t=\"inlineStr\"><is><t>Year 4</t></is></c></row><row r=\"14\"><c r=\"A14\" s=\"4\" t=\"inlineStr\"><is><t>Years (first to last)</t></is></c><c r=\"B14\" s=\"17\" t=\"n\"><v>0</v></c><c r=\"C14\" s=\"17\" t=\"n\"><v>2</v></c><c r=\"D14\" s=\"17\" t=\"n\"><v>10</v></c><c r=\"E14\" s=\"17\" t=\"n\"><v>50</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"0\" scenarios=\"0\" formatColumns=\"0\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"0\" sort=\"0\" password=\"C644\"/><conditionalFormatting sqref=\"B4:B10\"><cfRule type=\"expression\" priority=\"1\" dxfId=\"0\" stopIfTrue=\"0\"><formula>B4&lt;&gt;'snap Parameters'!B4</formula></cfRule></conditionalFormatting><conditionalFormatting sqref=\"B14:E14\"><cfRule type=\"expression\" priority=\"2\" dxfId=\"0\" stopIfTrue=\"0\"><formula>B14&lt;&gt;'snap Parameters'!B14</formula></cfRule></conditionalFormatting><dataValidations count=\"2\"><dataValidation sqref=\"B7\" showDropDown=\"0\" showInputMessage=\"0\" showErrorMessage=\"0\" allowBlank=\"0\" type=\"list\"><formula1>\"END,MIDDLE,START\"</formula1></dataValidation><dataValidation sqref=\"B8\" showDropDown=\"0\" showInputMessage=\"0\" showErrorMessage=\"0\" allowBlank=\"0\" type=\"list\"><formula1>\"END_OF_YEAR,MID_YEAR\"</formula1></dataValidation></dataValidations><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet3.xml",
+    {
+     "digest": "sha256:6f67c795c1040de4:17214"
+    }
+   ],
+   [
+    "xl/worksheets/sheet4.xml",
+    {
+     "digest": "sha256:e89f84bfd0c8d232:49761"
+    }
+   ],
+   [
+    "xl/worksheets/sheet5.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:S5\"/><sheetViews><sheetView showGridLines=\"0\" workbookViewId=\"0\"><pane xSplit=\"4\" ySplit=\"4\" topLeftCell=\"E5\" activePane=\"bottomRight\" state=\"frozen\"/><selection pane=\"topRight\"/><selection pane=\"bottomLeft\"/><selection pane=\"bottomRight\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col hidden=\"1\" width=\"4\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"9\" customWidth=\"1\" min=\"2\" max=\"2\"/><col width=\"14\" customWidth=\"1\" min=\"3\" max=\"3\"/><col width=\"26\" customWidth=\"1\" min=\"4\" max=\"4\"/><col width=\"9\" customWidth=\"1\" min=\"5\" max=\"5\"/><col width=\"12\" customWidth=\"1\" min=\"6\" max=\"6\"/><col width=\"9\" customWidth=\"1\" min=\"7\" max=\"7\"/><col width=\"13\" customWidth=\"1\" min=\"8\" max=\"8\"/><col width=\"10\" customWidth=\"1\" min=\"9\" max=\"9\"/><col width=\"11\" customWidth=\"1\" min=\"10\" max=\"10\"/><col width=\"9\" customWidth=\"1\" min=\"11\" max=\"11\"/><col width=\"8\" customWidth=\"1\" min=\"12\" max=\"12\"/><col width=\"8\" customWidth=\"1\" min=\"13\" max=\"13\"/><col width=\"13\" customWidth=\"1\" min=\"14\" max=\"14\"/><col width=\"7\" customWidth=\"1\" min=\"15\" max=\"15\"/><col width=\"7\" customWidth=\"1\" min=\"16\" max=\"16\"/><col width=\"11\" customWidth=\"1\" min=\"17\" max=\"17\"/><col width=\"14\" customWidth=\"1\" min=\"18\" max=\"18\"/><col width=\"14\" customWidth=\"1\" min=\"19\" max=\"19\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>OMRRR: recurring operation, maintenance, repair, replacement and rehabilitation</t></is></c></row><row r=\"2\"><c r=\"A2\" s=\"2\" t=\"inlineStr\"><is><t>Each item costs the amount per occurrence every N years from the first year to the last (blank: every N years through the period of analysis). Basis: FIXED amount, PERCENT of a first-cost category, or RATE x quantity.</t></is></c></row><row r=\"4\"><c r=\"A4\" s=\"12\" t=\"inlineStr\"><is><t>Key</t></is></c><c r=\"B4\" s=\"12\" t=\"inlineStr\"><is><t>Site</t></is></c><c r=\"C4\" s=\"12\" t=\"inlineStr\"><is><t>Alternative</t></is></c><c r=\"D4\" s=\"12\" t=\"inlineStr\"><is><t>Item</t></is></c><c r=\"E4\" s=\"12\" t=\"inlineStr\"><is><t>Basis</t></is></c><c r=\"F4\" s=\"12\" t=\"inlineStr\"><is><t>Amount</t></is></c><c r=\"G4\" s=\"12\" t=\"inlineStr\"><is><t>Percent</t></is></c><c r=\"H4\" s=\"12\" t=\"inlineStr\"><is><t>Category</t></is></c><c r=\"I4\" s=\"12\" t=\"inlineStr\"><is><t>Unit rate</t></is></c><c r=\"J4\" s=\"12\" t=\"inlineStr\"><is><t>Quantity</t></is></c><c r=\"K4\" s=\"12\" t=\"inlineStr\"><is><t>Every N years</t></is></c><c r=\"L4\" s=\"12\" t=\"inlineStr\"><is><t>First year</t></is></c><c r=\"M4\" s=\"12\" t=\"inlineStr\"><is><t>Last year</t></is></c><c r=\"N4\" s=\"12\" t=\"inlineStr\"><is><t>Amount per occurrence</t></is></c><c r=\"O4\" s=\"12\" t=\"inlineStr\"><is><t>First</t></is></c><c r=\"P4\" s=\"12\" t=\"inlineStr\"><is><t>Last</t></is></c><c r=\"Q4\" s=\"12\" t=\"inlineStr\"><is><t>Occurrences</t></is></c><c r=\"R4\" s=\"12\" t=\"inlineStr\"><is><t>Present value, end of year</t></is></c><c r=\"S4\" s=\"12\" t=\"inlineStr\"><is><t>Present value</t></is></c></row><row r=\"5\"></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"0\" scenarios=\"0\" formatColumns=\"0\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"0\" sort=\"0\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet6.xml",
+    {
+     "digest": "sha256:549cc3bec7f2b544:33766"
+    }
+   ],
+   [
+    "xl/worksheets/sheet7.xml",
+    {
+     "digest": "sha256:b7273d75eb792676:90928"
+    }
+   ],
+   [
+    "xl/worksheets/sheet8.xml",
+    {
+     "digest": "sha256:dc656141e555136d:11155"
+    }
+   ],
+   [
+    "xl/worksheets/sheet9.xml",
+    {
+     "digest": "sha256:26c3ae1bedd4f002:28408"
+    }
+   ],
+   [
+    "xl/worksheets/sheet10.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:A4\"/><sheetViews><sheetView showGridLines=\"0\" workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>Watershed summary: best buys, final array and the tentatively selected plan</t></is></c></row><row r=\"2\"><c r=\"A2\" s=\"2\" t=\"inlineStr\"><is><t>Tables read the watershed plans sheet. Choose the TSP from the final array.</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>See the Watershed plans sheet (values from the app).</t></is></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"0\" scenarios=\"0\" formatColumns=\"0\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"0\" sort=\"0\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet11.xml",
+    {
+     "digest": "sha256:3cdfec417bfbdf1a:12437"
+    }
+   ],
+   [
+    "xl/worksheets/sheet12.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"B4:E14\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"4\"><c r=\"B4\" t=\"n\"><v>0.03</v></c></row><row r=\"5\"><c r=\"B5\" t=\"n\"><v>50</v></c></row><row r=\"6\"><c r=\"B6\" t=\"n\"><v>12</v></c></row><row r=\"7\"><c r=\"B7\" t=\"inlineStr\"><is><t>END</t></is></c></row><row r=\"8\"><c r=\"B8\" t=\"inlineStr\"><is><t>END_OF_YEAR</t></is></c></row><row r=\"9\"><c r=\"B9\" t=\"n\"><v>2</v></c></row><row r=\"10\"><c r=\"B10\" t=\"n\"><v>3</v></c></row><row r=\"14\"><c r=\"B14\" t=\"n\"><v>0</v></c><c r=\"C14\" t=\"n\"><v>2</v></c><c r=\"D14\" t=\"n\"><v>10</v></c><c r=\"E14\" t=\"n\"><v>50</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet13.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"F6:F47\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"6\"><c r=\"F6\" t=\"n\"><v>0</v></c></row><row r=\"7\"><c r=\"F7\" t=\"n\"><v>20.96104336331001</v></c></row><row r=\"8\"><c r=\"F8\" t=\"n\"><v>6.622224896065716</v></c></row><row r=\"9\"><c r=\"F9\" t=\"n\"><v>13.16142662840893</v></c></row><row r=\"10\"><c r=\"F10\" t=\"n\"><v>33.28040115899723</v></c></row><row r=\"11\"><c r=\"F11\" t=\"n\"><v>22.43415381924932</v></c></row><row r=\"12\"><c r=\"F12\" t=\"n\"><v>30.38701123831746</v></c></row><row r=\"13\"><c r=\"F13\" t=\"n\"><v>0</v></c></row><row r=\"14\"><c r=\"F14\" t=\"n\"><v>13.85953694346459</v></c></row><row r=\"15\"><c r=\"F15\" t=\"n\"><v>12.82459834237415</v></c></row><row r=\"16\"><c r=\"F16\" t=\"n\"><v>6.227626192639425</v></c></row><row r=\"17\"><c r=\"F17\" t=\"n\"><v>8.934754386369836</v></c></row><row r=\"18\"><c r=\"F18\" t=\"n\"><v>30.26422223257205</v></c></row><row r=\"19\"><c r=\"F19\" t=\"n\"><v>19.92244800283377</v></c></row><row r=\"20\"><c r=\"F20\" t=\"n\"><v>0</v></c></row><row r=\"21\"><c r=\"F21\" t=\"n\"><v>38.50463055288768</v></c></row><row r=\"22\"><c r=\"F22\" t=\"n\"><v>22.10784736634993</v></c></row><row r=\"23\"><c r=\"F23\" t=\"n\"><v>7.265428342229947</v></c></row><row r=\"24\"><c r=\"F24\" t=\"n\"><v>21.12667483636727</v></c></row><row r=\"25\"><c r=\"F25\" t=\"n\"><v>25.31610046596252</v></c></row><row r=\"26\"><c r=\"F26\" t=\"n\"><v>24.90712874106858</v></c></row><row r=\"27\"><c r=\"F27\" t=\"n\"><v>0</v></c></row><row r=\"28\"><c r=\"F28\" t=\"n\"><v>2.544122189903911</v></c></row><row r=\"29\"><c r=\"F29\" t=\"n\"><v>18.91409943253074</v></c></row><row r=\"30\"><c r=\"F30\" t=\"n\"><v>26.01179859643563</v></c></row><row r=\"31\"><c r=\"F31\" t=\"n\"><v>24.12469970606708</v></c></row><row r=\"32\"><c r=\"F32\" t=\"n\"><v>33.75537932022494</v></c></row><row r=\"33\"><c r=\"F33\" t=\"n\"><v>20.92466649419479</v></c></row><row r=\"34\"><c r=\"F34\" t=\"n\"><v>0</v></c></row><row r=\"35\"><c r=\"F35\" t=\"n\"><v>6.768959395613305</v></c></row><row r=\"36\"><c r=\"F36\" t=\"n\"><v>27.64818933412703</v></c></row><row r=\"37\"><c r=\"F37\" t=\"n\"><v>8.473034101785274</v></c></row><row r=\"38\"><c r=\"F38\" t=\"n\"><v>8.461633116230811</v></c></row><row r=\"39\"><c r=\"F39\" t=\"n\"><v>34.35385199719574</v></c></row><row r=\"40\"><c r=\"F40\" t=\"n\"><v>35.18494676024664</v></c></row><row r=\"41\"><c r=\"F41\" t=\"n\"><v>0</v></c></row><row r=\"42\"><c r=\"F42\" t=\"n\"><v>11.68788715593501</v></c></row><row r=\"43\"><c r=\"F43\" t=\"n\"><v>26.18311492742297</v></c></row><row r=\"44\"><c r=\"F44\" t=\"n\"><v>33.58719944351069</v></c></row><row r=\"45\"><c r=\"F45\" t=\"n\"><v>9.39350851935597</v></c></row><row r=\"46\"><c r=\"F46\" t=\"n\"><v>32.39713849265538</v></c></row><row r=\"47\"><c r=\"F47\" t=\"n\"><v>6.870468386425921</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet14.xml",
+    {
+     "digest": "sha256:64a24864873f1b48:4507"
+    }
+   ],
+   [
+    "xl/worksheets/sheet15.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"C5:C10\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"5\"><c r=\"C5\" t=\"inlineStr\"><is><t>A4</t></is></c></row><row r=\"6\"><c r=\"C6\" t=\"inlineStr\"><is><t>A5</t></is></c></row><row r=\"7\"><c r=\"C7\" t=\"inlineStr\"><is><t>A1</t></is></c></row><row r=\"8\"><c r=\"C8\" t=\"inlineStr\"><is><t>A5</t></is></c></row><row r=\"9\"><c r=\"C9\" t=\"inlineStr\"><is><t>A6</t></is></c></row><row r=\"10\"><c r=\"C10\" t=\"inlineStr\"><is><t>A3</t></is></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet16.xml",
+    {
+     "digest": "sha256:54f64021c9a43a1a:5079"
+    }
+   ],
+   [
+    "xl/worksheets/sheet17.xml",
+    {
+     "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"L6:P57\"/><sheetViews><sheetView workbookViewId=\"0\"><selection activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><sheetData><row r=\"6\"><c r=\"L6\" t=\"n\"><v>1</v></c><c r=\"P6\" t=\"n\"><v>1</v></c></row><row r=\"7\"><c r=\"L7\" t=\"n\"><v>0</v></c><c r=\"P7\" t=\"n\"><v>0</v></c></row><row r=\"8\"><c r=\"L8\" t=\"n\"><v>0</v></c><c r=\"P8\" t=\"n\"><v>0</v></c></row><row r=\"9\"><c r=\"L9\" t=\"n\"><v>0</v></c><c r=\"P9\" t=\"n\"><v>0</v></c></row><row r=\"10\"><c r=\"L10\" t=\"n\"><v>1</v></c><c r=\"P10\" t=\"n\"><v>1</v></c></row><row r=\"11\"><c r=\"L11\" t=\"n\"><v>1</v></c><c r=\"P11\" t=\"n\"><v>1</v></c></row><row r=\"12\"><c r=\"L12\" t=\"n\"><v>0</v></c><c r=\"P12\" t=\"n\"><v>0</v></c></row><row r=\"15\"><c r=\"L15\" t=\"n\"><v>1</v></c><c r=\"P15\" t=\"n\"><v>1</v></c></row><row r=\"16\"><c r=\"L16\" t=\"n\"><v>0</v></c><c r=\"P16\" t=\"n\"><v>0</v></c></row><row r=\"17\"><c r=\"L17\" t=\"n\"><v>0</v></c><c r=\"P17\" t=\"n\"><v>0</v></c></row><row r=\"18\"><c r=\"L18\" t=\"n\"><v>0</v></c><c r=\"P18\" t=\"n\"><v>0</v></c></row><row r=\"19\"><c r=\"L19\" t=\"n\"><v>1</v></c><c r=\"P19\" t=\"n\"><v>0</v></c></row><row r=\"20\"><c r=\"L20\" t=\"n\"><v>1</v></c><c r=\"P20\" t=\"n\"><v>1</v></c></row><row r=\"21\"><c r=\"L21\" t=\"n\"><v>0</v></c><c r=\"P21\" t=\"n\"><v>0</v></c></row><row r=\"24\"><c r=\"L24\" t=\"n\"><v>1</v></c><c r=\"P24\" t=\"n\"><v>1</v></c></row><row r=\"25\"><c r=\"L25\" t=\"n\"><v>1</v></c><c r=\"P25\" t=\"n\"><v>1</v></c></row><row r=\"26\"><c r=\"L26\" t=\"n\"><v>1</v></c><c r=\"P26\" t=\"n\"><v>0</v></c></row><row r=\"27\"><c r=\"L27\" t=\"n\"><v>0</v></c><c r=\"P27\" t=\"n\"><v>0</v></c></row><row r=\"28\"><c r=\"L28\" t=\"n\"><v>1</v></c><c r=\"P28\" t=\"n\"><v>1</v></c></row><row r=\"29\"><c r=\"L29\" t=\"n\"><v>0</v></c><c r=\"P29\" t=\"n\"><v>0</v></c></row><row r=\"30\"><c r=\"L30\" t=\"n\"><v>0</v></c><c r=\"P30\" t=\"n\"><v>0</v></c></row><row r=\"33\"><c r=\"L33\" t=\"n\"><v>1</v></c><c r=\"P33\" t=\"n\"><v>1</v></c></row><row r=\"34\"><c r=\"L34\" t=\"n\"><v>0</v></c><c r=\"P34\" t=\"n\"><v>0</v></c></row><row r=\"35\"><c r=\"L35\" t=\"n\"><v>1</v></c><c r=\"P35\" t=\"n\"><v>1</v></c></row><row r=\"36\"><c r=\"L36\" t=\"n\"><v>0</v></c><c r=\"P36\" t=\"n\"><v>0</v></c></row><row r=\"37\"><c r=\"L37\" t=\"n\"><v>1</v></c><c r=\"P37\" t=\"n\"><v>0</v></c></row><row r=\"38\"><c r=\"L38\" t=\"n\"><v>1</v></c><c r=\"P38\" t=\"n\"><v>1</v></c></row><row r=\"39\"><c r=\"L39\" t=\"n\"><v>0</v></c><c r=\"P39\" t=\"n\"><v>0</v></c></row><row r=\"42\"><c r=\"L42\" t=\"n\"><v>1</v></c><c r=\"P42\" t=\"n\"><v>1</v></c></row><row r=\"43\"><c r=\"L43\" t=\"n\"><v>0</v></c><c r=\"P43\" t=\"n\"><v>0</v></c></row><row r=\"44\"><c r=\"L44\" t=\"n\"><v>0</v></c><c r=\"P44\" t=\"n\"><v>0</v></c></row><row r=\"45\"><c r=\"L45\" t=\"n\"><v>0</v></c><c r=\"P45\" t=\"n\"><v>0</v></c></row><row r=\"46\"><c r=\"L46\" t=\"n\"><v>1</v></c><c r=\"P46\" t=\"n\"><v>0</v></c></row><row r=\"47\"><c r=\"L47\" t=\"n\"><v>0</v></c><c r=\"P47\" t=\"n\"><v>0</v></c></row><row r=\"48\"><c r=\"L48\" t=\"n\"><v>1</v></c><c r=\"P48\" t=\"n\"><v>1</v></c></row><row r=\"51\"><c r=\"L51\" t=\"n\"><v>1</v></c><c r=\"P51\" t=\"n\"><v>1</v></c></row><row r=\"52\"><c r=\"L52\" t=\"n\"><v>1</v></c><c r=\"P52\" t=\"n\"><v>1</v></c></row><row r=\"53\"><c r=\"L53\" t=\"n\"><v>0</v></c><c r=\"P53\" t=\"n\"><v>0</v></c></row><row r=\"54\"><c r=\"L54\" t=\"n\"><v>1</v></c><c r=\"P54\" t=\"n\"><v>1</v></c></row><row r=\"55\"><c r=\"L55\" t=\"n\"><v>0</v></c><c r=\"P55\" t=\"n\"><v>0</v></c></row><row r=\"56\"><c r=\"L56\" t=\"n\"><v>0</v></c><c r=\"P56\" t=\"n\"><v>0</v></c></row><row r=\"57\"><c r=\"L57\" t=\"n\"><v>0</v></c><c r=\"P57\" t=\"n\"><v>0</v></c></row></sheetData><sheetProtection selectLockedCells=\"0\" selectUnlockedCells=\"0\" sheet=\"1\" objects=\"0\" insertRows=\"1\" insertHyperlinks=\"1\" autoFilter=\"1\" scenarios=\"0\" formatColumns=\"1\" deleteColumns=\"1\" insertColumns=\"1\" pivotTables=\"1\" deleteRows=\"1\" formatCells=\"1\" formatRows=\"1\" sort=\"1\" password=\"C644\"/><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+    }
+   ],
+   [
+    "xl/worksheets/sheet18.xml",
+    {
+     "digest": "sha256:5eba361bd5af2fee:45917"
+    }
+   ],
+   [
+    "xl/styles.xml",
+    {
+     "digest": "sha256:bfc27b59e59654cb:6972"
+    }
+   ],
+   [
+    "_rels/.rels",
+    {
+     "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+    }
+   ],
+   [
+    "xl/workbook.xml",
+    {
+     "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Read me\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Parameters\" sheetId=\"2\" state=\"visible\" r:id=\"rId2\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Benefits\" sheetId=\"3\" state=\"visible\" r:id=\"rId3\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Costs\" sheetId=\"4\" state=\"visible\" r:id=\"rId4\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"OMRRR\" sheetId=\"5\" state=\"visible\" r:id=\"rId5\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Summary\" sheetId=\"6\" state=\"visible\" r:id=\"rId6\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Site CE-ICA\" sheetId=\"7\" state=\"visible\" r:id=\"rId7\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Sites\" sheetId=\"8\" state=\"visible\" r:id=\"rId8\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Watershed plans\" sheetId=\"9\" state=\"visible\" r:id=\"rId9\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Watershed summary\" sheetId=\"10\" state=\"visible\" r:id=\"rId10\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"IWR input\" sheetId=\"11\" state=\"visible\" r:id=\"rId11\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Parameters\" sheetId=\"12\" state=\"veryHidden\" r:id=\"rId12\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Benefits\" sheetId=\"13\" state=\"veryHidden\" r:id=\"rId13\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Costs\" sheetId=\"14\" state=\"veryHidden\" r:id=\"rId14\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Sites\" sheetId=\"15\" state=\"veryHidden\" r:id=\"rId15\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Summary\" sheetId=\"16\" state=\"veryHidden\" r:id=\"rId16\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"snap Site CE-ICA\" sheetId=\"17\" state=\"veryHidden\" r:id=\"rId17\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"manifest\" sheetId=\"18\" state=\"veryHidden\" r:id=\"rId18\"/></sheets><definedNames><definedName name=\"in_rate\">Parameters!$B$4</definedName><definedName name=\"in_poa\">Parameters!$B$5</definedName><definedName name=\"in_ppy\">Parameters!$B$6</definedName><definedName name=\"in_idc_method\">Parameters!$B$7</definedName><definedName name=\"in_timing\">Parameters!$B$8</definedName><definedName name=\"in_cost_dp\">Parameters!$B$9</definedName><definedName name=\"in_out_dp\">Parameters!$B$10</definedName><definedName name=\"calc_crf\">Parameters!$B$11</definedName><definedName name=\"out_status\">'Read me'!$B$10</definedName><definedName name=\"out_changed\">'Read me'!$B$11</definedName><definedName name=\"out_mismatch\">'Read me'!$B$12</definedName></definedNames><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+    }
+   ],
+   [
+    "xl/_rels/workbook.xml.rels",
+    {
+     "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet2.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet3.xml\" Id=\"rId3\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet4.xml\" Id=\"rId4\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet5.xml\" Id=\"rId5\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet6.xml\" Id=\"rId6\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet7.xml\" Id=\"rId7\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet8.xml\" Id=\"rId8\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet9.xml\" Id=\"rId9\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet10.xml\" Id=\"rId10\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet11.xml\" Id=\"rId11\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet12.xml\" Id=\"rId12\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet13.xml\" Id=\"rId13\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet14.xml\" Id=\"rId14\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet15.xml\" Id=\"rId15\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet16.xml\" Id=\"rId16\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet17.xml\" Id=\"rId17\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet18.xml\" Id=\"rId18\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId19\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId20\"/></Relationships>"
+    }
+   ],
+   [
+    "[Content_Types].xml",
+    {
+     "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet2.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet3.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet4.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet5.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet6.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet7.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet8.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet9.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet10.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet11.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet12.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet13.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet14.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet15.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet16.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet17.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet18.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+    }
+   ]
+  ]
+ },
+ "digest": "sha256:5c53ebc614f5942e:59076"
+}

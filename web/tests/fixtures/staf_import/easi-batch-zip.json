@@ -1,0 +1,86 @@
+{
+ "input": "easi-batch-zip.zip",
+ "name": "easi_batch.zip",
+ "read": {
+  "tool": "EASI",
+  "kind": "batch",
+  "filename": "easi_batch.zip",
+  "sha256": "ee8e813449b92a33039ff9d2c9bb3eca8a9b86fa0c1aa594f196c42897a17122",
+  "mapping": "A",
+  "warnings": [],
+  "reaches": [
+   {
+    "reach_id": "SITE-0001",
+    "name": "Creek SITE-0001",
+    "scores": {
+     "catchment-hydrology": 8.0,
+     "surface-water-storage": 8.0,
+     "reach-inflow": 8.0,
+     "streamflow-regime": 8.0,
+     "low-flow-baseflow-dynamics": 8.0,
+     "high-flow-dynamics": 8.0,
+     "floodplain-connectivity": 8.0,
+     "hyporheic-connectivity": 8.0,
+     "channel-evolution": 8.0,
+     "channel-floodplain-dynamics": 8.0,
+     "sediment-continuity": 8.0,
+     "bed-composition-bedform-dynamics": 8.0,
+     "light-thermal-regime": 8.0,
+     "carbon-processing": 8.0,
+     "nutrient-cycling": 8.0,
+     "water-soil-quality": 8.0,
+     "habitat-provision": 8.0,
+     "population-support": 8.0,
+     "community-dynamics": 8.0,
+     "watershed-connectivity": 8.0
+    },
+    "not_assessed": [],
+    "length_ft": 1500.0,
+    "notes": [],
+    "source": "EASI batch easi_batch.zip (sha256 ee8e813449b9), reach SITE-0001"
+   },
+   {
+    "reach_id": "SITE 0002",
+    "name": "Creek SITE 0002",
+    "scores": {
+     "catchment-hydrology": 8.0,
+     "surface-water-storage": 8.0,
+     "reach-inflow": 8.0,
+     "streamflow-regime": 8.0,
+     "low-flow-baseflow-dynamics": 8.0,
+     "high-flow-dynamics": 8.0,
+     "floodplain-connectivity": 8.0,
+     "hyporheic-connectivity": 8.0,
+     "channel-evolution": 8.0,
+     "channel-floodplain-dynamics": 8.0,
+     "sediment-continuity": 8.0,
+     "bed-composition-bedform-dynamics": 8.0,
+     "light-thermal-regime": 8.0,
+     "carbon-processing": 8.0,
+     "nutrient-cycling": 8.0,
+     "water-soil-quality": 8.0,
+     "habitat-provision": 8.0
+    },
+    "not_assessed": [
+     "population-support",
+     "community-dynamics",
+     "watershed-connectivity"
+    ],
+    "length_ft": 800.0,
+    "notes": [],
+    "source": "EASI batch easi_batch.zip (sha256 ee8e813449b9), reach SITE 0002"
+   }
+  ]
+ },
+ "applied": [
+  {
+   "base": "import-test",
+   "targets": [
+    "new",
+    "new"
+   ],
+   "module": null,
+   "project": "sha256:1d5e6bdc19226926:4892"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "input": "geojson-no-scores.geojson",
+ "name": "easi.geojson",
+ "read": {
+  "error": "StafImportError: This GeoJSON holds no function scores. EASI's report GeoJSON has metric ratings only: use the EASI report CSV or batch ZIP."
+ }
+}

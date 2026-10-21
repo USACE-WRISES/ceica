@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CEICA">
+  <polyline points="44,40 44,212 220,212" fill="none" stroke="#2f4b7c" stroke-opacity="0.45" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="48,200 88,168 128,160 168,112 208,56" fill="none" stroke="#2f4b7c" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="128" cy="160" r="26" fill="none" stroke="#ff9500" stroke-width="16"/>
+</svg>

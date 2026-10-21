@@ -1,0 +1,7 @@
+{
+ "input": "assessment-bool-version.json",
+ "name": "assessment.json",
+ "read": {
+  "error": "StafImportError: This STAF assessment file has no valid format version."
+ }
+}

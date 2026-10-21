@@ -1,0 +1,57 @@
+{
+ "input": {
+  "template": "synthetic-6x6"
+ },
+ "read": {
+  "sheets": [
+   {
+    "title": "Study",
+    "state": "visible",
+    "max_row": 13,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'CEICA input template'\n2,1\ts\tstr\t'Fill the sheets, then open this file in CEICA (Open a file). Keep the header rows.'\n4,1\ts\tstr\t'Setting'\n4,2\ts\tstr\t'Value'\n5,1\ts\tstr\t'Study name'\n5,2\ts\tstr\t'Untitled study'\n6,1\ts\tstr\t'Description'\n6,2\tinlineStr\tNoneType\tNone\n7,1\ts\tstr\t'Discount rate'\n7,2\tn\tfloat\t0.03\n8,1\ts\tstr\t'Period of analysis (years)'\n8,2\tn\tint\t50\n9,1\ts\tstr\t'Price level'\n9,2\tinlineStr\tNoneType\tNone\n10,1\ts\tstr\t'Target years (comma separated)'\n10,2\ts\tstr\t'0, 2, 10, 50'\n11,1\ts\tstr\t'Output name'\n11,2\ts\tstr\t'Habitat units'\n12,1\ts\tstr\t'Output abbreviation'\n12,2\ts\tstr\t'HU'\n13,1\ts\tstr\t'STAF mapping (A or B)'\n13,2\ts\tstr\t'A'"
+   },
+   {
+    "title": "Modules",
+    "state": "visible",
+    "max_row": 5,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Modules'\n2,1\ts\tstr\t'The parts the output is built from; the output is their sum. Method: Habitat units, Index x quantity, STAF function scores or Average annual value (STAF modules cannot be mixed with the others).'\n4,1\ts\tstr\t'Name'\n4,2\ts\tstr\t'Method'\n4,3\ts\tstr\t'Quantity units'\n4,4\ts\tstr\t'Id'\n5,1\ts\tstr\t'Total'\n5,2\ts\tstr\t'Average annual value'\n5,3\tinlineStr\tNoneType\tNone\n5,4\ts\tstr\t'total'"
+   },
+   {
+    "title": "Alternatives",
+    "state": "visible",
+    "max_row": 46,
+    "max_column": 6,
+    "cells": "sha256:f8723edc449b7d4c:5883"
+   },
+   {
+    "title": "Benefits",
+    "state": "visible",
+    "max_row": 46,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Benefits'\n2,1\ts\tstr\t'One row per alternative and module. Year columns: the output (habitat-unit modules) or the index (index-x-quantity modules); Quantity columns: the quantity; Average: the average annual value (average-annual modules).'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Module'\n4,4\ts\tstr\t'Average'\n5,1\ts\tstr\t'S1'\n5,2\ts\tstr\t'NA'\n5,3\ts\tstr\t'Total'\n5,4\tn\tint\t0\n6,1\ts\tstr\t'S1'\n6,2\ts\tstr\t'A1'\n6,3\ts\tstr\t'Total'\n6,4\tn\tfloat\t20.96104336331001\n7,1\ts\tstr\t'S1'\n7,2\ts\tstr\t'A2'\n7,3\ts\tstr\t'Total'\n7,4\tn\tfloat\t6.622224896065716\n8,1\ts\tstr\t'S1'\n8,2\ts\tstr\t'A3'\n8,3\ts\tstr\t'Total'\n8,4\tn\tfloat\t13.16142662840893\n9,1\ts\tstr\t'S1'\n9,2\ts\tstr\t'A4'\n9,3\ts\tstr\t'Total'\n9,4\tn\tfloat\t33.28040115899723\n10,1\ts\tstr\t'S1'\n10,2\ts\tstr\t'A5'\n10,3\ts\tstr\t'Total'\n10,4\tn\tfloat\t22.43415381924932\n11,1\ts\tstr\t'S1'\n11,2\ts\tstr\t'A6'\n11,3\ts\tstr\t'Total'\n11,4\tn\tfloat\t30.38701123831746\n12,1\ts\tstr\t'S2'\n12,2\ts\tstr\t'NA'\n12,3\ts\tstr\t'Total'\n12,4\tn\tint\t0\n13,1\ts\tstr\t'S2'\n13,2\ts\tstr\t'A1'\n13,3\ts\tstr\t'Total'\n13,4\tn\tfloat\t13.85953694346459\n14,1\ts\tstr\t'S2'\n14,2\ts\tstr\t'A2'\n14,3\ts\tstr\t'Total'\n14,4\tn\tfloat\t12.82459834237415\n15,1\ts\tstr\t'S2'\n15,2\ts\tstr\t'A3'\n15,3\ts\tstr\t'Total'\n15,4\tn\tfloat\t6.227626192639425\n16,1\ts\tstr\t'S2'\n16,2\ts\tstr\t'A4'\n16,3\ts\tstr\t'Total'\n16,4\tn\tfloat\t8.934754386369836\n17,1\ts\tstr\t'S2'\n17,2\ts\tstr\t'A5'\n17,3\ts\tstr\t'Total'\n17,4\tn\tfloat\t30.26422223257205\n18,1\ts\tstr\t'S2'\n18,2\ts\tstr\t'A6'\n18,3\ts\tstr\t'Total'\n18,4\tn\tfloat\t19.92244800283377\n19,1\ts\tstr\t'S3'\n19,2\ts\tstr\t'NA'\n19,3\ts\tstr\t'Total'\n19,4\tn\tint\t0\n20,1\ts\tstr\t'S3'\n20,2\ts\tstr\t'A1'\n20,3\ts\tstr\t'Total'\n20,4\tn\tfloat\t38.50463055288768\n21,1\ts\tstr\t'S3'\n21,2\ts\tstr\t'A2'\n21,3\ts\tstr\t'Total'\n21,4\tn\tfloat\t22.10784736634993\n22,1\ts\tstr\t'S3'\n22,2\ts\tstr\t'A3'\n22,3\ts\tstr\t'Total'\n22,4\tn\tfloat\t7.265428342229947\n23,1\ts\tstr\t'S3'\n23,2\ts\tstr\t'A4'\n23,3\ts\tstr\t'Total'\n23,4\tn\tfloat\t21.12667483636727\n24,1\ts\tstr\t'S3'\n24,2\ts\tstr\t'A5'\n24,3\ts\tstr\t'Total'\n24,4\tn\tfloat\t25.31610046596252\n25,1\ts\tstr\t'S3'\n25,2\ts\tstr\t'A6'\n25,3\ts\tstr\t'Total'\n25,4\tn\tfloat\t24.90712874106858\n26,1\ts\tstr\t'S4'\n26,2\ts\tstr\t'NA'\n26,3\ts\tstr\t'Total'\n26,4\tn\tint\t0\n27,1\ts\tstr\t'S4'\n27,2\ts\tstr\t'A1'\n27,3\ts\tstr\t'Total'\n27,4\tn\tfloat\t2.544122189903911\n28,1\ts\tstr\t'S4'\n28,2\ts\tstr\t'A2'\n28,3\ts\tstr\t'Total'\n28,4\tn\tfloat\t18.91409943253074\n29,1\ts\tstr\t'S4'\n29,2\ts\tstr\t'A3'\n29,3\ts\tstr\t'Total'\n29,4\tn\tfloat\t26.01179859643563\n30,1\ts\tstr\t'S4'\n30,2\ts\tstr\t'A4'\n30,3\ts\tstr\t'Total'\n30,4\tn\tfloat\t24.12469970606708\n31,1\ts\tstr\t'S4'\n31,2\ts\tstr\t'A5'\n31,3\ts\tstr\t'Total'\n31,4\tn\tfloat\t33.75537932022494\n32,1\ts\tstr\t'S4'\n32,2\ts\tstr\t'A6'\n32,3\ts\tstr\t'Total'\n32,4\tn\tfloat\t20.92466649419479\n33,1\ts\tstr\t'S5'\n33,2\ts\tstr\t'NA'\n33,3\ts\tstr\t'Total'\n33,4\tn\tint\t0\n34,1\ts\tstr\t'S5'\n34,2\ts\tstr\t'A1'\n34,3\ts\tstr\t'Total'\n34,4\tn\tfloat\t6.768959395613305\n35,1\ts\tstr\t'S5'\n35,2\ts\tstr\t'A2'\n35,3\ts\tstr\t'Total'\n35,4\tn\tfloat\t27.64818933412703\n36,1\ts\tstr\t'S5'\n36,2\ts\tstr\t'A3'\n36,3\ts\tstr\t'Total'\n36,4\tn\tfloat\t8.473034101785274\n37,1\ts\tstr\t'S5'\n37,2\ts\tstr\t'A4'\n37,3\ts\tstr\t'Total'\n37,4\tn\tfloat\t8.46163311623081\n38,1\ts\tstr\t'S5'\n38,2\ts\tstr\t'A5'\n38,3\ts\tstr\t'Total'\n38,4\tn\tfloat\t34.35385199719574\n39,1\ts\tstr\t'S5'\n39,2\ts\tstr\t'A6'\n39,3\ts\tstr\t'Total'\n39,4\tn\tfloat\t35.18494676024664\n40,1\ts\tstr\t'S6'\n40,2\ts\tstr\t'NA'\n40,3\ts\tstr\t'Total'\n40,4\tn\tint\t0\n41,1\ts\tstr\t'S6'\n41,2\ts\tstr\t'A1'\n41,3\ts\tstr\t'Total'\n41,4\tn\tfloat\t11.68788715593501\n42,1\ts\tstr\t'S6'\n42,2\ts\tstr\t'A2'\n42,3\ts\tstr\t'Total'\n42,4\tn\tfloat\t26.18311492742297\n43,1\ts\tstr\t'S6'\n43,2\ts\tstr\t'A3'\n43,3\ts\tstr\t'Total'\n43,4\tn\tfloat\t33.58719944351069\n44,1\ts\tstr\t'S6'\n44,2\ts\tstr\t'A4'\n44,3\ts\tstr\t'Total'\n44,4\tn\tfloat\t9.39350851935597\n45,1\ts\tstr\t'S6'\n45,2\ts\tstr\t'A5'\n45,3\ts\tstr\t'Total'\n45,4\tn\tfloat\t32.39713849265538\n46,1\ts\tstr\t'S6'\n46,2\ts\tstr\t'A6'\n46,3\ts\tstr\t'Total'\n46,4\tn\tfloat\t6.870468386425921"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 46,
+    "max_column": 7,
+    "cells": "sha256:1e7830f42ae2d5cf:6128"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 12,
+    "cells": "1,1\ts\tstr\t'OMRRR'\n2,1\ts\tstr\t\"Recurring costs. Basis: FIXED (Amount), PERCENT (Percent of a Category's first cost) or RATE (Unit rate x Quantity). Blank first year: every N years.\"\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Item'\n4,4\ts\tstr\t'Basis'\n4,5\ts\tstr\t'Amount'\n4,6\ts\tstr\t'Percent'\n4,7\ts\tstr\t'Category'\n4,8\ts\tstr\t'Unit rate'\n4,9\ts\tstr\t'Quantity'\n4,10\ts\tstr\t'Every N years'\n4,11\ts\tstr\t'First year'\n4,12\ts\tstr\t'Last year'"
+   }
+  ]
+ },
+ "result": {
+  "source": "template",
+  "changes": [],
+  "warnings": [],
+  "project": "sha256:d3a5f03a6065a051:12651"
+ }
+}

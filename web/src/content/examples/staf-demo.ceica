@@ -1,0 +1,2245 @@
+{
+ "appVersion": "1.0.0",
+ "contentDigest": "79c72a6c133e388150f85a66829abedf4ce08a8dcf9ebcf1710cec455015b449",
+ "format": "ceica-project",
+ "project": {
+  "benefits": {
+   "modules": [
+    {
+     "id": "condition",
+     "method": "STAF",
+     "name": "Stream condition",
+     "quantity_units": "ft"
+    }
+   ],
+   "staf_mapping": "A",
+   "target_years": [
+    0.0,
+    1.0,
+    5.0,
+    10.0,
+    25.0,
+    50.0
+   ]
+  },
+  "cost_categories": [
+   {
+    "id": "construction",
+    "idc_applies": true,
+    "name": "Construction"
+   },
+   {
+    "id": "monitoring",
+    "idc_applies": false,
+    "name": "Monitoring"
+   },
+   {
+    "id": "adaptive_management",
+    "idc_applies": false,
+    "name": "Adaptive management"
+   }
+  ],
+  "decisions": {
+   "sites": {},
+   "watershed": {
+    "basis": null,
+    "final_array": {},
+    "steps": {},
+    "tsp": null,
+    "tsp_plan_type": "National Ecosystem Restoration (NER) plan",
+    "tsp_rationale": ""
+   }
+  },
+  "description": "Illustrative study built on STAF function scores, not a real project. Reach R1's existing condition is the SFARI calculator's worked example; the other reaches, every projected score and every cost are invented to show the workflow. Outputs are condition units: the Ecosystem Condition Index times reach length in feet.",
+  "labels": {
+   "annual_output_name": "Average annual condition units",
+   "annual_output_short": "AACU",
+   "lift_name": "Condition lift",
+   "output_name": "Condition units",
+   "output_short": "CU"
+  },
+  "name": "STAF demonstration",
+  "project_id": "staf-demo",
+  "provenance": {
+   "builder": "tools/build_staf_demo.py",
+   "sfari_example": "staf/apps/sfari/tests/fixtures/SFARI_Calculator_Example_2026-06-29.xlsx (SFARI Score, manual scores)",
+   "status": "illustrative"
+  },
+  "report": {
+   "contents": "FULL",
+   "date": "",
+   "prepared_by": "CEICA example",
+   "status": "DRAFT",
+   "title": "STAF demonstration"
+  },
+  "schema_version": "ceica-project/3",
+  "settings": {
+   "aahu_method": "TRAPEZOID",
+   "cost_decimals": 2,
+   "discount_rate": 0.03,
+   "idc_method": "END",
+   "idc_periods_per_year": 12,
+   "output_decimals": 3,
+   "period_of_analysis": 50,
+   "price_level": "",
+   "recurring_timing": "END_OF_YEAR"
+  },
+  "sites": [
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "Future without project: slow channel degradation.",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          5.0,
+          5.0,
+          4.9,
+          4.8,
+          4.5,
+          4.0
+         ],
+         "carbon-processing": [
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "catchment-hydrology": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "channel-evolution": [
+          5.0,
+          5.0,
+          4.9,
+          4.8,
+          4.5,
+          4.0
+         ],
+         "channel-floodplain-dynamics": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "community-dynamics": [
+          4.0,
+          4.0,
+          3.9,
+          3.8,
+          3.5,
+          3.0
+         ],
+         "floodplain-connectivity": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "high-flow-dynamics": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "hyporheic-connectivity": [
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "light-thermal-regime": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "nutrient-cycling": [
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "population-support": [
+          3.0,
+          3.0,
+          2.9,
+          2.8,
+          2.5,
+          2.0
+         ],
+         "reach-inflow": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "sediment-continuity": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "streamflow-regime": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "surface-water-storage": [
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0
+         ],
+         "water-soil-quality": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "watershed-connectivity": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 4.0,
+       "first_costs": {
+        "adaptive_management": 15000.0,
+        "construction": 180000.0,
+        "monitoring": 25000.0
+       },
+       "recurring": [
+        {
+         "amount": 2500.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 10,
+         "first_year": null,
+         "id": "rehab",
+         "last_year": null,
+         "name": "Repair and replanting",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Plant a 50-ft native buffer on both banks.",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "Riparian buffer",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          5.0,
+          5.0,
+          4.9,
+          4.8,
+          4.5,
+          4.0
+         ],
+         "carbon-processing": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "catchment-hydrology": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "channel-evolution": [
+          5.0,
+          5.0,
+          4.9,
+          4.8,
+          4.5,
+          4.0
+         ],
+         "channel-floodplain-dynamics": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "community-dynamics": [
+          4.0,
+          4.0,
+          4.4,
+          4.7,
+          5.0,
+          5.0
+         ],
+         "floodplain-connectivity": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          2.8,
+          3.4,
+          4.0,
+          4.0
+         ],
+         "high-flow-dynamics": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "hyporheic-connectivity": [
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "light-thermal-regime": [
+          12.0,
+          12.2,
+          13.0,
+          13.6,
+          14.0,
+          14.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "nutrient-cycling": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "population-support": [
+          3.0,
+          3.0,
+          3.4,
+          3.7,
+          4.0,
+          4.0
+         ],
+         "reach-inflow": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "sediment-continuity": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "streamflow-regime": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "surface-water-storage": [
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0
+         ],
+         "water-soil-quality": [
+          10.0,
+          10.2,
+          11.0,
+          11.6,
+          12.0,
+          12.0
+         ],
+         "watershed-connectivity": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 8.0,
+       "first_costs": {
+        "adaptive_management": 60000.0,
+        "construction": 620000.0,
+        "monitoring": 40000.0
+       },
+       "recurring": [
+        {
+         "amount": 5000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "rehab",
+         "last_year": null,
+         "name": "Repair and replanting",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Excavate a floodplain bench on the outside bends and plant the buffer.",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "Floodplain bench and buffer",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "carbon-processing": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "catchment-hydrology": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "channel-evolution": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "channel-floodplain-dynamics": [
+          10.0,
+          11.6,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "community-dynamics": [
+          4.0,
+          4.0,
+          5.2,
+          6.1,
+          7.0,
+          7.0
+         ],
+         "floodplain-connectivity": [
+          9.0,
+          12.2,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          4.0,
+          5.5,
+          7.0,
+          7.0
+         ],
+         "high-flow-dynamics": [
+          11.0,
+          12.6,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "hyporheic-connectivity": [
+          13.0,
+          13.8,
+          14.0,
+          14.0,
+          14.0,
+          14.0
+         ],
+         "light-thermal-regime": [
+          12.0,
+          12.2,
+          13.0,
+          13.6,
+          14.0,
+          14.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "nutrient-cycling": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "population-support": [
+          3.0,
+          3.0,
+          4.2,
+          5.1,
+          6.0,
+          6.0
+         ],
+         "reach-inflow": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "sediment-continuity": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "streamflow-regime": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "surface-water-storage": [
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0
+         ],
+         "water-soil-quality": [
+          10.0,
+          10.2,
+          11.0,
+          11.6,
+          12.0,
+          12.0
+         ],
+         "watershed-connectivity": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 10.0,
+       "first_costs": {
+        "adaptive_management": 90000.0,
+        "construction": 910000.0,
+        "monitoring": 50000.0
+       },
+       "recurring": [
+        {
+         "amount": 6000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "rehab",
+         "last_year": null,
+         "name": "Repair and replanting",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 5,
+         "first_year": null,
+         "id": "inspect",
+         "last_year": null,
+         "name": "Structure inspection",
+         "percent": 0.0,
+         "quantity": 1000.0,
+         "quantity_units": "ft",
+         "unit_rate": 1.5
+        }
+       ]
+      },
+      "description": "The bench and buffer plus riffles and large wood for bed and habitat diversity.",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "Bench, buffer and instream structure",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0,
+         1000.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          5.0,
+          9.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "carbon-processing": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "catchment-hydrology": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "channel-evolution": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "channel-floodplain-dynamics": [
+          10.0,
+          11.6,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "community-dynamics": [
+          4.0,
+          4.0,
+          5.6,
+          6.8,
+          8.0,
+          8.0
+         ],
+         "floodplain-connectivity": [
+          9.0,
+          12.2,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          5.2,
+          7.6,
+          10.0,
+          10.0
+         ],
+         "high-flow-dynamics": [
+          11.0,
+          12.6,
+          13.0,
+          13.0,
+          13.0,
+          13.0
+         ],
+         "hyporheic-connectivity": [
+          13.0,
+          13.8,
+          14.0,
+          14.0,
+          14.0,
+          14.0
+         ],
+         "light-thermal-regime": [
+          12.0,
+          12.2,
+          13.0,
+          13.6,
+          14.0,
+          14.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          4.0,
+          6.4,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "nutrient-cycling": [
+          13.0,
+          13.1,
+          13.5,
+          13.8,
+          14.0,
+          14.0
+         ],
+         "population-support": [
+          3.0,
+          3.0,
+          5.0,
+          6.5,
+          8.0,
+          8.0
+         ],
+         "reach-inflow": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "sediment-continuity": [
+          6.0,
+          7.6,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "streamflow-regime": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "surface-water-storage": [
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0,
+          15.0
+         ],
+         "water-soil-quality": [
+          10.0,
+          10.2,
+          11.0,
+          11.6,
+          12.0,
+          12.0
+         ],
+         "watershed-connectivity": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "SFARI's worked example reach (1,000 ft): functioning hydrology and chemistry, impaired geomorphology and biology.",
+    "id": "R1",
+    "name": "Example Reach",
+    "staf_not_assessed": {},
+    "staf_source": {
+     "condition": "SFARI calculator example (2026-06-29), manual function scores"
+    }
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "Future without project: continued incision and bank loss.",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "carbon-processing": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "catchment-hydrology": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "channel-evolution": [
+          3.0,
+          3.0,
+          2.9,
+          2.8,
+          2.5,
+          2.0
+         ],
+         "channel-floodplain-dynamics": [
+          3.0,
+          3.0,
+          2.9,
+          2.8,
+          2.5,
+          2.0
+         ],
+         "community-dynamics": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "floodplain-connectivity": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "high-flow-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "hyporheic-connectivity": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "light-thermal-regime": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "nutrient-cycling": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "population-support": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "reach-inflow": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "sediment-continuity": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "streamflow-regime": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "surface-water-storage": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "water-soil-quality": [
+          4.0,
+          4.0,
+          3.9,
+          3.8,
+          3.5,
+          3.0
+         ],
+         "watershed-connectivity": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 9.0,
+       "first_costs": {
+        "adaptive_management": 85000.0,
+        "construction": 850000.0,
+        "monitoring": 45000.0
+       },
+       "recurring": [
+        {
+         "amount": 6000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "rehab",
+         "last_year": null,
+         "name": "Repair and replanting",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Lay back eroding banks and plant them.",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "Bank regrading and planting",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "carbon-processing": [
+          5.0,
+          5.3,
+          6.5,
+          7.4,
+          8.0,
+          8.0
+         ],
+         "catchment-hydrology": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "channel-evolution": [
+          3.0,
+          3.0,
+          2.9,
+          2.8,
+          2.5,
+          2.0
+         ],
+         "channel-floodplain-dynamics": [
+          3.0,
+          6.2,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "community-dynamics": [
+          2.0,
+          2.0,
+          2.4,
+          2.7,
+          3.0,
+          3.0
+         ],
+         "floodplain-connectivity": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          3.2,
+          4.1,
+          5.0,
+          5.0
+         ],
+         "high-flow-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "hyporheic-connectivity": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "light-thermal-regime": [
+          5.0,
+          5.4,
+          7.0,
+          8.2,
+          9.0,
+          9.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "nutrient-cycling": [
+          6.0,
+          6.2,
+          7.0,
+          7.6,
+          8.0,
+          8.0
+         ],
+         "population-support": [
+          2.0,
+          2.0,
+          2.4,
+          2.7,
+          3.0,
+          3.0
+         ],
+         "reach-inflow": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "sediment-continuity": [
+          4.0,
+          5.6,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "streamflow-regime": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "surface-water-storage": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "water-soil-quality": [
+          4.0,
+          4.2,
+          5.0,
+          5.6,
+          6.0,
+          6.0
+         ],
+         "watershed-connectivity": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 18.0,
+       "first_costs": {
+        "adaptive_management": 340000.0,
+        "construction": 3400000.0,
+        "monitoring": 90000.0
+       },
+       "recurring": [
+        {
+         "amount": 12000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 10,
+         "first_year": null,
+         "id": "rehab",
+         "last_year": null,
+         "name": "Repair and replanting",
+         "percent": 0.05,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Remove 600 ft of pipe, rebuild the channel and reconnect the floodplain.",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "Daylight and reconnect the floodplain",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0,
+         2400.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          3.0,
+          7.8,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "carbon-processing": [
+          5.0,
+          5.5,
+          7.5,
+          9.0,
+          10.0,
+          10.0
+         ],
+         "catchment-hydrology": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "channel-evolution": [
+          3.0,
+          7.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "channel-floodplain-dynamics": [
+          3.0,
+          8.6,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "community-dynamics": [
+          2.0,
+          2.0,
+          3.6,
+          4.8,
+          6.0,
+          6.0
+         ],
+         "floodplain-connectivity": [
+          2.0,
+          8.4,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "habitat-provision": [
+          2.0,
+          2.0,
+          4.8,
+          6.9,
+          9.0,
+          9.0
+         ],
+         "high-flow-dynamics": [
+          3.0,
+          7.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "hyporheic-connectivity": [
+          4.0,
+          8.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "light-thermal-regime": [
+          5.0,
+          5.6,
+          8.0,
+          9.8,
+          11.0,
+          11.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          3.0,
+          5.4,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "nutrient-cycling": [
+          6.0,
+          6.4,
+          8.0,
+          9.2,
+          10.0,
+          10.0
+         ],
+         "population-support": [
+          2.0,
+          2.0,
+          3.6,
+          4.8,
+          6.0,
+          6.0
+         ],
+         "reach-inflow": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+         ],
+         "sediment-continuity": [
+          4.0,
+          7.2,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "streamflow-regime": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "surface-water-storage": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+         ],
+         "water-soil-quality": [
+          4.0,
+          4.4,
+          6.0,
+          7.2,
+          8.0,
+          8.0
+         ],
+         "watershed-connectivity": [
+          3.0,
+          3.0,
+          3.8,
+          4.4,
+          5.0,
+          5.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "Illustrative: an incised, partly piped tributary behind a shopping center (2,400 ft).",
+    "id": "R2",
+    "name": "Urban tributary",
+    "staf_not_assessed": {},
+    "staf_source": {
+     "condition": "Illustrative scores (not an assessment)"
+    }
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "Future without project: grazing continues.",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "carbon-processing": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "catchment-hydrology": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "channel-evolution": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "channel-floodplain-dynamics": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "community-dynamics": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+         ],
+         "floodplain-connectivity": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "habitat-provision": [
+          6.0,
+          6.0,
+          5.9,
+          5.8,
+          5.5,
+          5.0
+         ],
+         "high-flow-dynamics": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "hyporheic-connectivity": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "light-thermal-regime": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "nutrient-cycling": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "population-support": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+         ],
+         "reach-inflow": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "sediment-continuity": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+         ],
+         "streamflow-regime": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "surface-water-storage": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "water-soil-quality": [
+          9.0,
+          9.0,
+          8.9,
+          8.8,
+          8.5,
+          8.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 3.0,
+       "first_costs": {
+        "adaptive_management": 10000.0,
+        "construction": 140000.0,
+        "monitoring": 20000.0
+       },
+       "recurring": [
+        {
+         "amount": 1500.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "fence",
+         "last_year": null,
+         "name": "Fence repair",
+         "percent": 0.0,
+         "quantity": 3200.0,
+         "quantity_units": "ft",
+         "unit_rate": 2.0
+        }
+       ]
+      },
+      "description": "Fence both banks and add two watering points.",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "Livestock exclusion",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+         ],
+         "carbon-processing": [
+          11.0,
+          11.1,
+          11.5,
+          11.8,
+          12.0,
+          12.0
+         ],
+         "catchment-hydrology": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "channel-evolution": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "channel-floodplain-dynamics": [
+          8.0,
+          9.6,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "community-dynamics": [
+          6.0,
+          6.0,
+          6.8,
+          7.4,
+          8.0,
+          8.0
+         ],
+         "floodplain-connectivity": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "habitat-provision": [
+          6.0,
+          6.0,
+          7.2,
+          8.1,
+          9.0,
+          9.0
+         ],
+         "high-flow-dynamics": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "hyporheic-connectivity": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "light-thermal-regime": [
+          10.0,
+          10.3,
+          11.5,
+          12.4,
+          13.0,
+          13.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "nutrient-cycling": [
+          10.0,
+          10.2,
+          11.0,
+          11.6,
+          12.0,
+          12.0
+         ],
+         "population-support": [
+          5.0,
+          5.0,
+          5.8,
+          6.4,
+          7.0,
+          7.0
+         ],
+         "reach-inflow": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "sediment-continuity": [
+          8.0,
+          9.6,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "streamflow-regime": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "surface-water-storage": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "water-soil-quality": [
+          9.0,
+          9.3,
+          10.5,
+          11.4,
+          12.0,
+          12.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 6.0,
+       "first_costs": {
+        "adaptive_management": 40000.0,
+        "construction": 520000.0,
+        "monitoring": 30000.0
+       },
+       "recurring": [
+        {
+         "amount": 3000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "upkeep",
+         "last_year": null,
+         "name": "Annual maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 2000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 5,
+         "first_year": null,
+         "id": "inspect",
+         "last_year": null,
+         "name": "Culvert inspection",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Fencing plus a bottomless arch culvert that passes sediment and fish.",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "Livestock exclusion and culvert replacement",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "condition",
+        "quantity": [
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0,
+         1600.0
+        ],
+        "scores": {
+         "bed-composition-bedform-dynamics": [
+          7.0,
+          9.4,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "carbon-processing": [
+          11.0,
+          11.1,
+          11.5,
+          11.8,
+          12.0,
+          12.0
+         ],
+         "catchment-hydrology": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "channel-evolution": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "channel-floodplain-dynamics": [
+          8.0,
+          9.6,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "community-dynamics": [
+          6.0,
+          6.0,
+          7.2,
+          8.1,
+          9.0,
+          9.0
+         ],
+         "floodplain-connectivity": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "habitat-provision": [
+          6.0,
+          6.0,
+          7.2,
+          8.1,
+          9.0,
+          9.0
+         ],
+         "high-flow-dynamics": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "hyporheic-connectivity": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "light-thermal-regime": [
+          10.0,
+          10.3,
+          11.5,
+          12.4,
+          13.0,
+          13.0
+         ],
+         "low-flow-baseflow-dynamics": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+         ],
+         "nutrient-cycling": [
+          10.0,
+          10.2,
+          11.0,
+          11.6,
+          12.0,
+          12.0
+         ],
+         "population-support": [
+          5.0,
+          5.0,
+          6.6,
+          7.8,
+          9.0,
+          9.0
+         ],
+         "reach-inflow": [
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0,
+          10.0
+         ],
+         "sediment-continuity": [
+          8.0,
+          11.2,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "streamflow-regime": [
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0,
+          11.0
+         ],
+         "surface-water-storage": [
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0,
+          12.0
+         ],
+         "water-soil-quality": [
+          9.0,
+          9.3,
+          10.5,
+          11.4,
+          12.0,
+          12.0
+         ]
+        },
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "Illustrative: a pasture stream with open cattle access and an undersized road culvert (1,600 ft). Watershed connectivity was not assessed.",
+    "id": "R3",
+    "name": "Rural headwater",
+    "staf_not_assessed": {
+     "condition": [
+      "watershed-connectivity"
+     ]
+    },
+    "staf_source": {
+     "condition": "Illustrative scores (not an assessment)"
+    }
+   }
+  ],
+  "watershed": {
+   "carried": {},
+   "mode": "RECOMMENDED",
+   "rules": []
+  }
+ },
+ "savedAt": "2026-09-27T00:00:00Z",
+ "schemaVersion": 3
+}

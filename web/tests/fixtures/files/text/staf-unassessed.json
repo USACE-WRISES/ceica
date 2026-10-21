@@ -1,0 +1,25 @@
+{
+ "csv": {
+  "settings": {
+   "text": "﻿Setting,Value\r\nStudy,Two STAF modules\r\nSites,\"1 site with 3 alternatives, No Action included\"\r\nOutput,Average annual habitat units (AAHU); lift is the output above No Action\r\nBenefit modules,Mainstem: the STAF Ecosystem Condition Index times ft at each target year; Tributary: the STAF Ecosystem Condition Index times ft at each target year\r\nTarget years,\"0, 10, 50\"\r\nPeriod of analysis,50 years\r\nDiscount rate,3 percent\r\nAverage annual output,\"Straight lines between target years, averaged over the span of the years\"\r\nAverage annual cost,\"Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year\"\r\nComparisons,\"Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them\"\r\nSTAF outcome mapping,\"STAF documentation, EASI and DEEP (A)\"\r\nPlan formation,One alternative per site: each site's recommendation\r\nLeft out,R1 (inputs incomplete)\r\nPlans,\"Left out until their inputs are complete: R1. No site carries an action, so there is nothing to combine.\"\r\nTentatively selected plan,Not chosen yet\r\nRecord,\"CEICA 1.0.0, engine 1; project digest 0fd6659edfa7\"\r\n"
+  },
+  "site-recs": {
+   "text": "﻿Site,Recommended alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Construction cost,Carried to plans,Status\r\nR1,,,,,,No,Inputs incomplete\r\n"
+  },
+  "inputs": {
+   "text": "﻿Site,Alternative,Output (AAHU),Lift (AAHU),Construction cost,Annualized cost,Unit cost ($/AAHU)\r\nR1,No Action,,,0,0,\r\nR1,A1,,,200000,7821.1831764305,\r\nR1,A2,,,450000,17597.6621469687,\r\n"
+  },
+  "outputs-by-module": {
+   "text": "﻿Site,Alternative,Mainstem (AAHU),Tributary (AAHU),Total (AAHU),No Action total (AAHU),Lift (AAHU)\r\nR1,No Action,360,,,,\r\nR1,A1,477,,,,\r\nR1,A2,555,,,,\r\n"
+  },
+  "costs": {
+   "text": "﻿Site,Alternative,Months,Construction,Monitoring,Adaptive management,Interest during construction,OMRRR annual cost,Annualized cost\r\nR1,No Action,6,0,0,0,0,0,0\r\nR1,A1,6,200000,0,0,1237.1973851405,0,7821.1831764305\r\nR1,A2,6,450000,0,0,2783.6941165661,0,17597.6621469687\r\n"
+  }
+ },
+ "readme": {
+  "text": "Two STAF modules\nCost-effectiveness and incremental cost analysis: figures and tables\n\nStudy: Two STAF modules\nPrepared by: n/a\nDate: October 18, 2026\nStatus: Draft\nMade by CEICA 1.0.0 (engine 1); project digest 0fd6659edfa7\n\nIn this folder\n  Figures and tables.docx, .pdf and .html: every figure and table with its number and caption, and the methods.\n  Figures: each figure as PNG (300 dpi, for documents and slides) and SVG (to edit).\n  Tables: each table as CSV, and All tables.xlsx with a sheet per table.\n  Two STAF modules calculator.xlsx: every input and result as live formulas.\n  Two STAF modules.ceica: the project file. Open it in CEICA to continue the study.\n\nFigures\n\nTables\n  Table 1. Study settings and the record of this analysis.\n    Tables/Table 01 Study settings.csv\n  Table 2. The alternative each site carries forward, and the status of that decision.\n    Tables/Table 02 Site recommendations.csv\n  Table 3. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.\n    Tables/Table 03 Benefit and cost inputs.csv\n  Table 4. Average annual output by module, the total and the lift over No Action (all in AAHU).\n    Tables/Table 04 Output by module.csv\n  Table 5. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.\n    Tables/Table 05 Cost by category.csv\n\nReading the data files\n  CSV files hold plain numbers: lift and cost are the rounded values the analysis compared, so sorting reproduces its ties. TRUE and FALSE mark cost-effective plans and best buys. A blank cell has no value; in a plan table, a blank site column means the site is not in the plan.\n  In All tables.xlsx, numbers keep their full precision under the display format, and a missing value reads n/a.\n"
+ },
+ "html": {
+  "digest": "sha256:aab18cce93da259f:11578"
+ }
+}

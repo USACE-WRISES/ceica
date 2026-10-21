@@ -1,0 +1,7 @@
+{
+ "input": "unknown-csv.csv",
+ "name": "other.csv",
+ "read": {
+  "error": "StafImportError: This CSV is not a SFARI, EASI or DEEP report."
+ }
+}

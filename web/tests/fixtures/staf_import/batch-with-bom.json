@@ -1,0 +1,7 @@
+{
+ "input": "batch-with-bom.zip",
+ "name": "easi_batch.zip",
+ "read": {
+  "error": "JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)"
+ }
+}

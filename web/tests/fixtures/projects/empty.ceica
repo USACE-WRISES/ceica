@@ -1,0 +1,90 @@
+{
+ "appVersion": "1.0.0",
+ "contentDigest": "a464a1010103c3068060568dac903fa76794a7c2537959612efc876c3a6ccbb2",
+ "format": "ceica-project",
+ "project": {
+  "benefits": {
+   "modules": [
+    {
+     "id": "M1",
+     "method": "HU",
+     "name": "Habitat",
+     "quantity_units": ""
+    }
+   ],
+   "staf_mapping": "A",
+   "target_years": [
+    0.0,
+    2.0,
+    10.0,
+    50.0
+   ]
+  },
+  "cost_categories": [
+   {
+    "id": "construction",
+    "idc_applies": true,
+    "name": "Construction"
+   },
+   {
+    "id": "monitoring",
+    "idc_applies": false,
+    "name": "Monitoring"
+   },
+   {
+    "id": "adaptive_management",
+    "idc_applies": false,
+    "name": "Adaptive management"
+   }
+  ],
+  "decisions": {
+   "sites": {},
+   "watershed": {
+    "basis": null,
+    "final_array": {},
+    "steps": {},
+    "tsp": null,
+    "tsp_plan_type": "National Ecosystem Restoration (NER) plan",
+    "tsp_rationale": ""
+   }
+  },
+  "description": "",
+  "labels": {
+   "annual_output_name": "Average annual habitat units",
+   "annual_output_short": "AAHU",
+   "lift_name": "Ecological lift",
+   "output_name": "Habitat units",
+   "output_short": "HU"
+  },
+  "name": "Nothing yet",
+  "project_id": "golden-empty",
+  "provenance": {},
+  "report": {
+   "contents": "FULL",
+   "date": "",
+   "prepared_by": "",
+   "status": "DRAFT",
+   "title": ""
+  },
+  "schema_version": "ceica-project/3",
+  "settings": {
+   "aahu_method": "TRAPEZOID",
+   "cost_decimals": 2,
+   "discount_rate": 0.03,
+   "idc_method": "END",
+   "idc_periods_per_year": 12,
+   "output_decimals": 3,
+   "period_of_analysis": 50,
+   "price_level": "",
+   "recurring_timing": "END_OF_YEAR"
+  },
+  "sites": [],
+  "watershed": {
+   "carried": {},
+   "mode": "RECOMMENDED",
+   "rules": []
+  }
+ },
+ "savedAt": "2026-09-27T00:00:00Z",
+ "schemaVersion": 3
+}

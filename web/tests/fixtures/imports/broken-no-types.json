@@ -1,0 +1,9 @@
+{
+ "input": "broken-no-types.xlsx",
+ "read": {
+  "error": "KeyError: \"There is no item named '[Content_Types].xml' in the archive\""
+ },
+ "result": {
+  "error": "WorkbookError: This file could not be read as an Excel workbook (\"There is no item named '[Content_Types].xml' in the archive\")."
+ }
+}

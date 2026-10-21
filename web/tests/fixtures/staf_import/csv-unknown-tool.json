@@ -1,0 +1,54 @@
+{
+ "input": "csv-unknown-tool.csv",
+ "name": "x.csv",
+ "read": {
+  "tool": "SFARIX",
+  "kind": "report CSV",
+  "filename": "x.csv",
+  "sha256": "a02c9088457fa9fd0bafeadaa593ed2486380ed9992e2370cef7329e2c88da0a",
+  "mapping": "KeyError: 'SFARIX'",
+  "warnings": [],
+  "reaches": [
+   {
+    "reach_id": "9311402",
+    "name": "Wildcat Creek",
+    "scores": {
+     "catchment-hydrology": 8.0,
+     "surface-water-storage": 15.0,
+     "reach-inflow": 7.0,
+     "streamflow-regime": 12.0,
+     "low-flow-baseflow-dynamics": 4.0,
+     "high-flow-dynamics": 11.0,
+     "floodplain-connectivity": 9.0,
+     "hyporheic-connectivity": 13.0,
+     "channel-evolution": 5.0,
+     "channel-floodplain-dynamics": 10.0,
+     "sediment-continuity": 6.0,
+     "bed-composition-bedform-dynamics": 5.0,
+     "light-thermal-regime": 12.0,
+     "carbon-processing": 13.0,
+     "nutrient-cycling": 13.0,
+     "water-soil-quality": 10.0,
+     "habitat-provision": 2.0,
+     "population-support": 3.0,
+     "community-dynamics": 4.0,
+     "watershed-connectivity": 1.0
+    },
+    "not_assessed": [],
+    "length_ft": 1000.0,
+    "notes": [],
+    "source": "SFARIX report CSV x.csv (sha256 a02c9088457f), reach 9311402"
+   }
+  ]
+ },
+ "applied": [
+  {
+   "base": "import-test",
+   "targets": [
+    "S1"
+   ],
+   "module": null,
+   "project": "{\"benefits\":{\"modules\":[{\"id\":\"condition\",\"method\":\"STAF\",\"name\":\"Stream condition\",\"quantity_units\":\"mi\"}],\"staf_mapping\":\"B\",\"target_years\":[0.0,10.0,50.0]},\"cost_categories\":[{\"id\":\"construction\",\"idc_applies\":true,\"name\":\"Construction\"},{\"id\":\"monitoring\",\"idc_applies\":false,\"name\":\"Monitoring\"},{\"id\":\"adaptive_management\",\"idc_applies\":false,\"name\":\"Adaptive management\"}],\"decisions\":{\"sites\":{},\"watershed\":{\"basis\":null,\"final_array\":{},\"steps\":{},\"tsp\":null,\"tsp_plan_type\":\"National Ecosystem Restoration (NER) plan\",\"tsp_rationale\":\"\"}},\"description\":\"\",\"labels\":{\"annual_output_name\":\"Average annual habitat units\",\"annual_output_short\":\"AAHU\",\"lift_name\":\"Ecological lift\",\"output_name\":\"Habitat units\",\"output_short\":\"HU\"},\"name\":\"Import test\",\"project_id\":\"7c4f2a9e1b3d5f8a0c2e4b6d8f1a3c5e\",\"provenance\":{},\"report\":{\"contents\":\"FULL\",\"date\":\"\",\"prepared_by\":\"\",\"status\":\"DRAFT\",\"title\":\"\"},\"schema_version\":\"ceica-project/3\",\"settings\":{\"aahu_method\":\"TRAPEZOID\",\"cost_decimals\":2,\"discount_rate\":0.03,\"idc_method\":\"END\",\"idc_periods_per_year\":12,\"output_decimals\":3,\"period_of_analysis\":50,\"price_level\":\"\",\"recurring_timing\":\"END_OF_YEAR\"},\"sites\":[{\"alternatives\":[{\"costs\":{\"annual_override\":null,\"construction_months\":0.0,\"first_costs\":{},\"recurring\":[]},\"description\":\"\",\"id\":\"FWOP\",\"is_no_action\":true,\"name\":\"No Action\",\"outputs\":[{\"aahu\":null,\"module_id\":\"condition\",\"quantity\":[0.1893939393939394,null,null],\"scores\":{\"bed-composition-bedform-dynamics\":[5.0,null,null],\"carbon-processing\":[13.0,null,null],\"catchment-hydrology\":[8.0,null,null],\"channel-evolution\":[5.0,null,null],\"channel-floodplain-dynamics\":[10.0,null,null],\"community-dynamics\":[4.0,null,null],\"floodplain-connectivity\":[9.0,null,null],\"habitat-provision\":[2.0,null,null],\"high-flow-dynamics\":[11.0,null,null],\"hyporheic-connectivity\":[13.0,null,null],\"light-thermal-regime\":[12.0,null,null],\"low-flow-baseflow-dynamics\":[4.0,null,null],\"nutrient-cycling\":[13.0,null,null],\"population-support\":[3.0,null,null],\"reach-inflow\":[7.0,null,null],\"sediment-continuity\":[6.0,null,null],\"streamflow-regime\":[12.0,null,null],\"surface-water-storage\":[15.0,null,null],\"water-soil-quality\":[10.0,null,null],\"watershed-connectivity\":[1.0,null,null]},\"values\":[]}]},{\"costs\":{\"annual_override\":null,\"construction_months\":0.0,\"first_costs\":{},\"recurring\":[]},\"description\":\"\",\"id\":\"Alternative1\",\"is_no_action\":false,\"name\":\"Alternative 1\",\"outputs\":[{\"aahu\":null,\"module_id\":\"condition\",\"quantity\":[null,null,null],\"scores\":{},\"values\":[]}]}],\"description\":\"\",\"id\":\"S1\",\"name\":\"New site\",\"staf_not_assessed\":{},\"staf_source\":{\"condition\":\"SFARIX report CSV x.csv (sha256 a02c9088457f), reach 9311402\"}}],\"watershed\":{\"carried\":{},\"mode\":\"RECOMMENDED\",\"rules\":[]}}"
+  }
+ ]
+}

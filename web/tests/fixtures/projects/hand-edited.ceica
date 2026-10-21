@@ -1,0 +1,3721 @@
+{
+ "appVersion": "1.0.0",
+ "contentDigest": "082a32b302c73d8d854641c2028956ef42fa07f5f6f6b42b8efaad0ad324e9c9",
+ "format": "ceica-project",
+ "project": {
+  "benefits": {
+   "modules": [
+    {
+     "id": "RipL",
+     "method": "INDEX_X_QUANTITY",
+     "name": "Riparian, left bank",
+     "quantity_units": "acres"
+    },
+    {
+     "id": "RipR",
+     "method": "INDEX_X_QUANTITY",
+     "name": "Riparian, right bank",
+     "quantity_units": "acres"
+    },
+    {
+     "id": "Ins",
+     "method": "INDEX_X_QUANTITY",
+     "name": "Instream",
+     "quantity_units": "acres"
+    }
+   ],
+   "staf_mapping": "A",
+   "target_years": [
+    0.0,
+    2.0,
+    10.0,
+    50.0
+   ]
+  },
+  "cost_categories": [
+   {
+    "id": "construction",
+    "idc_applies": true,
+    "name": "Construction"
+   },
+   {
+    "id": "monitoring",
+    "idc_applies": false,
+    "name": "Monitoring"
+   },
+   {
+    "id": "adaptive_management",
+    "idc_applies": false,
+    "name": "Adaptive management"
+   }
+  ],
+  "decisions": {
+   "sites": {
+    "17B": {
+     "alt_notes": {},
+     "basis": "4955d8e8069698de",
+     "rationale": "Channel and bank stabilization without beaver removal is the site's best buy and gives the most lift.",
+     "recommended_alt_id": "Alternative2"
+    },
+    "17D2E": {
+     "alt_notes": {},
+     "basis": "c58310c780599363",
+     "rationale": "Channel removal with a left bank wetland addresses the concrete channel directly, with a large lift and a low unit cost.",
+     "recommended_alt_id": "Alternative1"
+    },
+    "17F2M": {
+     "alt_notes": {},
+     "basis": "91660bb2766a52e1",
+     "rationale": "The chain of wetlands gives the largest lift for a cost close to the other alternatives; it is the site's only best buy besides No Action.",
+     "recommended_alt_id": "Alternative3"
+    },
+    "19A": {
+     "alt_notes": {},
+     "basis": "339c9559e8d34976",
+     "rationale": "The largest best buy, with high lift for South Utoy Creek.",
+     "recommended_alt_id": "Alternative2"
+    },
+    "2A": {
+     "alt_notes": {},
+     "basis": "343c89f1d97ead7a",
+     "rationale": "The largest best buy: the most lift in the watershed at the lowest unit cost.",
+     "recommended_alt_id": "Alternative1"
+    },
+    "2B": {
+     "alt_notes": {},
+     "basis": "56c84b760d9562e5",
+     "rationale": "The largest best buy, with a low unit cost like Site 2A.",
+     "recommended_alt_id": "Alternative1"
+    },
+    "3E": {
+     "alt_notes": {},
+     "basis": "67049bb4fd32f97e",
+     "rationale": "The unit costs of both best buys are far above every other site, so no action is recommended at this site.",
+     "recommended_alt_id": "FWOP"
+    },
+    "3F": {
+     "alt_notes": {},
+     "basis": "8f486c20294e542f",
+     "rationale": "The largest best buy, and a place to demonstrate innovative low-cost methods.",
+     "recommended_alt_id": "Alternative1"
+    }
+   },
+   "watershed": {
+    "basis": "e83b6bac9338d45f",
+    "final_array": {
+     "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": {
+      "included": false,
+      "note": "Removed because P16 already introduces Site 3F."
+     },
+     "19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": {
+      "included": true,
+      "note": "Cost-effective plan added: near parity between North and South Utoy, and it introduces the innovative actions at 3F."
+     },
+     "2A=Alternative1": {
+      "included": false,
+      "note": "Only one sub-watershed; the study's scope emphasized actions across the whole watershed."
+     },
+     "2A=Alternative1;2B=Alternative1": {
+      "included": false,
+      "note": "Only North Utoy Creek; the first plan with actions in both sub-watersheds is P14."
+     }
+    },
+    "steps": {
+     " > 19A=Alternative2;2A=Alternative1;2B=Alternative1": {
+      "why": "The smallest acceptable plan: the first with actions in both the North and South Utoy sub-watersheds.",
+      "worth_it": "YES"
+     },
+     "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1 > 17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": {
+      "why": "Site 17F2M addresses the largest extent of concrete channel; working with 17D2E should cut mobilization costs, and the plan has the widest coverage.",
+      "worth_it": "YES"
+     },
+     "17B=Alternative2;19A=Alternative2;2A=Alternative1;2B=Alternative1 > 17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1": {
+      "why": "Site 17D2E begins to address the concrete channel, a major cause of degradation.",
+      "worth_it": "YES"
+     },
+     "19A=Alternative2;2A=Alternative1;2B=Alternative1 > 19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": {
+      "why": "Site 3F adds high benefit at low cost and demonstrates innovative methods for the region.",
+      "worth_it": "YES"
+     },
+     "19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1 > 17B=Alternative2;19A=Alternative2;2A=Alternative1;2B=Alternative1": {
+      "why": "Site 17B extends actions upstream and cuts sediment delivered to Sites 2A and 2B.",
+      "worth_it": "YES"
+     }
+    },
+    "tsp": "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1",
+    "tsp_plan_type": "National Ecosystem Restoration (NER) plan",
+    "tsp_rationale": "All seven sites: the widest geographic coverage, and it directly addresses the concrete channel that drives degradation in the watershed. Sites can still be dropped after further analysis such as real estate."
+   }
+  },
+  "description": "Aquatic ecosystem restoration in the Utoy Creek watershed, Atlanta, Georgia (Continuing Authorities Program Section 206). Eight candidate sites along North and South Utoy Creek; ecological outputs from the Riparian Ecological Functions Index and the Utoy Instream Model; the FY2025 federal discount rate (3 percent).",
+  "labels": {
+   "annual_output_name": "Average annual habitat units",
+   "annual_output_short": "AAHU",
+   "lift_name": "Ecological lift",
+   "output_name": "Habitat units",
+   "output_short": "HU"
+  },
+  "name": "Utoy Creek (edited) Section 206",
+  "project_id": "utoy-creek",
+  "provenance": {
+   "builder": "tools/build_utoy_example.py",
+   "costin_csv": "utoy_costin_2024-08-05.csv",
+   "costin_sha256": "f612c78b3ee77d942b29fd8cf763e82aa63122fb4a9595deb6aaf4c66e1d7f61",
+   "ecoin_csv": "utoy_ecoin_2024-10-01.csv",
+   "ecoin_sha256": "9bb9de921a77dd3dd0be5de12e605f6365d1c781e775ec5c9c7194d075aa6281",
+   "refi_streambank_input": "Stream_Habitat_left/right",
+   "source": "https://github.com/USACE-WRISES/UtoyDecisions (commit 48c01ad)",
+   "variant": "published"
+  },
+  "report": {
+   "contents": "FULL",
+   "date": "",
+   "prepared_by": "CEICA example, Mobile District",
+   "status": "DRAFT",
+   "title": "Utoy Creek Section 206"
+  },
+  "schema_version": "ceica-project/3",
+  "settings": {
+   "aahu_method": "TRAPEZOID",
+   "cost_decimals": 4,
+   "discount_rate": 0.03,
+   "idc_method": "END",
+   "idc_periods_per_year": 12,
+   "output_decimals": 6,
+   "period_of_analysis": 50,
+   "price_level": "",
+   "recurring_timing": "END_OF_YEAR"
+  },
+  "sites": [
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scores": {},
+        "values": [
+         0.07111111111111111,
+         0.07111111111111111,
+         0.07111111111111111,
+         0.07111111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         0.0,
+         0.0,
+         0.0,
+         0.0
+        ],
+        "scores": {},
+        "values": [
+         0.06666666666666667,
+         0.06666666666666667,
+         0.06666666666666667,
+         0.06666666666666667
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.8702331054545454,
+         3.8702331054545454,
+         3.8702331054545454,
+         3.8702331054545454
+        ],
+        "scores": {},
+        "values": [
+         0.31761913066513625,
+         0.31761913066513625,
+         0.31761913066513625,
+         0.31761913066513625
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 10.0,
+       "first_costs": {
+        "adaptive_management": 77605.0,
+        "construction": 776047.0,
+        "monitoring": 60000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2639.11,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Concrete channel removal with extensive riparian restoration",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         0.0,
+         1.080693297,
+         1.080693297,
+         1.080693297
+        ],
+        "scores": {},
+        "values": [
+         0.07111111111111111,
+         0.7333333333333333,
+         0.7955555555555556,
+         0.8355555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         0.0,
+         1.080693297,
+         1.080693297,
+         1.080693297
+        ],
+        "scores": {},
+        "values": [
+         0.06666666666666667,
+         0.7333333333333333,
+         0.7955555555555556,
+         0.8355555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.8702331054545454,
+         3.02928145087236,
+         3.02928145087236,
+         3.02928145087236
+        ],
+        "scores": {},
+        "values": [
+         0.31761913066513625,
+         0.8718292977795244,
+         0.8749542977795245,
+         0.8812042977795245
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 9.0,
+       "first_costs": {
+        "adaptive_management": 69109.0,
+        "construction": 691092.0,
+        "monitoring": 56000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2378.15424,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Remove concrete with small scale channel restoration",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         0.0,
+         0.389049587,
+         0.389049587,
+         0.389049587
+        ],
+        "scores": {},
+        "values": [
+         0.07111111111111111,
+         0.6666666666666666,
+         0.7777777777777778,
+         0.7777777777777778
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         0.0,
+         0.389049587,
+         0.389049587,
+         0.389049587
+        ],
+        "scores": {},
+        "values": [
+         0.06666666666666667,
+         0.6666666666666666,
+         0.7777777777777778,
+         0.7777777777777778
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.8702331054545454,
+         2.7297454545454545,
+         2.7297454545454545,
+         2.7297454545454545
+        ],
+        "scores": {},
+        "values": [
+         0.31761913066513625,
+         0.6770978784844941,
+         0.6833478784844941,
+         0.6895978784844942
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 11.0,
+       "first_costs": {
+        "adaptive_management": 79878.0,
+        "construction": 798779.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2639.11,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Chain of wetlands",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         0.0,
+         2.67231405,
+         2.67231405,
+         2.67231405
+        ],
+        "scores": {},
+        "values": [
+         0.07111111111111111,
+         0.7333333333333333,
+         0.7955555555555556,
+         0.8355555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         0.0,
+         2.67231405,
+         2.67231405,
+         2.67231405
+        ],
+        "scores": {},
+        "values": [
+         0.06666666666666667,
+         0.7333333333333333,
+         0.7955555555555556,
+         0.8355555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.8702331054545454,
+         4.294915241046832,
+         4.294915241046832,
+         4.294915241046832
+        ],
+        "scores": {},
+        "values": [
+         0.31761913066513625,
+         0.8770376311128578,
+         0.8864126311128578,
+         0.8926626311128578
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.45-mile trapezoidal concrete channel through the John A. White Golf Course, with mowed turf to the channel edge and no forested riparian zone.",
+    "id": "17F2M",
+    "name": "Golf course concrete channel",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         6.633146182,
+         6.633146182,
+         6.633146182,
+         6.633146182
+        ],
+        "scores": {},
+        "values": [
+         0.30222222222222217,
+         0.30222222222222217,
+         0.30222222222222217,
+         0.30222222222222217
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         8.613189818,
+         8.613189818,
+         8.613189818,
+         8.613189818
+        ],
+        "scores": {},
+        "values": [
+         0.27777777777777785,
+         0.27777777777777785,
+         0.27777777777777785,
+         0.27777777777777785
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.345030006060606,
+         6.345030006060606,
+         6.345030006060606,
+         6.345030006060606
+        ],
+        "scores": {},
+        "values": [
+         0.3715379126397268,
+         0.3715379126397268,
+         0.3715379126397268,
+         0.3715379126397268
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 14.0,
+       "first_costs": {
+        "adaptive_management": 160628.0,
+        "construction": 1070854.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3610.57488,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Concrete channel removal with left bank wetland",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         6.633146182,
+         10.87132341,
+         10.87132341,
+         10.87132341
+        ],
+        "scores": {},
+        "values": [
+         0.30222222222222217,
+         0.8088888888888889,
+         0.9066666666666666,
+         0.8800000000000002
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         8.613189818,
+         10.17680322,
+         10.17680322,
+         10.17680322
+        ],
+        "scores": {},
+        "values": [
+         0.27777777777777785,
+         0.58,
+         0.6377777777777778,
+         0.6955555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.345030006060606,
+         5.802117575757576,
+         5.802117575757576,
+         5.802117575757576
+        ],
+        "scores": {},
+        "values": [
+         0.3715379126397268,
+         0.9125,
+         0.9156249999999999,
+         0.9156249999999999
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 14.0,
+       "first_costs": {
+        "adaptive_management": 106567.0,
+        "construction": 1065670.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3610.57488,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Concrete channel removal with bankfull bench",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         6.633146182,
+         8.240125062,
+         8.240125062,
+         8.240125062
+        ],
+        "scores": {},
+        "values": [
+         0.30222222222222217,
+         0.7377777777777778,
+         0.8088888888888889,
+         0.831111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         8.613189818,
+         10.2201687,
+         10.2201687,
+         10.2201687
+        ],
+        "scores": {},
+        "values": [
+         0.27777777777777785,
+         0.58,
+         0.6377777777777778,
+         0.6955555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.345030006060606,
+         5.802117575757576,
+         5.802117575757576,
+         5.802117575757576
+        ],
+        "scores": {},
+        "values": [
+         0.3715379126397268,
+         0.884375,
+         0.8875,
+         0.8937499999999999
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 27623.0,
+        "construction": 276233.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3610.57488,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Stabilization with natural bed and grade control",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         6.633146182,
+         6.633146182,
+         6.633146182,
+         6.633146182
+        ],
+        "scores": {},
+        "values": [
+         0.30222222222222217,
+         0.611111111111111,
+         0.6911111111111111,
+         0.6955555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         8.613189818,
+         8.613189818,
+         8.613189818,
+         8.613189818
+        ],
+        "scores": {},
+        "values": [
+         0.27777777777777785,
+         0.5377777777777778,
+         0.5777777777777778,
+         0.5822222222222222
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.345030006060606,
+         5.802117575757576,
+         5.802117575757576,
+         5.802117575757576
+        ],
+        "scores": {},
+        "values": [
+         0.3715379126397268,
+         0.614591157805005,
+         0.6270911578050049,
+         0.6395911578050049
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.68-mile trapezoidal concrete channel from the golf course to Beecher Road Southwest, with a mostly forested riparian zone near residences.",
+    "id": "17D2E",
+    "name": "Concrete channel to Beecher Road",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         74.75713855,
+         74.75713855,
+         74.75713855,
+         74.75713855
+        ],
+        "scores": {},
+        "values": [
+         0.7200000000000001,
+         0.7200000000000001,
+         0.7200000000000001,
+         0.7200000000000001
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.39956615,
+         25.39956615,
+         25.39956615,
+         25.39956615
+        ],
+        "scores": {},
+        "values": [
+         0.8911111111111111,
+         0.8911111111111111,
+         0.8911111111111111,
+         0.8911111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         10.516303792727273,
+         10.516303792727273,
+         10.516303792727273,
+         10.516303792727273
+        ],
+        "scores": {},
+        "values": [
+         0.4444953665234117,
+         0.4444953665234117,
+         0.4444953665234117,
+         0.4444953665234117
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 12.0,
+       "first_costs": {
+        "adaptive_management": 150405.0,
+        "construction": 1002697.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 6461.98608,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel and bank stabilization with beaver removal",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         74.75713855,
+         74.96187914,
+         74.96187914,
+         74.96187914
+        ],
+        "scores": {},
+        "values": [
+         0.7200000000000001,
+         0.8022222222222223,
+         0.8066666666666666,
+         0.8066666666666666
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.39956615,
+         25.60552345,
+         25.60552345,
+         25.60552345
+        ],
+        "scores": {},
+        "values": [
+         0.8911111111111111,
+         0.8999999999999999,
+         0.8999999999999999,
+         0.8999999999999999
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         10.516303792727273,
+         12.60947696969697,
+         12.60947696969697,
+         12.60947696969697
+        ],
+        "scores": {},
+        "values": [
+         0.4444953665234117,
+         0.8744447218742585,
+         0.8786113885409251,
+         0.8817363885409251
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 12.0,
+       "first_costs": {
+        "adaptive_management": 132147.0,
+        "construction": 880983.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 6461.98608,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel and bank stabilization",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         74.75713855,
+         74.96187914,
+         74.96187914,
+         74.96187914
+        ],
+        "scores": {},
+        "values": [
+         0.7200000000000001,
+         0.8022222222222223,
+         0.8266666666666668,
+         0.8266666666666668
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.39956615,
+         25.60552345,
+         25.60552345,
+         25.60552345
+        ],
+        "scores": {},
+        "values": [
+         0.8911111111111111,
+         0.8955555555555555,
+         0.9088888888888889,
+         0.9088888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         10.516303792727273,
+         12.60947696969697,
+         12.60947696969697,
+         12.60947696969697
+        ],
+        "scores": {},
+        "values": [
+         0.4444953665234117,
+         0.9004863885409252,
+         0.9077780552075918,
+         0.9077780552075918
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 38642.0,
+        "construction": 257611.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 6461.98608,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Bank stabilization",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         74.75713855,
+         74.75713855,
+         74.75713855,
+         74.75713855
+        ],
+        "scores": {},
+        "values": [
+         0.7200000000000001,
+         0.7288888888888888,
+         0.7333333333333334,
+         0.7333333333333334
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.39956615,
+         25.39956615,
+         25.39956615,
+         25.39956615
+        ],
+        "scores": {},
+        "values": [
+         0.8911111111111111,
+         0.8955555555555555,
+         0.8955555555555555,
+         0.8955555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         10.516303792727273,
+         10.516303792727273,
+         10.516303792727273,
+         10.516303792727273
+        ],
+        "scores": {},
+        "values": [
+         0.4444953665234117,
+         0.6153286998567451,
+         0.6267870331900784,
+         0.6267870331900784
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 1.2-mile reach with a natural channel bottom beside the Southwest Connector Trail, downstream of the concrete channels.",
+    "id": "17B",
+    "name": "Southwest Connector Trail reach",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         29.20848246,
+         29.20848246,
+         29.20848246,
+         29.20848246
+        ],
+        "scores": {},
+        "values": [
+         0.3022222222222222,
+         0.3022222222222222,
+         0.3022222222222222,
+         0.3022222222222222
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         32.19387628,
+         32.19387628,
+         32.19387628,
+         32.19387628
+        ],
+        "scores": {},
+        "values": [
+         0.648888888888889,
+         0.648888888888889,
+         0.648888888888889,
+         0.648888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906
+        ],
+        "scores": {},
+        "values": [
+         0.4809229085302892,
+         0.4809229085302892,
+         0.4809229085302892,
+         0.4809229085302892
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 6.0,
+       "first_costs": {
+        "adaptive_management": 55770.0,
+        "construction": 557695.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3889.0,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel realignment",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         29.20848246,
+         30.00616382,
+         30.00616382,
+         30.00616382
+        ],
+        "scores": {},
+        "values": [
+         0.3022222222222222,
+         0.8266666666666665,
+         0.8777777777777778,
+         0.8866666666666667
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         32.19387628,
+         32.99155764,
+         32.99155764,
+         32.99155764
+        ],
+        "scores": {},
+        "values": [
+         0.648888888888889,
+         0.9022222222222224,
+         0.9444444444444445,
+         0.948888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.9759428279550906,
+         8.92791551882461,
+         8.92791551882461,
+         4.134712381213269
+        ],
+        "scores": {},
+        "values": [
+         0.4809229085302892,
+         0.9010416666666666,
+         0.9010416666666666,
+         0.9010416666666666
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 5.0,
+       "first_costs": {
+        "adaptive_management": 74714.0,
+        "construction": 498094.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3739.6656,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel shaping with bankfull bench",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         29.20848246,
+         30.58180661,
+         30.58180661,
+         30.58180661
+        ],
+        "scores": {},
+        "values": [
+         0.3022222222222222,
+         0.7711111111111112,
+         0.8288888888888889,
+         0.8488888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         32.19387628,
+         33.22307738,
+         33.22307738,
+         33.22307738
+        ],
+        "scores": {},
+        "values": [
+         0.648888888888889,
+         0.8066666666666666,
+         0.8466666666666667,
+         0.8666666666666668
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906
+        ],
+        "scores": {},
+        "values": [
+         0.4809229085302892,
+         0.8624999999999999,
+         0.8624999999999999,
+         0.8624999999999999
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 55247.0,
+        "construction": 276233.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 3739.6656,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Minor instream structures",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         29.20848246,
+         29.20848246,
+         29.20848246,
+         29.20848246
+        ],
+        "scores": {},
+        "values": [
+         0.3022222222222222,
+         0.3977777777777778,
+         0.3977777777777778,
+         0.3977777777777778
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         32.19387628,
+         32.19387628,
+         32.19387628,
+         32.19387628
+        ],
+        "scores": {},
+        "values": [
+         0.648888888888889,
+         0.6622222222222223,
+         0.6622222222222223,
+         0.6622222222222223
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906,
+         3.9759428279550906
+        ],
+        "scores": {},
+        "values": [
+         0.4809229085302892,
+         0.7749999999999999,
+         0.7749999999999999,
+         0.7749999999999999
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.71-mile reach at the downstream end of North Utoy Creek, in a powerline easement that limits riparian cover and bank stability.",
+    "id": "2A",
+    "name": "Lower North Utoy powerline reach",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         20.89978311,
+         20.89978311,
+         20.89978311,
+         20.89978311
+        ],
+        "scores": {},
+        "values": [
+         0.49999999999999994,
+         0.49999999999999994,
+         0.49999999999999994,
+         0.49999999999999994
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         26.68614567,
+         26.68614567,
+         26.68614567,
+         26.68614567
+        ],
+        "scores": {},
+        "values": [
+         0.5244444444444444,
+         0.5244444444444444,
+         0.5244444444444444,
+         0.5244444444444444
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817
+        ],
+        "scores": {},
+        "values": [
+         0.42916666666666664,
+         0.42916666666666664,
+         0.42916666666666664,
+         0.42916666666666664
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 4.0,
+       "first_costs": {
+        "adaptive_management": 39450.0,
+        "construction": 394496.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4504.98576,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel realignment",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         20.89978311,
+         22.2767574,
+         22.2767574,
+         22.2767574
+        ],
+        "scores": {},
+        "values": [
+         0.49999999999999994,
+         0.8422222222222221,
+         0.9044444444444446,
+         0.908888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         26.68614567,
+         27.95159563,
+         27.95159563,
+         27.95159563
+        ],
+        "scores": {},
+        "values": [
+         0.5244444444444444,
+         0.8422222222222223,
+         0.9,
+         0.9088888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.246508898181817,
+         8.273619393939393,
+         8.273619393939393,
+         8.273619393939393
+        ],
+        "scores": {},
+        "values": [
+         0.42916666666666664,
+         0.7916666666666666,
+         0.7916666666666666,
+         0.7916666666666666
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 4.0,
+       "first_costs": {
+        "adaptive_management": 60096.0,
+        "construction": 400638.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4504.98576,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Channel shaping with bankfull bench",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         20.89978311,
+         21.72112149,
+         21.72112149,
+         21.72112149
+        ],
+        "scores": {},
+        "values": [
+         0.49999999999999994,
+         0.7533333333333333,
+         0.7777777777777777,
+         0.7933333333333333
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         26.68614567,
+         27.56074393,
+         27.56074393,
+         27.56074393
+        ],
+        "scores": {},
+        "values": [
+         0.5244444444444444,
+         0.7711111111111112,
+         0.7955555555555556,
+         0.8111111111111112
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817
+        ],
+        "scores": {},
+        "values": [
+         0.42916666666666664,
+         0.7583333333333333,
+         0.7583333333333333,
+         0.7583333333333333
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 55247.0,
+        "construction": 276233.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4504.98576,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Minor instream structures",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         20.89978311,
+         20.89978311,
+         20.89978311,
+         20.89978311
+        ],
+        "scores": {},
+        "values": [
+         0.49999999999999994,
+         0.5644444444444444,
+         0.5644444444444444,
+         0.5644444444444444
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         26.68614567,
+         26.68614567,
+         26.68614567,
+         26.68614567
+        ],
+        "scores": {},
+        "values": [
+         0.5244444444444444,
+         0.6311111111111111,
+         0.6311111111111111,
+         0.6311111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817,
+         5.246508898181817
+        ],
+        "scores": {},
+        "values": [
+         0.42916666666666664,
+         0.6916666666666667,
+         0.6916666666666667,
+         0.6916666666666667
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.85-mile reach just upstream of Site 2A, also in a powerline easement.",
+    "id": "2B",
+    "name": "North Utoy powerline reach",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.729478182,
+         7.729478182,
+         7.729478182,
+         7.729478182
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         12.48167588,
+         12.48167588,
+         12.48167588,
+         12.48167588
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607
+        ],
+        "scores": {},
+        "values": [
+         0.49079597042521084,
+         0.49079597042521084,
+         0.49079597042521084,
+         0.49079597042521084
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 8.0,
+       "first_costs": {
+        "adaptive_management": 132216.0,
+        "construction": 1762881.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2494.04496,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Bridge replacement with extensive action",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.729478182,
+         7.729478182,
+         7.729478182,
+         7.729478182
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8911111111111111,
+         0.8955555555555555,
+         0.8955555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         12.48167588,
+         12.48167588,
+         12.48167588,
+         12.48167588
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8911111111111111,
+         0.8955555555555555,
+         0.8955555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.121174166060607,
+         2.2902157575757576,
+         2.2902157575757576,
+         2.2902157575757576
+        ],
+        "scores": {},
+        "values": [
+         0.49079597042521084,
+         0.8239583333333333,
+         0.8239583333333333,
+         0.8239583333333333
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 14.0,
+       "first_costs": {
+        "adaptive_management": 167902.0,
+        "construction": 1679017.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2494.04496,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Bridge replacement with minor action",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.729478182,
+         7.729478182,
+         7.729478182,
+         7.729478182
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8733333333333334,
+         0.8733333333333334,
+         0.8777777777777778
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         12.48167588,
+         12.48167588,
+         12.48167588,
+         12.48167588
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8733333333333334,
+         0.8733333333333334,
+         0.8777777777777778
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607
+        ],
+        "scores": {},
+        "values": [
+         0.49079597042521084,
+         0.7109209704252109,
+         0.7109209704252109,
+         0.7109209704252109
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 40079.0,
+        "construction": 267190.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 2494.04496,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Bank stabilization",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.729478182,
+         7.729478182,
+         7.729478182,
+         7.729478182
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8288888888888889,
+         0.8422222222222223,
+         0.8422222222222223
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         12.48167588,
+         12.48167588,
+         12.48167588,
+         12.48167588
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8288888888888889,
+         0.8422222222222223,
+         0.8422222222222223
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607,
+         6.121174166060607
+        ],
+        "scores": {},
+        "values": [
+         0.49079597042521084,
+         0.5845459704252108,
+         0.5845459704252108,
+         0.5845459704252108
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.47-mile reach of South Utoy Creek from the Cascade Springs Nature Preserve, with two bridges that cause erosion and fish passage problems.",
+    "id": "3E",
+    "name": "Cascade Springs road crossings",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         18.10577455,
+         18.10577455,
+         18.10577455,
+         18.10577455
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.95161018,
+         25.95161018,
+         25.95161018,
+         25.95161018
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111,
+         0.791111111111111
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273
+        ],
+        "scores": {},
+        "values": [
+         0.6242133784794707,
+         0.6242133784794707,
+         0.6085883784794707,
+         0.6085883784794707
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 3.0,
+       "first_costs": {
+        "adaptive_management": 69221.0,
+        "construction": 276883.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4381.59744,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Large wood structures for 50% of reach",
+      "id": "Alternative1",
+      "is_no_action": false,
+      "name": "Alternative 1",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         18.10577455,
+         18.10577455,
+         18.10577455,
+         18.10577455
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.831111111111111,
+         0.8688888888888888,
+         0.8733333333333334
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.95161018,
+         25.95161018,
+         25.95161018,
+         25.95161018
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.831111111111111,
+         0.8688888888888888,
+         0.8733333333333334
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273
+        ],
+        "scores": {},
+        "values": [
+         0.6242133784794707,
+         0.7669217118128039,
+         0.7700467118128039,
+         0.7700467118128039
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 2.0,
+       "first_costs": {
+        "adaptive_management": 58176.0,
+        "construction": 232705.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4381.59744,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Large wood structures for 25% of reach",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         18.10577455,
+         18.10577455,
+         18.10577455,
+         18.10577455
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8044444444444444,
+         0.8422222222222223,
+         0.8466666666666667
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.95161018,
+         25.95161018,
+         25.95161018,
+         25.95161018
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8044444444444444,
+         0.8422222222222223,
+         0.8466666666666667
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273
+        ],
+        "scores": {},
+        "values": [
+         0.6242133784794707,
+         0.6992133784794706,
+         0.7106717118128039,
+         0.7106717118128039
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 5.0,
+       "first_costs": {
+        "adaptive_management": 30429.0,
+        "construction": 121714.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 4381.59744,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Beaver reintroduction",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         18.10577455,
+         18.10577455,
+         18.10577455,
+         18.10577455
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8466666666666667,
+         0.8555555555555556,
+         0.8555555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         25.95161018,
+         25.95161018,
+         25.95161018,
+         25.95161018
+        ],
+        "scores": {},
+        "values": [
+         0.791111111111111,
+         0.8466666666666667,
+         0.8555555555555556,
+         0.8555555555555556
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273,
+         9.816347432727273
+        ],
+        "scores": {},
+        "values": [
+         0.6242133784794707,
+         0.6617133784794706,
+         0.6742133784794706,
+         0.6825467118128039
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.83-mile over-widened, sediment-laden reach of South Utoy Creek, used to explore innovative low-cost restoration methods.",
+    "id": "3F",
+    "name": "Dodson Drive to Harbin Road",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 0.0,
+       "first_costs": {
+        "adaptive_management": 0.0,
+        "construction": 0.0,
+        "monitoring": 0.0
+       },
+       "recurring": []
+      },
+      "description": "Future without project",
+      "id": "FWOP",
+      "is_no_action": true,
+      "name": "No Action",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.962850909,
+         7.962850909,
+         7.962850909,
+         7.962850909
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.6777777777777777,
+         0.6777777777777777,
+         0.6777777777777777
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         23.08072727,
+         23.08072727,
+         23.08072727,
+         23.08072727
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.6777777777777777,
+         0.6777777777777777,
+         0.6777777777777777
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.634005527272727,
+         5.634005527272727,
+         5.634005527272727,
+         5.634005527272727
+        ],
+        "scores": {},
+        "values": [
+         0.5792328388327692,
+         0.5792328388327692,
+         0.5792328388327692,
+         0.5792328388327692
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 6.0,
+       "first_costs": {
+        "adaptive_management": 110329.0,
+        "construction": 551647.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 5026.9824,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Floodplain bench for floodplain connectivity",
+      "id": "Alternative2",
+      "is_no_action": false,
+      "name": "Alternative 2",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.962850909,
+         13.00746753,
+         13.00746753,
+         13.00746753
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.8133333333333334,
+         0.8377777777777777,
+         0.8488888888888889
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         23.08072727,
+         28.12534389,
+         28.12534389,
+         28.12534389
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.8177777777777778,
+         0.8422222222222221,
+         0.8533333333333332
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.634005527272727,
+         12.337802763636363,
+         12.337802763636363,
+         12.337802763636363
+        ],
+        "scores": {},
+        "values": [
+         0.5792328388327692,
+         0.8084328388327692,
+         0.8084328388327692,
+         0.8084328388327692
+        ]
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": null,
+       "construction_months": 3.0,
+       "first_costs": {
+        "adaptive_management": 45739.0,
+        "construction": 228693.0,
+        "monitoring": 48000.0
+       },
+       "recurring": [
+        {
+         "amount": 10000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 1,
+         "first_year": null,
+         "id": "general",
+         "last_year": null,
+         "name": "General maintenance",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "RATE_X_QUANTITY",
+         "category_id": null,
+         "every_years": 2,
+         "first_year": null,
+         "id": "inspection",
+         "last_year": null,
+         "name": "Inspection and trash removal",
+         "percent": 0.0,
+         "quantity": 5026.9824,
+         "quantity_units": "ft of reach",
+         "unit_rate": 4.0
+        },
+        {
+         "amount": 15000.0,
+         "basis": "FIXED",
+         "category_id": null,
+         "every_years": 10,
+         "first_year": null,
+         "id": "invasives",
+         "last_year": null,
+         "name": "Invasive species control",
+         "percent": 0.0,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        },
+        {
+         "amount": 0.0,
+         "basis": "PCT_OF_CATEGORY",
+         "category_id": "construction",
+         "every_years": 25,
+         "first_year": null,
+         "id": "repair",
+         "last_year": null,
+         "name": "Wood, rock and earth repair",
+         "percent": 0.1,
+         "quantity": 0.0,
+         "quantity_units": "",
+         "unit_rate": 0.0
+        }
+       ]
+      },
+      "description": "Regrade segment around culvert",
+      "id": "Alternative3",
+      "is_no_action": false,
+      "name": "Alternative 3",
+      "outputs": [
+       {
+        "aahu": null,
+        "module_id": "RipL",
+        "quantity": [
+         7.962850909,
+         7.962850909,
+         7.962850909,
+         7.962850909
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.7022222222222223,
+         0.7155555555555555,
+         0.7155555555555555
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "RipR",
+        "quantity": [
+         23.08072727,
+         23.08072727,
+         23.08072727,
+         23.08072727
+        ],
+        "scores": {},
+        "values": [
+         0.6777777777777777,
+         0.7066666666666667,
+         0.7200000000000001,
+         0.7200000000000001
+        ]
+       },
+       {
+        "aahu": null,
+        "module_id": "Ins",
+        "quantity": [
+         5.634005527272727,
+         12.337802763636363,
+         12.337802763636363,
+         12.337802763636363
+        ],
+        "scores": {},
+        "values": [
+         0.5792328388327692,
+         0.7083995054994359,
+         0.7083995054994359,
+         0.7083995054994359
+        ]
+       }
+      ]
+     }
+    ],
+    "description": "A 0.95-mile reach of South Utoy Creek along I-285 with high sedimentation. Alternative 1 was screened out for constructability.",
+    "id": "19A",
+    "name": "I-285 and Glenview Drive reach",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   }
+  ],
+  "watershed": {
+   "carried": {},
+   "mode": "RECOMMENDED",
+   "rules": []
+  }
+ },
+ "savedAt": "2026-09-27T00:00:00Z",
+ "schemaVersion": 3
+}

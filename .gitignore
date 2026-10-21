@@ -1,0 +1,12 @@
+# The app's packages and its builds
+node_modules/
+web/dist/
+web/coverage/
+
+# Local tools', editors' and caches' folders: every dot-folder at the top but .github
+/.*/
+!/.github/
+
+# OS files
+Thumbs.db
+.DS_Store

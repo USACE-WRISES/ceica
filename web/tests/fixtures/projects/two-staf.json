@@ -1,0 +1,1106 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "1147a2ea6d7eb15a68c859ae44f401c4ce8d20fcb73a5074b344a03de353f2e7",
+ "issues": [],
+ "benefits": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       359.99999999999994,
+       359.99999999999994
+      ]
+     ],
+     [
+      "trib",
+      [
+       240.00000000000003,
+       240.00000000000003,
+       240.00000000000003
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      359.99999999999994
+     ],
+     [
+      "trib",
+      240.00000000000003
+     ]
+    ],
+    "aahu": 600.0,
+    "lift_by_module": [
+     [
+      "main",
+      0.0
+     ],
+     [
+      "trib",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       450.0,
+       540.0000000000001
+      ]
+     ],
+     [
+      "trib",
+      [
+       240.00000000000003,
+       259.99999999999994,
+       280.0
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      477.00000000000006
+     ],
+     [
+      "trib",
+      266.0
+     ]
+    ],
+    "aahu": 743.0,
+    "lift_by_module": [
+     [
+      "main",
+      117.00000000000011
+     ],
+     [
+      "trib",
+      25.99999999999997
+     ]
+    ],
+    "lift": 143.0,
+    "missing": []
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       509.9999999999999,
+       660.0
+      ]
+     ],
+     [
+      "trib",
+      [
+       240.00000000000003,
+       273.33333333333337,
+       306.6666666666667
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      555.0
+     ],
+     [
+      "trib",
+      283.33333333333337
+     ]
+    ],
+    "aahu": 838.3333333333334,
+    "lift_by_module": [
+     [
+      "main",
+      195.00000000000006
+     ],
+     [
+      "trib",
+      43.33333333333334
+     ]
+    ],
+    "lift": 238.33333333333337,
+    "missing": []
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      200000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 200000.0,
+    "idc": 1237.1973851404762,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 201237.19738514046,
+    "annual": 7821.18317643053,
+    "annual_parts": [
+     [
+      "construction",
+      7773.098888335097
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      48.084288095432626
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 7821.18317643053
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      450000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 450000.0,
+    "idc": 2783.694116566071,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 452783.6941165661,
+    "annual": 17597.662146968694,
+    "annual_parts": [
+     [
+      "construction",
+      17489.47249875397
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      108.18964821472339
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 17597.662146968694
+   }
+  ]
+ ],
+ "stafLift": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      0.0
+     ],
+     [
+      "carbon-processing",
+      0.0
+     ],
+     [
+      "nutrient-cycling",
+      0.0
+     ],
+     [
+      "water-soil-quality",
+      0.0
+     ],
+     [
+      "habitat-provision",
+      0.0
+     ],
+     [
+      "population-support",
+      0.0
+     ],
+     [
+      "community-dynamics",
+      0.0
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      0.0
+     ],
+     [
+      "chemical",
+      0.0
+     ],
+     [
+      "biological",
+      0.0
+     ]
+    ],
+    "total": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      5.5864751490955324
+     ],
+     [
+      "surface-water-storage",
+      5.5864751490955324
+     ],
+     [
+      "reach-inflow",
+      5.5864751490955324
+     ],
+     [
+      "streamflow-regime",
+      5.5864751490955324
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      5.5864751490955324
+     ],
+     [
+      "high-flow-dynamics",
+      5.5864751490955324
+     ],
+     [
+      "floodplain-connectivity",
+      5.5864751490955324
+     ],
+     [
+      "hyporheic-connectivity",
+      5.5864751490955324
+     ],
+     [
+      "channel-evolution",
+      5.5864751490955324
+     ],
+     [
+      "channel-floodplain-dynamics",
+      5.5864751490955324
+     ],
+     [
+      "sediment-continuity",
+      5.5864751490955324
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      5.5864751490955324
+     ],
+     [
+      "light-thermal-regime",
+      9.711994862357184
+     ],
+     [
+      "carbon-processing",
+      9.711994862357184
+     ],
+     [
+      "nutrient-cycling",
+      10.093887335475461
+     ],
+     [
+      "water-soil-quality",
+      10.093887335475461
+     ],
+     [
+      "habitat-provision",
+      8.848343685300206
+     ],
+     [
+      "population-support",
+      10.112952207801202
+     ],
+     [
+      "community-dynamics",
+      10.112952207801202
+     ],
+     [
+      "watershed-connectivity",
+      7.276285714285714
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      47.666666666666664
+     ],
+     [
+      "chemical",
+      47.66666666666667
+     ],
+     [
+      "biological",
+      47.666666666666664
+     ]
+    ],
+    "total": 143.0
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      9.310791915159221
+     ],
+     [
+      "surface-water-storage",
+      9.310791915159221
+     ],
+     [
+      "reach-inflow",
+      9.310791915159221
+     ],
+     [
+      "streamflow-regime",
+      9.310791915159221
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      9.310791915159221
+     ],
+     [
+      "high-flow-dynamics",
+      9.310791915159221
+     ],
+     [
+      "floodplain-connectivity",
+      9.310791915159221
+     ],
+     [
+      "hyporheic-connectivity",
+      9.310791915159221
+     ],
+     [
+      "channel-evolution",
+      9.310791915159221
+     ],
+     [
+      "channel-floodplain-dynamics",
+      9.310791915159221
+     ],
+     [
+      "sediment-continuity",
+      9.310791915159221
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      9.310791915159221
+     ],
+     [
+      "light-thermal-regime",
+      16.186658103928636
+     ],
+     [
+      "carbon-processing",
+      16.186658103928636
+     ],
+     [
+      "nutrient-cycling",
+      16.82314555912577
+     ],
+     [
+      "water-soil-quality",
+      16.82314555912577
+     ],
+     [
+      "habitat-provision",
+      14.747239475500344
+     ],
+     [
+      "population-support",
+      16.854920346335337
+     ],
+     [
+      "community-dynamics",
+      16.854920346335337
+     ],
+     [
+      "watershed-connectivity",
+      12.127142857142855
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      79.44444444444446
+     ],
+     [
+      "chemical",
+      79.44444444444446
+     ],
+     [
+      "biological",
+      79.44444444444444
+     ]
+    ],
+    "total": 238.33333333333334
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "R1",
+    true,
+    [],
+    [
+     [
+      "FWOP",
+      "FWOP",
+      "",
+      true,
+      600.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      743.0,
+      143.0,
+      7821.18317643053,
+      7821.18317643053,
+      200000.0,
+      200000.0,
+      54.69356643356643,
+      true,
+      true,
+      1,
+      54.69356643356643,
+      143.0,
+      7821.18,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      838.3333333333334,
+      238.33333333333337,
+      17597.662146968694,
+      17597.662146968694,
+      450000.0,
+      450000.0,
+      73.83643893208242,
+      true,
+      true,
+      2,
+      102.5508480798884,
+      95.333,
+      9776.48,
+      null,
+      0
+     ]
+    ],
+    "A2",
+    "4fcb4803e7d97906",
+    {
+     "ids": [
+      "FWOP",
+      "A1",
+      "A2"
+     ],
+     "c": [
+      0,
+      782118,
+      1759766
+     ],
+     "q": [
+      0,
+      143000,
+      238333
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "111",
+     "bb": "111",
+     "ceRaw": "111",
+     "witness": [
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "FWOP",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       7821.18,
+       143.0,
+       54.69356643356643,
+       7821.18,
+       143.0,
+       54.69356643356643,
+       "FWOP"
+      ],
+      [
+       2,
+       "A2",
+       17597.66,
+       238.333,
+       73.83643893208242,
+       9776.48,
+       95.333,
+       102.5508480798884,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "FWOP",
+     "A1",
+     "A2"
+    ]
+   ]
+  ],
+  "watershed": {
+   "ready": true,
+   "reasons": [],
+   "mode": "RECOMMENDED",
+   "carried": [
+    [
+     "R1",
+     [
+      "A2"
+     ]
+    ]
+   ],
+   "sources": [
+    [
+     "R1",
+     "suggested"
+    ]
+   ],
+   "notCarried": [],
+   "blocked": [],
+   "fingerprint": "ea6c10d16e5c224f",
+   "nPlans": 2,
+   "nCe": 2,
+   "nBb": 2,
+   "space": [
+    [
+     "R1"
+    ],
+    [
+     [
+      "A2"
+     ]
+    ]
+   ],
+   "nValid": 2,
+   "ceOnly": false,
+   "digest": "5edfe4bc0b8e9407be7b3c5d5a15381de3b7acbea726a53bb7ccc837532698ed",
+   "na": 0,
+   "base": [
+    0,
+    0,
+    true
+   ],
+   "walk": [
+    1
+   ],
+   "inc": [
+    [
+     0,
+     "P1",
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     null
+    ],
+    [
+     1,
+     "P2",
+     17597.66,
+     238.333,
+     73.83643893208242,
+     17597.66,
+     238.333,
+     73.83643893208242,
+     "P1"
+    ]
+   ],
+   "bbRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R1=A2",
+     [
+      [
+       "R1",
+       "A2"
+      ]
+     ],
+     "R1",
+     238.333,
+     17597.66,
+     450000.0,
+     73.83643893208242,
+     true,
+     true,
+     1,
+     73.83643893208242,
+     238.333,
+     17597.66
+    ]
+   ],
+   "ceRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R1=A2",
+     [
+      [
+       "R1",
+       "A2"
+      ]
+     ],
+     "R1",
+     238.333,
+     17597.66,
+     450000.0,
+     73.83643893208242,
+     true,
+     true,
+     1,
+     73.83643893208242,
+     238.333,
+     17597.66
+    ]
+   ],
+   "allHead": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R1=A2",
+     [
+      [
+       "R1",
+       "A2"
+      ]
+     ],
+     "R1",
+     238.333,
+     17597.66,
+     450000.0,
+     73.83643893208242,
+     true,
+     true,
+     1,
+     73.83643893208242,
+     238.333,
+     17597.66
+    ]
+   ],
+   "allTail": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R1=A2",
+     [
+      [
+       "R1",
+       "A2"
+      ]
+     ],
+     "R1",
+     238.333,
+     17597.66,
+     450000.0,
+     73.83643893208242,
+     true,
+     true,
+     1,
+     73.83643893208242,
+     238.333,
+     17597.66
+    ]
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "R1",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [
+    "",
+    "R1=A2"
+   ],
+   "added": [],
+   "removed": [],
+   "ladder": [
+    [
+     "",
+     "R1=A2",
+     "P1",
+     "P2",
+     [
+      "R1"
+     ],
+     [],
+     238.333,
+     17597.66,
+     73.83643893208242,
+     null,
+     " > R1=A2"
+    ]
+   ],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 1,
+   "nStale": 0
+  },
+  "issues": [],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "done",
+     0,
+     ""
+    ],
+    [
+     "sites",
+     "attention",
+     1,
+     "1 site recommendations to confirm or review."
+    ],
+    [
+     "watershed",
+     "",
+     0,
+     "Choose the final array and TSP."
+    ],
+    [
+     "report",
+     "attention",
+     2,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     true,
+     "Inputs have no problems",
+     "inputs"
+    ],
+    [
+     false,
+     "1 site recommendations are still suggestions",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ],
+    [
+     false,
+     "Choose the tentatively selected plan",
+     "watershed"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": true,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Plans",
+    "Report"
+   ]
+  },
+  "stamped": "1147a2ea6d7eb15a68c859ae44f401c4ce8d20fcb73a5074b344a03de353f2e7",
+  "carried": "1ad27fd164e5adb19539eae8857c96e9786e1c35e418b7dc1d606ab72d9f75bd",
+  "planCountWarning": false
+ }
+}

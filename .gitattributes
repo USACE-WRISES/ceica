@@ -1,0 +1,13 @@
+# Every text file stays LF on checkout, whatever core.autocrlf says. The build reads some of them
+# (CHANGELOG.md for What's new, the page's stylesheets and scripts) and the tests compare the goldens
+# byte for byte and by sha256 (web/tests/fixtures/FROZEN.sha256), so a clone on any machine builds
+# the same site and passes the same tests.
+* text=auto eol=lf
+# files kept byte for byte (goldens, fonts, icons, workbooks, documents): never converted
+*.pdf binary
+*.png binary
+*.ico binary
+*.woff2 binary
+*.xlsx binary
+*.docx binary
+*.zip binary

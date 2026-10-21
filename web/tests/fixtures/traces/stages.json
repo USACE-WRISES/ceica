@@ -1,0 +1,1206 @@
+{
+ "scenario": "stages",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "utoy-creek",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "study",
+      "n": 3
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:e2eb02315dc07192:3566"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:b908190f6075876b:7934"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "sites",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:0f498100eaa52972:3566",
+      "page_inputs": "sha256:1037068d8ea19566:45949"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "benefits",
+      "n": 5
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:c1f0161273940148:3566",
+      "page_inputs": "sha256:0e5d2849fc1fb00f:52863"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "costs",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:1c60afd44f266f21:3566",
+      "page_inputs": "sha256:148c1aa6d3546990:322978"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "check",
+      "n": 7
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:e0dacebe91c2fce4:3566",
+      "page_inputs": "sha256:aa057283c01b6460:10450"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "check",
+      "n": 8
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "panel_body": "sha256:e0dacebe91c2fce4:3566",
+      "page_inputs": "sha256:aa057283c01b6460:10450"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "benefits",
+      "n": 9
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:c1f0161273940148:3566",
+      "page_inputs": "sha256:0e5d2849fc1fb00f:52863"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "module",
+      "value": "RipR",
+      "n": 10
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:2e7823696e71aae1:52876"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "view",
+      "value": "quantity",
+      "n": 11
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:739604d171c0983e:52606"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "view",
+      "value": "output",
+      "n": 12
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:ee5043d22c397f75:19704"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "module",
+      "value": "_totals",
+      "n": 13
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:be1e7b8e3c846328:39071"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "module",
+      "value": "Ins",
+      "n": 14
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:8d8298e4ea5e8a52:19110"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "view",
+      "value": "values",
+      "n": 15
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:46b8c38e1f33496b:51315"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "n": 16
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:ff090cca602b2bef:3566"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     "page": "sites"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "17D2E",
+      "n": 17
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "page_sites": "sha256:b9b8c6a7357b7d83:32973",
+      "panel_body": "sha256:8187178398a8cb82:3566"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "2A",
+      "n": 18
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "page_sites": "sha256:3b8e70f9b1a4787c:32466",
+      "panel_body": "sha256:bb0620feccc0b986:3566"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "2A",
+      "n": 19
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "page_sites": "sha256:3b8e70f9b1a4787c:32466",
+      "panel_body": "sha256:bb0620feccc0b986:3566"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "19A",
+      "n": 20
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "page_sites": "sha256:af71b6a5f4b6aab6:28330",
+      "panel_body": "sha256:b5f7f7b8ec4eb886:3566"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site_select",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site_select",
+      "value": "3E",
+      "n": 21
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "page_sites": "sha256:d1acac72cc20be9b:34072",
+      "panel_body": "sha256:d113126c23700527:3566"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "",
+      "n": 22
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "n": 23
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:d9efbc9ae021a3de:3555"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "watershed"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": true,
+     ".clientdata_output_page_watershed_hidden": false,
+     "page": "watershed"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:9e3b14cbab36bb5d:119303"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event plans_view",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "plans_view",
+      "value": "ce",
+      "n": 24
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:aae21ed60db8cbd3:132931"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event plans_view",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "plans_view",
+      "value": "all",
+      "n": 25
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:7d10c12736573a0b:297815"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event plans_view",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "plans_view",
+      "value": "",
+      "n": 26
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:9e3b14cbab36bb5d:119303"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event plans_view",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "plans_view",
+      "value": "bb",
+      "n": 27
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:9e3b14cbab36bb5d:119303"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event plans_view",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "plans_view",
+      "value": "bb",
+      "n": 28
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:9e3b14cbab36bb5d:119303"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "report",
+      "n": 29
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:e9df48feeaf7e35b:3555"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "report"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": false,
+     "page": "report"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_report": "sha256:6fff4e3eb8e1cb8a:31792"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "anchor": "ce-tsp",
+      "n": 30
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_to": {
+       "id": "ce-tsp",
+       "output": "page_watershed",
+       "block": "start",
+       "now": false
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:d9efbc9ae021a3de:3555"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "watershed"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_watershed_hidden": false,
+     ".clientdata_output_page_report_hidden": true,
+     "page": "watershed"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "anchor": "ce-final",
+      "n": 31
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_to": {
+       "id": "ce-final",
+       "output": "page_watershed",
+       "block": "start",
+       "now": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "n": 32
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:d113126c23700527:3566"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     "page": "sites"
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "costs",
+      "site": "2B",
+      "n": 33
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:1c60afd44f266f21:3566",
+      "page_sites": "sha256:fd5ce8f2236b7a40:32302"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:148c1aa6d3546990:322978"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "site": "17B",
+      "toast": "nothing-shown",
+      "n": 34
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "remove",
+      "id": "nothing-shown"
+     }
+    },
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:acba9742dd0ab63f:3566"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     "page": "sites"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_sites": "sha256:75ed259d0a9609cc:33339"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event bogus",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "bogus",
+      "n": 35
+     }
+    }
+   },
+   "server": []
+  }
+ ]
+}

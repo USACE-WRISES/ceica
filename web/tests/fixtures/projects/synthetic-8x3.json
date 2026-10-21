@@ -1,0 +1,7848 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "0a8cef8cc3bf80c246bdeb777f0d34781b86c540853b4e2ee8e218f6f51eee02",
+ "issues": [],
+ "benefits": [
+  [
+   "S1",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S1",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      20.96104336331001
+     ]
+    ],
+    "aahu": 20.96104336331001,
+    "lift_by_module": [
+     [
+      "total",
+      20.96104336331001
+     ]
+    ],
+    "lift": 20.96104336331001,
+    "missing": []
+   }
+  ],
+  [
+   "S1",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      6.622224896065716
+     ]
+    ],
+    "aahu": 6.622224896065716,
+    "lift_by_module": [
+     [
+      "total",
+      6.622224896065716
+     ]
+    ],
+    "lift": 6.622224896065716,
+    "missing": []
+   }
+  ],
+  [
+   "S1",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      13.161426628408933
+     ]
+    ],
+    "aahu": 13.161426628408933,
+    "lift_by_module": [
+     [
+      "total",
+      13.161426628408933
+     ]
+    ],
+    "lift": 13.161426628408933,
+    "missing": []
+   }
+  ],
+  [
+   "S2",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S2",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      33.28040115899723
+     ]
+    ],
+    "aahu": 33.28040115899723,
+    "lift_by_module": [
+     [
+      "total",
+      33.28040115899723
+     ]
+    ],
+    "lift": 33.28040115899723,
+    "missing": []
+   }
+  ],
+  [
+   "S2",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      22.43415381924932
+     ]
+    ],
+    "aahu": 22.43415381924932,
+    "lift_by_module": [
+     [
+      "total",
+      22.43415381924932
+     ]
+    ],
+    "lift": 22.43415381924932,
+    "missing": []
+   }
+  ],
+  [
+   "S2",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      30.387011238317456
+     ]
+    ],
+    "aahu": 30.387011238317456,
+    "lift_by_module": [
+     [
+      "total",
+      30.387011238317456
+     ]
+    ],
+    "lift": 30.387011238317456,
+    "missing": []
+   }
+  ],
+  [
+   "S3",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S3",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      13.859536943464594
+     ]
+    ],
+    "aahu": 13.859536943464594,
+    "lift_by_module": [
+     [
+      "total",
+      13.859536943464594
+     ]
+    ],
+    "lift": 13.859536943464594,
+    "missing": []
+   }
+  ],
+  [
+   "S3",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      12.824598342374154
+     ]
+    ],
+    "aahu": 12.824598342374154,
+    "lift_by_module": [
+     [
+      "total",
+      12.824598342374154
+     ]
+    ],
+    "lift": 12.824598342374154,
+    "missing": []
+   }
+  ],
+  [
+   "S3",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      6.227626192639425
+     ]
+    ],
+    "aahu": 6.227626192639425,
+    "lift_by_module": [
+     [
+      "total",
+      6.227626192639425
+     ]
+    ],
+    "lift": 6.227626192639425,
+    "missing": []
+   }
+  ],
+  [
+   "S4",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S4",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      8.934754386369836
+     ]
+    ],
+    "aahu": 8.934754386369836,
+    "lift_by_module": [
+     [
+      "total",
+      8.934754386369836
+     ]
+    ],
+    "lift": 8.934754386369836,
+    "missing": []
+   }
+  ],
+  [
+   "S4",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      30.26422223257205
+     ]
+    ],
+    "aahu": 30.26422223257205,
+    "lift_by_module": [
+     [
+      "total",
+      30.26422223257205
+     ]
+    ],
+    "lift": 30.26422223257205,
+    "missing": []
+   }
+  ],
+  [
+   "S4",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      19.922448002833768
+     ]
+    ],
+    "aahu": 19.922448002833768,
+    "lift_by_module": [
+     [
+      "total",
+      19.922448002833768
+     ]
+    ],
+    "lift": 19.922448002833768,
+    "missing": []
+   }
+  ],
+  [
+   "S5",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S5",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      38.50463055288768
+     ]
+    ],
+    "aahu": 38.50463055288768,
+    "lift_by_module": [
+     [
+      "total",
+      38.50463055288768
+     ]
+    ],
+    "lift": 38.50463055288768,
+    "missing": []
+   }
+  ],
+  [
+   "S5",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      22.107847366349933
+     ]
+    ],
+    "aahu": 22.107847366349933,
+    "lift_by_module": [
+     [
+      "total",
+      22.107847366349933
+     ]
+    ],
+    "lift": 22.107847366349933,
+    "missing": []
+   }
+  ],
+  [
+   "S5",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      7.2654283422299475
+     ]
+    ],
+    "aahu": 7.2654283422299475,
+    "lift_by_module": [
+     [
+      "total",
+      7.2654283422299475
+     ]
+    ],
+    "lift": 7.2654283422299475,
+    "missing": []
+   }
+  ],
+  [
+   "S6",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S6",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      21.12667483636727
+     ]
+    ],
+    "aahu": 21.12667483636727,
+    "lift_by_module": [
+     [
+      "total",
+      21.12667483636727
+     ]
+    ],
+    "lift": 21.12667483636727,
+    "missing": []
+   }
+  ],
+  [
+   "S6",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      25.316100465962517
+     ]
+    ],
+    "aahu": 25.316100465962517,
+    "lift_by_module": [
+     [
+      "total",
+      25.316100465962517
+     ]
+    ],
+    "lift": 25.316100465962517,
+    "missing": []
+   }
+  ],
+  [
+   "S6",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      24.90712874106858
+     ]
+    ],
+    "aahu": 24.90712874106858,
+    "lift_by_module": [
+     [
+      "total",
+      24.90712874106858
+     ]
+    ],
+    "lift": 24.90712874106858,
+    "missing": []
+   }
+  ],
+  [
+   "S7",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S7",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      2.5441221899039115
+     ]
+    ],
+    "aahu": 2.5441221899039115,
+    "lift_by_module": [
+     [
+      "total",
+      2.5441221899039115
+     ]
+    ],
+    "lift": 2.5441221899039115,
+    "missing": []
+   }
+  ],
+  [
+   "S7",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      18.914099432530744
+     ]
+    ],
+    "aahu": 18.914099432530744,
+    "lift_by_module": [
+     [
+      "total",
+      18.914099432530744
+     ]
+    ],
+    "lift": 18.914099432530744,
+    "missing": []
+   }
+  ],
+  [
+   "S7",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      26.011798596435625
+     ]
+    ],
+    "aahu": 26.011798596435625,
+    "lift_by_module": [
+     [
+      "total",
+      26.011798596435625
+     ]
+    ],
+    "lift": 26.011798596435625,
+    "missing": []
+   }
+  ],
+  [
+   "S8",
+   "NA",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "aahu": 0.0,
+    "lift_by_module": [
+     [
+      "total",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "S8",
+   "A1",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      24.124699706067076
+     ]
+    ],
+    "aahu": 24.124699706067076,
+    "lift_by_module": [
+     [
+      "total",
+      24.124699706067076
+     ]
+    ],
+    "lift": 24.124699706067076,
+    "missing": []
+   }
+  ],
+  [
+   "S8",
+   "A2",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      33.75537932022494
+     ]
+    ],
+    "aahu": 33.75537932022494,
+    "lift_by_module": [
+     [
+      "total",
+      33.75537932022494
+     ]
+    ],
+    "lift": 33.75537932022494,
+    "missing": []
+   }
+  ],
+  [
+   "S8",
+   "A3",
+   {
+    "series": [],
+    "aahu_by_module": [
+     [
+      "total",
+      20.92466649419479
+     ]
+    ],
+    "aahu": 20.92466649419479,
+    "lift_by_module": [
+     [
+      "total",
+      20.92466649419479
+     ]
+    ],
+    "lift": 20.92466649419479,
+    "missing": []
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "S1",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S1",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 191083.46533866835,
+    "annual_parts": [
+     [
+      "entered",
+      191083.46533866835
+     ]
+    ],
+    "overridden": true,
+    "incremental": 191083.46533866835
+   }
+  ],
+  [
+   "S1",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 190756.9004847039,
+    "annual_parts": [
+     [
+      "entered",
+      190756.9004847039
+     ]
+    ],
+    "overridden": true,
+    "incremental": 190756.9004847039
+   }
+  ],
+  [
+   "S1",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 96198.76081506362,
+    "annual_parts": [
+     [
+      "entered",
+      96198.76081506362
+     ]
+    ],
+    "overridden": true,
+    "incremental": 96198.76081506362
+   }
+  ],
+  [
+   "S2",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S2",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 93655.84454644904,
+    "annual_parts": [
+     [
+      "entered",
+      93655.84454644904
+     ]
+    ],
+    "overridden": true,
+    "incremental": 93655.84454644904
+   }
+  ],
+  [
+   "S2",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 24960.640383752307,
+    "annual_parts": [
+     [
+      "entered",
+      24960.640383752307
+     ]
+    ],
+    "overridden": true,
+    "incremental": 24960.640383752307
+   }
+  ],
+  [
+   "S2",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 116865.79637947008,
+    "annual_parts": [
+     [
+      "entered",
+      116865.79637947008
+     ]
+    ],
+    "overridden": true,
+    "incremental": 116865.79637947008
+   }
+  ],
+  [
+   "S3",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S3",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 161917.1666171128,
+    "annual_parts": [
+     [
+      "entered",
+      161917.1666171128
+     ]
+    ],
+    "overridden": true,
+    "incremental": 161917.1666171128
+   }
+  ],
+  [
+   "S3",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 101629.62010651726,
+    "annual_parts": [
+     [
+      "entered",
+      101629.62010651726
+     ]
+    ],
+    "overridden": true,
+    "incremental": 101629.62010651726
+   }
+  ],
+  [
+   "S3",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 92560.33756048325,
+    "annual_parts": [
+     [
+      "entered",
+      92560.33756048325
+     ]
+    ],
+    "overridden": true,
+    "incremental": 92560.33756048325
+   }
+  ],
+  [
+   "S4",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S4",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 67216.4012795329,
+    "annual_parts": [
+     [
+      "entered",
+      67216.4012795329
+     ]
+    ],
+    "overridden": true,
+    "incremental": 67216.4012795329
+   }
+  ],
+  [
+   "S4",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 70473.57643748718,
+    "annual_parts": [
+     [
+      "entered",
+      70473.57643748718
+     ]
+    ],
+    "overridden": true,
+    "incremental": 70473.57643748718
+   }
+  ],
+  [
+   "S4",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 196532.69596422295,
+    "annual_parts": [
+     [
+      "entered",
+      196532.69596422295
+     ]
+    ],
+    "overridden": true,
+    "incremental": 196532.69596422295
+   }
+  ],
+  [
+   "S5",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S5",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 150462.18933923607,
+    "annual_parts": [
+     [
+      "entered",
+      150462.18933923607
+     ]
+    ],
+    "overridden": true,
+    "incremental": 150462.18933923607
+   }
+  ],
+  [
+   "S5",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 69840.41672816675,
+    "annual_parts": [
+     [
+      "entered",
+      69840.41672816675
+     ]
+    ],
+    "overridden": true,
+    "incremental": 69840.41672816675
+   }
+  ],
+  [
+   "S5",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 194586.57437890387,
+    "annual_parts": [
+     [
+      "entered",
+      194586.57437890387
+     ]
+    ],
+    "overridden": true,
+    "incremental": 194586.57437890387
+   }
+  ],
+  [
+   "S6",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S6",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 40855.81024473866,
+    "annual_parts": [
+     [
+      "entered",
+      40855.81024473866
+     ]
+    ],
+    "overridden": true,
+    "incremental": 40855.81024473866
+   }
+  ],
+  [
+   "S6",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 159802.96058161365,
+    "annual_parts": [
+     [
+      "entered",
+      159802.96058161365
+     ]
+    ],
+    "overridden": true,
+    "incremental": 159802.96058161365
+   }
+  ],
+  [
+   "S6",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 185113.58686236248,
+    "annual_parts": [
+     [
+      "entered",
+      185113.58686236248
+     ]
+    ],
+    "overridden": true,
+    "incremental": 185113.58686236248
+   }
+  ],
+  [
+   "S7",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S7",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 115146.0673868039,
+    "annual_parts": [
+     [
+      "entered",
+      115146.0673868039
+     ]
+    ],
+    "overridden": true,
+    "incremental": 115146.0673868039
+   }
+  ],
+  [
+   "S7",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 31222.924246977607,
+    "annual_parts": [
+     [
+      "entered",
+      31222.924246977607
+     ]
+    ],
+    "overridden": true,
+    "incremental": 31222.924246977607
+   }
+  ],
+  [
+   "S7",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 173473.9109265182,
+    "annual_parts": [
+     [
+      "entered",
+      173473.9109265182
+     ]
+    ],
+    "overridden": true,
+    "incremental": 173473.9109265182
+   }
+  ],
+  [
+   "S8",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "entered",
+      0.0
+     ]
+    ],
+    "overridden": true,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "S8",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 66817.54059270018,
+    "annual_parts": [
+     [
+      "entered",
+      66817.54059270018
+     ]
+    ],
+    "overridden": true,
+    "incremental": 66817.54059270018
+   }
+  ],
+  [
+   "S8",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 111709.2586738717,
+    "annual_parts": [
+     [
+      "entered",
+      111709.2586738717
+     ]
+    ],
+    "overridden": true,
+    "incremental": 111709.2586738717
+   }
+  ],
+  [
+   "S8",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 155545.437386392,
+    "annual_parts": [
+     [
+      "entered",
+      155545.437386392
+     ]
+    ],
+    "overridden": true,
+    "incremental": 155545.437386392
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "S1",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      20.96104336331001,
+      20.96104336331001,
+      191083.46533866835,
+      191083.46533866835,
+      0.0,
+      0.0,
+      9116.142836696723,
+      true,
+      true,
+      2,
+      12164.70641025641,
+      7.8,
+      94884.71,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      6.622224896065716,
+      6.622224896065716,
+      190756.9004847039,
+      190756.9004847039,
+      0.0,
+      0.0,
+      28806.53881002718,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A3",
+      2
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      13.161426628408933,
+      13.161426628408933,
+      96198.76081506362,
+      96198.76081506362,
+      0.0,
+      0.0,
+      7309.38074614391,
+      true,
+      true,
+      1,
+      7309.38074614391,
+      13.161,
+      96198.76,
+      null,
+      0
+     ]
+    ],
+    "A1",
+    "f7db481ad5b7de8b",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      19108347,
+      19075690,
+      9619876
+     ],
+     "q": [
+      0,
+      20961,
+      6622,
+      13161
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1101",
+     "bb": "1101",
+     "ceRaw": "1101",
+     "witness": [
+      -1,
+      -1,
+      3,
+      -1
+     ],
+     "reason": "0020",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      3,
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       3,
+       "A3",
+       96198.76,
+       13.161,
+       7309.38074614391,
+       96198.76,
+       13.161,
+       7309.38074614391,
+       "NA"
+      ],
+      [
+       1,
+       "A1",
+       191083.47,
+       20.961,
+       9116.142836696723,
+       94884.71,
+       7.8,
+       12164.70641025641,
+       "A3"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A3",
+     "A1"
+    ]
+   ],
+   [
+    "S2",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      33.28040115899723,
+      33.28040115899723,
+      93655.84454644904,
+      93655.84454644904,
+      0.0,
+      0.0,
+      2814.1778846153848,
+      true,
+      true,
+      2,
+      6333.689839572193,
+      10.846,
+      68695.2,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      22.43415381924932,
+      22.43415381924932,
+      24960.640383752307,
+      24960.640383752307,
+      0.0,
+      0.0,
+      1112.6254791833824,
+      true,
+      true,
+      1,
+      1112.6254791833824,
+      22.434,
+      24960.64,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      30.387011238317456,
+      30.387011238317456,
+      116865.79637947008,
+      116865.79637947008,
+      0.0,
+      0.0,
+      3845.914371277191,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A1",
+      2
+     ]
+    ],
+    "A1",
+    "b05e2f89d7e47bab",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      9365584,
+      2496064,
+      11686580
+     ],
+     "q": [
+      0,
+      33280,
+      22434,
+      30387
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1110",
+     "bb": "1110",
+     "ceRaw": "1110",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "reason": "0002",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2,
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       24960.64,
+       22.434,
+       1112.6254791833824,
+       24960.64,
+       22.434,
+       1112.6254791833824,
+       "NA"
+      ],
+      [
+       1,
+       "A1",
+       93655.84,
+       33.28,
+       2814.1778846153848,
+       68695.2,
+       10.846,
+       6333.689839572193,
+       "A2"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "S3",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      13.859536943464594,
+      13.859536943464594,
+      161917.1666171128,
+      161917.1666171128,
+      0.0,
+      0.0,
+      11682.335497835498,
+      true,
+      true,
+      2,
+      58248.840579710144,
+      1.035,
+      60287.55,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      12.824598342374154,
+      12.824598342374154,
+      101629.62010651726,
+      101629.62010651726,
+      0.0,
+      0.0,
+      7924.336842105263,
+      true,
+      true,
+      1,
+      7924.336842105263,
+      12.825,
+      101629.62,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      6.227626192639425,
+      6.227626192639425,
+      92560.33756048325,
+      92560.33756048325,
+      0.0,
+      0.0,
+      14861.968529222864,
+      true,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ]
+    ],
+    "A1",
+    "53e790bf28594b67",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      16191717,
+      10162962,
+      9256034
+     ],
+     "q": [
+      0,
+      13860,
+      12825,
+      6228
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1111",
+     "bb": "1110",
+     "ceRaw": "1111",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "0000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2,
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       101629.62,
+       12.825,
+       7924.336842105263,
+       101629.62,
+       12.825,
+       7924.336842105263,
+       "NA"
+      ],
+      [
+       1,
+       "A1",
+       161917.17,
+       13.86,
+       11682.335497835498,
+       60287.55,
+       1.035,
+       58248.840579710144,
+       "A2"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "S4",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      8.934754386369836,
+      8.934754386369836,
+      67216.4012795329,
+      67216.4012795329,
+      0.0,
+      0.0,
+      7522.820369334079,
+      true,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      30.26422223257205,
+      30.26422223257205,
+      70473.57643748718,
+      70473.57643748718,
+      0.0,
+      0.0,
+      2328.6274121067936,
+      true,
+      true,
+      1,
+      2328.6274121067936,
+      30.264,
+      70473.58,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      19.922448002833768,
+      19.922448002833768,
+      196532.69596422295,
+      196532.69596422295,
+      0.0,
+      0.0,
+      9865.108924806746,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A2",
+      2
+     ]
+    ],
+    "A2",
+    "b1028f7e9994ad08",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      6721640,
+      7047358,
+      19653270
+     ],
+     "q": [
+      0,
+      8935,
+      30264,
+      19922
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1110",
+     "bb": "1010",
+     "ceRaw": "1110",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      2
+     ],
+     "reason": "0002",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       70473.58,
+       30.264,
+       2328.6274121067936,
+       70473.58,
+       30.264,
+       2328.6274121067936,
+       "NA"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2"
+    ]
+   ],
+   [
+    "S5",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      38.50463055288768,
+      38.50463055288768,
+      150462.18933923607,
+      150462.18933923607,
+      0.0,
+      0.0,
+      3907.6013504739644,
+      true,
+      true,
+      2,
+      4916.8610111605785,
+      16.397,
+      80621.77,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      22.107847366349933,
+      22.107847366349933,
+      69840.41672816675,
+      69840.41672816675,
+      0.0,
+      0.0,
+      3159.0564501537906,
+      true,
+      true,
+      1,
+      3159.0564501537906,
+      22.108,
+      69840.42,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      7.2654283422299475,
+      7.2654283422299475,
+      194586.57437890387,
+      194586.57437890387,
+      0.0,
+      0.0,
+      26784.1114934618,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A2",
+      2
+     ]
+    ],
+    "A1",
+    "0c29934aef429e77",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      15046219,
+      6984042,
+      19458657
+     ],
+     "q": [
+      0,
+      38505,
+      22108,
+      7265
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1110",
+     "bb": "1110",
+     "ceRaw": "1110",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      2
+     ],
+     "reason": "0002",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2,
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       69840.42,
+       22.108,
+       3159.0564501537906,
+       69840.42,
+       22.108,
+       3159.0564501537906,
+       "NA"
+      ],
+      [
+       1,
+       "A1",
+       150462.19,
+       38.505,
+       3907.6013504739644,
+       80621.77,
+       16.397,
+       4916.8610111605785,
+       "A2"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "S6",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      21.12667483636727,
+      21.12667483636727,
+      40855.81024473866,
+      40855.81024473866,
+      0.0,
+      0.0,
+      1933.819756709424,
+      true,
+      true,
+      1,
+      1933.819756709424,
+      21.127,
+      40855.81,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      25.316100465962517,
+      25.316100465962517,
+      159802.96058161365,
+      159802.96058161365,
+      0.0,
+      0.0,
+      6312.330541949755,
+      true,
+      true,
+      2,
+      28395.11816662688,
+      4.189,
+      118947.15,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      24.90712874106858,
+      24.90712874106858,
+      185113.58686236248,
+      185113.58686236248,
+      0.0,
+      0.0,
+      7432.191351828803,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A2",
+      2
+     ]
+    ],
+    "A2",
+    "29830a19308dbb1a",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      4085581,
+      15980296,
+      18511359
+     ],
+     "q": [
+      0,
+      21127,
+      25316,
+      24907
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1110",
+     "bb": "1110",
+     "ceRaw": "1110",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      2
+     ],
+     "reason": "0002",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       40855.81,
+       21.127,
+       1933.819756709424,
+       40855.81,
+       21.127,
+       1933.819756709424,
+       "NA"
+      ],
+      [
+       2,
+       "A2",
+       159802.96,
+       25.316,
+       6312.330541949755,
+       118947.15,
+       4.189,
+       28395.11816662688,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "S7",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      2.5441221899039115,
+      2.5441221899039115,
+      115146.0673868039,
+      115146.0673868039,
+      0.0,
+      0.0,
+      45261.81996855346,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A2",
+      2
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      18.914099432530744,
+      18.914099432530744,
+      31222.924246977607,
+      31222.924246977607,
+      0.0,
+      0.0,
+      1650.7835465792534,
+      true,
+      true,
+      1,
+      1650.7835465792534,
+      18.914,
+      31222.92,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      26.011798596435625,
+      26.011798596435625,
+      173473.9109265182,
+      173473.9109265182,
+      0.0,
+      0.0,
+      6668.99546363217,
+      true,
+      true,
+      2,
+      20040.996055226824,
+      7.098,
+      142250.99,
+      null,
+      0
+     ]
+    ],
+    "A3",
+    "be3810ec18419817",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      11514607,
+      3122292,
+      17347391
+     ],
+     "q": [
+      0,
+      2544,
+      18914,
+      26012
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1011",
+     "bb": "1011",
+     "ceRaw": "1011",
+     "witness": [
+      -1,
+      2,
+      -1,
+      -1
+     ],
+     "reason": "0200",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2,
+      3
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       31222.92,
+       18.914,
+       1650.7835465792534,
+       31222.92,
+       18.914,
+       1650.7835465792534,
+       "NA"
+      ],
+      [
+       3,
+       "A3",
+       173473.91,
+       26.012,
+       6668.99546363217,
+       142250.99,
+       7.098,
+       20040.996055226824,
+       "A2"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2",
+     "A3"
+    ]
+   ],
+   [
+    "S8",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      24.124699706067076,
+      24.124699706067076,
+      66817.54059270018,
+      66817.54059270018,
+      0.0,
+      0.0,
+      2769.63896373057,
+      true,
+      true,
+      1,
+      2769.63896373057,
+      24.125,
+      66817.54,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      33.75537932022494,
+      33.75537932022494,
+      111709.2586738717,
+      111709.2586738717,
+      0.0,
+      0.0,
+      3309.4137164864464,
+      true,
+      true,
+      2,
+      4661.6531671858775,
+      9.63,
+      44891.72,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "A3",
+      "",
+      false,
+      20.92466649419479,
+      20.92466649419479,
+      155545.437386392,
+      155545.437386392,
+      0.0,
+      0.0,
+      7433.473835125448,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      "A1",
+      2
+     ]
+    ],
+    "A2",
+    "b03212a499bafdb9",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      6681754,
+      11170926,
+      15554544
+     ],
+     "q": [
+      0,
+      24125,
+      33755,
+      20925
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1110",
+     "bb": "1110",
+     "ceRaw": "1110",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      1
+     ],
+     "reason": "0002",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       66817.54,
+       24.125,
+       2769.63896373057,
+       66817.54,
+       24.125,
+       2769.63896373057,
+       "NA"
+      ],
+      [
+       2,
+       "A2",
+       111709.26,
+       33.755,
+       3309.4137164864464,
+       44891.72,
+       9.63,
+       4661.6531671858775,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A1",
+     "A2"
+    ]
+   ]
+  ],
+  "watershed": {
+   "ready": true,
+   "reasons": [],
+   "mode": "MULTI",
+   "carried": [
+    [
+     "S1",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S2",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S3",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S4",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S5",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S6",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S7",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ],
+    [
+     "S8",
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ]
+   ],
+   "sources": [
+    [
+     "S1",
+     "suggested"
+    ],
+    [
+     "S2",
+     "suggested"
+    ],
+    [
+     "S3",
+     "suggested"
+    ],
+    [
+     "S4",
+     "suggested"
+    ],
+    [
+     "S5",
+     "suggested"
+    ],
+    [
+     "S6",
+     "suggested"
+    ],
+    [
+     "S7",
+     "suggested"
+    ],
+    [
+     "S8",
+     "suggested"
+    ]
+   ],
+   "notCarried": [],
+   "blocked": [],
+   "fingerprint": "c1e232a259395e66",
+   "nPlans": 65536,
+   "nCe": 50,
+   "nBb": 16,
+   "space": [
+    [
+     "S1",
+     "S2",
+     "S3",
+     "S4",
+     "S5",
+     "S6",
+     "S7",
+     "S8"
+    ],
+    [
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ],
+     [
+      "A1",
+      "A2",
+      "A3"
+     ]
+    ]
+   ],
+   "nValid": 65536,
+   "ceOnly": false,
+   "digest": "8262de6ba26c9eaf911fe08beb7ae0b199714d88b6a07664a1e1131fc04fc70d",
+   "na": 0,
+   "base": [
+    0,
+    0,
+    true
+   ],
+   "walk": [
+    8192,
+    8200,
+    8216,
+    8728,
+    8729,
+    8857,
+    8858,
+    8794,
+    4698,
+    53850,
+    55898,
+    23130,
+    23134,
+    23150,
+    22126
+   ],
+   "inc": [
+    [
+     0,
+     "P1",
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     null
+    ],
+    [
+     8192,
+     "P8193",
+     24960.64,
+     22.434,
+     1112.6254791833824,
+     24960.64,
+     22.434,
+     1112.6254791833824,
+     "P1"
+    ],
+    [
+     8200,
+     "P8201",
+     56183.56,
+     41.348,
+     1358.7975234594176,
+     31222.92,
+     18.914,
+     1650.7835465792534,
+     "P8193"
+    ],
+    [
+     8216,
+     "P8217",
+     97039.37,
+     62.475,
+     1553.2512204881953,
+     40855.81,
+     21.127,
+     1933.819756709424,
+     "P8201"
+    ],
+    [
+     8728,
+     "P8729",
+     167512.95,
+     92.739,
+     1806.2837641121857,
+     70473.58,
+     30.264,
+     2328.6274121067936,
+     "P8217"
+    ],
+    [
+     8729,
+     "P8730",
+     234330.49,
+     116.864,
+     2005.1554798740417,
+     66817.54,
+     24.125,
+     2769.63896373057,
+     "P8729"
+    ],
+    [
+     8857,
+     "P8858",
+     304170.91,
+     138.972,
+     2188.720821460438,
+     69840.42,
+     22.108,
+     3159.0564501537906,
+     "P8730"
+    ],
+    [
+     8858,
+     "P8859",
+     349062.63,
+     148.602,
+     2348.976662494448,
+     44891.72,
+     9.63,
+     4661.6531671858775,
+     "P8858"
+    ],
+    [
+     8794,
+     "P8795",
+     429684.4,
+     164.999,
+     2604.163661597949,
+     80621.77,
+     16.397,
+     4916.8610111605785,
+     "P8859"
+    ],
+    [
+     4698,
+     "P4699",
+     498379.6,
+     175.845,
+     2834.1982996388865,
+     68695.2,
+     10.846,
+     6333.689839572193,
+     "P8795"
+    ],
+    [
+     53850,
+     "P53851",
+     594578.36,
+     189.006,
+     3145.8173814587894,
+     96198.76,
+     13.161,
+     7309.38074614391,
+     "P4699"
+    ],
+    [
+     55898,
+     "P55899",
+     696207.98,
+     201.831,
+     3449.4600928499585,
+     101629.62,
+     12.825,
+     7924.336842105263,
+     "P53851"
+    ],
+    [
+     23130,
+     "P23131",
+     791092.69,
+     209.631,
+     3773.73904622885,
+     94884.71,
+     7.8,
+     12164.70641025641,
+     "P55899"
+    ],
+    [
+     23134,
+     "P23135",
+     933343.68,
+     216.729,
+     4306.501114294811,
+     142250.99,
+     7.098,
+     20040.996055226824,
+     "P23131"
+    ],
+    [
+     23150,
+     "P23151",
+     1052290.83,
+     220.918,
+     4763.264333372564,
+     118947.15,
+     4.189,
+     28395.11816662688,
+     "P23135"
+    ],
+    [
+     22126,
+     "P22127",
+     1112578.38,
+     221.953,
+     5012.675566448753,
+     60287.55,
+     1.035,
+     58248.840579710144,
+     "P23151"
+    ]
+   ],
+   "bbRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     8192,
+     "P8193",
+     "S2=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ]
+     ],
+     "S2 (A2)",
+     22.434,
+     24960.64,
+     0.0,
+     1112.6254791833824,
+     true,
+     true,
+     1,
+     1112.6254791833824,
+     22.434,
+     24960.64
+    ],
+    [
+     8200,
+     "P8201",
+     "S2=A2;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S7 (A2)",
+     41.348,
+     56183.56,
+     0.0,
+     1358.7975234594176,
+     true,
+     true,
+     2,
+     1650.7835465792534,
+     18.914,
+     31222.92
+    ],
+    [
+     8216,
+     "P8217",
+     "S2=A2;S6=A1;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S6 (A1) + S7 (A2)",
+     62.475,
+     97039.37,
+     0.0,
+     1553.2512204881953,
+     true,
+     true,
+     3,
+     1933.819756709424,
+     21.127,
+     40855.81
+    ],
+    [
+     8728,
+     "P8729",
+     "S2=A2;S4=A2;S6=A1;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S7 (A2)",
+     92.739,
+     167512.95,
+     0.0,
+     1806.2837641121857,
+     true,
+     true,
+     4,
+     2328.6274121067936,
+     30.264,
+     70473.58
+    ],
+    [
+     8729,
+     "P8730",
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     116.864,
+     234330.49,
+     0.0,
+     2005.1554798740417,
+     true,
+     true,
+     5,
+     2769.63896373057,
+     24.125,
+     66817.54
+    ],
+    [
+     8857,
+     "P8858",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     138.972,
+     304170.91,
+     0.0,
+     2188.720821460438,
+     true,
+     true,
+     6,
+     3159.0564501537906,
+     22.108,
+     69840.42
+    ],
+    [
+     8858,
+     "P8859",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A2)",
+     148.602,
+     349062.63,
+     0.0,
+     2348.976662494448,
+     true,
+     true,
+     7,
+     4661.6531671858775,
+     9.63,
+     44891.72
+    ],
+    [
+     8794,
+     "P8795",
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     164.999,
+     429684.4,
+     0.0,
+     2604.163661597949,
+     true,
+     true,
+     8,
+     4916.8610111605785,
+     16.397,
+     80621.77
+    ],
+    [
+     4698,
+     "P4699",
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     175.845,
+     498379.6,
+     0.0,
+     2834.1982996388865,
+     true,
+     true,
+     9,
+     6333.689839572193,
+     10.846,
+     68695.2
+    ],
+    [
+     53850,
+     "P53851",
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     189.006,
+     594578.36,
+     0.0,
+     3145.8173814587894,
+     true,
+     true,
+     10,
+     7309.38074614391,
+     13.161,
+     96198.76
+    ],
+    [
+     55898,
+     "P55899",
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     201.831,
+     696207.98,
+     0.0,
+     3449.4600928499585,
+     true,
+     true,
+     11,
+     7924.336842105263,
+     12.825,
+     101629.62
+    ],
+    [
+     23130,
+     "P23131",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     209.631,
+     791092.69,
+     0.0,
+     3773.73904622885,
+     true,
+     true,
+     12,
+     12164.70641025641,
+     7.8,
+     94884.71
+    ],
+    [
+     23134,
+     "P23135",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A3) + S8 (A2)",
+     216.729,
+     933343.68,
+     0.0,
+     4306.501114294811,
+     true,
+     true,
+     13,
+     20040.996055226824,
+     7.098,
+     142250.99
+    ],
+    [
+     23150,
+     "P23151",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     220.918,
+     1052290.83,
+     0.0,
+     4763.264333372564,
+     true,
+     true,
+     14,
+     28395.11816662688,
+     4.189,
+     118947.15
+    ],
+    [
+     22126,
+     "P22127",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     221.953,
+     1112578.38,
+     0.0,
+     5012.675566448753,
+     true,
+     true,
+     15,
+     58248.840579710144,
+     1.035,
+     60287.55
+    ]
+   ],
+   "ceRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     8192,
+     "P8193",
+     "S2=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ]
+     ],
+     "S2 (A2)",
+     22.434,
+     24960.64,
+     0.0,
+     1112.6254791833824,
+     true,
+     true,
+     1,
+     1112.6254791833824,
+     22.434,
+     24960.64
+    ],
+    [
+     8200,
+     "P8201",
+     "S2=A2;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S7 (A2)",
+     41.348,
+     56183.56,
+     0.0,
+     1358.7975234594176,
+     true,
+     true,
+     2,
+     1650.7835465792534,
+     18.914,
+     31222.92
+    ],
+    [
+     8208,
+     "P8209",
+     "S2=A2;S6=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S6 (A1)",
+     43.561,
+     65816.45,
+     0.0,
+     1510.9031013980396,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8193,
+     "P8194",
+     "S2=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S8 (A1)",
+     46.559,
+     91778.18,
+     0.0,
+     1971.223179191993,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8704,
+     "P8705",
+     "S2=A2;S4=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2)",
+     52.698,
+     95434.22,
+     0.0,
+     1810.9647424949712,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8216,
+     "P8217",
+     "S2=A2;S6=A1;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S6 (A1) + S7 (A2)",
+     62.475,
+     97039.37,
+     0.0,
+     1553.2512204881953,
+     true,
+     true,
+     3,
+     1933.819756709424,
+     21.127,
+     40855.81
+    ],
+    [
+     8201,
+     "P8202",
+     "S2=A2;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S7 (A2) + S8 (A1)",
+     65.473,
+     123001.1,
+     0.0,
+     1878.653796221343,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8712,
+     "P8713",
+     "S2=A2;S4=A2;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S7 (A2)",
+     71.612,
+     126657.14,
+     0.0,
+     1768.6580461375188,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8720,
+     "P8721",
+     "S2=A2;S4=A2;S6=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1)",
+     73.825,
+     136290.03,
+     0.0,
+     1846.1229935658653,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8705,
+     "P8706",
+     "S2=A2;S4=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S8 (A1)",
+     76.823,
+     162251.76,
+     0.0,
+     2112.0206188250913,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8217,
+     "P8218",
+     "S2=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     86.6,
+     163856.91,
+     0.0,
+     1892.1121247113165,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8728,
+     "P8729",
+     "S2=A2;S4=A2;S6=A1;S7=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S7 (A2)",
+     92.739,
+     167512.95,
+     0.0,
+     1806.2837641121857,
+     true,
+     true,
+     4,
+     2328.6274121067936,
+     30.264,
+     70473.58
+    ],
+    [
+     8713,
+     "P8714",
+     "S2=A2;S4=A2;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S7 (A2) + S8 (A1)",
+     95.737,
+     193474.68,
+     0.0,
+     2020.8976675684428,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8721,
+     "P8722",
+     "S2=A2;S4=A2;S6=A1;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S8 (A1)",
+     97.95,
+     203107.57,
+     0.0,
+     2073.584175599796,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8833,
+     "P8834",
+     "S2=A2;S4=A2;S5=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S8 (A1)",
+     98.931,
+     232092.18,
+     0.0,
+     2346.000545834976,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8345,
+     "P8346",
+     "S2=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     108.708,
+     233697.33,
+     0.0,
+     2149.771221989182,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8729,
+     "P8730",
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     116.864,
+     234330.49,
+     0.0,
+     2005.1554798740417,
+     true,
+     true,
+     5,
+     2769.63896373057,
+     24.125,
+     66817.54
+    ],
+    [
+     8841,
+     "P8842",
+     "S2=A2;S4=A2;S5=A2;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S7 (A2) + S8 (A1)",
+     117.845,
+     263315.1,
+     0.0,
+     2234.418940133226,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8849,
+     "P8850",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S6 (A1) + S8 (A1)",
+     120.058,
+     272947.99,
+     0.0,
+     2273.467740592047,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8730,
+     "P8731",
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S6 (A1) + S7 (A2) + S8 (A2)",
+     126.494,
+     279222.21,
+     0.0,
+     2207.39489620061,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     4633,
+     "P4634",
+     "S2=A1;S4=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     127.71,
+     303025.69,
+     0.0,
+     2372.763996554694,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8857,
+     "P8858",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     138.972,
+     304170.91,
+     0.0,
+     2188.720821460438,
+     true,
+     true,
+     6,
+     3159.0564501537906,
+     22.108,
+     69840.42
+    ],
+    [
+     8858,
+     "P8859",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A2)",
+     148.602,
+     349062.63,
+     0.0,
+     2348.976662494448,
+     true,
+     true,
+     7,
+     4661.6531671858775,
+     9.63,
+     44891.72
+    ],
+    [
+     4761,
+     "P4762",
+     "S2=A1;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A1)",
+     149.818,
+     372866.11,
+     0.0,
+     2488.7938031478193,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8793,
+     "P8794",
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     155.369,
+     384792.68,
+     0.0,
+     2476.6374244540416,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     4762,
+     "P4763",
+     "S2=A1;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A2"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S5 (A2) + S6 (A1) + S7 (A2) + S8 (A2)",
+     159.448,
+     417757.83,
+     0.0,
+     2620.0255255631932,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8794,
+     "P8795",
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     164.999,
+     429684.4,
+     0.0,
+     2604.163661597949,
+     true,
+     true,
+     8,
+     4916.8610111605785,
+     16.397,
+     80621.77
+    ],
+    [
+     4697,
+     "P4698",
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     166.215,
+     453487.88,
+     0.0,
+     2728.321029991276,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     57945,
+     "P57946",
+     "S1=A3;S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S1 (A3) + S2 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     168.53,
+     480991.44,
+     0.0,
+     2854.040467572539,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     4698,
+     "P4699",
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     175.845,
+     498379.6,
+     0.0,
+     2834.1982996388865,
+     true,
+     true,
+     9,
+     6333.689839572193,
+     10.846,
+     68695.2
+    ],
+    [
+     57946,
+     "P57947",
+     "S1=A3;S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     178.16,
+     525883.16,
+     0.0,
+     2951.7465199820385,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     53849,
+     "P53850",
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     179.376,
+     549686.64,
+     0.0,
+     3064.4380519132997,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     59993,
+     "P59994",
+     "S1=A3;S2=A2;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S1 (A3) + S2 (A2) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     181.355,
+     582621.06,
+     0.0,
+     3212.5999283173887,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     7770,
+     "P7771",
+     "S2=A1;S3=A3;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S2 (A1) + S3 (A3) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     182.073,
+     590939.94,
+     0.0,
+     3245.6209322634327,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     53850,
+     "P53851",
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     189.006,
+     594578.36,
+     0.0,
+     3145.8173814587894,
+     true,
+     true,
+     10,
+     7309.38074614391,
+     13.161,
+     96198.76
+    ],
+    [
+     59994,
+     "P59995",
+     "S1=A3;S2=A2;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A2"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A2) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     190.985,
+     627512.78,
+     0.0,
+     3285.6652616697647,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     55897,
+     "P55898",
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A1",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A1"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A1)",
+     192.201,
+     651316.26,
+     0.0,
+     3388.7246164171884,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     56922,
+     "P56923",
+     "S1=A3;S2=A1;S3=A3;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S3 (A3) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     195.234,
+     687138.7,
+     0.0,
+     3519.564727455259,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     21082,
+     "P21083",
+     "S1=A1;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     196.806,
+     689463.07,
+     0.0,
+     3503.262451348028,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     55898,
+     "P55899",
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     201.831,
+     696207.98,
+     0.0,
+     3449.4600928499585,
+     true,
+     true,
+     11,
+     7924.336842105263,
+     12.825,
+     101629.62
+    ],
+    [
+     54874,
+     "P54875",
+     "S1=A3;S2=A1;S3=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A3) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     202.866,
+     756495.53,
+     0.0,
+     3729.0404996401567,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     24154,
+     "P24155",
+     "S1=A1;S2=A1;S3=A3;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A3) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     203.034,
+     782023.41,
+     0.0,
+     3851.6869588344807,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23130,
+     "P23131",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     209.631,
+     791092.69,
+     0.0,
+     3773.73904622885,
+     true,
+     true,
+     12,
+     12164.70641025641,
+     7.8,
+     94884.71
+    ],
+    [
+     22106,
+     "P22107",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A2) + S8 (A2)",
+     210.666,
+     851380.24,
+     0.0,
+     4041.374687894582,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23146,
+     "P23147",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A2;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A2"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A2) + S8 (A2)",
+     213.82,
+     910039.84,
+     0.0,
+     4256.102516135067,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23134,
+     "P23135",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A3) + S8 (A2)",
+     216.729,
+     933343.68,
+     0.0,
+     4306.501114294811,
+     true,
+     true,
+     13,
+     20040.996055226824,
+     7.098,
+     142250.99
+    ],
+    [
+     22110,
+     "P22111",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A3) + S8 (A2)",
+     217.764,
+     993631.23,
+     0.0,
+     4562.881054719788,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23150,
+     "P23151",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     220.918,
+     1052290.83,
+     0.0,
+     4763.264333372564,
+     true,
+     true,
+     14,
+     28395.11816662688,
+     4.189,
+     118947.15
+    ],
+    [
+     22126,
+     "P22127",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     221.953,
+     1112578.38,
+     0.0,
+     5012.675566448753,
+     true,
+     true,
+     15,
+     58248.840579710144,
+     1.035,
+     60287.55
+    ]
+   ],
+   "allHead": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     4,
+     "P5",
+     "S7=A1",
+     [
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S7 (A1)",
+     2.544,
+     115146.07,
+     0.0,
+     45261.81996855346,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3072,
+     "P3073",
+     "S3=A3",
+     [
+      [
+       "S3",
+       "A3"
+      ]
+     ],
+     "S3 (A3)",
+     6.228,
+     92560.34,
+     0.0,
+     14861.968529222864,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     32768,
+     "P32769",
+     "S1=A2",
+     [
+      [
+       "S1",
+       "A2"
+      ]
+     ],
+     "S1 (A2)",
+     6.622,
+     190756.9,
+     0.0,
+     28806.53881002718,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     192,
+     "P193",
+     "S5=A3",
+     [
+      [
+       "S5",
+       "A3"
+      ]
+     ],
+     "S5 (A3)",
+     7.265,
+     194586.57,
+     0.0,
+     26784.1114934618,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3076,
+     "P3077",
+     "S3=A3;S7=A1",
+     [
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S3 (A3) + S7 (A1)",
+     8.772,
+     207706.41,
+     0.0,
+     23678.341313269495,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     256,
+     "P257",
+     "S4=A1",
+     [
+      [
+       "S4",
+       "A1"
+      ]
+     ],
+     "S4 (A1)",
+     8.935,
+     67216.4,
+     0.0,
+     7522.820369334079,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     32772,
+     "P32773",
+     "S1=A2;S7=A1",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S1 (A2) + S7 (A1)",
+     9.166,
+     305902.97,
+     0.0,
+     33373.66026620118,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     196,
+     "P197",
+     "S5=A3;S7=A1",
+     [
+      [
+       "S5",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S5 (A3) + S7 (A1)",
+     9.809,
+     309732.64,
+     0.0,
+     31576.372718931594,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     260,
+     "P261",
+     "S4=A1;S7=A1",
+     [
+      [
+       "S4",
+       "A1"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S4 (A1) + S7 (A1)",
+     11.479,
+     182362.47,
+     0.0,
+     15886.616430002614,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2048,
+     "P2049",
+     "S3=A2",
+     [
+      [
+       "S3",
+       "A2"
+      ]
+     ],
+     "S3 (A2)",
+     12.825,
+     101629.62,
+     0.0,
+     7924.336842105263,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     35840,
+     "P35841",
+     "S1=A2;S3=A3",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S3",
+       "A3"
+      ]
+     ],
+     "S1 (A2) + S3 (A3)",
+     12.85,
+     283317.24,
+     0.0,
+     22048.034241245135,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     49152,
+     "P49153",
+     "S1=A3",
+     [
+      [
+       "S1",
+       "A3"
+      ]
+     ],
+     "S1 (A3)",
+     13.161,
+     96198.76,
+     0.0,
+     7309.38074614391,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3264,
+     "P3265",
+     "S3=A3;S5=A3",
+     [
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S5",
+       "A3"
+      ]
+     ],
+     "S3 (A3) + S5 (A3)",
+     13.493,
+     287146.91,
+     0.0,
+     21281.176165419107,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     1024,
+     "P1025",
+     "S3=A1",
+     [
+      [
+       "S3",
+       "A1"
+      ]
+     ],
+     "S3 (A1)",
+     13.86,
+     161917.17,
+     0.0,
+     11682.335497835498,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     32960,
+     "P32961",
+     "S1=A2;S5=A3",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S5",
+       "A3"
+      ]
+     ],
+     "S1 (A2) + S5 (A3)",
+     13.887,
+     385343.47,
+     0.0,
+     27748.503636494563,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3328,
+     "P3329",
+     "S3=A3;S4=A1",
+     [
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S4",
+       "A1"
+      ]
+     ],
+     "S3 (A3) + S4 (A1)",
+     15.163,
+     159776.74,
+     0.0,
+     10537.277583591638,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2052,
+     "P2053",
+     "S3=A2;S7=A1",
+     [
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S3 (A2) + S7 (A1)",
+     15.369,
+     216775.69,
+     0.0,
+     14104.736157199557,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     35844,
+     "P35845",
+     "S1=A2;S3=A3;S7=A1",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S1 (A2) + S3 (A3) + S7 (A1)",
+     15.394,
+     398463.31,
+     0.0,
+     25884.325711316098,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     33024,
+     "P33025",
+     "S1=A2;S4=A1",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S4",
+       "A1"
+      ]
+     ],
+     "S1 (A2) + S4 (A1)",
+     15.557,
+     257973.3,
+     0.0,
+     16582.458057466094,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     49156,
+     "P49157",
+     "S1=A3;S7=A1",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S1 (A3) + S7 (A1)",
+     15.705,
+     211344.83,
+     0.0,
+     13457.168417701369,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3268,
+     "P3269",
+     "S3=A3;S5=A3;S7=A1",
+     [
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S5",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S3 (A3) + S5 (A3) + S7 (A1)",
+     16.037,
+     402292.98,
+     0.0,
+     25085.30149030367,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     448,
+     "P449",
+     "S4=A1;S5=A3",
+     [
+      [
+       "S4",
+       "A1"
+      ],
+      [
+       "S5",
+       "A3"
+      ]
+     ],
+     "S4 (A1) + S5 (A3)",
+     16.2,
+     261802.97,
+     0.0,
+     16160.677160493828,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     1028,
+     "P1029",
+     "S3=A1;S7=A1",
+     [
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S3 (A1) + S7 (A1)",
+     16.404,
+     277063.24,
+     0.0,
+     16889.98049256279,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     32964,
+     "P32965",
+     "S1=A2;S5=A3;S7=A1",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S5",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S1 (A2) + S5 (A3) + S7 (A1)",
+     16.431,
+     500489.54,
+     0.0,
+     30460.077901527602,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3332,
+     "P3333",
+     "S3=A3;S4=A1;S7=A1",
+     [
+      [
+       "S3",
+       "A3"
+      ],
+      [
+       "S4",
+       "A1"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S3 (A3) + S4 (A1) + S7 (A1)",
+     17.707,
+     274922.81,
+     0.0,
+     15526.221833173322,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     33028,
+     "P33029",
+     "S1=A2;S4=A1;S7=A1",
+     [
+      [
+       "S1",
+       "A2"
+      ],
+      [
+       "S4",
+       "A1"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S1 (A2) + S4 (A1) + S7 (A1)",
+     18.101,
+     373119.37,
+     0.0,
+     20613.19098392354,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     452,
+     "P453",
+     "S4=A1;S5=A3;S7=A1",
+     [
+      [
+       "S4",
+       "A1"
+      ],
+      [
+       "S5",
+       "A3"
+      ],
+      [
+       "S7",
+       "A1"
+      ]
+     ],
+     "S4 (A1) + S5 (A3) + S7 (A1)",
+     18.744,
+     376949.04,
+     0.0,
+     20110.384122919335,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     8,
+     "P9",
+     "S7=A2",
+     [
+      [
+       "S7",
+       "A2"
+      ]
+     ],
+     "S7 (A2)",
+     18.914,
+     31222.92,
+     0.0,
+     1650.7835465792534,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     52224,
+     "P52225",
+     "S1=A3;S3=A3",
+     [
+      [
+       "S1",
+       "A3"
+      ],
+      [
+       "S3",
+       "A3"
+      ]
+     ],
+     "S1 (A3) + S3 (A3)",
+     19.389,
+     188759.1,
+     0.0,
+     9735.370570942287,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ]
+   ],
+   "allTail": [
+    [
+     23134,
+     "P23135",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A3) + S8 (A2)",
+     216.729,
+     933343.68,
+     0.0,
+     4306.501114294811,
+     true,
+     true,
+     13,
+     20040.996055226824,
+     7.098,
+     142250.99
+    ],
+    [
+     31358,
+     "P31359",
+     "S1=A1;S2=A3;S3=A2;S4=A2;S5=A1;S6=A3;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A3"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A3"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A3) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A3) + S7 (A3) + S8 (A2)",
+     217.616,
+     1100811.42,
+     0.0,
+     5058.504062201308,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     22110,
+     "P22111",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A1"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A1) + S7 (A3) + S8 (A2)",
+     217.764,
+     993631.23,
+     0.0,
+     4562.881054719788,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     31342,
+     "P31343",
+     "S1=A1;S2=A3;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A3"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A3) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     218.025,
+     1075500.79,
+     0.0,
+     4932.924160073386,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     30334,
+     "P30335",
+     "S1=A1;S2=A3;S3=A1;S4=A2;S5=A1;S6=A3;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A3"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A3"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A3) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A3) + S7 (A3) + S8 (A2)",
+     218.651,
+     1161098.97,
+     0.0,
+     5310.284288660925,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     30318,
+     "P30319",
+     "S1=A1;S2=A3;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A3"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A3) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     219.06,
+     1135788.34,
+     0.0,
+     5184.827627134118,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23166,
+     "P23167",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A3;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A3"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A3) + S7 (A3) + S8 (A2)",
+     220.509,
+     1077601.46,
+     0.0,
+     4886.881986676281,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     23150,
+     "P23151",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A2"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A2) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     220.918,
+     1052290.83,
+     0.0,
+     4763.264333372564,
+     true,
+     true,
+     14,
+     28395.11816662688,
+     4.189,
+     118947.15
+    ],
+    [
+     22142,
+     "P22143",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A3;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A3"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A3) + S7 (A3) + S8 (A2)",
+     221.544,
+     1137889.01,
+     0.0,
+     5136.176154623912,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     22126,
+     "P22127",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     [
+      [
+       "S1",
+       "A1"
+      ],
+      [
+       "S2",
+       "A1"
+      ],
+      [
+       "S3",
+       "A1"
+      ],
+      [
+       "S4",
+       "A2"
+      ],
+      [
+       "S5",
+       "A1"
+      ],
+      [
+       "S6",
+       "A2"
+      ],
+      [
+       "S7",
+       "A3"
+      ],
+      [
+       "S8",
+       "A2"
+      ]
+     ],
+     "S1 (A1) + S2 (A1) + S3 (A1) + S4 (A2) + S5 (A1) + S6 (A2) + S7 (A3) + S8 (A2)",
+     221.953,
+     1112578.38,
+     0.0,
+     5012.675566448753,
+     true,
+     true,
+     15,
+     58248.840579710144,
+     1.035,
+     60287.55
+    ]
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "S1",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "S2",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "S3",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "S4",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ],
+    [
+     "S5",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "S6",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ],
+    [
+     "S7",
+     "A3",
+     "suggested",
+     "A3",
+     false,
+     ""
+    ],
+    [
+     "S8",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [
+    "",
+    "S2=A2",
+    "S2=A2;S7=A2",
+    "S2=A2;S6=A1;S7=A2",
+    "S2=A2;S4=A2;S6=A1;S7=A2",
+    "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1",
+    "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+    "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+    "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+    "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+    "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+    "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+    "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+    "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+    "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+    "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2"
+   ],
+   "added": [],
+   "removed": [],
+   "ladder": [
+    [
+     "",
+     "S2=A2",
+     "P1",
+     "P8193",
+     [
+      "S2"
+     ],
+     [],
+     22.434,
+     24960.64,
+     1112.6254791833824,
+     null,
+     " > S2=A2"
+    ],
+    [
+     "S2=A2",
+     "S2=A2;S7=A2",
+     "P8193",
+     "P8201",
+     [
+      "S7"
+     ],
+     [],
+     18.914,
+     31222.92,
+     1650.7835465792532,
+     null,
+     "S2=A2 > S2=A2;S7=A2"
+    ],
+    [
+     "S2=A2;S7=A2",
+     "S2=A2;S6=A1;S7=A2",
+     "P8201",
+     "P8217",
+     [
+      "S6"
+     ],
+     [],
+     21.127,
+     40855.81,
+     1933.819756709424,
+     null,
+     "S2=A2;S7=A2 > S2=A2;S6=A1;S7=A2"
+    ],
+    [
+     "S2=A2;S6=A1;S7=A2",
+     "S2=A2;S4=A2;S6=A1;S7=A2",
+     "P8217",
+     "P8729",
+     [
+      "S4"
+     ],
+     [],
+     30.264,
+     70473.58,
+     2328.6274121067936,
+     null,
+     "S2=A2;S6=A1;S7=A2 > S2=A2;S4=A2;S6=A1;S7=A2"
+    ],
+    [
+     "S2=A2;S4=A2;S6=A1;S7=A2",
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1",
+     "P8729",
+     "P8730",
+     [
+      "S8"
+     ],
+     [],
+     24.125,
+     66817.54,
+     2769.6389637305697,
+     null,
+     "S2=A2;S4=A2;S6=A1;S7=A2 > S2=A2;S4=A2;S6=A1;S7=A2;S8=A1"
+    ],
+    [
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     "P8730",
+     "P8858",
+     [
+      "S5"
+     ],
+     [],
+     22.108,
+     69840.42,
+     3159.05645015379,
+     null,
+     "S2=A2;S4=A2;S6=A1;S7=A2;S8=A1 > S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1"
+    ],
+    [
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1",
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+     "P8858",
+     "P8859",
+     [
+      "S8"
+     ],
+     [],
+     9.63,
+     44891.72,
+     4661.6531671858775,
+     null,
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A1 > S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2",
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "P8859",
+     "P8795",
+     [
+      "S5"
+     ],
+     [],
+     16.397,
+     80621.77,
+     4916.8610111605785,
+     null,
+     "S2=A2;S4=A2;S5=A2;S6=A1;S7=A2;S8=A2 > S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "P8795",
+     "P4699",
+     [
+      "S2"
+     ],
+     [],
+     10.846,
+     68695.2,
+     6333.689839572192,
+     null,
+     "S2=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2 > S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "P4699",
+     "P53851",
+     [
+      "S1"
+     ],
+     [],
+     13.161,
+     96198.76,
+     7309.38074614391,
+     null,
+     "S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2 > S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "P53851",
+     "P55899",
+     [
+      "S3"
+     ],
+     [],
+     12.825,
+     101629.62,
+     7924.336842105263,
+     null,
+     "S1=A3;S2=A1;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2 > S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "P55899",
+     "P23131",
+     [
+      "S1"
+     ],
+     [],
+     7.8,
+     94884.71,
+     12164.70641025641,
+     null,
+     "S1=A3;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2 > S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2"
+    ],
+    [
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     "P23131",
+     "P23135",
+     [
+      "S7"
+     ],
+     [],
+     7.098,
+     142250.99,
+     20040.996055226824,
+     null,
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A2;S8=A2 > S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2"
+    ],
+    [
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2",
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     "P23135",
+     "P23151",
+     [
+      "S6"
+     ],
+     [],
+     4.189,
+     118947.15,
+     28395.11816662688,
+     null,
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A1;S7=A3;S8=A2 > S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2"
+    ],
+    [
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     "S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2",
+     "P23151",
+     "P22127",
+     [
+      "S3"
+     ],
+     [],
+     1.035,
+     60287.55,
+     58248.84057971015,
+     null,
+     "S1=A1;S2=A1;S3=A2;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2 > S1=A1;S2=A1;S3=A1;S4=A2;S5=A1;S6=A2;S7=A3;S8=A2"
+    ]
+   ],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 8,
+   "nStale": 0
+  },
+  "issues": [],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "done",
+     0,
+     ""
+    ],
+    [
+     "sites",
+     "attention",
+     8,
+     "8 site recommendations to confirm or review."
+    ],
+    [
+     "watershed",
+     "",
+     0,
+     "Choose the final array and TSP."
+    ],
+    [
+     "report",
+     "attention",
+     2,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     true,
+     "Inputs have no problems",
+     "inputs"
+    ],
+    [
+     false,
+     "8 site recommendations are still suggestions",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ],
+    [
+     false,
+     "Choose the tentatively selected plan",
+     "watershed"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": false,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Watershed",
+    "Report"
+   ]
+  },
+  "stamped": "0a8cef8cc3bf80c246bdeb777f0d34781b86c540853b4e2ee8e218f6f51eee02",
+  "carried": "0ecbd50bbf8088252ff59e8e7f94f0cba19181fafbfc35dda9a0a3d629c820ae",
+  "planCountWarning": false
+ }
+}

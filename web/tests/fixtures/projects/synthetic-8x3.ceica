@@ -1,0 +1,876 @@
+{
+ "appVersion": "1.0.0",
+ "contentDigest": "0a8cef8cc3bf80c246bdeb777f0d34781b86c540853b4e2ee8e218f6f51eee02",
+ "format": "ceica-project",
+ "project": {
+  "benefits": {
+   "modules": [
+    {
+     "id": "total",
+     "method": "AAHU",
+     "name": "Total",
+     "quantity_units": ""
+    }
+   ],
+   "staf_mapping": "A",
+   "target_years": [
+    0.0,
+    2.0,
+    10.0,
+    50.0
+   ]
+  },
+  "cost_categories": [
+   {
+    "id": "construction",
+    "idc_applies": true,
+    "name": "Construction"
+   },
+   {
+    "id": "monitoring",
+    "idc_applies": false,
+    "name": "Monitoring"
+   },
+   {
+    "id": "adaptive_management",
+    "idc_applies": false,
+    "name": "Adaptive management"
+   }
+  ],
+  "decisions": {
+   "sites": {},
+   "watershed": {
+    "basis": null,
+    "final_array": {},
+    "steps": {},
+    "tsp": null,
+    "tsp_plan_type": "National Ecosystem Restoration (NER) plan",
+    "tsp_rationale": ""
+   }
+  },
+  "description": "",
+  "labels": {
+   "annual_output_name": "Average annual habitat units",
+   "annual_output_short": "AAHU",
+   "lift_name": "Ecological lift",
+   "output_name": "Habitat units",
+   "output_short": "HU"
+  },
+  "name": "Untitled study",
+  "project_id": "golden-synthetic-8x3",
+  "provenance": {},
+  "report": {
+   "contents": "FULL",
+   "date": "",
+   "prepared_by": "",
+   "status": "DRAFT",
+   "title": ""
+  },
+  "schema_version": "ceica-project/3",
+  "settings": {
+   "aahu_method": "TRAPEZOID",
+   "cost_decimals": 2,
+   "discount_rate": 0.03,
+   "idc_method": "END",
+   "idc_periods_per_year": 12,
+   "output_decimals": 3,
+   "period_of_analysis": 50,
+   "price_level": "",
+   "recurring_timing": "END_OF_YEAR"
+  },
+  "sites": [
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 191083.46533866835,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 20.96104336331001,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 190756.9004847039,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 6.622224896065716,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 96198.76081506362,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 13.161426628408933,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S1",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 93655.84454644904,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 33.28040115899723,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 24960.640383752307,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 22.43415381924932,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 116865.79637947008,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 30.387011238317456,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S2",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 161917.1666171128,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 13.859536943464594,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 101629.62010651726,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 12.824598342374154,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 92560.33756048325,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 6.227626192639425,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S3",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 67216.4012795329,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 8.934754386369836,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 70473.57643748718,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 30.26422223257205,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 196532.69596422295,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 19.922448002833768,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S4",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 150462.18933923607,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 38.50463055288768,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 69840.41672816675,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 22.107847366349933,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 194586.57437890387,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 7.2654283422299475,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S5",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 40855.81024473866,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 21.12667483636727,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 159802.96058161365,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 25.316100465962517,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 185113.58686236248,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 24.90712874106858,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S6",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 115146.0673868039,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 2.5441221899039115,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 31222.924246977607,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 18.914099432530744,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 173473.9109265182,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 26.011798596435625,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S7",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   },
+   {
+    "alternatives": [
+     {
+      "costs": {
+       "annual_override": 0.0,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "NA",
+      "is_no_action": true,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 0.0,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 66817.54059270018,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A1",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 24.124699706067076,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 111709.2586738717,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A2",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 33.75537932022494,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     },
+     {
+      "costs": {
+       "annual_override": 155545.437386392,
+       "construction_months": 0.0,
+       "first_costs": {},
+       "recurring": []
+      },
+      "description": "",
+      "id": "A3",
+      "is_no_action": false,
+      "name": "",
+      "outputs": [
+       {
+        "aahu": 20.92466649419479,
+        "module_id": "total",
+        "quantity": [],
+        "scores": {},
+        "values": []
+       }
+      ]
+     }
+    ],
+    "description": "",
+    "id": "S8",
+    "name": "",
+    "staf_not_assessed": {},
+    "staf_source": {}
+   }
+  ],
+  "watershed": {
+   "carried": {
+    "S1": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S2": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S3": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S4": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S5": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S6": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S7": [
+     "A1",
+     "A2",
+     "A3"
+    ],
+    "S8": [
+     "A1",
+     "A2",
+     "A3"
+    ]
+   },
+   "mode": "MULTI",
+   "rules": []
+  }
+ },
+ "savedAt": "2026-09-27T00:00:00Z",
+ "schemaVersion": 3
+}

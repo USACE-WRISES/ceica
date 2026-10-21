@@ -1,0 +1,43 @@
+{
+ "csv": {
+  "settings": {
+   "text": "﻿Setting,Value\r\nStudy,STAF demonstration\r\nPrepared by,CEICA example\r\nSites,\"3 sites with 10 alternatives, No Action included\"\r\nOutput,Average annual condition units (AACU); lift is the output above No Action\r\nBenefit module,Stream condition: the STAF Ecosystem Condition Index times ft at each target year\r\nTarget years,\"0, 1, 5, 10, 25, 50\"\r\nPeriod of analysis,50 years\r\nDiscount rate,3 percent\r\nAverage annual output,\"Straight lines between target years, averaged over the span of the years\"\r\nAverage annual cost,\"Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year\"\r\nComparisons,\"Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them\"\r\nSTAF outcome mapping,\"STAF documentation, EASI and DEEP (A)\"\r\nPlan formation,One alternative per site: each site's recommendation\r\nPlans,8 plans: 6 cost-effective and 4 best buys\r\nFinal array,\"4 plans: P1, P2, P4, P8\"\r\nTentatively selected plan,Not chosen yet\r\nRecord,\"CEICA 1.0.0, engine 1; project digest 79c72a6c133e\"\r\n"
+  },
+  "plans-bb": {
+   "text": "﻿Plan,R1,R2,R3,Lift (AACU),Average annual cost,Construction cost,Unit cost ($/AACU),Incremental cost per AACU\r\nP1,0,0,0,0,0,0,,0\r\nP2,0,0,1,173.075,26432.37,520000,152.7220569117,152.7220569117\r\nP4,0,1,1,770.1,204923.32,3920000,266.0996234255,298.9672961769\r\nP8,1,1,1,909.227,254905.67,4830000,280.3542679661,359.2570097824\r\n"
+  },
+  "plans-final": {
+   "text": "﻿Plan,R1,R2,R3,Lift (AACU),Average annual cost,Construction cost,Unit cost ($/AACU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,0,,TRUE,TRUE\r\nP2,0,0,1,173.075,26432.37,520000,152.7220569117,TRUE,TRUE\r\nP4,0,1,1,770.1,204923.32,3920000,266.0996234255,TRUE,TRUE\r\nP8,1,1,1,909.227,254905.67,4830000,280.3542679661,TRUE,TRUE\r\n"
+  },
+  "plans-all": {
+   "text": "﻿Plan,R1,R2,R3,Lift (AACU),Average annual cost,Construction cost,Unit cost ($/AACU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,0,,TRUE,TRUE\r\nP5,1,0,0,139.127,49982.35,910000,359.2570097824,FALSE,FALSE\r\nP2,0,0,1,173.075,26432.37,520000,152.7220569117,TRUE,TRUE\r\nP6,1,0,1,312.202,76414.72,1430000,244.7605076201,TRUE,FALSE\r\nP3,0,1,0,597.025,178490.95,3400000,298.9672961769,TRUE,FALSE\r\nP7,1,1,0,736.152,228473.3,4310000,310.361582934,FALSE,FALSE\r\nP4,0,1,1,770.1,204923.32,3920000,266.0996234255,TRUE,TRUE\r\nP8,1,1,1,909.227,254905.67,4830000,280.3542679661,TRUE,TRUE\r\n"
+  },
+  "sites-alts": {
+   "text": "﻿Site,Alternative,Lift (AACU),Average annual cost,Unit cost ($/AACU),Incremental cost per AACU,Construction cost,Cost-effective,Best buy\r\nR1,No Action,0,0,,0,0,TRUE,TRUE\r\nR1,Riparian buffer,42.374,12646.48,298.4490489451,298.4490489451,180000,TRUE,TRUE\r\nR1,Floodplain bench and buffer,92.656,34892.71,376.5833836988,,620000,TRUE,FALSE\r\nR1,\"Bench, buffer and instream structure\",139.127,49982.35,359.2570097824,385.8884995814,910000,TRUE,TRUE\r\nR2,No Action,0,0,,0,0,TRUE,TRUE\r\nR2,Bank regrading and planting,190.788,46747.34,245.0224332767,245.0224332767,850000,TRUE,TRUE\r\nR2,Daylight and reconnect the floodplain,597.025,178490.95,298.9672961769,324.3023407518,3400000,TRUE,TRUE\r\nR3,No Action,0,0,,0,0,TRUE,TRUE\r\nR3,Livestock exclusion,130.516,8678.84,66.4963682614,66.4963682614,140000,TRUE,TRUE\r\nR3,Livestock exclusion and culvert replacement,173.075,26432.37,152.7220569117,417.1510138866,520000,TRUE,TRUE\r\n"
+  },
+  "site-recs": {
+   "text": "﻿Site,Recommended alternative,Lift (AACU),Average annual cost,Unit cost ($/AACU),Construction cost,Carried to plans,Status\r\nR1,\"Bench, buffer and instream structure\",139.127,49982.35,359.2570097824,910000,Yes,Suggested\r\nR2,Daylight and reconnect the floodplain,597.025,178490.95,298.9672961769,3400000,Yes,Suggested\r\nR3,Livestock exclusion and culvert replacement,173.075,26432.37,152.7220569117,520000,Yes,Suggested\r\n"
+  },
+  "staf-outcomes": {
+   "text": "﻿Site,Alternative,Physical (AACU),Chemical (AACU),Biological (AACU),Lift (AACU)\r\nR1,\"Bench, buffer and instream structure\",36.8341333333,32.7777777778,69.5150793651,139.1269904762\r\nR2,Daylight and reconnect the floodplain,190.7281066667,215.442962963,190.8542857143,597.0253553439\r\nR3,Livestock exclusion and culvert replacement,28.3243010753,63.8630452675,80.888115942,173.0754622848\r\n"
+  },
+  "decisions": {
+   "text": "﻿Subject,Decision,Reason\r\nSite R1,\"Bench, buffer and instream structure, suggested, not yet confirmed\",No reason recorded.\r\nSite R2,\"Daylight and reconnect the floodplain, suggested, not yet confirmed\",No reason recorded.\r\nSite R3,\"Livestock exclusion and culvert replacement, suggested, not yet confirmed\",No reason recorded.\r\nTentatively selected plan,Not chosen yet,\r\n"
+  },
+  "inputs": {
+   "text": "﻿Site,Alternative,Output (AACU),Lift (AACU),Construction cost,Annualized cost,Unit cost ($/AACU)\r\nR1,No Action,529.0666095238,0,0,0,\r\nR1,Riparian buffer,571.4405378013,42.374,180000,12646.4807285046,298.4490489451\r\nR1,Floodplain bench and buffer,621.7226139918,92.656,620000,34892.7137058415,376.5833836988\r\nR1,\"Bench, buffer and instream structure\",668.1936,139.127,910000,49982.3471274173,359.2570097824\r\nR2,No Action,543.7472668783,0,0,0,\r\nR2,Bank regrading and planting,734.5355058907,190.788,850000,46747.3354771836,245.0224332767\r\nR2,Daylight and reconnect the floodplain,1140.7726222222,597.025,3400000,178490.9518543831,298.9672961769\r\nR3,No Action,932.5238146359,0,0,0,\r\nR3,Livestock exclusion,1063.039554886,130.516,140000,8678.8397204819,66.4963682614\r\nR3,Livestock exclusion and culvert replacement,1105.5992769207,173.075,520000,26432.3700124378,152.7220569117\r\n"
+  },
+  "omrrr": {
+   "text": "﻿Site,Alternative,Annual maintenance,Repair and replanting,Structure inspection,Fence repair,Total OMRRR\r\nR1,No Action,0,0,0,0,0\r\nR1,Riparian buffer,64324.4100175205,40399.5662849255,0,0,104723.976302446\r\nR1,Floodplain bench and buffer,128648.820035041,43754.1842411876,0,0,172403.0042762285\r\nR1,\"Bench, buffer and instream structure\",154378.5840420492,64219.8510636786,7269.478007667,0,225867.9131133947\r\nR2,No Action,0,0,0,0,0\r\nR2,Bank regrading and planting,154378.5840420492,59985.5751693701,0,0,214364.1592114192\r\nR2,Daylight and reconnect the floodplain,308757.1680840983,381551.4593576294,0,0,690308.6274417277\r\nR3,No Action,0,0,0,0,0\r\nR3,Livestock exclusion,38594.6460105123,0,0,14364.2902346402,52958.9362451525\r\nR3,Livestock exclusion and culvert replacement,77189.2920210246,0,9692.637343556,0,86881.9293645806\r\n"
+  },
+  "costs": {
+   "text": "﻿Site,Alternative,Months,Construction,Monitoring,Adaptive management,Interest during construction,OMRRR annual cost,Annualized cost\r\nR1,No Action,0,0,0,0,0,0,0\r\nR1,Riparian buffer,4,180000,25000,15000,666.9883611555,4070.1491188929,12646.4807285046\r\nR1,Floodplain bench and buffer,8,620000,40000,60000,5378.2849391737,6700.5280044259,34892.7137058415\r\nR1,\"Bench, buffer and instream structure\",10,910000,50000,90000,10166.0829914165,8778.4681216615,49982.3471274173\r\nR2,No Action,0,0,0,0,0,0,0\r\nR2,Bank regrading and planting,9,850000,45000,85000,8433.750572958,8331.3690383259,46747.3354771836\r\nR2,Daylight and reconnect the floodplain,18,3400000,90000,340000,72221.4411578162,26829.1861228771,178490.9518543831\r\nR3,No Action,0,0,0,0,0,0,0\r\nR3,Livestock exclusion,3,140000,20000,10000,345.5616174967,2058.275242273,8678.8397204819\r\nR3,Livestock exclusion and culvert replacement,6,520000,30000,40000,3216.7132013652,3376.7091428011,26432.3700124378\r\n"
+  }
+ },
+ "readme": {
+  "digest": "sha256:a533d418a0750228:4688"
+ },
+ "html": {
+  "digest": "sha256:39e2d1b9a8aac788:152362"
+ }
+}

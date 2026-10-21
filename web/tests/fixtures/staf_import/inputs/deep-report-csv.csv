@@ -1,0 +1,18 @@
+DEEP Detailed Assessment
+Stream,Demo Creek
+COMID,12345
+Reach length (ft),1000
+
+Function,Discipline,Metric,Measured value
+Catchment hydrology,Hydrology,Land cover,25
+
+Function,Function score (0-15),Condition
+Catchment hydrology,9.5,Functioning-at-Risk
+Floodplain connectivity,9.5,Functioning-at-Risk
+Channel evolution,9.5,Functioning-at-Risk
+Nutrient cycling,9.5,Functioning-at-Risk
+Habitat provision,9.5,Functioning-at-Risk
+
+Outcome,Sub-index
+Ecosystem Condition Index,
+Condition claim,"0.09 to 0.84, condition not determinable, 15 of 20 functions not assessed"

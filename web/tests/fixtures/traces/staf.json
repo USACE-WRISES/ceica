@@ -1,0 +1,631 @@
+{
+ "scenario": "staf",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "example",
+      "name": "staf-demo",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened STAF demonstration (example).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:f1ac2dda471a559a:2515",
+      "page_sites": "sha256:849c524d57cda20a:55459"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event example",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "inputs",
+      "section": "benefits",
+      "n": 3
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:3a70c41086053e2c:2515"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "inputs"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": false,
+     ".clientdata_output_page_sites_hidden": true,
+     "page": "inputs"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:e69499497388ef53:55436"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "view",
+      "value": "scores",
+      "n": 4
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:e69499497388ef53:55436"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "staf_site",
+      "value": "R2",
+      "n": 5
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:3532d7d02019424c:55245"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "staf_alt",
+      "value": "A1",
+      "n": 6
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:3385b9e9f600363d:55013"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event staf_fill",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "staf_fill",
+      "site": "R2",
+      "alt": "A1",
+      "n": 7
+     }
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "event staf_assessed",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "staf_assessed",
+      "site": "R2",
+      "fn": "F1",
+      "value": false,
+      "n": 8
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Unknown STAF function.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event staf_assessed",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "staf_assessed",
+      "site": "R2",
+      "fn": "nope",
+      "value": false,
+      "n": 9
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Unknown STAF function.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 5000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "event paste",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "paste",
+      "grid": "staf",
+      "r": "0",
+      "c": "0",
+      "text": "10\t11\n12\n",
+      "n": 10
+     }
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Pasted 3 cells.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "default",
+       "duration": 2000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "STAF demonstration"
+      }
+     }
+    },
+    {
+     "values": {
+      "project_name": "sha256:2430f3839157a69f:149",
+      "panel_body": "sha256:3a70c41086053e2c:2515",
+      "page_inputs": "sha256:76283a9c994a5ca1:55016",
+      "panel_foot": "sha256:17d24235f38e1f85:283"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event grid_opt",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "grid_opt",
+      "name": "staf_site",
+      "value": "R3",
+      "n": 11
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_inputs": "sha256:7cf9ba807ee468c0:53853"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "sites",
+      "n": 12
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:f1ac2dda471a559a:2515"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     "page": "sites"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_sites": "sha256:849c524d57cda20a:55459"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event site",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "site",
+      "site": "R3",
+      "n": 13
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:c0249c6ed949a83d:2515",
+      "page_sites": "sha256:0773fe9d6c218b87:49349"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "watershed",
+      "n": 14
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:e654972ec95bee2a:2504"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "watershed"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": true,
+     ".clientdata_output_page_watershed_hidden": false,
+     "page": "watershed"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_watershed": "sha256:1d772f041d6b4067:27330"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "report",
+      "n": 15
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_body": "sha256:62cb618c2e2da1fa:2504"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "report"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": false,
+     "page": "report"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_report": "sha256:f124e0d1774e281b:24662"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  }
+ ]
+}

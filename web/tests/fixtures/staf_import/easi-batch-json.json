@@ -1,0 +1,95 @@
+{
+ "input": "easi-batch-json.json",
+ "name": "batch-results.json",
+ "read": {
+  "tool": "EASI",
+  "kind": "batch",
+  "filename": "batch-results.json",
+  "sha256": "c0407f1e8a7ece30b372ccf17cb22d232332a296938e59180d9d9c6b621d597d",
+  "mapping": "A",
+  "warnings": [],
+  "reaches": [
+   {
+    "reach_id": "SITE-0001",
+    "name": "Creek SITE-0001",
+    "scores": {
+     "catchment-hydrology": 8.0,
+     "surface-water-storage": 8.0,
+     "reach-inflow": 8.0,
+     "streamflow-regime": 8.0,
+     "low-flow-baseflow-dynamics": 8.0,
+     "high-flow-dynamics": 8.0,
+     "floodplain-connectivity": 8.0,
+     "hyporheic-connectivity": 8.0,
+     "channel-evolution": 8.0,
+     "channel-floodplain-dynamics": 8.0,
+     "sediment-continuity": 8.0,
+     "bed-composition-bedform-dynamics": 8.0,
+     "light-thermal-regime": 8.0,
+     "carbon-processing": 8.0,
+     "nutrient-cycling": 8.0,
+     "water-soil-quality": 8.0,
+     "habitat-provision": 8.0,
+     "population-support": 8.0,
+     "community-dynamics": 8.0,
+     "watershed-connectivity": 8.0
+    },
+    "not_assessed": [],
+    "length_ft": 1500.0,
+    "notes": [],
+    "source": "EASI batch batch-results.json (sha256 c0407f1e8a7e), reach SITE-0001"
+   },
+   {
+    "reach_id": "SITE 0002",
+    "name": "Creek SITE 0002",
+    "scores": {
+     "catchment-hydrology": 8.0,
+     "surface-water-storage": 8.0,
+     "reach-inflow": 8.0,
+     "streamflow-regime": 8.0,
+     "low-flow-baseflow-dynamics": 8.0,
+     "high-flow-dynamics": 8.0,
+     "floodplain-connectivity": 8.0,
+     "hyporheic-connectivity": 8.0,
+     "channel-evolution": 8.0,
+     "channel-floodplain-dynamics": 8.0,
+     "sediment-continuity": 8.0,
+     "bed-composition-bedform-dynamics": 8.0,
+     "light-thermal-regime": 8.0,
+     "carbon-processing": 8.0,
+     "nutrient-cycling": 8.0,
+     "water-soil-quality": 8.0,
+     "habitat-provision": 8.0
+    },
+    "not_assessed": [
+     "population-support",
+     "community-dynamics",
+     "watershed-connectivity"
+    ],
+    "length_ft": 800.0,
+    "notes": [],
+    "source": "EASI batch batch-results.json (sha256 c0407f1e8a7e), reach SITE 0002"
+   }
+  ]
+ },
+ "applied": [
+  {
+   "base": "import-test",
+   "targets": [
+    "new",
+    "new"
+   ],
+   "module": null,
+   "project": "sha256:5b6dbb6be6c0bcab:4900"
+  },
+  {
+   "base": "two-staf",
+   "targets": [
+    "R1",
+    ""
+   ],
+   "module": "trib",
+   "project": "sha256:24b380d30dc22055:7096"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ceica-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CEICA, cost-effectiveness and incremental cost analysis for ecosystem restoration planning, as a static web app on GitHub Pages (web/README.md).",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 5191 --strictPort",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit && tsc -p tools",
+    "bench": "vitest run --config bench/vitest.config.ts --reporter=verbose",
+    "freeze": "node --disable-warning=ExperimentalWarning tools/freeze.ts",
+    "offline": "node --disable-warning=ExperimentalWarning tools/offline.ts",
+    "live": "node --disable-warning=ExperimentalWarning tools/offline.ts --live https://usace-wrises.github.io/ceica/"
+  },
+  "devDependencies": {
+    "fast-check": "4.10.2",
+    "happy-dom": "21.0.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "pako": "2.2.0"
+  }
+}

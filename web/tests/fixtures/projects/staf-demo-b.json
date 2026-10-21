@@ -1,0 +1,3387 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "25d28505380272a253cf19dbaf9c1192e8c8b9d3fc569033891e7d34270bd9cc",
+ "issues": [],
+ "benefits": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       517.347095041799,
+       517.347095041799,
+       515.8037697850782,
+       514.2604445283573,
+       509.63046875819464,
+       501.9138424745901
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      509.64590201076186
+     ]
+    ],
+    "aahu": 509.64590201076186,
+    "lift_by_module": [
+     [
+      "condition",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       517.347095041799,
+       520.1703430986919,
+       537.8942488225977,
+       551.0384425773833,
+       560.169503970127,
+       557.1947932072543
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      553.1666589047275
+     ]
+    ],
+    "aahu": 553.1666589047275,
+    "lift_by_module": [
+     [
+      "condition",
+      43.5207568939656
+     ]
+    ],
+    "lift": 43.5207568939656,
+    "missing": []
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       517.347095041799,
+       534.1116250773571,
+       568.3513431301593,
+       591.4171412987612,
+       611.6596914104701,
+       611.6596914104701
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      598.892900762558
+     ]
+    ],
+    "aahu": 598.892900762558,
+    "lift_by_module": [
+     [
+      "condition",
+      89.24699875179618
+     ]
+    ],
+    "lift": 89.24699875179618,
+    "missing": []
+   }
+  ],
+  [
+   "R1",
+   "A3",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       517.347095041799,
+       557.9093111803392,
+       608.6372342322499,
+       639.6071200058739,
+       667.7537577226051,
+       667.7537577226051
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      649.8076541112055
+     ]
+    ],
+    "aahu": 649.8076541112055,
+    "lift_by_module": [
+     [
+      "condition",
+      140.1617521004436
+     ]
+    ],
+    "lift": 140.1617521004436,
+    "missing": []
+   }
+  ],
+  [
+   "R2",
+   "FWOP",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       552.1925800056641,
+       552.1925800056641,
+       549.43271972057,
+       546.6728594354763,
+       538.3932785801944,
+       524.5939771547247
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      538.4208771830454
+     ]
+    ],
+    "aahu": 538.4208771830454,
+    "lift_by_module": [
+     [
+      "condition",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "R2",
+   "A1",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       552.1925800056641,
+       597.5643286447024,
+       670.5707290978319,
+       718.7216715441014,
+       754.3416721734478,
+       750.7720192580007
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      728.9255158437961
+     ]
+    ],
+    "aahu": 728.9255158437961,
+    "lift_by_module": [
+     [
+      "condition",
+      190.50463866075074
+     ]
+    ],
+    "lift": 190.50463866075074,
+    "missing": []
+   }
+  ],
+  [
+   "R2",
+   "A2",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       552.1925800056641,
+       770.5568583026527,
+       969.7225463356303,
+       1081.7959533024955,
+       1174.4429969476698,
+       1174.4429969476698
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      1111.0719365618806
+     ]
+    ],
+    "aahu": 1111.0719365618806,
+    "lift_by_module": [
+     [
+      "condition",
+      572.6510593788353
+     ]
+    ],
+    "lift": 572.6510593788353,
+    "missing": []
+   }
+  ],
+  [
+   "R3",
+   "FWOP",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       923.6170510132774,
+       923.6170510132774,
+       921.924248777079,
+       920.2314465408804,
+       915.1530398322851,
+       906.6890286512928
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      915.169967854647
+     ]
+    ],
+    "aahu": 915.169967854647,
+    "lift_by_module": [
+     [
+      "condition",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "R3",
+   "A1",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       923.6170510132774,
+       946.6864197530864,
+       1003.6737013743303,
+       1043.4534358257627,
+       1075.9543442813883,
+       1075.9543442813883
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      1054.9621355695317
+     ]
+    ],
+    "aahu": 1054.9621355695317,
+    "lift_by_module": [
+     [
+      "condition",
+      139.79216771488473
+     ]
+    ],
+    "lift": 139.79216771488473,
+    "missing": []
+   }
+  ],
+  [
+   "R3",
+   "A2",
+   {
+    "series": [
+     [
+      "condition",
+      [
+       923.6170510132774,
+       966.4245981830888,
+       1039.1785697647333,
+       1087.0824132308408,
+       1127.7074307011412,
+       1127.7074307011412
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "condition",
+      1101.509784300023
+     ]
+    ],
+    "aahu": 1101.509784300023,
+    "lift_by_module": [
+     [
+      "condition",
+      186.33981644537607
+     ]
+    ],
+    "lift": 186.33981644537607,
+    "missing": []
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      180000.0
+     ],
+     [
+      "monitoring",
+      25000.0
+     ],
+     [
+      "adaptive_management",
+      15000.0
+     ]
+    ],
+    "idc_base": 180000.0,
+    "idc": 666.9883611555349,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      2500.0
+     ],
+     [
+      "rehab",
+      18000.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      64324.41001752049
+     ],
+     [
+      "rehab",
+      40399.56628492546
+     ]
+    ],
+    "total_pv": 325390.9646636015,
+    "annual": 12646.480728504628,
+    "annual_parts": [
+     [
+      "construction",
+      6995.788999501588
+     ],
+     [
+      "monitoring",
+      971.6373610418872
+     ],
+     [
+      "adaptive_management",
+      582.9824166251324
+     ],
+     [
+      "idc",
+      25.922832443152686
+     ],
+     [
+      "omrrr",
+      4070.149118892869
+     ]
+    ],
+    "overridden": false,
+    "incremental": 12646.480728504628
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      620000.0
+     ],
+     [
+      "monitoring",
+      40000.0
+     ],
+     [
+      "adaptive_management",
+      60000.0
+     ]
+    ],
+    "idc_base": 620000.0,
+    "idc": 5378.284939173738,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      5000.0
+     ],
+     [
+      "rehab",
+      62000.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      128648.82003504098
+     ],
+     [
+      "rehab",
+      43754.184241187584
+     ]
+    ],
+    "total_pv": 897781.2892154022,
+    "annual": 34892.71370584147,
+    "annual_parts": [
+     [
+      "construction",
+      24096.606553838803
+     ],
+     [
+      "monitoring",
+      1554.6197776670194
+     ],
+     [
+      "adaptive_management",
+      2331.9296665005295
+     ],
+     [
+      "idc",
+      209.0297034092039
+     ],
+     [
+      "omrrr",
+      6700.528004425916
+     ]
+    ],
+    "overridden": false,
+    "incremental": 34892.71370584147
+   }
+  ],
+  [
+   "R1",
+   "A3",
+   {
+    "first_costs": [
+     [
+      "construction",
+      910000.0
+     ],
+     [
+      "monitoring",
+      50000.0
+     ],
+     [
+      "adaptive_management",
+      90000.0
+     ]
+    ],
+    "idc_base": 910000.0,
+    "idc": 10166.08299141646,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      6000.0
+     ],
+     [
+      "rehab",
+      91000.0
+     ],
+     [
+      "inspect",
+      1500.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      154378.58404204916
+     ],
+     [
+      "rehab",
+      64219.85106367855
+     ],
+     [
+      "inspect",
+      7269.478007666994
+     ]
+    ],
+    "total_pv": 1286033.9961048113,
+    "annual": 49982.34712741726,
+    "annual_parts": [
+     [
+      "construction",
+      35367.599941924695
+     ],
+     [
+      "monitoring",
+      1943.2747220837743
+     ],
+     [
+      "adaptive_management",
+      3497.894499750794
+     ],
+     [
+      "idc",
+      395.1098419965082
+     ],
+     [
+      "omrrr",
+      8778.468121661484
+     ]
+    ],
+    "overridden": false,
+    "incremental": 49982.34712741726
+   }
+  ],
+  [
+   "R2",
+   "FWOP",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "R2",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      850000.0
+     ],
+     [
+      "monitoring",
+      45000.0
+     ],
+     [
+      "adaptive_management",
+      85000.0
+     ]
+    ],
+    "idc_base": 850000.0,
+    "idc": 8433.75057295798,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      6000.0
+     ],
+     [
+      "rehab",
+      85000.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      154378.58404204916
+     ],
+     [
+      "rehab",
+      59985.57516937007
+     ]
+    ],
+    "total_pv": 1202797.9097843773,
+    "annual": 46747.33547718361,
+    "annual_parts": [
+     [
+      "construction",
+      33035.67027542416
+     ],
+     [
+      "monitoring",
+      1748.947249875397
+     ],
+     [
+      "adaptive_management",
+      3303.5670275424163
+     ],
+     [
+      "idc",
+      327.78188601577585
+     ],
+     [
+      "omrrr",
+      8331.369038325853
+     ]
+    ],
+    "overridden": false,
+    "incremental": 46747.33547718361
+   }
+  ],
+  [
+   "R2",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      3400000.0
+     ],
+     [
+      "monitoring",
+      90000.0
+     ],
+     [
+      "adaptive_management",
+      340000.0
+     ]
+    ],
+    "idc_base": 3400000.0,
+    "idc": 72221.44115781624,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      12000.0
+     ],
+     [
+      "rehab",
+      170000.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      308757.1680840983
+     ],
+     [
+      "rehab",
+      381551.45935762936
+     ]
+    ],
+    "total_pv": 4592530.068599544,
+    "annual": 178490.95185438314,
+    "annual_parts": [
+     [
+      "construction",
+      132142.68110169665
+     ],
+     [
+      "monitoring",
+      3497.894499750794
+     ],
+     [
+      "adaptive_management",
+      13214.268110169665
+     ],
+     [
+      "idc",
+      2806.9220198889
+     ],
+     [
+      "omrrr",
+      26829.1861228771
+     ]
+    ],
+    "overridden": false,
+    "incremental": 178490.95185438314
+   }
+  ],
+  [
+   "R3",
+   "FWOP",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "R3",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      140000.0
+     ],
+     [
+      "monitoring",
+      20000.0
+     ],
+     [
+      "adaptive_management",
+      10000.0
+     ]
+    ],
+    "idc_base": 140000.0,
+    "idc": 345.56161749670355,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      1500.0
+     ],
+     [
+      "fence",
+      6400.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      38594.64601051229
+     ],
+     [
+      "fence",
+      14364.290234640164
+     ]
+    ],
+    "total_pv": 223304.49786264915,
+    "annual": 8678.839720481927,
+    "annual_parts": [
+     [
+      "construction",
+      5441.169221834568
+     ],
+     [
+      "monitoring",
+      777.3098888335097
+     ],
+     [
+      "adaptive_management",
+      388.65494441675486
+     ],
+     [
+      "idc",
+      13.430423124074522
+     ],
+     [
+      "omrrr",
+      2058.275242273019
+     ]
+    ],
+    "overridden": false,
+    "incremental": 8678.839720481927
+   }
+  ],
+  [
+   "R3",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      520000.0
+     ],
+     [
+      "monitoring",
+      30000.0
+     ],
+     [
+      "adaptive_management",
+      40000.0
+     ]
+    ],
+    "idc_base": 520000.0,
+    "idc": 3216.713201365238,
+    "recurring_amounts": [
+     [
+      "upkeep",
+      3000.0
+     ],
+     [
+      "inspect",
+      2000.0
+     ]
+    ],
+    "recurring_pv": [
+     [
+      "upkeep",
+      77189.29202102458
+     ],
+     [
+      "inspect",
+      9692.63734355599
+     ]
+    ],
+    "total_pv": 680098.6425659457,
+    "annual": 26432.37001243781,
+    "annual_parts": [
+     [
+      "construction",
+      20210.057109671256
+     ],
+     [
+      "monitoring",
+      1165.9648332502647
+     ],
+     [
+      "adaptive_management",
+      1554.6197776670194
+     ],
+     [
+      "idc",
+      125.01914904812483
+     ],
+     [
+      "omrrr",
+      3376.7091428011486
+     ]
+    ],
+    "overridden": false,
+    "incremental": 26432.37001243781
+   }
+  ]
+ ],
+ "stafLift": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      0.0
+     ],
+     [
+      "carbon-processing",
+      0.0
+     ],
+     [
+      "nutrient-cycling",
+      0.0
+     ],
+     [
+      "water-soil-quality",
+      0.0
+     ],
+     [
+      "habitat-provision",
+      0.0
+     ],
+     [
+      "population-support",
+      0.0
+     ],
+     [
+      "community-dynamics",
+      0.0
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      0.0
+     ],
+     [
+      "chemical",
+      0.0
+     ],
+     [
+      "biological",
+      0.0
+     ]
+    ],
+    "total": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      9.188776655443322
+     ],
+     [
+      "carbon-processing",
+      0.7721661054994389
+     ],
+     [
+      "nutrient-cycling",
+      4.772996842778774
+     ],
+     [
+      "water-soil-quality",
+      9.545993685557548
+     ],
+     [
+      "habitat-provision",
+      6.674747474747475
+     ],
+     [
+      "population-support",
+      6.283038064969529
+     ],
+     [
+      "community-dynamics",
+      6.283038064969529
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      1.0861889927310489
+     ],
+     [
+      "chemical",
+      22.967901234567897
+     ],
+     [
+      "biological",
+      19.466666666666665
+     ]
+    ],
+    "total": 43.52075689396561
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      5.830433095230603
+     ],
+     [
+      "floodplain-connectivity",
+      4.333763386722889
+     ],
+     [
+      "hyporheic-connectivity",
+      1.0834408466807222
+     ],
+     [
+      "channel-evolution",
+      1.4843806706735054
+     ],
+     [
+      "channel-floodplain-dynamics",
+      5.830433095230603
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      1.4843806706735054
+     ],
+     [
+      "light-thermal-regime",
+      9.188776655443322
+     ],
+     [
+      "carbon-processing",
+      0.7721661054994389
+     ],
+     [
+      "nutrient-cycling",
+      4.772996842778774
+     ],
+     [
+      "water-soil-quality",
+      9.545993685557548
+     ],
+     [
+      "habitat-provision",
+      16.68686868686869
+     ],
+     [
+      "population-support",
+      14.11668250521833
+     ],
+     [
+      "community-dynamics",
+      14.11668250521833
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      13.003946002076844
+     ],
+     [
+      "chemical",
+      29.4479012345679
+     ],
+     [
+      "biological",
+      46.79515151515152
+     ]
+    ],
+    "total": 89.24699875179626
+   }
+  ],
+  [
+   "R1",
+   "A3",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      8.745649642845905
+     ],
+     [
+      "high-flow-dynamics",
+      5.830433095230603
+     ],
+     [
+      "floodplain-connectivity",
+      4.333763386722889
+     ],
+     [
+      "hyporheic-connectivity",
+      1.0834408466807222
+     ],
+     [
+      "channel-evolution",
+      1.4843806706735054
+     ],
+     [
+      "channel-floodplain-dynamics",
+      5.830433095230603
+     ],
+     [
+      "sediment-continuity",
+      5.830433095230603
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      16.060463408750014
+     ],
+     [
+      "light-thermal-regime",
+      9.188776655443322
+     ],
+     [
+      "carbon-processing",
+      0.7721661054994389
+     ],
+     [
+      "nutrient-cycling",
+      4.772996842778774
+     ],
+     [
+      "water-soil-quality",
+      9.545993685557548
+     ],
+     [
+      "habitat-provision",
+      26.6989898989899
+     ],
+     [
+      "population-support",
+      21.950326945467133
+     ],
+     [
+      "community-dynamics",
+      18.03350472534273
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      33.87165109034269
+     ],
+     [
+      "chemical",
+      35.511111111111106
+     ],
+     [
+      "biological",
+      70.7789898989899
+     ]
+    ],
+    "total": 140.1617521004437
+   }
+  ],
+  [
+   "R2",
+   "FWOP",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      0.0
+     ],
+     [
+      "carbon-processing",
+      0.0
+     ],
+     [
+      "nutrient-cycling",
+      0.0
+     ],
+     [
+      "water-soil-quality",
+      0.0
+     ],
+     [
+      "habitat-provision",
+      0.0
+     ],
+     [
+      "population-support",
+      0.0
+     ],
+     [
+      "community-dynamics",
+      0.0
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      0.0
+     ],
+     [
+      "chemical",
+      0.0
+     ],
+     [
+      "biological",
+      0.0
+     ]
+    ],
+    "total": 0.0
+   }
+  ],
+  [
+   "R2",
+   "A1",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      31.548592466723306
+     ],
+     [
+      "sediment-continuity",
+      13.993039428553447
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      44.10612794612795
+     ],
+     [
+      "carbon-processing",
+      5.55959595959596
+     ],
+     [
+      "nutrient-cycling",
+      22.910384845338115
+     ],
+     [
+      "water-soil-quality",
+      29.557060448724002
+     ],
+     [
+      "habitat-provision",
+      24.029090909090908
+     ],
+     [
+      "population-support",
+      9.400373328298562
+     ],
+     [
+      "community-dynamics",
+      9.400373328298562
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      34.58242990654205
+     ],
+     [
+      "chemical",
+      100.03081481481483
+     ],
+     [
+      "biological",
+      55.891393939393936
+     ]
+    ],
+    "total": 190.5046386607508
+   }
+  ],
+  [
+   "R2",
+   "A2",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      20.98955914283017
+     ],
+     [
+      "high-flow-dynamics",
+      34.98259857138362
+     ],
+     [
+      "floodplain-connectivity",
+      20.802064256269862
+     ],
+     [
+      "hyporheic-connectivity",
+      13.001290160168665
+     ],
+     [
+      "channel-evolution",
+      38.54511218100003
+     ],
+     [
+      "channel-floodplain-dynamics",
+      52.53815160955347
+     ],
+     [
+      "sediment-continuity",
+      27.986078857106893
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      41.97911828566034
+     ],
+     [
+      "light-thermal-regime",
+      66.15919191919191
+     ],
+     [
+      "carbon-processing",
+      9.265993265993266
+     ],
+     [
+      "nutrient-cycling",
+      45.82076969067623
+     ],
+     [
+      "water-soil-quality",
+      52.46744529406212
+     ],
+     [
+      "habitat-provision",
+      56.06787878787878
+     ],
+     [
+      "population-support",
+      37.60149331319425
+     ],
+     [
+      "community-dynamics",
+      37.60149331319425
+     ],
+     [
+      "watershed-connectivity",
+      16.8428207306712
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      165.66180685358256
+     ],
+     [
+      "chemical",
+      212.66488888888887
+     ],
+     [
+      "biological",
+      194.32436363636364
+     ]
+    ],
+    "total": 572.651059378835
+   }
+  ],
+  [
+   "R3",
+   "FWOP",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      0.0
+     ],
+     [
+      "carbon-processing",
+      0.0
+     ],
+     [
+      "nutrient-cycling",
+      0.0
+     ],
+     [
+      "water-soil-quality",
+      0.0
+     ],
+     [
+      "habitat-provision",
+      0.0
+     ],
+     [
+      "population-support",
+      0.0
+     ],
+     [
+      "community-dynamics",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      0.0
+     ],
+     [
+      "chemical",
+      0.0
+     ],
+     [
+      "biological",
+      0.0
+     ]
+    ],
+    "total": 0.0
+   }
+  ],
+  [
+   "R3",
+   "A1",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      9.671707430701142
+     ],
+     [
+      "sediment-continuity",
+      9.671707430701142
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      22.4237037037037
+     ],
+     [
+      "carbon-processing",
+      1.3590123456790124
+     ],
+     [
+      "nutrient-cycling",
+      15.526075005823435
+     ],
+     [
+      "water-soil-quality",
+      27.79347961798276
+     ],
+     [
+      "habitat-provision",
+      23.521975308641974
+     ],
+     [
+      "population-support",
+      14.912253435825763
+     ],
+     [
+      "community-dynamics",
+      14.912253435825763
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      15.866834381551364
+     ],
+     [
+      "chemical",
+      64.69056790123457
+     ],
+     [
+      "biological",
+      59.23476543209876
+     ]
+    ],
+    "total": 139.7921677148847
+   }
+  ],
+  [
+   "R3",
+   "A2",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      9.671707430701142
+     ],
+     [
+      "sediment-continuity",
+      19.343414861402284
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      14.507561146051712
+     ],
+     [
+      "light-thermal-regime",
+      22.4237037037037
+     ],
+     [
+      "carbon-processing",
+      1.3590123456790124
+     ],
+     [
+      "nutrient-cycling",
+      15.526075005823435
+     ],
+     [
+      "water-soil-quality",
+      27.79347961798276
+     ],
+     [
+      "habitat-provision",
+      23.521975308641974
+     ],
+     [
+      "population-support",
+      29.824506871651526
+     ],
+     [
+      "community-dynamics",
+      22.368380153738645
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      33.13408805031447
+     ],
+     [
+      "chemical",
+      70.5200987654321
+     ],
+     [
+      "biological",
+      82.68562962962963
+     ]
+    ],
+    "total": 186.3398164453762
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "R1",
+    true,
+    [],
+    [
+     [
+      "FWOP",
+      "No Action",
+      "Future without project: slow channel degradation.",
+      true,
+      509.64590201076186,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "Riparian buffer",
+      "Plant a 50-ft native buffer on both banks.",
+      false,
+      553.1666589047275,
+      43.5207568939656,
+      12646.480728504628,
+      12646.480728504628,
+      180000.0,
+      220000.0,
+      290.58339652121964,
+      true,
+      true,
+      1,
+      290.58339652121964,
+      43.521,
+      12646.48,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "Floodplain bench and buffer",
+      "Excavate a floodplain bench on the outside bends and plant the buffer.",
+      false,
+      598.892900762558,
+      89.24699875179618,
+      34892.71370584147,
+      34892.71370584147,
+      620000.0,
+      720000.0,
+      390.9678756708909,
+      true,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A3",
+      "Bench, buffer and instream structure",
+      "The bench and buffer plus riffles and large wood for bed and habitat diversity.",
+      false,
+      649.8076541112055,
+      140.1617521004436,
+      49982.34712741726,
+      49982.34712741726,
+      910000.0,
+      1050000.0,
+      356.6041437764872,
+      true,
+      true,
+      2,
+      386.3357167247855,
+      96.641,
+      37335.87,
+      null,
+      0
+     ]
+    ],
+    "A3",
+    "e50e0f7fe4764137",
+    {
+     "ids": [
+      "FWOP",
+      "A1",
+      "A2",
+      "A3"
+     ],
+     "c": [
+      0,
+      1264648,
+      3489271,
+      4998235
+     ],
+     "q": [
+      0,
+      43521,
+      89247,
+      140162
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1111",
+     "bb": "1101",
+     "ceRaw": "1111",
+     "witness": [
+      -1,
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "0000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      3
+     ],
+     "inc": [
+      [
+       0,
+       "FWOP",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       12646.48,
+       43.521,
+       290.58339652121964,
+       12646.48,
+       43.521,
+       290.58339652121964,
+       "FWOP"
+      ],
+      [
+       3,
+       "A3",
+       49982.35,
+       140.162,
+       356.6041437764872,
+       37335.87,
+       96.641,
+       386.3357167247855,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "FWOP",
+     "A1",
+     "A3"
+    ]
+   ],
+   [
+    "R2",
+    true,
+    [],
+    [
+     [
+      "FWOP",
+      "No Action",
+      "Future without project: continued incision and bank loss.",
+      true,
+      538.4208771830454,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "Bank regrading and planting",
+      "Lay back eroding banks and plant them.",
+      false,
+      728.9255158437961,
+      190.50463866075074,
+      46747.33547718361,
+      46747.33547718361,
+      850000.0,
+      980000.0,
+      245.38642030392904,
+      true,
+      true,
+      1,
+      245.38642030392904,
+      190.505,
+      46747.34,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "Daylight and reconnect the floodplain",
+      "Remove 600 ft of pipe, rebuild the channel and reconnect the floodplain.",
+      false,
+      1111.0719365618806,
+      572.6510593788353,
+      178490.95185438314,
+      178490.95185438314,
+      3400000.0,
+      3830000.0,
+      311.6923745876633,
+      true,
+      true,
+      2,
+      344.7467983440884,
+      382.146,
+      131743.61,
+      null,
+      0
+     ]
+    ],
+    "A2",
+    "6dca9a3cbe322f83",
+    {
+     "ids": [
+      "FWOP",
+      "A1",
+      "A2"
+     ],
+     "c": [
+      0,
+      4674734,
+      17849095
+     ],
+     "q": [
+      0,
+      190505,
+      572651
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "111",
+     "bb": "111",
+     "ceRaw": "111",
+     "witness": [
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "FWOP",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       46747.34,
+       190.505,
+       245.38642030392904,
+       46747.34,
+       190.505,
+       245.38642030392904,
+       "FWOP"
+      ],
+      [
+       2,
+       "A2",
+       178490.95,
+       572.651,
+       311.6923745876633,
+       131743.61,
+       382.146,
+       344.7467983440884,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "FWOP",
+     "A1",
+     "A2"
+    ]
+   ],
+   [
+    "R3",
+    true,
+    [],
+    [
+     [
+      "FWOP",
+      "No Action",
+      "Future without project: grazing continues.",
+      true,
+      915.169967854647,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "Livestock exclusion",
+      "Fence both banks and add two watering points.",
+      false,
+      1054.9621355695317,
+      139.79216771488473,
+      8678.839720481927,
+      8678.839720481927,
+      140000.0,
+      170000.0,
+      62.083953302048755,
+      true,
+      true,
+      1,
+      62.083953302048755,
+      139.792,
+      8678.84,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "Livestock exclusion and culvert replacement",
+      "Fencing plus a bottomless arch culvert that passes sediment and fish.",
+      false,
+      1101.509784300023,
+      186.33981644537607,
+      26432.37001243781,
+      26432.37001243781,
+      520000.0,
+      590000.0,
+      141.85022002790598,
+      true,
+      true,
+      2,
+      381.40263813697686,
+      46.548,
+      17753.53,
+      null,
+      0
+     ]
+    ],
+    "A2",
+    "c33d9ffee8ca62f8",
+    {
+     "ids": [
+      "FWOP",
+      "A1",
+      "A2"
+     ],
+     "c": [
+      0,
+      867884,
+      2643237
+     ],
+     "q": [
+      0,
+      139792,
+      186340
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "111",
+     "bb": "111",
+     "ceRaw": "111",
+     "witness": [
+      -1,
+      -1,
+      -1
+     ],
+     "reason": "000",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      1,
+      2
+     ],
+     "inc": [
+      [
+       0,
+       "FWOP",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       1,
+       "A1",
+       8678.84,
+       139.792,
+       62.083953302048755,
+       8678.84,
+       139.792,
+       62.083953302048755,
+       "FWOP"
+      ],
+      [
+       2,
+       "A2",
+       26432.37,
+       186.34,
+       141.85022002790598,
+       17753.53,
+       46.548,
+       381.40263813697686,
+       "A1"
+      ]
+     ]
+    },
+    [
+     "FWOP",
+     "A1",
+     "A2"
+    ]
+   ]
+  ],
+  "watershed": {
+   "ready": true,
+   "reasons": [],
+   "mode": "RECOMMENDED",
+   "carried": [
+    [
+     "R1",
+     [
+      "A3"
+     ]
+    ],
+    [
+     "R2",
+     [
+      "A2"
+     ]
+    ],
+    [
+     "R3",
+     [
+      "A2"
+     ]
+    ]
+   ],
+   "sources": [
+    [
+     "R1",
+     "suggested"
+    ],
+    [
+     "R2",
+     "suggested"
+    ],
+    [
+     "R3",
+     "suggested"
+    ]
+   ],
+   "notCarried": [],
+   "blocked": [],
+   "fingerprint": "5147e20be78527a3",
+   "nPlans": 8,
+   "nCe": 6,
+   "nBb": 4,
+   "space": [
+    [
+     "R1",
+     "R2",
+     "R3"
+    ],
+    [
+     [
+      "A3"
+     ],
+     [
+      "A2"
+     ],
+     [
+      "A2"
+     ]
+    ]
+   ],
+   "nValid": 8,
+   "ceOnly": false,
+   "digest": "a2860a4179f7152f57248e45869de90f4d47078d2b35fb19db05381ecc6a0677",
+   "na": 0,
+   "base": [
+    0,
+    0,
+    true
+   ],
+   "walk": [
+    1,
+    3,
+    7
+   ],
+   "inc": [
+    [
+     0,
+     "P1",
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     null
+    ],
+    [
+     1,
+     "P2",
+     26432.37,
+     186.34,
+     141.85022002790598,
+     26432.37,
+     186.34,
+     141.85022002790598,
+     "P1"
+    ],
+    [
+     3,
+     "P4",
+     204923.32,
+     758.991,
+     269.99440046061153,
+     178490.95,
+     572.651,
+     311.6923745876633,
+     "P2"
+    ],
+    [
+     7,
+     "P8",
+     254905.67,
+     899.153,
+     283.4953228204766,
+     49982.35,
+     140.162,
+     356.6041437764872,
+     "P4"
+    ]
+   ],
+   "bbRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R3=A2",
+     [
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R3",
+     186.34,
+     26432.37,
+     520000.0,
+     141.85022002790598,
+     true,
+     true,
+     1,
+     141.85022002790598,
+     186.34,
+     26432.37
+    ],
+    [
+     3,
+     "P4",
+     "R2=A2;R3=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R2 + R3",
+     758.991,
+     204923.32,
+     3920000.0,
+     269.99440046061153,
+     true,
+     true,
+     2,
+     311.6923745876633,
+     572.651,
+     178490.95
+    ],
+    [
+     7,
+     "P8",
+     "R1=A3;R2=A2;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R2 + R3",
+     899.153,
+     254905.67,
+     4830000.0,
+     283.4953228204766,
+     true,
+     true,
+     3,
+     356.6041437764872,
+     140.162,
+     49982.35
+    ]
+   ],
+   "ceRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R3=A2",
+     [
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R3",
+     186.34,
+     26432.37,
+     520000.0,
+     141.85022002790598,
+     true,
+     true,
+     1,
+     141.85022002790598,
+     186.34,
+     26432.37
+    ],
+    [
+     5,
+     "P6",
+     "R1=A3;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R3",
+     326.502,
+     76414.72,
+     1430000.0,
+     234.04058780650655,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "R2=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ]
+     ],
+     "R2",
+     572.651,
+     178490.95,
+     3400000.0,
+     311.6923745876633,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3,
+     "P4",
+     "R2=A2;R3=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R2 + R3",
+     758.991,
+     204923.32,
+     3920000.0,
+     269.99440046061153,
+     true,
+     true,
+     2,
+     311.6923745876633,
+     572.651,
+     178490.95
+    ],
+    [
+     7,
+     "P8",
+     "R1=A3;R2=A2;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R2 + R3",
+     899.153,
+     254905.67,
+     4830000.0,
+     283.4953228204766,
+     true,
+     true,
+     3,
+     356.6041437764872,
+     140.162,
+     49982.35
+    ]
+   ],
+   "allHead": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     4,
+     "P5",
+     "R1=A3",
+     [
+      [
+       "R1",
+       "A3"
+      ]
+     ],
+     "R1",
+     140.162,
+     49982.35,
+     910000.0,
+     356.6041437764872,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R3=A2",
+     [
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R3",
+     186.34,
+     26432.37,
+     520000.0,
+     141.85022002790598,
+     true,
+     true,
+     1,
+     141.85022002790598,
+     186.34,
+     26432.37
+    ],
+    [
+     5,
+     "P6",
+     "R1=A3;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R3",
+     326.502,
+     76414.72,
+     1430000.0,
+     234.04058780650655,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "R2=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ]
+     ],
+     "R2",
+     572.651,
+     178490.95,
+     3400000.0,
+     311.6923745876633,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     6,
+     "P7",
+     "R1=A3;R2=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ]
+     ],
+     "R1 + R2",
+     712.813,
+     228473.3,
+     4310000.0,
+     320.5234753013764,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3,
+     "P4",
+     "R2=A2;R3=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R2 + R3",
+     758.991,
+     204923.32,
+     3920000.0,
+     269.99440046061153,
+     true,
+     true,
+     2,
+     311.6923745876633,
+     572.651,
+     178490.95
+    ],
+    [
+     7,
+     "P8",
+     "R1=A3;R2=A2;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R2 + R3",
+     899.153,
+     254905.67,
+     4830000.0,
+     283.4953228204766,
+     true,
+     true,
+     3,
+     356.6041437764872,
+     140.162,
+     49982.35
+    ]
+   ],
+   "allTail": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     4,
+     "P5",
+     "R1=A3",
+     [
+      [
+       "R1",
+       "A3"
+      ]
+     ],
+     "R1",
+     140.162,
+     49982.35,
+     910000.0,
+     356.6041437764872,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "R3=A2",
+     [
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R3",
+     186.34,
+     26432.37,
+     520000.0,
+     141.85022002790598,
+     true,
+     true,
+     1,
+     141.85022002790598,
+     186.34,
+     26432.37
+    ],
+    [
+     5,
+     "P6",
+     "R1=A3;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R3",
+     326.502,
+     76414.72,
+     1430000.0,
+     234.04058780650655,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     2,
+     "P3",
+     "R2=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ]
+     ],
+     "R2",
+     572.651,
+     178490.95,
+     3400000.0,
+     311.6923745876633,
+     true,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     6,
+     "P7",
+     "R1=A3;R2=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ]
+     ],
+     "R1 + R2",
+     712.813,
+     228473.3,
+     4310000.0,
+     320.5234753013764,
+     false,
+     false,
+     null,
+     null,
+     null,
+     null
+    ],
+    [
+     3,
+     "P4",
+     "R2=A2;R3=A2",
+     [
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R2 + R3",
+     758.991,
+     204923.32,
+     3920000.0,
+     269.99440046061153,
+     true,
+     true,
+     2,
+     311.6923745876633,
+     572.651,
+     178490.95
+    ],
+    [
+     7,
+     "P8",
+     "R1=A3;R2=A2;R3=A2",
+     [
+      [
+       "R1",
+       "A3"
+      ],
+      [
+       "R2",
+       "A2"
+      ],
+      [
+       "R3",
+       "A2"
+      ]
+     ],
+     "R1 + R2 + R3",
+     899.153,
+     254905.67,
+     4830000.0,
+     283.4953228204766,
+     true,
+     true,
+     3,
+     356.6041437764872,
+     140.162,
+     49982.35
+    ]
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "R1",
+     "A3",
+     "suggested",
+     "A3",
+     false,
+     ""
+    ],
+    [
+     "R2",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ],
+    [
+     "R3",
+     "A2",
+     "suggested",
+     "A2",
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [
+    "",
+    "R3=A2",
+    "R2=A2;R3=A2",
+    "R1=A3;R2=A2;R3=A2"
+   ],
+   "added": [],
+   "removed": [],
+   "ladder": [
+    [
+     "",
+     "R3=A2",
+     "P1",
+     "P2",
+     [
+      "R3"
+     ],
+     [],
+     186.34,
+     26432.37,
+     141.85022002790598,
+     null,
+     " > R3=A2"
+    ],
+    [
+     "R3=A2",
+     "R2=A2;R3=A2",
+     "P2",
+     "P4",
+     [
+      "R2"
+     ],
+     [],
+     572.651,
+     178490.95,
+     311.6923745876634,
+     null,
+     "R3=A2 > R2=A2;R3=A2"
+    ],
+    [
+     "R2=A2;R3=A2",
+     "R1=A3;R2=A2;R3=A2",
+     "P4",
+     "P8",
+     [
+      "R1"
+     ],
+     [],
+     140.162,
+     49982.35,
+     356.6041437764872,
+     null,
+     "R2=A2;R3=A2 > R1=A3;R2=A2;R3=A2"
+    ]
+   ],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 3,
+   "nStale": 0
+  },
+  "issues": [],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "done",
+     0,
+     ""
+    ],
+    [
+     "sites",
+     "attention",
+     3,
+     "3 site recommendations to confirm or review."
+    ],
+    [
+     "watershed",
+     "",
+     0,
+     "Choose the final array and TSP."
+    ],
+    [
+     "report",
+     "attention",
+     2,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     true,
+     "Inputs have no problems",
+     "inputs"
+    ],
+    [
+     false,
+     "3 site recommendations are still suggestions",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ],
+    [
+     false,
+     "Choose the tentatively selected plan",
+     "watershed"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": false,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Watershed",
+    "Report"
+   ]
+  },
+  "stamped": "25d28505380272a253cf19dbaf9c1192e8c8b9d3fc569033891e7d34270bd9cc",
+  "carried": "62f4571aa09577c7ea301d7c644bf9d6a6e810a93f26a61c5d7115b4a7420624",
+  "planCountWarning": false
+ }
+}

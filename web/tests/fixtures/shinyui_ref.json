@@ -1,0 +1,470 @@
+[
+ {
+  "call": "output_ui",
+  "args": [
+   "project_name"
+  ],
+  "kwargs": {
+   "inline": true
+  },
+  "html": "<span class=\"shiny-html-output\" id=\"project_name\"></span>"
+ },
+ {
+  "call": "output_ui",
+  "args": [
+   "stagebar"
+  ],
+  "kwargs": {},
+  "html": "<div class=\"shiny-html-output\" id=\"stagebar\"></div>"
+ },
+ {
+  "call": "download_link",
+  "args": [
+   "save_project",
+   "Save"
+  ],
+  "kwargs": {
+   "title": "Download the project file (.ceica)"
+  },
+  "html": "<a class=\"shiny-download-link disabled\" id=\"save_project\" href=\"\" target=\"_blank\" download=\"\" aria-disabled=\"true\" tabindex=\"-1\" title=\"Download the project file (.ceica)\">Save</a>"
+ },
+ {
+  "call": "download_link",
+  "args": [
+   "dl_template_generic",
+   "Habitat units template"
+  ],
+  "kwargs": {},
+  "html": "<a class=\"shiny-download-link disabled\" id=\"dl_template_generic\" href=\"\" target=\"_blank\" download=\"\" aria-disabled=\"true\" tabindex=\"-1\">Habitat units template</a>"
+ },
+ {
+  "call": "input_file",
+  "args": [
+   "open_file",
+   null
+  ],
+  "kwargs": {
+   "accept": [
+    ".ceica",
+    ".json",
+    ".xlsx"
+   ],
+   "multiple": false
+  },
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label shiny-label-null\" id=\"open_file-label\" for=\"open_file\"></label>\n  <div class=\"input-group\">\n    <label class=\"input-group-btn input-group-prepend\"><span class=\"btn btn-default btn-file\">Browse...<input id=\"open_file\" name=\"open_file\" type=\"file\" accept=\".ceica,.json,.xlsx\" style=\"position: absolute !important; top: -99999px !important; left: -99999px !important;\" class=\"shiny-input-file\"/></span></label><input type=\"text\" class=\"form-control\" placeholder=\"No file selected\" readonly=\"readonly\"/>\n  </div>\n  <div id=\"open_file_progress\" class=\"progress active shiny-file-input-progress\">\n    <div class=\"progress-bar\"></div>\n  </div>\n</div>"
+ },
+ {
+  "call": "input_file",
+  "args": [
+   "staf_file",
+   null
+  ],
+  "kwargs": {
+   "multiple": false,
+   "accept": [
+    ".json",
+    ".geojson",
+    ".csv",
+    ".zip",
+    ".xlsx"
+   ]
+  },
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label shiny-label-null\" id=\"staf_file-label\" for=\"staf_file\"></label>\n  <div class=\"input-group\">\n    <label class=\"input-group-btn input-group-prepend\"><span class=\"btn btn-default btn-file\">Browse...<input id=\"staf_file\" name=\"staf_file\" type=\"file\" accept=\".json,.geojson,.csv,.zip,.xlsx\" style=\"position: absolute !important; top: -99999px !important; left: -99999px !important;\" class=\"shiny-input-file\"/></span></label><input type=\"text\" class=\"form-control\" placeholder=\"No file selected\" readonly=\"readonly\"/>\n  </div>\n  <div id=\"staf_file_progress\" class=\"progress active shiny-file-input-progress\">\n    <div class=\"progress-bar\"></div>\n  </div>\n</div>"
+ },
+ {
+  "call": "input_text",
+  "args": [
+   "np_name",
+   "Study name"
+  ],
+  "kwargs": {
+   "placeholder": "For example, Sandy Run Section 206"
+  },
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"np_name-label\" for=\"np_name\">Study name</label><input id=\"np_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"For example, Sandy Run Section 206\" autocomplete=\"off\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "input_text",
+  "args": [
+   "np_years",
+   "Target years",
+   "0, 1, 5, 10, 25, 50"
+  ],
+  "kwargs": {},
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"np_years-label\" for=\"np_years\">Target years</label><input id=\"np_years\" type=\"text\" class=\"shiny-input-text form-control\" value=\"0, 1, 5, 10, 25, 50\" autocomplete=\"off\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "input_text",
+  "args": [
+   "mod_name",
+   "Name",
+   "Riparian & instream \"left\""
+  ],
+  "kwargs": {
+   "placeholder": "For example, Riparian, left bank",
+   "width": "100%"
+  },
+  "html": "<div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n  <label class=\"control-label\" id=\"mod_name-label\" for=\"mod_name\">Name</label><input id=\"mod_name\" type=\"text\" class=\"shiny-input-text form-control\" value=\"Riparian &amp; instream &quot;left&quot;\" placeholder=\"For example, Riparian, left bank\" autocomplete=\"off\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "input_text",
+  "args": [
+   "rep_date",
+   "Date",
+   ""
+  ],
+  "kwargs": {
+   "width": "100%",
+   "placeholder": "Blank prints the day of download (October 18, 2026)"
+  },
+  "html": "<div class=\"form-group shiny-input-container\" style=\"width:100%;\">\n  <label class=\"control-label\" id=\"rep_date-label\" for=\"rep_date\">Date</label><input id=\"rep_date\" type=\"text\" class=\"shiny-input-text form-control\" value=\"\" placeholder=\"Blank prints the day of download (October 18, 2026)\" autocomplete=\"off\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "input_radio_buttons",
+  "args": [
+   "np_mode",
+   "How benefits are measured",
+   {
+    "choices": [
+     [
+      "HU",
+      {
+       "tree": [
+        "span",
+        {},
+        [
+         "span",
+         {
+          "class": "ce-choice-t"
+         },
+         "Habitat units"
+        ],
+        [
+         "span",
+         {
+          "class": "ce-choice-s"
+         },
+         "Enter habitat units at each target year."
+        ]
+       ]
+      }
+     ],
+     [
+      "INDEX_X_QUANTITY",
+      {
+       "tree": [
+        "span",
+        {},
+        [
+         "span",
+         {
+          "class": "ce-choice-t"
+         },
+         "Index x quantity"
+        ],
+        [
+         "span",
+         {
+          "class": "ce-choice-s"
+         },
+         "Enter an index & a quantity."
+        ]
+       ]
+      }
+     ]
+    ]
+   }
+  ],
+  "kwargs": {
+   "selected": "HU",
+   "width": "100%"
+  },
+  "html": "<div id=\"np_mode\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"np_mode-label\">\n  <label class=\"control-label\" id=\"np_mode-label\" for=\"np_mode\">How benefits are measured</label>\n  <div class=\"shiny-options-group\">\n    <div class=\"radio\">\n      <label><input type=\"radio\" name=\"np_mode\" value=\"HU\" checked=\"checked\"/> <span><span><span class=\"ce-choice-t\">Habitat units</span><span class=\"ce-choice-s\">Enter habitat units at each target year.</span></span></span></label>\n    </div>\n    <div class=\"radio\">\n      <label><input type=\"radio\" name=\"np_mode\" value=\"INDEX_X_QUANTITY\"/> <span><span><span class=\"ce-choice-t\">Index x quantity</span><span class=\"ce-choice-s\">Enter an index &amp; a quantity.</span></span></span></label>\n    </div>\n  </div>\n</div>"
+ },
+ {
+  "call": "input_radio_buttons",
+  "args": [
+   "rep_contents",
+   "Contents",
+   {
+    "choices": [
+     [
+      "FULL",
+      "Every figure and table, with the methods"
+     ],
+     [
+      "SUMMARY",
+      "Key figures & tables"
+     ]
+    ]
+   }
+  ],
+  "kwargs": {
+   "selected": "SUMMARY",
+   "width": "100%"
+  },
+  "html": "<div id=\"rep_contents\" style=\"width:100%;\" class=\"form-group shiny-input-radiogroup shiny-input-container\" role=\"radiogroup\" aria-labelledby=\"rep_contents-label\">\n  <label class=\"control-label\" id=\"rep_contents-label\" for=\"rep_contents\">Contents</label>\n  <div class=\"shiny-options-group\">\n    <div class=\"radio\">\n      <label><input type=\"radio\" name=\"rep_contents\" value=\"FULL\"/> <span>Every figure and table, with the methods</span></label>\n    </div>\n    <div class=\"radio\">\n      <label><input type=\"radio\" name=\"rep_contents\" value=\"SUMMARY\" checked=\"checked\"/> <span>Key figures &amp; tables</span></label>\n    </div>\n  </div>\n</div>"
+ },
+ {
+  "call": "input_numeric",
+  "args": [
+   "np_rate",
+   "Discount rate (percent)",
+   3.0
+  ],
+  "kwargs": {
+   "min": 0,
+   "max": 25,
+   "step": 0.125
+  },
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "input_numeric",
+  "args": [
+   "np_poa",
+   "Period of analysis (years)",
+   50
+  ],
+  "kwargs": {
+   "min": 1,
+   "max": 200
+  },
+  "html": "<div class=\"form-group shiny-input-container\">\n  <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n</div>"
+ },
+ {
+  "call": "layout_columns",
+  "args": [
+   {
+    "call": [
+     "input_numeric",
+     [
+      "np_rate",
+      "Discount rate (percent)",
+      3.0
+     ],
+     {
+      "min": 0,
+      "max": 25,
+      "step": 0.125
+     }
+    ]
+   },
+   {
+    "call": [
+     "input_numeric",
+     [
+      "np_poa",
+      "Period of analysis (years)",
+      50
+     ],
+     {
+      "min": 1,
+      "max": 200
+     }
+    ]
+   }
+  ],
+  "kwargs": {
+   "col_widths": [
+    6,
+    6
+   ]
+  },
+  "html": "<bslib-layout-columns class=\"bslib-grid grid bslib-mb-spacing  html-fill-item\" col-widths-sm=\"6,6\" style=\"\">\n  <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" id=\"np_rate-label\" for=\"np_rate\">Discount rate (percent)</label><input id=\"np_rate\" type=\"number\" class=\"shiny-input-number form-control\" value=\"3.0\" min=\"0\" max=\"25\" step=\"0.125\" data-update-on=\"change\"/>\n    </div>\n  </div>\n  <div class=\"bslib-gap-spacing bslib-grid-item html-fill-container\">\n    <div class=\"form-group shiny-input-container\">\n      <label class=\"control-label\" id=\"np_poa-label\" for=\"np_poa\">Period of analysis (years)</label><input id=\"np_poa\" type=\"number\" class=\"shiny-input-number form-control\" value=\"50\" min=\"1\" max=\"200\" data-update-on=\"change\"/>\n    </div>\n  </div>\n</bslib-layout-columns>"
+ },
+ {
+  "call": "panel_conditional",
+  "args": [
+   "['INDEX_X_QUANTITY', 'STAF'].indexOf(input.mod_method) >= 0",
+   {
+    "call": [
+     "input_text",
+     [
+      "mod_units",
+      "Quantity units",
+      "acres"
+     ],
+     {
+      "placeholder": "For example, acres, ft or mi"
+     }
+    ]
+   }
+  ],
+  "kwargs": {},
+  "html": "<div class=\"shiny-panel-conditional\" data-display-if=\"[&apos;INDEX_X_QUANTITY&apos;, &apos;STAF&apos;].indexOf(input.mod_method) &gt;= 0\" data-ns-prefix=\"\">\n  <div class=\"form-group shiny-input-container\">\n    <label class=\"control-label\" id=\"mod_units-label\" for=\"mod_units\">Quantity units</label><input id=\"mod_units\" type=\"text\" class=\"shiny-input-text form-control\" value=\"acres\" placeholder=\"For example, acres, ft or mi\" autocomplete=\"off\" data-update-on=\"change\"/>\n  </div>\n</div>"
+ },
+ {
+  "call": "panel_conditional",
+  "args": [
+   "input.mod_method !== 'HU'",
+   {
+    "tree": [
+     "div",
+     {
+      "class": "ce-issues",
+      "style": "margin-bottom:10px"
+     },
+     "Changing how values are entered clears it."
+    ]
+   }
+  ],
+  "kwargs": {},
+  "html": "<div class=\"shiny-panel-conditional\" data-display-if=\"input.mod_method !== &apos;HU&apos;\" data-ns-prefix=\"\">\n  <div class=\"ce-issues\" style=\"margin-bottom:10px\">Changing how values are entered clears it.</div>\n</div>"
+ },
+ {
+  "call": "input_action_button",
+  "args": [
+   "np_create",
+   "Create"
+  ],
+  "kwargs": {
+   "class_": "btn-primary"
+  },
+  "html": "<button class=\"btn btn-default action-button btn-primary\" id=\"np_create\" type=\"button\">\n  <span class=\"action-label\">Create</span>\n</button>"
+ },
+ {
+  "call": "input_action_button",
+  "args": [
+   "mod_save",
+   "Add module"
+  ],
+  "kwargs": {
+   "class_": "btn-primary"
+  },
+  "html": "<button class=\"btn btn-default action-button btn-primary\" id=\"mod_save\" type=\"button\">\n  <span class=\"action-label\">Add module</span>\n</button>"
+ },
+ {
+  "call": "modal_button",
+  "args": [
+   "Cancel"
+  ],
+  "kwargs": {},
+  "html": "<button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Cancel</button>"
+ },
+ {
+  "call": "modal",
+  "args": [
+   {
+    "tree": [
+     "p",
+     {},
+     "Body"
+    ]
+   }
+  ],
+  "kwargs": {
+   "title": "Add a module",
+   "easy_close": true,
+   "footer": {
+    "tree": [
+     "div",
+     {
+      "class": "ce-modal-foot"
+     },
+     [
+      "span",
+      {},
+      "foot"
+     ]
+    ]
+   }
+  },
+  "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Add a module</h4>\n      </div>\n      <div class=\"modal-body\">\n        <p>Body</p>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"ce-modal-foot\">\n          <span>foot</span>\n        </div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+ },
+ {
+  "call": "modal",
+  "args": [
+   {
+    "tree": [
+     "div",
+     {},
+     "Start"
+    ]
+   }
+  ],
+  "kwargs": {
+   "title": null,
+   "easy_close": false,
+   "footer": null,
+   "size": "xl"
+  },
+  "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div>Start</div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+ },
+ {
+  "call": "modal",
+  "args": [
+   {
+    "tree": [
+     "div",
+     {},
+     "Help"
+    ]
+   }
+  ],
+  "kwargs": {
+   "title": "Help",
+   "easy_close": true,
+   "size": "l",
+   "footer": {
+    "call": [
+     "modal_button",
+     [
+      "Close"
+     ],
+     {}
+    ]
+   }
+  },
+  "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\">\n  <div class=\"modal-dialog modal-lg\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h4 class=\"modal-title\">Help</h4>\n      </div>\n      <div class=\"modal-body\">\n        <div>Help</div>\n      </div>\n      <div class=\"modal-footer\">\n        <button class=\"btn btn-default\" type=\"button\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\">Close</button>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+ },
+ {
+  "call": "navset_hidden",
+  "args": [
+   {
+    "call": [
+     "nav_panel",
+     [
+      "Inputs",
+      {
+       "call": [
+        "output_ui",
+        [
+         "page_inputs"
+        ],
+        {}
+       ]
+      }
+     ],
+     {
+      "value": "inputs"
+     }
+    ]
+   },
+   {
+    "call": [
+     "nav_panel",
+     [
+      "Sites",
+      {
+       "call": [
+        "output_ui",
+        [
+         "page_sites"
+        ],
+        {}
+       ]
+      }
+     ],
+     {
+      "value": "sites"
+     }
+    ]
+   }
+  ],
+  "kwargs": {
+   "id": "page",
+   "selected": "sites"
+  },
+  "html": "<ul class=\"nav nav-hidden shiny-tab-input\" id=\"page\" data-tabsetid=\"0\">\n  <li class=\"nav-item\">\n    <a data-bs-toggle=\"tab\" data-toggle=\"tab\" data-value=\"inputs\" role=\"tab\" class=\"nav-link\" href=\"#tab-0-0\">Inputs</a>\n  </li>\n  <li class=\"nav-item\">\n    <a data-bs-toggle=\"tab\" data-toggle=\"tab\" data-value=\"sites\" role=\"tab\" class=\"nav-link active\" href=\"#tab-0-1\">Sites</a>\n  </li>\n</ul>\n<div class=\"tab-content\" data-tabsetid=\"0\">\n  <div class=\"tab-pane\" role=\"tabpanel\" data-value=\"inputs\" id=\"tab-0-0\">\n    <div class=\"shiny-html-output\" id=\"page_inputs\"></div>\n  </div>\n  <div class=\"tab-pane active\" role=\"tabpanel\" data-value=\"sites\" id=\"tab-0-1\">\n    <div class=\"shiny-html-output\" id=\"page_sites\"></div>\n  </div>\n</div>"
+ }
+]

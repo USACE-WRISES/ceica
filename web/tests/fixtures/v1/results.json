@@ -1,0 +1,981 @@
+{
+ "staf-demo": {
+  "alternatives": {
+   "R1|A1": {
+    "aahu": 571.4405378012934,
+    "annual": 12646.480728504628,
+    "by_module": {
+     "condition": 571.4405378012934
+    },
+    "lift": 42.373928277483856
+   },
+   "R1|A2": {
+    "aahu": 621.7226139917694,
+    "annual": 34892.71370584147,
+    "by_module": {
+     "condition": 621.7226139917694
+    },
+    "lift": 92.65600446795986
+   },
+   "R1|A3": {
+    "aahu": 668.1936000000001,
+    "annual": 49982.34712741726,
+    "by_module": {
+     "condition": 668.1936000000001
+    },
+    "lift": 139.12699047619049
+   },
+   "R1|FWOP": {
+    "aahu": 529.0666095238096,
+    "annual": 0.0,
+    "by_module": {
+     "condition": 529.0666095238096
+    },
+    "lift": 0.0
+   },
+   "R2|A1": {
+    "aahu": 734.5355058906524,
+    "annual": 46747.33547718361,
+    "by_module": {
+     "condition": 734.5355058906524
+    },
+    "lift": 190.78823901234546
+   },
+   "R2|A2": {
+    "aahu": 1140.7726222222223,
+    "annual": 178490.95185438314,
+    "by_module": {
+     "condition": 1140.7726222222223
+    },
+    "lift": 597.0253553439153
+   },
+   "R2|FWOP": {
+    "aahu": 543.747266878307,
+    "annual": 0.0,
+    "by_module": {
+     "condition": 543.747266878307
+    },
+    "lift": 0.0
+   },
+   "R3|A1": {
+    "aahu": 1063.0395548860376,
+    "annual": 8678.839720481927,
+    "by_module": {
+     "condition": 1063.0395548860376
+    },
+    "lift": 130.51574025014565
+   },
+   "R3|A2": {
+    "aahu": 1105.5992769206794,
+    "annual": 26432.37001243781,
+    "by_module": {
+     "condition": 1105.5992769206794
+    },
+    "lift": 173.07546228478736
+   },
+   "R3|FWOP": {
+    "aahu": 932.523814635892,
+    "annual": 0.0,
+    "by_module": {
+     "condition": 932.523814635892
+    },
+    "lift": 0.0
+   }
+  },
+  "final": [
+   "",
+   "R3=A2",
+   "R2=A2;R3=A2",
+   "R1=A3;R2=A2;R3=A2"
+  ],
+  "n_stale": 0,
+  "plans": {
+   "": [
+    true,
+    true
+   ],
+   "R1=A3": [
+    false,
+    false
+   ],
+   "R1=A3;R2=A2": [
+    false,
+    false
+   ],
+   "R1=A3;R2=A2;R3=A2": [
+    true,
+    true
+   ],
+   "R1=A3;R3=A2": [
+    true,
+    false
+   ],
+   "R2=A2": [
+    true,
+    false
+   ],
+   "R2=A2;R3=A2": [
+    true,
+    true
+   ],
+   "R3=A2": [
+    true,
+    true
+   ]
+  },
+  "suggested": {
+   "R1": "A3",
+   "R2": "A2",
+   "R3": "A2"
+  },
+  "tsp_state": "none"
+ },
+ "utoy-creek": {
+  "alternatives": {
+   "17B|Alternative1": {
+    "aahu": 94.30104932042812,
+    "annual": 74006.02467999328,
+    "by_module": {
+     "Ins": 10.96125033138901,
+     "RipL": 60.30305059386578,
+     "RipR": 23.03674839517333
+    },
+    "lift": 13.167625641941598
+   },
+   "17B|Alternative2": {
+    "aahu": 96.15000883080859,
+    "annual": 68167.41120934543,
+    "by_module": {
+     "Ins": 11.3019689070077,
+     "RipL": 61.622379666729785,
+     "RipR": 23.22566025707111
+    },
+    "lift": 15.016585152322065
+   },
+   "17B|Alternative3": {
+    "aahu": 84.0542980386245,
+    "annual": 38139.91665034444,
+    "by_module": {
+     "Ins": 6.541092232028945,
+     "RipL": 54.76874097147555,
+     "RipR": 22.74446483512
+    },
+    "lift": 2.9208743601379723
+   },
+   "17B|FWOP": {
+    "aahu": 81.13342367848652,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 4.674448308819854,
+     "RipL": 53.825139756,
+     "RipR": 22.633835613666665
+    },
+    "lift": 0.0
+   },
+   "17D2E|Alternative1": {
+    "aahu": 21.313993733571067,
+    "annual": 71761.53094854967,
+    "by_module": {
+     "Ins": 5.251647849536309,
+     "RipL": 9.477368743327647,
+     "RipR": 6.58497714070711
+    },
+    "lift": 14.559337622811764
+   },
+   "17D2E|Alternative2": {
+    "aahu": 18.305846963901175,
+    "annual": 69441.4641863016,
+    "by_module": {
+     "Ins": 5.106232277793886,
+     "RipL": 6.586781488402844,
+     "RipR": 6.612833197704444
+    },
+    "lift": 11.551190853141872
+   },
+   "17D2E|Alternative3": {
+    "aahu": 13.031660914080279,
+    "annual": 32868.83543494649,
+    "by_module": {
+     "Ins": 3.6345938207273893,
+     "RipL": 4.491376981456444,
+     "RipR": 4.905690111896445
+    },
+    "lift": 6.277004803320976
+   },
+   "17D2E|FWOP": {
+    "aahu": 6.754656110759303,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 2.3574192040881905,
+     "RipL": 2.0046841794488883,
+     "RipR": 2.3925527272222236
+    },
+    "lift": 0.0
+   },
+   "17F2M|Alternative1": {
+    "aahu": 4.334931530911175,
+    "annual": 54483.69201816973,
+    "by_module": {
+     "Ins": 2.628684922794375,
+     "RipL": 0.8531233040584,
+     "RipR": 0.8531233040584
+    },
+    "lift": 3.1056714564852714
+   },
+   "17F2M|Alternative2": {
+    "aahu": 2.442200859216569,
+    "annual": 49878.55232959345,
+    "by_module": {
+     "Ins": 1.8577619240787913,
+     "RipL": 0.2922194675688889,
+     "RipR": 0.2922194675688889
+    },
+    "lift": 1.212940784790666
+   },
+   "17F2M|Alternative3": {
+    "aahu": 7.981389975044564,
+    "annual": 55100.21004206487,
+    "by_module": {
+     "Ins": 3.7622217833912295,
+     "RipL": 2.1095840958266674,
+     "RipR": 2.1095840958266674
+    },
+    "lift": 6.752129900618661
+   },
+   "17F2M|FWOP": {
+    "aahu": 1.2292600744259032,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 1.2292600744259032,
+     "RipL": 0.0,
+     "RipR": 0.0
+    },
+    "lift": 0.0
+   },
+   "19A|Alternative2": {
+    "aahu": 44.23659954282992,
+    "annual": 50453.08796409632,
+    "by_module": {
+     "Ins": 9.840067235213256,
+     "RipL": 10.813375699901558,
+     "RipR": 23.58315660771511
+    },
+    "lift": 19.932551094834892
+   },
+   "19A|Alternative3": {
+    "aahu": 30.87964716415093,
+    "annual": 34394.515837427636,
+    "by_module": {
+     "Ins": 8.630559529486614,
+     "RipL": 5.681228695207867,
+     "RipR": 16.56785893945645
+    },
+    "lift": 6.575598716155902
+   },
+   "19A|FWOP": {
+    "aahu": 24.30404844799503,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 3.263401015561695,
+     "RipL": 5.3970433938777775,
+     "RipR": 15.643604038555555
+    },
+    "lift": 0.0
+   },
+   "2A|Alternative1": {
+    "aahu": 63.008747662450546,
+    "annual": 46343.39655629592,
+    "by_module": {
+     "Ins": 6.194227543627425,
+     "RipL": 25.941841716309337,
+     "RipR": 30.872678402513785
+    },
+    "lift": 31.378924588324683
+   },
+   "2A|Alternative2": {
+    "aahu": 56.602350061828886,
+    "annual": 44267.15567549997,
+    "by_module": {
+     "Ins": 3.3989081151084464,
+     "RipL": 25.086449926934666,
+     "RipR": 28.116992019785776
+    },
+    "lift": 24.972526987703024
+   },
+   "2A|Alternative3": {
+    "aahu": 35.931550865857524,
+    "annual": 34196.82180414225,
+    "by_module": {
+     "Ins": 3.0579710176112966,
+     "RipL": 11.562664589832,
+     "RipR": 21.310915258414227
+    },
+    "lift": 4.301727791731661
+   },
+   "2A|FWOP": {
+    "aahu": 31.629823074125863,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 1.9121219889703054,
+     "RipL": 8.8274524768,
+     "RipR": 20.89024860835556
+    },
+    "lift": 0.0
+   },
+   "2B|Alternative1": {
+    "aahu": 51.190200655037145,
+    "annual": 40055.17858784567,
+    "by_module": {
+     "Ins": 6.463982247840707,
+     "RipL": 19.855117701686666,
+     "RipR": 24.871100705509775
+    },
+    "lift": 24.493281524300787
+   },
+   "2B|Alternative2": {
+    "aahu": 42.66304722919174,
+    "annual": 41114.03819599077,
+    "by_module": {
+     "Ins": 3.9440630642081813,
+     "RipL": 16.84737689244,
+     "RipR": 21.871607272543557
+    },
+    "lift": 15.966128098455382
+   },
+   "2B|Alternative3": {
+    "aahu": 32.1561127188003,
+    "annual": 35704.841823846684,
+    "by_module": {
+     "Ins": 3.6012911495269693,
+     "RipL": 11.769828968302665,
+     "RipR": 16.784992600970664
+    },
+    "lift": 5.459193588063943
+   },
+   "2B|FWOP": {
+    "aahu": 26.696919130736358,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 2.2516267354696966,
+     "RipL": 10.449891554999999,
+     "RipR": 13.995400840266663
+    },
+    "lift": 0.0
+   },
+   "3E|Alternative1": {
+    "aahu": 19.95839617783654,
+    "annual": 97171.81078593257,
+    "by_module": {
+     "Ins": 1.9093864637136102,
+     "RipL": 6.902595782707823,
+     "RipR": 11.14641393141511
+    },
+    "lift": 0.9648800160364281
+   },
+   "3E|Alternative2": {
+    "aahu": 21.97849197703306,
+    "annual": 95531.47219984699,
+    "by_module": {
+     "Ins": 4.324722609011456,
+     "RipL": 6.751441542704267,
+     "RipR": 10.902327825317334
+    },
+    "lift": 2.9849758152329464
+   },
+   "3E|Alternative3": {
+    "aahu": 20.541305083018667,
+    "annual": 30776.187989621576,
+    "by_module": {
+     "Ins": 3.5666304914802645,
+     "RipL": 6.491731075789069,
+     "RipR": 10.482943515749334
+    },
+    "lift": 1.5477889212185545
+   },
+   "3E|FWOP": {
+    "aahu": 18.993516161800112,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 3.004247614973446,
+     "RipL": 6.114876072871112,
+     "RipR": 9.874392473955554
+    },
+    "lift": 0.0
+   },
+   "3F|Alternative1": {
+    "aahu": 45.651671027025515,
+    "annual": 36045.18690662839,
+    "by_module": {
+     "Ins": 7.527347440665514,
+     "RipL": 15.667530243933333,
+     "RipR": 22.456793342426664
+    },
+    "lift": 4.804863822514555
+   },
+   "3F|Alternative2": {
+    "aahu": 43.92093570031243,
+    "annual": 33762.337743157324,
+    "by_module": {
+     "Ins": 6.947978434896424,
+     "RipL": 15.194366002359997,
+     "RipR": 21.778591263056004
+    },
+    "lift": 3.0741284958014674
+   },
+   "3F|Alternative3": {
+    "aahu": 44.22654021892079,
+    "annual": 28078.030250693922,
+    "by_module": {
+     "Ins": 6.628947143332787,
+     "RipL": 15.451065650424447,
+     "RipR": 22.14652742516356
+    },
+    "lift": 3.3797330144098297
+   },
+   "3F|FWOP": {
+    "aahu": 40.84680720451096,
+    "annual": 0.0,
+    "by_module": {
+     "Ins": 5.992520618110969,
+     "RipL": 14.323679421777774,
+     "RipR": 20.530607164622214
+    },
+    "lift": 0.0
+   }
+  },
+  "final": [
+   "",
+   "19A=Alternative2;2A=Alternative1;2B=Alternative1",
+   "19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1",
+   "17B=Alternative2;19A=Alternative2;2A=Alternative1;2B=Alternative1",
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1",
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1"
+  ],
+  "n_stale": 0,
+  "plans": {
+   "": [
+    true,
+    true
+   ],
+   "17B=Alternative2": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    true,
+    true
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;17F2M=Alternative3;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    true
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    true,
+    true
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17D2E=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;17F2M=Alternative3;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    true
+   ],
+   "17B=Alternative2;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    true,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17B=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;17F2M=Alternative3;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17D2E=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2A=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2A=Alternative1;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2B=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "17F2M=Alternative3;3F=Alternative1": [
+    false,
+    false
+   ],
+   "19A=Alternative2": [
+    false,
+    false
+   ],
+   "19A=Alternative2;2A=Alternative1": [
+    false,
+    false
+   ],
+   "19A=Alternative2;2A=Alternative1;2B=Alternative1": [
+    true,
+    true
+   ],
+   "19A=Alternative2;2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    true,
+    false
+   ],
+   "19A=Alternative2;2A=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "19A=Alternative2;2B=Alternative1": [
+    false,
+    false
+   ],
+   "19A=Alternative2;2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "19A=Alternative2;3F=Alternative1": [
+    false,
+    false
+   ],
+   "2A=Alternative1": [
+    true,
+    true
+   ],
+   "2A=Alternative1;2B=Alternative1": [
+    true,
+    true
+   ],
+   "2A=Alternative1;2B=Alternative1;3F=Alternative1": [
+    true,
+    false
+   ],
+   "2A=Alternative1;3F=Alternative1": [
+    true,
+    false
+   ],
+   "2B=Alternative1": [
+    true,
+    false
+   ],
+   "2B=Alternative1;3F=Alternative1": [
+    false,
+    false
+   ],
+   "3F=Alternative1": [
+    true,
+    false
+   ]
+  },
+  "suggested": {
+   "17B": "Alternative2",
+   "17D2E": "Alternative1",
+   "17F2M": "Alternative3",
+   "19A": "Alternative2",
+   "2A": "Alternative1",
+   "2B": "Alternative1",
+   "3E": "Alternative2",
+   "3F": "Alternative1"
+  },
+  "tsp_state": "ok"
+ }
+}

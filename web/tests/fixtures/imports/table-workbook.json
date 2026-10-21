@@ -1,0 +1,87 @@
+{
+ "input": "table-workbook.xlsx",
+ "read": {
+  "sheets": [
+   {
+    "title": "Contents",
+    "state": "visible",
+    "max_row": 14,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Mixed test: tables'\n2,1\ts\tstr\t'CEICA 1.0.0, engine 1; project digest 8030b2b0f57f'\n4,1\ts\tstr\t'Table'\n4,2\ts\tstr\t'Title'\n4,3\ts\tstr\t'Caption'\n4,4\ts\tstr\t'Rows'\n5,1\ts\tstr\t'Table 1'\n5,2\ts\tstr\t'Study settings'\n5,3\ts\tstr\t'Study settings and the record of this analysis.'\n5,4\tn\tint\t15\n6,1\ts\tstr\t'Table 2'\n6,2\ts\tstr\t'Best-buy plans'\n6,3\ts\tstr\t'Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.'\n6,4\tn\tint\t3\n7,1\ts\tstr\t'Table 3'\n7,2\ts\tstr\t'Final array'\n7,3\ts\tstr\t'Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.'\n7,4\tn\tint\t3\n8,1\ts\tstr\t'Table 4'\n8,2\ts\tstr\t'All plans'\n8,3\ts\tstr\t'The watershed plans: lift, cost and status (4 plans). Site columns: 1 when the plan includes the site, 0 when not.'\n8,4\tn\tint\t4\n9,1\ts\tstr\t'Table 5'\n9,2\ts\tstr\t'Alternatives at every site'\n9,3\ts\tstr\t'Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.'\n9,4\tn\tint\t5\n10,1\ts\tstr\t'Table 6'\n10,2\ts\tstr\t'Site recommendations'\n10,3\ts\tstr\t'The alternative each site carries forward, and the status of that decision.'\n10,4\tn\tint\t2\n11,1\ts\tstr\t'Table 7'\n11,2\ts\tstr\t'Decision record'\n11,3\ts\tstr\t'Decisions and the reasons recorded for them.'\n11,4\tn\tint\t3\n12,1\ts\tstr\t'Table 8'\n12,2\ts\tstr\t'Benefit and cost inputs'\n12,3\ts\tstr\t'Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.'\n12,4\tn\tint\t5\n13,1\ts\tstr\t'Table 9'\n13,2\ts\tstr\t'Output by module'\n13,3\ts\tstr\t'Average annual output by module, the total and the lift over No Action (all in AAHU).'\n13,4\tn\tint\t5\n14,1\ts\tstr\t'Table 10'\n14,2\ts\tstr\t'Cost by category'\n14,3\ts\tstr\t'First costs by category, interest during construction, OMRRR and annualized cost of every alternative.'\n14,4\tn\tint\t5"
+   },
+   {
+    "title": "Table 1",
+    "state": "visible",
+    "max_row": 18,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'Table 1. Study settings and the record of this analysis.'\n3,1\ts\tstr\t'Setting'\n3,2\ts\tstr\t'Value'\n4,1\ts\tstr\t'Study'\n4,2\ts\tstr\t'Mixed test'\n5,1\ts\tstr\t'Sites'\n5,2\ts\tstr\t'2 sites with 5 alternatives, No Action included'\n6,1\ts\tstr\t'Output'\n6,2\ts\tstr\t'Average annual habitat units (AAHU); lift is the output above No Action'\n7,1\ts\tstr\t'Benefit modules'\n7,2\ts\tstr\t'Habitat: values at each target year; Riparian: an index (0 to 1) times acres at each target year; Wetland: an average annual value entered directly'\n8,1\ts\tstr\t'Target years'\n8,2\ts\tstr\t'0, 5, 50'\n9,1\ts\tstr\t'Period of analysis'\n9,2\ts\tstr\t'50 years'\n10,1\ts\tstr\t'Discount rate'\n10,2\ts\tstr\t'3 percent'\n11,1\ts\tstr\t'Average annual output'\n11,2\ts\tstr\t'Straight lines between target years, averaged over the span of the years'\n12,1\ts\tstr\t'Average annual cost'\n12,2\ts\tstr\t'Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year'\n13,1\ts\tstr\t'Comparisons'\n13,2\ts\tstr\t'Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them'\n14,1\ts\tstr\t'Plan formation'\n14,2\ts\tstr\t\"One alternative per site: each site's recommendation\"\n15,1\ts\tstr\t'Plans'\n15,2\ts\tstr\t'4 plans: 3 cost-effective and 3 best buys'\n16,1\ts\tstr\t'Final array'\n16,2\ts\tstr\t'3 plans: P1, P3, P4'\n17,1\ts\tstr\t'Tentatively selected plan'\n17,2\ts\tstr\t'Not chosen yet'\n18,1\ts\tstr\t'Record'\n18,2\ts\tstr\t'CEICA 1.0.0, engine 1; project digest 8030b2b0f57f'"
+   },
+   {
+    "title": "Table 2",
+    "state": "visible",
+    "max_row": 6,
+    "max_column": 8,
+    "cells": "1,1\ts\tstr\t'Table 2. Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.'\n3,1\ts\tstr\t'Plan'\n3,2\ts\tstr\t'A'\n3,3\ts\tstr\t'B'\n3,4\ts\tstr\t'Lift (AAHU)'\n3,5\ts\tstr\t'Average annual cost'\n3,6\ts\tstr\t'Construction cost'\n3,7\ts\tstr\t'Unit cost ($/AAHU)'\n3,8\ts\tstr\t'Incremental cost per AAHU'\n4,1\ts\tstr\t'P1'\n4,2\tn\tint\t0\n4,3\tn\tint\t0\n4,4\tn\tint\t0\n4,5\tn\tint\t0\n4,6\tn\tint\t0\n4,7\ts\tstr\t'n/a'\n4,8\tn\tint\t0\n5,1\ts\tstr\t'P3'\n5,2\tn\tint\t1\n5,3\tn\tint\t0\n5,4\tn\tfloat\t6.208\n5,5\tn\tfloat\t9752.38\n5,6\tn\tint\t250000\n5,7\tn\tfloat\t1570.9375\n5,8\tn\tfloat\t1570.9375\n6,1\ts\tstr\t'P4'\n6,2\tn\tint\t1\n6,3\tn\tint\t1\n6,4\tn\tfloat\t12.138\n6,5\tn\tfloat\t21455.23\n6,6\tn\tint\t550000\n6,7\tn\tfloat\t1767.608337452628\n6,8\tn\tfloat\t1973.49915682968"
+   },
+   {
+    "title": "Table 3",
+    "state": "visible",
+    "max_row": 6,
+    "max_column": 9,
+    "cells": "1,1\ts\tstr\t'Table 3. Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.'\n3,1\ts\tstr\t'Plan'\n3,2\ts\tstr\t'A'\n3,3\ts\tstr\t'B'\n3,4\ts\tstr\t'Lift (AAHU)'\n3,5\ts\tstr\t'Average annual cost'\n3,6\ts\tstr\t'Construction cost'\n3,7\ts\tstr\t'Unit cost ($/AAHU)'\n3,8\ts\tstr\t'Cost-effective'\n3,9\ts\tstr\t'Best buy'\n4,1\ts\tstr\t'P1'\n4,2\tn\tint\t0\n4,3\tn\tint\t0\n4,4\tn\tint\t0\n4,5\tn\tint\t0\n4,6\tn\tint\t0\n4,7\ts\tstr\t'n/a'\n4,8\ts\tstr\t'Yes'\n4,9\ts\tstr\t'Yes'\n5,1\ts\tstr\t'P3'\n5,2\tn\tint\t1\n5,3\tn\tint\t0\n5,4\tn\tfloat\t6.208\n5,5\tn\tfloat\t9752.38\n5,6\tn\tint\t250000\n5,7\tn\tfloat\t1570.9375\n5,8\ts\tstr\t'Yes'\n5,9\ts\tstr\t'Yes'\n6,1\ts\tstr\t'P4'\n6,2\tn\tint\t1\n6,3\tn\tint\t1\n6,4\tn\tfloat\t12.138\n6,5\tn\tfloat\t21455.23\n6,6\tn\tint\t550000\n6,7\tn\tfloat\t1767.608337452628\n6,8\ts\tstr\t'Yes'\n6,9\ts\tstr\t'Yes'"
+   },
+   {
+    "title": "Table 4",
+    "state": "visible",
+    "max_row": 7,
+    "max_column": 9,
+    "cells": "1,1\ts\tstr\t'Table 4. The watershed plans: lift, cost and status (4 plans). Site columns: 1 when the plan includes the site, 0 when not.'\n3,1\ts\tstr\t'Plan'\n3,2\ts\tstr\t'A'\n3,3\ts\tstr\t'B'\n3,4\ts\tstr\t'Lift (AAHU)'\n3,5\ts\tstr\t'Average annual cost'\n3,6\ts\tstr\t'Construction cost'\n3,7\ts\tstr\t'Unit cost ($/AAHU)'\n3,8\ts\tstr\t'Cost-effective'\n3,9\ts\tstr\t'Best buy'\n4,1\ts\tstr\t'P1'\n4,2\tn\tint\t0\n4,3\tn\tint\t0\n4,4\tn\tint\t0\n4,5\tn\tint\t0\n4,6\tn\tint\t0\n4,7\ts\tstr\t'n/a'\n4,8\ts\tstr\t'Yes'\n4,9\ts\tstr\t'Yes'\n5,1\ts\tstr\t'P2'\n5,2\tn\tint\t0\n5,3\tn\tint\t1\n5,4\tn\tfloat\t5.93\n5,5\tn\tfloat\t11702.85\n5,6\tn\tint\t300000\n5,7\tn\tfloat\t1973.49915682968\n5,8\ts\tstr\t'No'\n5,9\ts\tstr\t'No'\n6,1\ts\tstr\t'P3'\n6,2\tn\tint\t1\n6,3\tn\tint\t0\n6,4\tn\tfloat\t6.208\n6,5\tn\tfloat\t9752.38\n6,6\tn\tint\t250000\n6,7\tn\tfloat\t1570.9375\n6,8\ts\tstr\t'Yes'\n6,9\ts\tstr\t'Yes'\n7,1\ts\tstr\t'P4'\n7,2\tn\tint\t1\n7,3\tn\tint\t1\n7,4\tn\tfloat\t12.138\n7,5\tn\tfloat\t21455.23\n7,6\tn\tint\t550000\n7,7\tn\tfloat\t1767.608337452628\n7,8\ts\tstr\t'Yes'\n7,9\ts\tstr\t'Yes'"
+   },
+   {
+    "title": "Table 5",
+    "state": "visible",
+    "max_row": 8,
+    "max_column": 9,
+    "cells": "1,1\ts\tstr\t'Table 5. Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.'\n3,1\ts\tstr\t'Site'\n3,2\ts\tstr\t'Alternative'\n3,3\ts\tstr\t'Lift (AAHU)'\n3,4\ts\tstr\t'Average annual cost'\n3,5\ts\tstr\t'Unit cost ($/AAHU)'\n3,6\ts\tstr\t'Incremental cost per AAHU'\n3,7\ts\tstr\t'Construction cost'\n3,8\ts\tstr\t'Cost-effective'\n3,9\ts\tstr\t'Best buy'\n4,1\ts\tstr\t'A'\n4,2\ts\tstr\t'No Action'\n4,3\tn\tint\t0\n4,4\tn\tint\t0\n4,5\ts\tstr\t'n/a'\n4,6\tn\tint\t0\n4,7\tn\tint\t0\n4,8\ts\tstr\t'Yes'\n4,9\ts\tstr\t'Yes'\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'A1'\n5,3\tn\tfloat\t6.208\n5,4\tn\tfloat\t9752.38\n5,5\tn\tfloat\t1570.9375\n5,6\tn\tfloat\t1570.9375\n5,7\tn\tint\t250000\n5,8\ts\tstr\t'Yes'\n5,9\ts\tstr\t'Yes'\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'A2'\n6,3\tn\tfloat\t3.085\n6,4\tn\tfloat\t7021.71\n6,5\tn\tfloat\t2276.081037277148\n6,7\tn\tint\t180000\n6,8\ts\tstr\t'Yes'\n6,9\ts\tstr\t'No'\n7,1\ts\tstr\t'B'\n7,2\ts\tstr\t'No Action'\n7,3\tn\tint\t0\n7,4\tn\tint\t0\n7,5\ts\tstr\t'n/a'\n7,6\tn\tint\t0\n7,7\tn\tint\t0\n7,8\ts\tstr\t'Yes'\n7,9\ts\tstr\t'Yes'\n8,1\ts\tstr\t'B'\n8,2\ts\tstr\t'B1'\n8,3\tn\tfloat\t5.93\n8,4\tn\tfloat\t11702.85\n8,5\tn\tfloat\t1973.49915682968\n8,6\tn\tfloat\t1973.49915682968\n8,7\tn\tint\t300000\n8,8\ts\tstr\t'Yes'\n8,9\ts\tstr\t'Yes'"
+   },
+   {
+    "title": "Table 6",
+    "state": "visible",
+    "max_row": 5,
+    "max_column": 8,
+    "cells": "1,1\ts\tstr\t'Table 6. The alternative each site carries forward, and the status of that decision.'\n3,1\ts\tstr\t'Site'\n3,2\ts\tstr\t'Recommended alternative'\n3,3\ts\tstr\t'Lift (AAHU)'\n3,4\ts\tstr\t'Average annual cost'\n3,5\ts\tstr\t'Unit cost ($/AAHU)'\n3,6\ts\tstr\t'Construction cost'\n3,7\ts\tstr\t'Carried to plans'\n3,8\ts\tstr\t'Status'\n4,1\ts\tstr\t'A'\n4,2\ts\tstr\t'A1'\n4,3\tn\tfloat\t6.208\n4,4\tn\tfloat\t9752.38\n4,5\tn\tfloat\t1570.9375\n4,6\tn\tint\t250000\n4,7\ts\tstr\t'Yes'\n4,8\ts\tstr\t'Suggested'\n5,1\ts\tstr\t'B'\n5,2\ts\tstr\t'B1'\n5,3\tn\tfloat\t5.93\n5,4\tn\tfloat\t11702.85\n5,5\tn\tfloat\t1973.49915682968\n5,6\tn\tint\t300000\n5,7\ts\tstr\t'Yes'\n5,8\ts\tstr\t'Suggested'"
+   },
+   {
+    "title": "Table 7",
+    "state": "visible",
+    "max_row": 6,
+    "max_column": 3,
+    "cells": "1,1\ts\tstr\t'Table 7. Decisions and the reasons recorded for them.'\n3,1\ts\tstr\t'Subject'\n3,2\ts\tstr\t'Decision'\n3,3\ts\tstr\t'Reason'\n4,1\ts\tstr\t'Site A'\n4,2\ts\tstr\t'A1, suggested, not yet confirmed'\n4,3\ts\tstr\t'No reason recorded.'\n5,1\ts\tstr\t'Site B'\n5,2\ts\tstr\t'B1, suggested, not yet confirmed'\n5,3\ts\tstr\t'No reason recorded.'\n6,1\ts\tstr\t'Tentatively selected plan'\n6,2\ts\tstr\t'Not chosen yet'"
+   },
+   {
+    "title": "Table 8",
+    "state": "visible",
+    "max_row": 8,
+    "max_column": 7,
+    "cells": "1,1\ts\tstr\t'Table 8. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.'\n3,1\ts\tstr\t'Site'\n3,2\ts\tstr\t'Alternative'\n3,3\ts\tstr\t'Output (AAHU)'\n3,4\ts\tstr\t'Lift (AAHU)'\n3,5\ts\tstr\t'Construction cost'\n3,6\ts\tstr\t'Annualized cost'\n3,7\ts\tstr\t'Unit cost ($/AAHU)'\n4,1\ts\tstr\t'A'\n4,2\ts\tstr\t'No Action'\n4,3\tn\tfloat\t1.6\n4,4\tn\tint\t0\n4,5\tn\tint\t0\n4,6\tn\tint\t0\n4,7\ts\tstr\t'n/a'\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'A1'\n5,3\tn\tfloat\t7.807499999999999\n5,4\tn\tfloat\t6.208\n5,5\tn\tint\t250000\n5,6\tn\tfloat\t9752.377544367695\n5,7\tn\tfloat\t1570.9375\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'A2'\n6,3\tn\tfloat\t4.685\n6,4\tn\tfloat\t3.085\n6,5\tn\tint\t180000\n6,6\tn\tfloat\t7021.71183194474\n6,7\tn\tfloat\t2276.081037277148\n7,1\ts\tstr\t'B'\n7,2\ts\tstr\t'No Action'\n7,3\tn\tfloat\t2.4\n7,4\tn\tint\t0\n7,5\tn\tint\t0\n7,6\tn\tint\t0\n7,7\ts\tstr\t'n/a'\n8,1\ts\tstr\t'B'\n8,2\ts\tstr\t'B1'\n8,3\tn\tfloat\t8.33\n8,4\tn\tfloat\t5.93\n8,5\tn\tint\t300000\n8,6\tn\tfloat\t11702.85305324123\n8,7\tn\tfloat\t1973.49915682968"
+   },
+   {
+    "title": "Table 9",
+    "state": "visible",
+    "max_row": 8,
+    "max_column": 8,
+    "cells": "1,1\ts\tstr\t'Table 9. Average annual output by module, the total and the lift over No Action (all in AAHU).'\n3,1\ts\tstr\t'Site'\n3,2\ts\tstr\t'Alternative'\n3,3\ts\tstr\t'Habitat (AAHU)'\n3,4\ts\tstr\t'Riparian (AAHU)'\n3,5\ts\tstr\t'Wetland (AAHU)'\n3,6\ts\tstr\t'Total (AAHU)'\n3,7\ts\tstr\t'No Action total (AAHU)'\n3,8\ts\tstr\t'Lift (AAHU)'\n4,1\ts\tstr\t'A'\n4,2\ts\tstr\t'No Action'\n4,3\tn\tint\t1\n4,4\tn\tfloat\t0.6000000000000001\n4,5\tn\tint\t0\n4,6\tn\tfloat\t1.6\n4,7\tn\tfloat\t1.6\n4,8\tn\tint\t0\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'A1'\n5,3\tn\tfloat\t4.3\n5,4\tn\tfloat\t2.0075\n5,5\tn\tfloat\t1.5\n5,6\tn\tfloat\t7.807499999999999\n5,7\tn\tfloat\t1.6\n5,8\tn\tfloat\t6.2075\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'A2'\n6,3\tn\tfloat\t2.175\n6,4\tn\tfloat\t2.01\n6,5\tn\tfloat\t0.5\n6,6\tn\tfloat\t4.685\n6,7\tn\tfloat\t1.6\n6,8\tn\tfloat\t3.085\n7,1\ts\tstr\t'B'\n7,2\ts\tstr\t'No Action'\n7,3\tn\tint\t2\n7,4\tn\tfloat\t0.4\n7,5\tn\tint\t0\n7,6\tn\tfloat\t2.4\n7,7\tn\tfloat\t2.4\n7,8\tn\tint\t0\n8,1\ts\tstr\t'B'\n8,2\ts\tstr\t'B1'\n8,3\tn\tfloat\t5.3\n8,4\tn\tfloat\t1.03\n8,5\tn\tint\t2\n8,6\tn\tfloat\t8.33\n8,7\tn\tfloat\t2.4\n8,8\tn\tfloat\t5.93"
+   },
+   {
+    "title": "Table 10",
+    "state": "visible",
+    "max_row": 8,
+    "max_column": 9,
+    "cells": "1,1\ts\tstr\t'Table 10. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.'\n3,1\ts\tstr\t'Site'\n3,2\ts\tstr\t'Alternative'\n3,3\ts\tstr\t'Months'\n3,4\ts\tstr\t'Construction'\n3,5\ts\tstr\t'Monitoring'\n3,6\ts\tstr\t'Adaptive management'\n3,7\ts\tstr\t'Interest during construction'\n3,8\ts\tstr\t'OMRRR annual cost'\n3,9\ts\tstr\t'Annualized cost'\n4,1\ts\tstr\t'A'\n4,2\ts\tstr\t'No Action'\n4,3\tn\tint\t4\n4,4\tn\tint\t0\n4,5\tn\tint\t0\n4,6\tn\tint\t0\n4,7\tn\tint\t0\n4,8\tn\tint\t0\n4,9\tn\tint\t0\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'A1'\n5,3\tn\tint\t4\n5,4\tn\tint\t250000\n5,5\tn\tint\t0\n5,6\tn\tint\t0\n5,7\tn\tfloat\t926.3727238271318\n5,8\tn\tint\t0\n5,9\tn\tfloat\t9752.377544367695\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'A2'\n6,3\tn\tint\t4\n6,4\tn\tint\t180000\n6,5\tn\tint\t0\n6,6\tn\tint\t0\n6,7\tn\tfloat\t666.9883611555349\n6,8\tn\tint\t0\n6,9\tn\tfloat\t7021.71183194474\n7,1\ts\tstr\t'B'\n7,2\ts\tstr\t'No Action'\n7,3\tn\tint\t4\n7,4\tn\tint\t0\n7,5\tn\tint\t0\n7,6\tn\tint\t0\n7,7\tn\tint\t0\n7,8\tn\tint\t0\n7,9\tn\tint\t0\n8,1\ts\tstr\t'B'\n8,2\ts\tstr\t'B1'\n8,3\tn\tint\t4\n8,4\tn\tint\t300000\n8,5\tn\tint\t0\n8,6\tn\tint\t0\n8,7\tn\tfloat\t1111.647268592558\n8,8\tn\tint\t0\n8,9\tn\tfloat\t11702.85305324123"
+   }
+  ]
+ },
+ "result": {
+  "error": "WorkbookError: This workbook is neither a CEICA calculator nor a CEICA template (no Alternatives sheet)."
+ }
+}

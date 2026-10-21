@@ -1,0 +1,724 @@
+{
+ "zip": {
+  "entries": [
+   {
+    "name": "[Content_Types].xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 2300411807,
+    "csize": 431,
+    "size": 2044
+   },
+   {
+    "name": "_rels/.rels",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1078666873,
+    "csize": 248,
+    "size": 734
+   },
+   {
+    "name": "docProps/core.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1234540823,
+    "csize": 457,
+    "size": 853
+   },
+   {
+    "name": "docProps/app.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 400284660,
+    "csize": 491,
+    "size": 1132
+   },
+   {
+    "name": "word/document.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 239377280,
+    "csize": 22698,
+    "size": 734907
+   },
+   {
+    "name": "word/_rels/document.xml.rels",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 3859684107,
+    "csize": 468,
+    "size": 3753
+   },
+   {
+    "name": "word/styles.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 699805720,
+    "csize": 12170,
+    "size": 349538
+   },
+   {
+    "name": "word/stylesWithEffects.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 3548543328,
+    "csize": 13625,
+    "size": 438131
+   },
+   {
+    "name": "word/settings.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1598439331,
+    "csize": 959,
+    "size": 2535
+   },
+   {
+    "name": "word/webSettings.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1407539944,
+    "csize": 256,
+    "size": 438
+   },
+   {
+    "name": "word/fontTable.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1939880443,
+    "csize": 611,
+    "size": 2811
+   },
+   {
+    "name": "word/theme/theme1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 3089252756,
+    "csize": 1734,
+    "size": 10939
+   },
+   {
+    "name": "customXml/item1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 3610935454,
+    "csize": 167,
+    "size": 262
+   },
+   {
+    "name": "customXml/_rels/item1.xml.rels",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 3588606526,
+    "csize": 189,
+    "size": 295
+   },
+   {
+    "name": "customXml/itemProps1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1296874421,
+    "csize": 225,
+    "size": 354
+   },
+   {
+    "name": "word/numbering.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 2307379344,
+    "csize": 875,
+    "size": 5513
+   },
+   {
+    "name": "word/header1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 2574152599,
+    "csize": 443,
+    "size": 1412
+   },
+   {
+    "name": "word/footer1.xml",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 256803240,
+    "csize": 556,
+    "size": 2584
+   },
+   {
+    "name": "word/media/image1.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image2.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image3.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image4.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image5.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image6.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image7.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image8.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image9.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image10.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image11.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image12.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image13.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image14.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image15.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image16.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "word/media/image17.png",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00"
+   },
+   {
+    "name": "docProps/thumbnail.jpeg",
+    "method": 8,
+    "flags": 0,
+    "made": 20,
+    "needed": 20,
+    "attr": 25165824,
+    "time": "2026-10-18 12:00:00",
+    "crc": 1742129314,
+    "csize": 1469,
+    "size": 8324
+   }
+  ],
+  "parts": [
+   [
+    "[Content_Types].xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"jpeg\" ContentType=\"image/jpeg\"/><Default Extension=\"png\" ContentType=\"image/png\"/><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/customXml/itemProps1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.customXmlProperties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/word/document.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml\"/><Override PartName=\"/word/fontTable.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml\"/><Override PartName=\"/word/footer1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml\"/><Override PartName=\"/word/header1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.header+xml\"/><Override PartName=\"/word/numbering.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml\"/><Override PartName=\"/word/settings.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml\"/><Override PartName=\"/word/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml\"/><Override PartName=\"/word/stylesWithEffects.xml\" ContentType=\"application/vnd.ms-word.stylesWithEffects+xml\"/><Override PartName=\"/word/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/word/webSettings.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml\"/></Types>"
+    }
+   ],
+   [
+    "_rels/.rels",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId3\" Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\"/><Relationship Id=\"rId4\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\"/><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"word/document.xml\"/><Relationship Id=\"rId2\" Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail\" Target=\"docProps/thumbnail.jpeg\"/></Relationships>"
+    }
+   ],
+   [
+    "docProps/core.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:dcmitype=\"http://purl.org/dc/dcmitype/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><dc:title>=Title that starts with equals</dc:title><dc:subject>Cost-effectiveness and incremental cost analysis: figures and tables</dc:subject><dc:creator>José Núñez &amp; Co.</dc:creator><cp:keywords/><dc:description>generated by python-docx</dc:description><cp:lastModifiedBy/><cp:revision>1</cp:revision><dcterms:created xsi:type=\"dcterms:W3CDTF\">2013-12-23T23:15:00Z</dcterms:created><dcterms:modified xsi:type=\"dcterms:W3CDTF\">2013-12-23T23:15:00Z</dcterms:modified><cp:category/></cp:coreProperties>"
+    }
+   ],
+   [
+    "docProps/app.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\" xmlns:vt=\"http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes\">\n  <Template>Normal.dotm</Template>\n  <TotalTime>0</TotalTime>\n  <Pages>1</Pages>\n  <Words>0</Words>\n  <Characters>0</Characters>\n  <Application>Microsoft Macintosh Word</Application>\n  <DocSecurity>0</DocSecurity>\n  <Lines>0</Lines>\n  <Paragraphs>0</Paragraphs>\n  <ScaleCrop>false</ScaleCrop>\n  <HeadingPairs>\n    <vt:vector size=\"2\" baseType=\"variant\">\n      <vt:variant>\n        <vt:lpstr>Title</vt:lpstr>\n      </vt:variant>\n      <vt:variant>\n        <vt:i4>1</vt:i4>\n      </vt:variant>\n    </vt:vector>\n  </HeadingPairs>\n  <TitlesOfParts>\n    <vt:vector size=\"1\" baseType=\"lpstr\">\n      <vt:lpstr/>\n    </vt:vector>\n  </TitlesOfParts>\n  <Manager/>\n  <Company/>\n  <LinksUpToDate>false</LinksUpToDate>\n  <CharactersWithSpaces>0</CharactersWithSpaces>\n  <SharedDoc>false</SharedDoc>\n  <HyperlinkBase/>\n  <HyperlinksChanged>false</HyperlinksChanged>\n  <AppVersion>14.0000</AppVersion>\n</Properties>\n"
+    }
+   ],
+   [
+    "word/document.xml",
+    {
+     "digest": "sha256:3809c966cf991159:734907"
+    }
+   ],
+   [
+    "word/_rels/document.xml.rels",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId3\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\"/><Relationship Id=\"rId4\" Type=\"http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects\" Target=\"stylesWithEffects.xml\"/><Relationship Id=\"rId5\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings\" Target=\"settings.xml\"/><Relationship Id=\"rId6\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings\" Target=\"webSettings.xml\"/><Relationship Id=\"rId7\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable\" Target=\"fontTable.xml\"/><Relationship Id=\"rId8\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\"/><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml\" Target=\"../customXml/item1.xml\"/><Relationship Id=\"rId2\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering\" Target=\"numbering.xml\"/><Relationship Id=\"rId9\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/header\" Target=\"header1.xml\"/><Relationship Id=\"rId10\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer\" Target=\"footer1.xml\"/><Relationship Id=\"rId11\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image1.png\"/><Relationship Id=\"rId12\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image2.png\"/><Relationship Id=\"rId13\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image3.png\"/><Relationship Id=\"rId14\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image4.png\"/><Relationship Id=\"rId15\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image5.png\"/><Relationship Id=\"rId16\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image6.png\"/><Relationship Id=\"rId17\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image7.png\"/><Relationship Id=\"rId18\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image8.png\"/><Relationship Id=\"rId19\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image9.png\"/><Relationship Id=\"rId20\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image10.png\"/><Relationship Id=\"rId21\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image11.png\"/><Relationship Id=\"rId22\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image12.png\"/><Relationship Id=\"rId23\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image13.png\"/><Relationship Id=\"rId24\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image14.png\"/><Relationship Id=\"rId25\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image15.png\"/><Relationship Id=\"rId26\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image16.png\"/><Relationship Id=\"rId27\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/image\" Target=\"media/image17.png\"/></Relationships>"
+    }
+   ],
+   [
+    "word/styles.xml",
+    {
+     "digest": "sha256:bfa18b8c730b69db:349538"
+    }
+   ],
+   [
+    "word/stylesWithEffects.xml",
+    {
+     "digest": "sha256:463ae0928cf0d847:438131"
+    }
+   ],
+   [
+    "word/settings.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:settings xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:sl=\"http://schemas.openxmlformats.org/schemaLibrary/2006/main\" mc:Ignorable=\"w14\"><w:zoom w:val=\"bestFit\"/><w:proofState w:spelling=\"clean\" w:grammar=\"clean\"/><w:defaultTabStop w:val=\"720\"/><w:characterSpacingControl w:val=\"doNotCompress\"/><w:savePreviewPicture/><w:compat><w:useFELayout/><w:compatSetting w:name=\"compatibilityMode\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"14\"/><w:compatSetting w:name=\"overrideTableStyleFontSizeAndJustification\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/><w:compatSetting w:name=\"enableOpenTypeFeatures\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/><w:compatSetting w:name=\"doNotFlipMirrorIndents\" w:uri=\"http://schemas.microsoft.com/office/word\" w:val=\"1\"/></w:compat><w:rsids><w:rsidRoot w:val=\"00B47730\"/><w:rsid w:val=\"00034616\"/><w:rsid w:val=\"0006063C\"/><w:rsid w:val=\"0015074B\"/><w:rsid w:val=\"0029639D\"/><w:rsid w:val=\"00326F90\"/><w:rsid w:val=\"00AA1D8D\"/><w:rsid w:val=\"00B47730\"/><w:rsid w:val=\"00CB0664\"/><w:rsid w:val=\"00FC693F\"/></w:rsids><m:mathPr><m:mathFont m:val=\"Cambria Math\"/><m:brkBin m:val=\"before\"/><m:brkBinSub m:val=\"--\"/><m:smallFrac m:val=\"0\"/><m:dispDef/><m:lMargin m:val=\"0\"/><m:rMargin m:val=\"0\"/><m:defJc m:val=\"centerGroup\"/><m:wrapIndent m:val=\"1440\"/><m:intLim m:val=\"subSup\"/><m:naryLim m:val=\"undOvr\"/></m:mathPr><w:themeFontLang w:val=\"en-US\" w:eastAsia=\"ja-JP\"/><w:clrSchemeMapping w:bg1=\"light1\" w:t1=\"dark1\" w:bg2=\"light2\" w:t2=\"dark2\" w:accent1=\"accent1\" w:accent2=\"accent2\" w:accent3=\"accent3\" w:accent4=\"accent4\" w:accent5=\"accent5\" w:accent6=\"accent6\" w:hyperlink=\"hyperlink\" w:followedHyperlink=\"followedHyperlink\"/><w:doNotAutoCompressPictures/><w:shapeDefaults><o:shapedefaults v:ext=\"edit\" spidmax=\"1027\"/><o:shapelayout v:ext=\"edit\"><o:idmap v:ext=\"edit\" data=\"1\"/></o:shapelayout></w:shapeDefaults><w:decimalSymbol w:val=\".\"/><w:listSeparator w:val=\",\"/><w14:docId w14:val=\"24062061\"/><w14:defaultImageDpi w14:val=\"300\"/></w:settings>"
+    }
+   ],
+   [
+    "word/webSettings.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:webSettings xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" mc:Ignorable=\"w14\">\n  <w:allowPNG/>\n  <w:doNotSaveAsSingleFile/>\n</w:webSettings>\n"
+    }
+   ],
+   [
+    "word/fontTable.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:fonts xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" mc:Ignorable=\"w14\">\n  <w:font w:name=\"Symbol\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"02\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"00000000\" w:usb1=\"10000000\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"80000000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Times New Roman\">\n    <w:panose1 w:val=\"02020603050405020304\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E0002AFF\" w:usb1=\"C0007841\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"000001FF\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Cambria\">\n    <w:panose1 w:val=\"02040503050406030204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E00002FF\" w:usb1=\"400004FF\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"0000019F\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"ＭＳ 明朝\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"80\"/>\n    <w:family w:val=\"roman\"/>\n    <w:notTrueType/>\n    <w:pitch w:val=\"fixed\"/>\n    <w:sig w:usb0=\"00000001\" w:usb1=\"08070000\" w:usb2=\"00000010\" w:usb3=\"00000000\" w:csb0=\"00020000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Calibri\">\n    <w:panose1 w:val=\"020F0502020204030204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E10002FF\" w:usb1=\"4000ACFF\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"0000019F\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"ＭＳ ゴシック\">\n    <w:panose1 w:val=\"00000000000000000000\"/>\n    <w:charset w:val=\"80\"/>\n    <w:family w:val=\"modern\"/>\n    <w:notTrueType/>\n    <w:pitch w:val=\"fixed\"/>\n    <w:sig w:usb0=\"00000001\" w:usb1=\"08070000\" w:usb2=\"00000010\" w:usb3=\"00000000\" w:csb0=\"00020000\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Courier\">\n    <w:panose1 w:val=\"02000500000000000000\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"00000003\" w:usb1=\"00000000\" w:usb2=\"00000000\" w:usb3=\"00000000\" w:csb0=\"00000001\" w:csb1=\"00000000\"/>\n  </w:font>\n  <w:font w:name=\"Arial\">\n    <w:panose1 w:val=\"020B0604020202020204\"/>\n    <w:charset w:val=\"00\"/>\n    <w:family w:val=\"auto\"/>\n    <w:pitch w:val=\"variable\"/>\n    <w:sig w:usb0=\"E0002AFF\" w:usb1=\"C0007843\" w:usb2=\"00000009\" w:usb3=\"00000000\" w:csb0=\"000001FF\" w:csb1=\"00000000\"/>\n  </w:font>\n</w:fonts>\n"
+    }
+   ],
+   [
+    "word/theme/theme1.xml",
+    {
+     "digest": "sha256:e3a8ab7db9ca7afc:10939"
+    }
+   ],
+   [
+    "customXml/item1.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<b:Sources xmlns:b=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\" SelectedStyle=\"/APA.XSL\" StyleName=\"APA\"/>\n"
+    }
+   ],
+   [
+    "customXml/_rels/item1.xml.rels",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Id=\"rId1\" Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps\" Target=\"itemProps1.xml\"/></Relationships>"
+    }
+   ],
+   [
+    "customXml/itemProps1.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<ds:datastoreItem xmlns:ds=\"http://schemas.openxmlformats.org/officeDocument/2006/customXml\" ds:itemID=\"{EF278816-EC6F-A645-907D-7F25AECB1D4A}\">\n  <ds:schemaRefs>\n    <ds:schemaRef ds:uri=\"http://schemas.openxmlformats.org/officeDocument/2006/bibliography\"/>\n  </ds:schemaRefs>\n</ds:datastoreItem>\n"
+    }
+   ],
+   [
+    "word/numbering.xml",
+    {
+     "digest": "sha256:70976f19cbcd896e:5513"
+    }
+   ],
+   [
+    "word/header1.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:hdr xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" mc:Ignorable=\"w14 wp14\"><w:p><w:pPr><w:pStyle w:val=\"Header\"/></w:pPr><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>=Title that starts with equals    DRAFT</w:t></w:r></w:p></w:hdr>"
+    }
+   ],
+   [
+    "word/footer1.xml",
+    {
+     "text": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<w:ftr xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" mc:Ignorable=\"w14 wp14\"><w:p><w:pPr><w:pStyle w:val=\"Footer\"/></w:pPr><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t xml:space=\"preserve\">CEICA 1.0.0 (engine 1) | inputs 9e647ed0bd67    Page </w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"begin\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:instrText xml:space=\"preserve\"> PAGE </w:instrText></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"separate\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>1</w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"end\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t xml:space=\"preserve\"> of </w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"begin\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:instrText xml:space=\"preserve\"> NUMPAGES </w:instrText></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"separate\"/></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:t>1</w:t></w:r><w:r><w:rPr><w:color w:val=\"646F80\"/><w:sz w:val=\"16\"/></w:rPr><w:fldChar w:fldCharType=\"end\"/></w:r></w:p></w:ftr>"
+    }
+   ],
+   [
+    "word/media/image1.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image2.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image3.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image4.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image5.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image6.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image7.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image8.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image9.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 471,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image10.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image11.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image12.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image13.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image14.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image15.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image16.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "word/media/image17.png",
+    {
+     "png": {
+      "width": 1321,
+      "height": 417,
+      "ppm": [
+       5118,
+       5118
+      ]
+     }
+    }
+   ],
+   [
+    "docProps/thumbnail.jpeg",
+    {
+     "digest": "sha256:96367138dc44ce09:8324"
+    }
+   ]
+  ]
+ }
+}

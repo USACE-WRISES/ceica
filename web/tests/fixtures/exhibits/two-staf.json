@@ -1,0 +1,1713 @@
+{
+ "stem": "Two STAF modules CE-ICA 2026-10-18",
+ "safe": "Two STAF modules",
+ "catalog": [
+  {
+   "id": "settings",
+   "kind": "table",
+   "group": "study",
+   "number": 1,
+   "label": "Table 1",
+   "title": "Study settings",
+   "caption": "Study settings and the record of this analysis.",
+   "key": true,
+   "n_rows": 16,
+   "file": "Table 01 Study settings"
+  },
+  {
+   "id": "plans-bb",
+   "kind": "table",
+   "group": "plans",
+   "number": 2,
+   "label": "Table 2",
+   "title": "Best-buy plans",
+   "caption": "Best-buy plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": true,
+   "n_rows": 2,
+   "file": "Table 02 Best-buy plans"
+  },
+  {
+   "id": "plans-final",
+   "kind": "table",
+   "group": "plans",
+   "number": 3,
+   "label": "Table 3",
+   "title": "Final array",
+   "caption": "Final array of plans. Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": true,
+   "n_rows": 2,
+   "file": "Table 03 Final array"
+  },
+  {
+   "id": "plans-all",
+   "kind": "table",
+   "group": "plans",
+   "number": 4,
+   "label": "Table 4",
+   "title": "All plans",
+   "caption": "The plans: lift, cost and status (2 plans). Site columns: 1 when the plan includes the site, 0 when not.",
+   "key": false,
+   "n_rows": 2,
+   "file": "Table 04 All plans"
+  },
+  {
+   "id": "fig-site-R1",
+   "kind": "figure",
+   "group": "sites",
+   "number": 1,
+   "label": "Figure 1",
+   "title": "Site R1",
+   "caption": "Cost-effectiveness (A) and incremental cost (B) of the alternatives at site R1.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 01 Site R1"
+  },
+  {
+   "id": "sites-alts",
+   "kind": "table",
+   "group": "sites",
+   "number": 5,
+   "label": "Table 5",
+   "title": "Alternatives at every site",
+   "caption": "Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.",
+   "key": false,
+   "n_rows": 3,
+   "file": "Table 05 Alternatives at every site"
+  },
+  {
+   "id": "site-recs",
+   "kind": "table",
+   "group": "sites",
+   "number": 6,
+   "label": "Table 6",
+   "title": "Site recommendations",
+   "caption": "The alternative each site carries forward, and the status of that decision.",
+   "key": true,
+   "n_rows": 1,
+   "file": "Table 06 Site recommendations"
+  },
+  {
+   "id": "fig-staf-R1-main",
+   "kind": "figure",
+   "group": "staf",
+   "number": 2,
+   "label": "Figure 2",
+   "title": "STAF, site R1, Mainstem",
+   "caption": "Ecosystem Condition Index over time (A) and lift by outcome (B) at site R1, Mainstem. The existing condition is 0.40 (Functioning-at-Risk); A2 reaches 0.73 (Functioning) by year 50.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 02 STAF, site R1, Mainstem"
+  },
+  {
+   "id": "fig-staf-R1-trib",
+   "kind": "figure",
+   "group": "staf",
+   "number": 3,
+   "label": "Figure 3",
+   "title": "STAF, site R1, Tributary",
+   "caption": "Ecosystem Condition Index over time (A) and lift by outcome (B) at site R1, Tributary. The existing condition is 0.60 (Functioning-at-Risk); A2 reaches 0.77 (Functioning) by year 50.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 03 STAF, site R1, Tributary"
+  },
+  {
+   "id": "staf-outcomes",
+   "kind": "table",
+   "group": "staf",
+   "number": 7,
+   "label": "Table 7",
+   "title": "Lift by outcome",
+   "caption": "Lift of the recommended alternatives by outcome.",
+   "key": false,
+   "n_rows": 1,
+   "file": "Table 07 Lift by outcome"
+  },
+  {
+   "id": "decisions",
+   "kind": "table",
+   "group": "decisions",
+   "number": 8,
+   "label": "Table 8",
+   "title": "Decision record",
+   "caption": "Decisions and the reasons recorded for them.",
+   "key": true,
+   "n_rows": 2,
+   "file": "Table 08 Decision record"
+  },
+  {
+   "id": "fig-bc-R1",
+   "kind": "figure",
+   "group": "inputs",
+   "number": 4,
+   "label": "Figure 4",
+   "title": "Benefits and costs, site R1",
+   "caption": "Habitat units over time (A) and average annual cost by part (B) of the alternatives at site R1.",
+   "key": false,
+   "n_rows": null,
+   "file": "Figure 04 Benefits and costs, site R1"
+  },
+  {
+   "id": "inputs",
+   "kind": "table",
+   "group": "inputs",
+   "number": 9,
+   "label": "Table 9",
+   "title": "Benefit and cost inputs",
+   "caption": "Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.",
+   "key": false,
+   "n_rows": 3,
+   "file": "Table 09 Benefit and cost inputs"
+  },
+  {
+   "id": "outputs-by-module",
+   "kind": "table",
+   "group": "inputs",
+   "number": 10,
+   "label": "Table 10",
+   "title": "Output by module",
+   "caption": "Average annual output by module, the total and the lift over No Action (all in AAHU).",
+   "key": false,
+   "n_rows": 3,
+   "file": "Table 10 Output by module"
+  },
+  {
+   "id": "costs",
+   "kind": "table",
+   "group": "inputs",
+   "number": 11,
+   "label": "Table 11",
+   "title": "Cost by category",
+   "caption": "First costs by category, interest during construction, OMRRR and annualized cost of every alternative.",
+   "key": false,
+   "n_rows": 3,
+   "file": "Table 11 Cost by category"
+  }
+ ],
+ "tables": {
+  "settings": {
+   "columns": [
+    [
+     "Setting",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Value",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "Study"
+     ],
+     [
+      "s",
+      "Two STAF modules"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Sites"
+     ],
+     [
+      "s",
+      "1 site with 3 alternatives, No Action included"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Output"
+     ],
+     [
+      "s",
+      "Average annual habitat units (AAHU); lift is the output above No Action"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Benefit modules"
+     ],
+     [
+      "s",
+      "Mainstem: the STAF Ecosystem Condition Index times ft at each target year; Tributary: the STAF Ecosystem Condition Index times ft at each target year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Target years"
+     ],
+     [
+      "s",
+      "0, 10, 50"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Period of analysis"
+     ],
+     [
+      "s",
+      "50 years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Discount rate"
+     ],
+     [
+      "s",
+      "3 percent"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual output"
+     ],
+     [
+      "s",
+      "Straight lines between target years, averaged over the span of the years"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Average annual cost"
+     ],
+     [
+      "s",
+      "Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Comparisons"
+     ],
+     [
+      "s",
+      "Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them"
+     ]
+    ],
+    [
+     [
+      "s",
+      "STAF outcome mapping"
+     ],
+     [
+      "s",
+      "STAF documentation, EASI and DEEP (A)"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plan formation"
+     ],
+     [
+      "s",
+      "One alternative per site: each site's recommendation"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Plans"
+     ],
+     [
+      "s",
+      "2 plans: 2 cost-effective and 2 best buys"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Final array"
+     ],
+     [
+      "s",
+      "2 plans: P1, P2"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Tentatively selected plan"
+     ],
+     [
+      "s",
+      "Not chosen yet"
+     ]
+    ],
+    [
+     [
+      "s",
+      "Record"
+     ],
+     [
+      "s",
+      "CEICA 1.0.0, engine 1; project digest 1147a2ea6d7e"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-bb": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "R1",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AAHU",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-bb/actions": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Actions",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AAHU",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-final": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "R1",
+     "count",
+     0,
+     "c"
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "i",
+      0
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "i",
+      1
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "plans-final/actions": {
+   "columns": [
+    [
+     "Plan",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Actions",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "P1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "P2"
+     ],
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "sites-alts": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Incremental cost per AAHU",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Cost-effective",
+     "flag",
+     0,
+     ""
+    ],
+    [
+     "Best buy",
+     "flag",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A1"
+     ],
+     [
+      "f",
+      "143.0"
+     ],
+     [
+      "f",
+      "7821.18"
+     ],
+     [
+      "f",
+      "54.69356643356643"
+     ],
+     [
+      "f",
+      "54.69356643356643"
+     ],
+     [
+      "f",
+      "200000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "f",
+      "102.5508480798884"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "b",
+      true
+     ],
+     [
+      "b",
+      true
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "site-recs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Recommended alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Average annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Carried to plans",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Status",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "17597.66"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "s",
+      "Yes"
+     ],
+     [
+      "s",
+      "Suggested"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "staf-outcomes": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Physical (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Chemical (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Biological (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "79.44444444444446"
+     ],
+     [
+      "f",
+      "79.44444444444446"
+     ],
+     [
+      "f",
+      "79.44444444444444"
+     ],
+     [
+      "f",
+      "238.33333333333334"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "decisions": {
+   "columns": [
+    [
+     "Subject",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Decision",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Reason",
+     "text",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "Site R1"
+     ],
+     [
+      "s",
+      "A2, suggested, not yet confirmed"
+     ],
+     [
+      "s",
+      "No reason recorded."
+     ]
+    ],
+    [
+     [
+      "s",
+      "Tentatively selected plan"
+     ],
+     [
+      "s",
+      "Not chosen yet"
+     ],
+     [
+      "s",
+      ""
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "inputs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Output (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Construction cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Annualized cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Unit cost ($/AAHU)",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "600.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "n",
+      null
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A1"
+     ],
+     [
+      "f",
+      "743.0"
+     ],
+     [
+      "f",
+      "143.0"
+     ],
+     [
+      "f",
+      "200000.0"
+     ],
+     [
+      "f",
+      "7821.18317643053"
+     ],
+     [
+      "f",
+      "54.69356643356643"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "838.3333333333334"
+     ],
+     [
+      "f",
+      "238.333"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "17597.662146968694"
+     ],
+     [
+      "f",
+      "73.83643893208242"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "outputs-by-module": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Mainstem (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Tributary (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Total (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "No Action total (AAHU)",
+     "number",
+     2,
+     ""
+    ],
+    [
+     "Lift (AAHU)",
+     "number",
+     2,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "359.99999999999994"
+     ],
+     [
+      "f",
+      "240.00000000000003"
+     ],
+     [
+      "f",
+      "600.0"
+     ],
+     [
+      "f",
+      "600.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A1"
+     ],
+     [
+      "f",
+      "477.00000000000006"
+     ],
+     [
+      "f",
+      "266.0"
+     ],
+     [
+      "f",
+      "743.0"
+     ],
+     [
+      "f",
+      "600.0"
+     ],
+     [
+      "f",
+      "143.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "555.0"
+     ],
+     [
+      "f",
+      "283.33333333333337"
+     ],
+     [
+      "f",
+      "838.3333333333334"
+     ],
+     [
+      "f",
+      "600.0"
+     ],
+     [
+      "f",
+      "238.33333333333337"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  },
+  "costs": {
+   "columns": [
+    [
+     "Site",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Alternative",
+     "text",
+     0,
+     ""
+    ],
+    [
+     "Months",
+     "number",
+     1,
+     ""
+    ],
+    [
+     "Construction",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Monitoring",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Adaptive management",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Interest during construction",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "OMRRR annual cost",
+     "money",
+     0,
+     ""
+    ],
+    [
+     "Annualized cost",
+     "money",
+     0,
+     ""
+    ]
+   ],
+   "rows": [
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "No Action"
+     ],
+     [
+      "f",
+      "6.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A1"
+     ],
+     [
+      "f",
+      "6.0"
+     ],
+     [
+      "f",
+      "200000.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "1237.1973851404762"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "7821.18317643053"
+     ]
+    ],
+    [
+     [
+      "s",
+      "R1"
+     ],
+     [
+      "s",
+      "A2"
+     ],
+     [
+      "f",
+      "6.0"
+     ],
+     [
+      "f",
+      "450000.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "2783.694116566071"
+     ],
+     [
+      "f",
+      "0.0"
+     ],
+     [
+      "f",
+      "17597.662146968694"
+     ]
+    ]
+   ],
+   "total_last": false,
+   "landscape": false,
+   "note": ""
+  }
+ },
+ "figures": {
+  "fig-site-R1": {
+   "svg": "sha256:82fe63eeb2e1e2f8:9134",
+   "filename": "Two STAF modules Figure 01 Site R1.svg"
+  },
+  "fig-staf-R1-main": {
+   "svg": "sha256:45051435e1dee668:8871",
+   "filename": "Two STAF modules Figure 02 STAF, site R1, Mainstem.svg"
+  },
+  "fig-staf-R1-trib": {
+   "svg": "sha256:391aad1b1fc3de65:8426",
+   "filename": "Two STAF modules Figure 03 STAF, site R1, Tributary.svg"
+  },
+  "fig-bc-R1": {
+   "svg": "sha256:078c2f155356830a:8099",
+   "filename": "Two STAF modules Figure 04 Benefits and costs, site R1.svg"
+  }
+ },
+ "project_file": "Two STAF modules CE-ICA 2026-10-18.ceica"
+}

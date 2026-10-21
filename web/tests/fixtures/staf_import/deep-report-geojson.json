@@ -1,0 +1,57 @@
+{
+ "input": "deep-report-geojson.geojson",
+ "name": "deep-report.geojson",
+ "read": {
+  "tool": "DEEP",
+  "kind": "report GeoJSON",
+  "filename": "deep-report.geojson",
+  "sha256": "184e814fc63bd97a033356428aff8ca1559e08b362572a31de51ad5d4a242c9e",
+  "mapping": "A",
+  "warnings": [],
+  "reaches": [
+   {
+    "reach_id": "12345",
+    "name": "Demo Creek",
+    "scores": {
+     "catchment-hydrology": 9.25,
+     "reach-inflow": 11.5,
+     "channel-evolution": 7.75,
+     "nutrient-cycling": 12.0,
+     "habitat-provision": 6.0
+    },
+    "not_assessed": [
+     "surface-water-storage",
+     "streamflow-regime",
+     "low-flow-baseflow-dynamics",
+     "high-flow-dynamics",
+     "floodplain-connectivity",
+     "hyporheic-connectivity",
+     "channel-floodplain-dynamics",
+     "sediment-continuity",
+     "bed-composition-bedform-dynamics",
+     "light-thermal-regime",
+     "carbon-processing",
+     "water-soil-quality",
+     "population-support",
+     "community-dynamics",
+     "watershed-connectivity"
+    ],
+    "length_ft": 5280.0,
+    "notes": [
+     "DEEP reports an ECI range for this assessment (0.20 to 0.70): its bundle does not cover all 20 functions. CEICA scores the assessed functions only, so read the ECI as a relative measure for comparing alternatives, not as a condition claim."
+    ],
+    "source": "DEEP report GeoJSON deep-report.geojson (sha256 184e814fc63b), reach 12345"
+   }
+  ]
+ },
+ "applied": [
+  {
+   "base": "import-test",
+   "targets": [
+    "S1"
+   ],
+   "module": null,
+   "project": "{\"benefits\":{\"modules\":[{\"id\":\"condition\",\"method\":\"STAF\",\"name\":\"Stream condition\",\"quantity_units\":\"mi\"}],\"staf_mapping\":\"B\",\"target_years\":[0.0,10.0,50.0]},\"cost_categories\":[{\"id\":\"construction\",\"idc_applies\":true,\"name\":\"Construction\"},{\"id\":\"monitoring\",\"idc_applies\":false,\"name\":\"Monitoring\"},{\"id\":\"adaptive_management\",\"idc_applies\":false,\"name\":\"Adaptive management\"}],\"decisions\":{\"sites\":{},\"watershed\":{\"basis\":null,\"final_array\":{},\"steps\":{},\"tsp\":null,\"tsp_plan_type\":\"National Ecosystem Restoration (NER) plan\",\"tsp_rationale\":\"\"}},\"description\":\"\",\"labels\":{\"annual_output_name\":\"Average annual habitat units\",\"annual_output_short\":\"AAHU\",\"lift_name\":\"Ecological lift\",\"output_name\":\"Habitat units\",\"output_short\":\"HU\"},\"name\":\"Import test\",\"project_id\":\"7c4f2a9e1b3d5f8a0c2e4b6d8f1a3c5e\",\"provenance\":{},\"report\":{\"contents\":\"FULL\",\"date\":\"\",\"prepared_by\":\"\",\"status\":\"DRAFT\",\"title\":\"\"},\"schema_version\":\"ceica-project/3\",\"settings\":{\"aahu_method\":\"TRAPEZOID\",\"cost_decimals\":2,\"discount_rate\":0.03,\"idc_method\":\"END\",\"idc_periods_per_year\":12,\"output_decimals\":3,\"period_of_analysis\":50,\"price_level\":\"\",\"recurring_timing\":\"END_OF_YEAR\"},\"sites\":[{\"alternatives\":[{\"costs\":{\"annual_override\":null,\"construction_months\":0.0,\"first_costs\":{},\"recurring\":[]},\"description\":\"\",\"id\":\"FWOP\",\"is_no_action\":true,\"name\":\"No Action\",\"outputs\":[{\"aahu\":null,\"module_id\":\"condition\",\"quantity\":[1.0,null,null],\"scores\":{\"catchment-hydrology\":[9.25,null,null],\"channel-evolution\":[7.75,null,null],\"habitat-provision\":[6.0,null,null],\"nutrient-cycling\":[12.0,null,null],\"reach-inflow\":[11.5,null,null]},\"values\":[]}]},{\"costs\":{\"annual_override\":null,\"construction_months\":0.0,\"first_costs\":{},\"recurring\":[]},\"description\":\"\",\"id\":\"Alternative1\",\"is_no_action\":false,\"name\":\"Alternative 1\",\"outputs\":[{\"aahu\":null,\"module_id\":\"condition\",\"quantity\":[null,null,null],\"scores\":{},\"values\":[]}]}],\"description\":\"\",\"id\":\"S1\",\"name\":\"New site\",\"staf_not_assessed\":{\"condition\":[\"surface-water-storage\",\"streamflow-regime\",\"low-flow-baseflow-dynamics\",\"high-flow-dynamics\",\"floodplain-connectivity\",\"hyporheic-connectivity\",\"channel-floodplain-dynamics\",\"sediment-continuity\",\"bed-composition-bedform-dynamics\",\"light-thermal-regime\",\"carbon-processing\",\"water-soil-quality\",\"population-support\",\"community-dynamics\",\"watershed-connectivity\"]},\"staf_source\":{\"condition\":\"DEEP report GeoJSON deep-report.geojson (sha256 184e814fc63b), reach 12345\"}}],\"watershed\":{\"carried\":{},\"mode\":\"RECOMMENDED\",\"rules\":[]}}"
+  }
+ ]
+}

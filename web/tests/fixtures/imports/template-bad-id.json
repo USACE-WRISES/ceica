@@ -1,0 +1,52 @@
+{
+ "input": "template-bad-id.xlsx",
+ "read": {
+  "sheets": [
+   {
+    "title": "Study",
+    "state": "visible",
+    "max_row": 13,
+    "max_column": 2,
+    "cells": "1,1\ts\tstr\t'CEICA input template'\n2,1\ts\tstr\t'Fill the sheets, then open this file in CEICA (Open a file). Keep the header rows.'\n4,1\ts\tstr\t'Setting'\n4,2\ts\tstr\t'Value'\n5,1\ts\tstr\t'Study name'\n5,2\ts\tstr\t'Mixed test'\n6,1\ts\tstr\t'Description'\n6,2\tinlineStr\tNoneType\tNone\n7,1\ts\tstr\t'Discount rate'\n7,2\tn\tfloat\t0.03\n8,1\ts\tstr\t'Period of analysis (years)'\n8,2\tn\tint\t50\n9,1\ts\tstr\t'Price level'\n9,2\tinlineStr\tNoneType\tNone\n10,1\ts\tstr\t'Target years (comma separated)'\n10,2\ts\tstr\t'0, 5, 50'\n11,1\ts\tstr\t'Output name'\n11,2\ts\tstr\t'Habitat units'\n12,1\ts\tstr\t'Output abbreviation'\n12,2\ts\tstr\t'HU'\n13,1\ts\tstr\t'STAF mapping (A or B)'\n13,2\ts\tstr\t'A'"
+   },
+   {
+    "title": "Modules",
+    "state": "visible",
+    "max_row": 7,
+    "max_column": 4,
+    "cells": "1,1\ts\tstr\t'Modules'\n2,1\ts\tstr\t'The parts the output is built from; the output is their sum. Method: Habitat units, Index x quantity, STAF function scores or Average annual value (STAF modules cannot be mixed with the others).'\n4,1\ts\tstr\t'Name'\n4,2\ts\tstr\t'Method'\n4,3\ts\tstr\t'Quantity units'\n4,4\ts\tstr\t'Id'\n5,1\ts\tstr\t'Habitat'\n5,2\ts\tstr\t'Habitat units'\n5,3\tinlineStr\tNoneType\tNone\n5,4\ts\tstr\t'hab'\n6,1\ts\tstr\t'Riparian'\n6,2\ts\tstr\t'Index x quantity'\n6,3\ts\tstr\t'acres'\n6,4\ts\tstr\t'rip'\n7,1\ts\tstr\t'Wetland'\n7,2\ts\tstr\t'Average annual value'\n7,3\tinlineStr\tNoneType\tNone\n7,4\ts\tstr\t'wet'"
+   },
+   {
+    "title": "Alternatives",
+    "state": "visible",
+    "max_row": 10,
+    "max_column": 6,
+    "cells": "1,1\ts\tstr\t'Alternatives'\n2,1\ts\tstr\t'One row per alternative, including one No Action row per site.'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Site name'\n4,3\ts\tstr\t'Alternative'\n4,4\ts\tstr\t'Alternative name'\n4,5\ts\tstr\t'Description'\n4,6\ts\tstr\t'No Action'\n5,1\ts\tstr\t'A'\n5,2\tinlineStr\tNoneType\tNone\n5,3\ts\tstr\t'NA'\n5,4\tinlineStr\tNoneType\tNone\n5,5\tinlineStr\tNoneType\tNone\n5,6\ts\tstr\t'Yes'\n6,1\ts\tstr\t'A'\n6,2\tinlineStr\tNoneType\tNone\n6,3\ts\tstr\t'A1'\n6,4\tinlineStr\tNoneType\tNone\n6,5\tinlineStr\tNoneType\tNone\n6,6\ts\tstr\t'No'\n7,1\ts\tstr\t'A'\n7,2\tinlineStr\tNoneType\tNone\n7,3\ts\tstr\t'A2'\n7,4\tinlineStr\tNoneType\tNone\n7,5\tinlineStr\tNoneType\tNone\n7,6\ts\tstr\t'No'\n8,1\ts\tstr\t'B'\n8,2\tinlineStr\tNoneType\tNone\n8,3\ts\tstr\t'NA'\n8,4\tinlineStr\tNoneType\tNone\n8,5\tinlineStr\tNoneType\tNone\n8,6\ts\tstr\t'Yes'\n9,1\ts\tstr\t'B'\n9,2\tinlineStr\tNoneType\tNone\n9,3\ts\tstr\t'B1'\n9,4\tinlineStr\tNoneType\tNone\n9,5\tinlineStr\tNoneType\tNone\n9,6\ts\tstr\t'No'\n10,1\ts\tstr\t'A'\n10,2\ts\tstr\t'Upper'\n10,3\ts\tstr\t'Alt 3'\n10,4\tinlineStr\tNoneType\tNone\n10,5\tinlineStr\tNoneType\tNone\n10,6\ts\tstr\t'No'"
+   },
+   {
+    "title": "Benefits",
+    "state": "visible",
+    "max_row": 19,
+    "max_column": 10,
+    "cells": "1,1\ts\tstr\t'Benefits'\n2,1\ts\tstr\t'One row per alternative and module. Year columns: the output (habitat-unit modules) or the index (index-x-quantity modules); Quantity columns: the quantity; Average: the average annual value (average-annual modules).'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Module'\n4,4\ts\tstr\t'0'\n4,5\ts\tstr\t'5'\n4,6\ts\tstr\t'50'\n4,7\ts\tstr\t'Quantity 0'\n4,8\ts\tstr\t'Quantity 5'\n4,9\ts\tstr\t'Quantity 50'\n4,10\ts\tstr\t'Average'\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'NA'\n5,3\ts\tstr\t'Habitat'\n5,4\tn\tint\t1\n5,5\tn\tint\t1\n5,6\tn\tint\t1\n5,7\tn\tNoneType\tNone\n5,8\tn\tNoneType\tNone\n5,9\tn\tNoneType\tNone\n5,10\tn\tNoneType\tNone\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'NA'\n6,3\ts\tstr\t'Riparian'\n6,4\tn\tfloat\t0.2\n6,5\tn\tfloat\t0.2\n6,6\tn\tfloat\t0.2\n6,7\tn\tint\t3\n6,8\tn\tint\t3\n6,9\tn\tint\t3\n6,10\tn\tNoneType\tNone\n7,1\ts\tstr\t'A'\n7,2\ts\tstr\t'NA'\n7,3\ts\tstr\t'Wetland'\n7,4\tn\tNoneType\tNone\n7,5\tn\tNoneType\tNone\n7,6\tn\tNoneType\tNone\n7,7\tn\tNoneType\tNone\n7,8\tn\tNoneType\tNone\n7,9\tn\tNoneType\tNone\n7,10\tn\tint\t0\n8,1\ts\tstr\t'A'\n8,2\ts\tstr\t'A1'\n8,3\ts\tstr\t'Habitat'\n8,4\tn\tint\t1\n8,5\tn\tint\t4\n8,6\tn\tint\t5\n8,7\tn\tNoneType\tNone\n8,8\tn\tNoneType\tNone\n8,9\tn\tNoneType\tNone\n8,10\tn\tNoneType\tNone\n9,1\ts\tstr\t'A'\n9,2\ts\tstr\t'A1'\n9,3\ts\tstr\t'Riparian'\n9,4\tn\tfloat\t0.2\n9,5\tn\tfloat\t0.5\n9,6\tn\tfloat\t0.7\n9,7\tn\tint\t3\n9,8\tn\tfloat\t3.5\n9,9\tn\tfloat\t3.5\n9,10\tn\tNoneType\tNone\n10,1\ts\tstr\t'A'\n10,2\ts\tstr\t'A1'\n10,3\ts\tstr\t'Wetland'\n10,4\tn\tNoneType\tNone\n10,5\tn\tNoneType\tNone\n10,6\tn\tNoneType\tNone\n10,7\tn\tNoneType\tNone\n10,8\tn\tNoneType\tNone\n10,9\tn\tNoneType\tNone\n10,10\tn\tfloat\t1.5\n11,1\ts\tstr\t'A'\n11,2\ts\tstr\t'A2'\n11,3\ts\tstr\t'Habitat'\n11,4\tn\tint\t1\n11,5\tn\tint\t2\n11,6\tn\tfloat\t2.5\n11,7\tn\tNoneType\tNone\n11,8\tn\tNoneType\tNone\n11,9\tn\tNoneType\tNone\n11,10\tn\tNoneType\tNone\n12,1\ts\tstr\t'A'\n12,2\ts\tstr\t'A2'\n12,3\ts\tstr\t'Riparian'\n12,4\tn\tfloat\t0.2\n12,5\tn\tfloat\t0.6\n12,6\tn\tfloat\t0.8\n12,7\tn\tint\t3\n12,8\tn\tint\t3\n12,9\tn\tint\t3\n12,10\tn\tNoneType\tNone\n13,1\ts\tstr\t'A'\n13,2\ts\tstr\t'A2'\n13,3\ts\tstr\t'Wetland'\n13,4\tn\tNoneType\tNone\n13,5\tn\tNoneType\tNone\n13,6\tn\tNoneType\tNone\n13,7\tn\tNoneType\tNone\n13,8\tn\tNoneType\tNone\n13,9\tn\tNoneType\tNone\n13,10\tn\tfloat\t0.5\n14,1\ts\tstr\t'B'\n14,2\ts\tstr\t'NA'\n14,3\ts\tstr\t'Habitat'\n14,4\tn\tint\t2\n14,5\tn\tint\t2\n14,6\tn\tint\t2\n14,7\tn\tNoneType\tNone\n14,8\tn\tNoneType\tNone\n14,9\tn\tNoneType\tNone\n14,10\tn\tNoneType\tNone\n15,1\ts\tstr\t'B'\n15,2\ts\tstr\t'NA'\n15,3\ts\tstr\t'Riparian'\n15,4\tn\tfloat\t0.4\n15,5\tn\tfloat\t0.4\n15,6\tn\tfloat\t0.4\n15,7\tn\tint\t1\n15,8\tn\tint\t1\n15,9\tn\tint\t1\n15,10\tn\tNoneType\tNone\n16,1\ts\tstr\t'B'\n16,2\ts\tstr\t'NA'\n16,3\ts\tstr\t'Wetland'\n16,4\tn\tNoneType\tNone\n16,5\tn\tNoneType\tNone\n16,6\tn\tNoneType\tNone\n16,7\tn\tNoneType\tNone\n16,8\tn\tNoneType\tNone\n16,9\tn\tNoneType\tNone\n16,10\tn\tint\t0\n17,1\ts\tstr\t'B'\n17,2\ts\tstr\t'B1'\n17,3\ts\tstr\t'Habitat'\n17,4\tn\tint\t2\n17,5\tn\tint\t5\n17,6\tn\tint\t6\n17,7\tn\tNoneType\tNone\n17,8\tn\tNoneType\tNone\n17,9\tn\tNoneType\tNone\n17,10\tn\tNoneType\tNone\n18,1\ts\tstr\t'B'\n18,2\ts\tstr\t'B1'\n18,3\ts\tstr\t'Riparian'\n18,4\tn\tfloat\t0.4\n18,5\tn\tfloat\t0.4\n18,6\tn\tfloat\t0.9\n18,7\tn\tint\t1\n18,8\tn\tint\t1\n18,9\tn\tint\t2\n18,10\tn\tNoneType\tNone\n19,1\ts\tstr\t'B'\n19,2\ts\tstr\t'B1'\n19,3\ts\tstr\t'Wetland'\n19,4\tn\tNoneType\tNone\n19,5\tn\tNoneType\tNone\n19,6\tn\tNoneType\tNone\n19,7\tn\tNoneType\tNone\n19,8\tn\tNoneType\tNone\n19,9\tn\tNoneType\tNone\n19,10\tn\tint\t2"
+   },
+   {
+    "title": "Costs",
+    "state": "visible",
+    "max_row": 9,
+    "max_column": 7,
+    "cells": "1,1\ts\tstr\t'Costs'\n2,1\ts\tstr\t'First costs by category (base-year dollars), construction months, and an optional average annual cost that replaces the computation.'\n3,3\ts\tstr\t'construction'\n3,4\ts\tstr\t'monitoring'\n3,5\ts\tstr\t'adaptive_management'\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Construction'\n4,4\ts\tstr\t'Monitoring'\n4,5\ts\tstr\t'Adaptive management'\n4,6\ts\tstr\t'Construction months'\n4,7\ts\tstr\t'Average annual cost entered'\n5,1\ts\tstr\t'A'\n5,2\ts\tstr\t'NA'\n5,3\tn\tint\t0\n5,4\tn\tNoneType\tNone\n5,5\tn\tNoneType\tNone\n5,6\tn\tint\t4\n5,7\tn\tNoneType\tNone\n6,1\ts\tstr\t'A'\n6,2\ts\tstr\t'A1'\n6,3\tn\tint\t250000\n6,4\tn\tNoneType\tNone\n6,5\tn\tNoneType\tNone\n6,6\tn\tint\t4\n6,7\tn\tNoneType\tNone\n7,1\ts\tstr\t'A'\n7,2\ts\tstr\t'A2'\n7,3\tn\tint\t180000\n7,4\tn\tNoneType\tNone\n7,5\tn\tNoneType\tNone\n7,6\tn\tint\t4\n7,7\tn\tNoneType\tNone\n8,1\ts\tstr\t'B'\n8,2\ts\tstr\t'NA'\n8,3\tn\tint\t0\n8,4\tn\tNoneType\tNone\n8,5\tn\tNoneType\tNone\n8,6\tn\tint\t4\n8,7\tn\tNoneType\tNone\n9,1\ts\tstr\t'B'\n9,2\ts\tstr\t'B1'\n9,3\tn\tint\t300000\n9,4\tn\tNoneType\tNone\n9,5\tn\tNoneType\tNone\n9,6\tn\tint\t4\n9,7\tn\tNoneType\tNone"
+   },
+   {
+    "title": "OMRRR",
+    "state": "visible",
+    "max_row": 4,
+    "max_column": 12,
+    "cells": "1,1\ts\tstr\t'OMRRR'\n2,1\ts\tstr\t\"Recurring costs. Basis: FIXED (Amount), PERCENT (Percent of a Category's first cost) or RATE (Unit rate x Quantity). Blank first year: every N years.\"\n4,1\ts\tstr\t'Site'\n4,2\ts\tstr\t'Alternative'\n4,3\ts\tstr\t'Item'\n4,4\ts\tstr\t'Basis'\n4,5\ts\tstr\t'Amount'\n4,6\ts\tstr\t'Percent'\n4,7\ts\tstr\t'Category'\n4,8\ts\tstr\t'Unit rate'\n4,9\ts\tstr\t'Quantity'\n4,10\ts\tstr\t'Every N years'\n4,11\ts\tstr\t'First year'\n4,12\ts\tstr\t'Last year'"
+   }
+  ]
+ },
+ "result": {
+  "error": "ValidationError: 1 validation error for Alternative\nid\n  String should match pattern '^[A-Za-z0-9][A-Za-z0-9_.-]{0,31}$' [type=string_pattern_mismatch, input_value='Alt 3', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_pattern_mismatch"
+ }
+}

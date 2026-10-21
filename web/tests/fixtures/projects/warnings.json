@@ -1,0 +1,1085 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "a95b09a27fb93cd7f6f4b60211de77c098e80b94cb3b6874748aba7861f1000a",
+ "issues": [
+  [
+   "warning",
+   "W_RATE_RANGE",
+   "The discount rate is 10 percent; the federal water resources rate is usually between 2 and 7 percent.",
+   "study",
+   null,
+   null
+  ],
+  [
+   "warning",
+   "W_YEARS_SPAN",
+   "Target years run from 1 to 40; outputs are averaged over that span, but the period of analysis is 50 years.",
+   "study",
+   null,
+   null
+  ],
+  [
+   "error",
+   "E_SITE_CASE",
+   "Sites Up and up differ only in capital letters; rename one (Excel treats them as the same).",
+   "sites",
+   "up",
+   null
+  ],
+  [
+   "warning",
+   "W_NA_COST",
+   "No Action at Up has costs; CE/ICA uses each alternative's cost above No Action.",
+   "costs",
+   "Up",
+   "NA"
+  ],
+  [
+   "warning",
+   "W_IDC_NO_MONTHS",
+   "Up, A1: construction has no duration, so no interest during construction is charged.",
+   "costs",
+   "Up",
+   "A1"
+  ],
+  [
+   "error",
+   "E_NEG_COST",
+   "Up, A2: construction cost is negative.",
+   "costs",
+   "Up",
+   "A2"
+  ],
+  [
+   "warning",
+   "W_SITE_ONLY_NA",
+   "Site up has only No Action; add alternatives to analyze it.",
+   "sites",
+   "up",
+   null
+  ],
+  [
+   "error",
+   "E_SITE_EMPTY",
+   "Site Empty has no alternatives.",
+   "sites",
+   "Empty",
+   null
+  ],
+  [
+   "warning",
+   "W_RULE_SITE",
+   "A plan formation rule names site Ghost, which is not in the study.",
+   "watershed",
+   "Ghost",
+   null
+  ]
+ ],
+ "benefits": [
+  [
+   "Up",
+   "NA",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       1.0,
+       1.0
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      1.0
+     ]
+    ],
+    "aahu": 1.0,
+    "lift_by_module": [
+     [
+      "hab",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ],
+  [
+   "Up",
+   "A1",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       3.0,
+       4.0
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      3.3461538461538463
+     ]
+    ],
+    "aahu": 3.3461538461538463,
+    "lift_by_module": [
+     [
+      "hab",
+      2.3461538461538463
+     ]
+    ],
+    "lift": 2.3461538461538463,
+    "missing": []
+   }
+  ],
+  [
+   "Up",
+   "A2",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       1.0,
+       2.0,
+       2.0
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      1.9487179487179487
+     ]
+    ],
+    "aahu": 1.9487179487179487,
+    "lift_by_module": [
+     [
+      "hab",
+      0.9487179487179487
+     ]
+    ],
+    "lift": 0.9487179487179487,
+    "missing": []
+   }
+  ],
+  [
+   "up",
+   "NA",
+   {
+    "series": [
+     [
+      "hab",
+      [
+       2.0,
+       2.0,
+       2.0
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "hab",
+      2.0
+     ]
+    ],
+    "aahu": 2.0,
+    "lift_by_module": [
+     [
+      "hab",
+      0.0
+     ]
+    ],
+    "lift": 0.0,
+    "missing": []
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "Up",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      500.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 500.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 500.0,
+    "annual": 50.42958702305998,
+    "annual_parts": [
+     [
+      "construction",
+      50.42958702305998
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "Up",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      100000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 100000.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 100000.0,
+    "annual": 10085.917404611997,
+    "annual_parts": [
+     [
+      "construction",
+      10085.917404611997
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 10035.487817588937
+   }
+  ],
+  [
+   "Up",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      -50.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": -50.0,
+    "idc": -1.0074289566840404,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": -51.00742895668404,
+    "annual": -5.144567154787294,
+    "annual_parts": [
+     [
+      "construction",
+      -5.042958702305998
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      -0.10160845248129668
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": -55.57415417784728
+   }
+  ],
+  [
+   "up",
+   "NA",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "Up",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      1.0,
+      0.0,
+      50.42958702305998,
+      0.0,
+      500.0,
+      500.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      "A2",
+      2
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      3.3461538461538463,
+      2.3461538461538463,
+      10085.917404611997,
+      10035.487817588937,
+      100000.0,
+      100000.0,
+      4277.702472293265,
+      true,
+      true,
+      2,
+      7223.3786685755185,
+      1.397,
+      10091.06,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      1.9487179487179487,
+      0.9487179487179487,
+      -5.144567154787294,
+      -55.57415417784728,
+      -50.0,
+      -50.0,
+      -58.556375131717594,
+      true,
+      true,
+      1,
+      -58.556375131717594,
+      0.949,
+      -55.57,
+      null,
+      0
+     ]
+    ],
+    "A1",
+    "62895b7f0f99ff78",
+    {
+     "ids": [
+      "NA",
+      "A1",
+      "A2"
+     ],
+     "c": [
+      0,
+      1003549,
+      -5557
+     ],
+     "q": [
+      0,
+      2346,
+      949
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "111",
+     "bb": "111",
+     "ceRaw": "011",
+     "witness": [
+      2,
+      -1,
+      -1
+     ],
+     "reason": "200",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [
+      2,
+      1
+     ],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ],
+      [
+       2,
+       "A2",
+       -55.57,
+       0.949,
+       -58.556375131717594,
+       -55.57,
+       0.949,
+       -58.556375131717594,
+       "NA"
+      ],
+      [
+       1,
+       "A1",
+       10035.49,
+       2.346,
+       4277.702472293265,
+       10091.06,
+       1.397,
+       7223.3786685755185,
+       "A2"
+      ]
+     ]
+    },
+    [
+     "NA",
+     "A2",
+     "A1"
+    ]
+   ],
+   [
+    "up",
+    true,
+    [],
+    [
+     [
+      "NA",
+      "NA",
+      "",
+      true,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      true,
+      true,
+      0,
+      null,
+      null,
+      null,
+      null,
+      0
+     ]
+    ],
+    "NA",
+    "861529b34727433f",
+    {
+     "ids": [
+      "NA"
+     ],
+     "c": [
+      0
+     ],
+     "q": [
+      0
+     ],
+     "na": 0,
+     "cdp": 2,
+     "qdp": 3,
+     "ce": "1",
+     "bb": "1",
+     "ceRaw": "1",
+     "witness": [
+      -1
+     ],
+     "reason": "0",
+     "base": [
+      0,
+      0,
+      true
+     ],
+     "walk": [],
+     "inc": [
+      [
+       0,
+       "NA",
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       null
+      ]
+     ]
+    },
+    [
+     "NA"
+    ]
+   ],
+   [
+    "Empty",
+    false,
+    [
+     "Site Empty has no alternatives."
+    ],
+    [],
+    null,
+    "4f53cda18c2baa0c",
+    null,
+    []
+   ]
+  ],
+  "watershed": {
+   "ready": true,
+   "reasons": [],
+   "mode": "RECOMMENDED",
+   "carried": [
+    [
+     "Up",
+     [
+      "A1"
+     ]
+    ]
+   ],
+   "sources": [
+    [
+     "Up",
+     "suggested"
+    ]
+   ],
+   "notCarried": [
+    "up"
+   ],
+   "blocked": [],
+   "fingerprint": "c8204c55ee0fcad9",
+   "nPlans": 2,
+   "nCe": 2,
+   "nBb": 2,
+   "space": [
+    [
+     "Up"
+    ],
+    [
+     [
+      "A1"
+     ]
+    ]
+   ],
+   "nValid": 2,
+   "ceOnly": false,
+   "digest": "92dd85d9e4abdbe4b601f282527405a8e23f1b7f47258d699e73b39f2dbd5c28",
+   "na": 0,
+   "base": [
+    0,
+    0,
+    true
+   ],
+   "walk": [
+    1
+   ],
+   "inc": [
+    [
+     0,
+     "P1",
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     null
+    ],
+    [
+     1,
+     "P2",
+     10035.49,
+     2.346,
+     4277.702472293265,
+     10035.49,
+     2.346,
+     4277.702472293265,
+     "P1"
+    ]
+   ],
+   "bbRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "Up=A1",
+     [
+      [
+       "Up",
+       "A1"
+      ]
+     ],
+     "Up",
+     2.346,
+     10035.49,
+     100000.0,
+     4277.702472293265,
+     true,
+     true,
+     1,
+     4277.702472293265,
+     2.346,
+     10035.49
+    ]
+   ],
+   "ceRows": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "Up=A1",
+     [
+      [
+       "Up",
+       "A1"
+      ]
+     ],
+     "Up",
+     2.346,
+     10035.49,
+     100000.0,
+     4277.702472293265,
+     true,
+     true,
+     1,
+     4277.702472293265,
+     2.346,
+     10035.49
+    ]
+   ],
+   "allHead": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "Up=A1",
+     [
+      [
+       "Up",
+       "A1"
+      ]
+     ],
+     "Up",
+     2.346,
+     10035.49,
+     100000.0,
+     4277.702472293265,
+     true,
+     true,
+     1,
+     4277.702472293265,
+     2.346,
+     10035.49
+    ]
+   ],
+   "allTail": [
+    [
+     0,
+     "P1",
+     "",
+     [],
+     "No Action",
+     0.0,
+     0.0,
+     0.0,
+     null,
+     true,
+     true,
+     0,
+     null,
+     null,
+     null
+    ],
+    [
+     1,
+     "P2",
+     "Up=A1",
+     [
+      [
+       "Up",
+       "A1"
+      ]
+     ],
+     "Up",
+     2.346,
+     10035.49,
+     100000.0,
+     4277.702472293265,
+     true,
+     true,
+     1,
+     4277.702472293265,
+     2.346,
+     10035.49
+    ]
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "Up",
+     "A1",
+     "suggested",
+     "A1",
+     false,
+     ""
+    ],
+    [
+     "up",
+     "NA",
+     "suggested",
+     "NA",
+     false,
+     ""
+    ],
+    [
+     "Empty",
+     null,
+     "none",
+     null,
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [
+    "",
+    "Up=A1"
+   ],
+   "added": [],
+   "removed": [],
+   "ladder": [
+    [
+     "",
+     "Up=A1",
+     "P1",
+     "P2",
+     [
+      "Up"
+     ],
+     [],
+     2.346,
+     10035.49,
+     4277.702472293265,
+     null,
+     " > Up=A1"
+    ]
+   ],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 2,
+   "nStale": 0
+  },
+  "issues": [
+   [
+    "warning",
+    "W_RATE_RANGE",
+    "The discount rate is 10 percent; the federal water resources rate is usually between 2 and 7 percent.",
+    "study",
+    null,
+    null
+   ],
+   [
+    "warning",
+    "W_YEARS_SPAN",
+    "Target years run from 1 to 40; outputs are averaged over that span, but the period of analysis is 50 years.",
+    "study",
+    null,
+    null
+   ],
+   [
+    "error",
+    "E_SITE_CASE",
+    "Sites Up and up differ only in capital letters; rename one (Excel treats them as the same).",
+    "sites",
+    "up",
+    null
+   ],
+   [
+    "warning",
+    "W_NA_COST",
+    "No Action at Up has costs; CE/ICA uses each alternative's cost above No Action.",
+    "costs",
+    "Up",
+    "NA"
+   ],
+   [
+    "warning",
+    "W_IDC_NO_MONTHS",
+    "Up, A1: construction has no duration, so no interest during construction is charged.",
+    "costs",
+    "Up",
+    "A1"
+   ],
+   [
+    "error",
+    "E_NEG_COST",
+    "Up, A2: construction cost is negative.",
+    "costs",
+    "Up",
+    "A2"
+   ],
+   [
+    "warning",
+    "W_SITE_ONLY_NA",
+    "Site up has only No Action; add alternatives to analyze it.",
+    "sites",
+    "up",
+    null
+   ],
+   [
+    "error",
+    "E_SITE_EMPTY",
+    "Site Empty has no alternatives.",
+    "sites",
+    "Empty",
+    null
+   ],
+   [
+    "warning",
+    "W_RULE_SITE",
+    "A plan formation rule names site Ghost, which is not in the study.",
+    "watershed",
+    "Ghost",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "Site Empty has no alternatives.",
+    "benefits",
+    "Empty",
+    null
+   ]
+  ],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "attention",
+     3,
+     "Inputs need attention."
+    ],
+    [
+     "sites",
+     "attention",
+     2,
+     "2 site recommendations to confirm or review."
+    ],
+    [
+     "watershed",
+     "",
+     0,
+     "Choose the final array and TSP."
+    ],
+    [
+     "report",
+     "attention",
+     3,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     false,
+     "4 input problems to fix",
+     "inputs"
+    ],
+    [
+     false,
+     "2 site recommendations are still suggestions",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ],
+    [
+     false,
+     "Choose the tentatively selected plan",
+     "watershed"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": true,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Plans",
+    "Report"
+   ]
+  },
+  "stamped": "a95b09a27fb93cd7f6f4b60211de77c098e80b94cb3b6874748aba7861f1000a",
+  "carried": "9c0ed5c93d0a5de7bdbedd0e1d27f785d9ee3aee882797d65cd390432f6bc589",
+  "planCountWarning": false
+ }
+}

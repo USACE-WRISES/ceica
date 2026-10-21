@@ -1,0 +1,7 @@
+{
+ "input": "zip-broken.zip",
+ "name": "broken.zip",
+ "read": {
+  "error": "BadZipFile: File is not a zip file"
+ }
+}

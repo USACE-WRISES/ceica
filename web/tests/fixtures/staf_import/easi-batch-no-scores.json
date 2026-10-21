@@ -1,0 +1,7 @@
+{
+ "input": "easi-batch-no-scores.json",
+ "name": "batch-results.json",
+ "read": {
+  "error": "StafImportError: The EASI batch has no scored sites."
+ }
+}

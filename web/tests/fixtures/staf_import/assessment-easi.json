@@ -1,0 +1,7 @@
+{
+ "input": "assessment-easi.json",
+ "name": "assessment.json",
+ "read": {
+  "error": "StafImportError: An EASI saved assessment holds metric ratings, not function scores. Download EASI's report CSV or batch ZIP and import that."
+ }
+}

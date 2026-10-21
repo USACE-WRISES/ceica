@@ -1,0 +1,581 @@
+{
+ "scenario": "save_open",
+ "trace": [
+  {
+   "step": "connect",
+   "client": {
+    "method": "init",
+    "data": {
+     "page": "sites",
+     ".clientdata_output_project_name_hidden": false,
+     ".clientdata_output_save_project_hidden": false,
+     ".clientdata_output_stagebar_hidden": true,
+     ".clientdata_output_panel_body_hidden": false,
+     ".clientdata_output_panel_foot_hidden": false,
+     ".clientdata_output_page_inputs_hidden": true,
+     ".clientdata_output_page_sites_hidden": false,
+     ".clientdata_output_page_watershed_hidden": true,
+     ".clientdata_output_page_report_hidden": true
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "show",
+      "html": "<div id=\"shiny-modal\" class=\"modal fade\" tabindex=\"-1\" data-backdrop=\"static\" data-bs-backdrop=\"static\" data-keyboard=\"false\" data-bs-keyboard=\"false\">\n  <div class=\"modal-dialog modal-xl\">\n    <div class=\"modal-content\">\n      <div class=\"modal-body\">\n        <div class=\"shiny-html-output\" id=\"start_body\"></div>\n      </div>\n    </div>\n  </div>\n  <script>if (window.bootstrap && !window.bootstrap.Modal.VERSION.match(/^4\\. /)) {\n  var modal=new bootstrap.Modal(document.getElementById('shiny-modal'))\n  modal.show()\n} else {\n  $('#shiny-modal').modal().focus()\n}</script>\n</div>"
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": ""
+      }
+     }
+    },
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211",
+      "project_name": "sha256:25932fe75f0ee1c0:71",
+      "panel_body": "sha256:93636fa047400919:11",
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "page_sites": "sha256:dc1ae437f0526645:157",
+      "save_project": "session/S/download/save_project?w="
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": false,
+     ".clientdata_output_dl_template_generic_hidden": false,
+     ".clientdata_output_dl_template_ixq_hidden": false,
+     ".clientdata_output_dl_template_staf_hidden": false
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "dl_template_generic": "session/S/download/dl_template_generic?w=",
+      "dl_template_ixq": "session/S/download/dl_template_ixq?w=",
+      "dl_template_staf": "session/S/download/dl_template_staf?w="
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "connect",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_recents": {
+      "items": [],
+      "n": 1
+     }
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "start_body": "sha256:02f01db59c4de99c:4211"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload mixed.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "mixed.ceica",
+       "size": 6649,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/mixed.ceica"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Mixed test (project file).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Mixed test"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:b41ca1ac8bb811d8:291",
+      "project_name": "sha256:5420c62b7ccb8b14:141",
+      "panel_body": "sha256:d23d00fd83b9eb04:2259",
+      "page_sites": "sha256:1094ab479debc162:25042"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload mixed.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_start_body_hidden": true,
+     ".clientdata_output_dl_template_generic_hidden": true,
+     ".clientdata_output_dl_template_ixq_hidden": true,
+     ".clientdata_output_dl_template_staf_hidden": true
+    }
+   },
+   "server": []
+  },
+  {
+   "step": "download save_project",
+   "client": {
+    "download": "save_project"
+   },
+   "server": [],
+   "file": {
+    "disposition": "attachment; filename*=utf-8''Mixed%20test%20CE-ICA%202026-10-18.ceica",
+    "text": "{\n \"appVersion\": \"1.0.0\",\n \"contentDigest\": \"8030b2b0f57f65dab71aeea2a4c66af50d8ad87be55635a5f57cbd3b49813969\",\n \"format\": \"ceica-project\",\n \"project\": {\n  \"benefits\": {\n   \"modules\": [\n    {\n     \"id\": \"hab\",\n     \"method\": \"HU\",\n     \"name\": \"Habitat\",\n     \"quantity_units\": \"\"\n    },\n    {\n     \"id\": \"rip\",\n     \"method\": \"INDEX_X_QUANTITY\",\n     \"name\": \"Riparian\",\n     \"quantity_units\": \"acres\"\n    },\n    {\n     \"id\": \"wet\",\n     \"method\": \"AAHU\",\n     \"name\": \"Wetland\",\n     \"quantity_units\": \"\"\n    }\n   ],\n   \"staf_mapping\": \"A\",\n   \"target_years\": [\n    0.0,\n    5.0,\n    50.0\n   ]\n  },\n  \"cost_categories\": [\n   {\n    \"id\": \"construction\",\n    \"idc_applies\": true,\n    \"name\": \"Construction\"\n   },\n   {\n    \"id\": \"monitoring\",\n    \"idc_applies\": false,\n    \"name\": \"Monitoring\"\n   },\n   {\n    \"id\": \"adaptive_management\",\n    \"idc_applies\": false,\n    \"name\": \"Adaptive management\"\n   }\n  ],\n  \"decisions\": {\n   \"sites\": {},\n   \"watershed\": {\n    \"basis\": null,\n    \"final_array\": {},\n    \"steps\": {},\n    \"tsp\": null,\n    \"tsp_plan_type\": \"National Ecosystem Restoration (NER) plan\",\n    \"tsp_rationale\": \"\"\n   }\n  },\n  \"description\": \"\",\n  \"labels\": {\n   \"annual_output_name\": \"Average annual habitat units\",\n   \"annual_output_short\": \"AAHU\",\n   \"lift_name\": \"Ecological lift\",\n   \"output_name\": \"Habitat units\",\n   \"output_short\": \"HU\"\n  },\n  \"name\": \"Mixed test\",\n  \"project_id\": \"golden-mixed\",\n  \"provenance\": {},\n  \"report\": {\n   \"contents\": \"FULL\",\n   \"date\": \"\",\n   \"prepared_by\": \"\",\n   \"status\": \"DRAFT\",\n   \"title\": \"\"\n  },\n  \"schema_version\": \"ceica-project/3\",\n  \"settings\": {\n   \"aahu_method\": \"TRAPEZOID\",\n   \"cost_decimals\": 2,\n   \"discount_rate\": 0.03,\n   \"idc_method\": \"END\",\n   \"idc_periods_per_year\": 12,\n   \"output_decimals\": 3,\n   \"period_of_analysis\": 50,\n   \"price_level\": \"\",\n   \"recurring_timing\": \"END_OF_YEAR\"\n  },\n  \"sites\": [\n   {\n    \"alternatives\": [\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 4.0,\n       \"first_costs\": {\n        \"construction\": 0.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"NA\",\n      \"is_no_action\": true,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"hab\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": [\n         1.0,\n         1.0,\n         1.0\n        ]\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"rip\",\n        \"quantity\": [\n         3.0,\n         3.0,\n         3.0\n        ],\n        \"scores\": {},\n        \"values\": [\n         0.2,\n         0.2,\n         0.2\n        ]\n       },\n       {\n        \"aahu\": 0.0,\n        \"module_id\": \"wet\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": []\n       }\n      ]\n     },\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 4.0,\n       \"first_costs\": {\n        \"construction\": 250000.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"A1\",\n      \"is_no_action\": false,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"hab\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": [\n         1.0,\n         4.0,\n         5.0\n        ]\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"rip\",\n        \"quantity\": [\n         3.0,\n         3.5,\n         3.5\n        ],\n        \"scores\": {},\n        \"values\": [\n         0.2,\n         0.5,\n         0.7\n        ]\n       },\n       {\n        \"aahu\": 1.5,\n        \"module_id\": \"wet\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": []\n       }\n      ]\n     },\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 4.0,\n       \"first_costs\": {\n        \"construction\": 180000.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"A2\",\n      \"is_no_action\": false,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"hab\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": [\n         1.0,\n         2.0,\n         2.5\n        ]\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"rip\",\n        \"quantity\": [\n         3.0,\n         3.0,\n         3.0\n        ],\n        \"scores\": {},\n        \"values\": [\n         0.2,\n         0.6,\n         0.8\n        ]\n       },\n       {\n        \"aahu\": 0.5,\n        \"module_id\": \"wet\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": []\n       }\n      ]\n     }\n    ],\n    \"description\": \"\",\n    \"id\": \"A\",\n    \"name\": \"\",\n    \"staf_not_assessed\": {},\n    \"staf_source\": {}\n   },\n   {\n    \"alternatives\": [\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 4.0,\n       \"first_costs\": {\n        \"construction\": 0.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"NA\",\n      \"is_no_action\": true,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"hab\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": [\n         2.0,\n         2.0,\n         2.0\n        ]\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"rip\",\n        \"quantity\": [\n         1.0,\n         1.0,\n         1.0\n        ],\n        \"scores\": {},\n        \"values\": [\n         0.4,\n         0.4,\n         0.4\n        ]\n       },\n       {\n        \"aahu\": 0.0,\n        \"module_id\": \"wet\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": []\n       }\n      ]\n     },\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 4.0,\n       \"first_costs\": {\n        \"construction\": 300000.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"B1\",\n      \"is_no_action\": false,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"hab\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": [\n         2.0,\n         5.0,\n         6.0\n        ]\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"rip\",\n        \"quantity\": [\n         1.0,\n         1.0,\n         2.0\n        ],\n        \"scores\": {},\n        \"values\": [\n         0.4,\n         0.4,\n         0.9\n        ]\n       },\n       {\n        \"aahu\": 2.0,\n        \"module_id\": \"wet\",\n        \"quantity\": [],\n        \"scores\": {},\n        \"values\": []\n       }\n      ]\n     }\n    ],\n    \"description\": \"\",\n    \"id\": \"B\",\n    \"name\": \"\",\n    \"staf_not_assessed\": {},\n    \"staf_source\": {}\n   }\n  ],\n  \"watershed\": {\n   \"carried\": {},\n   \"mode\": \"RECOMMENDED\",\n   \"rules\": []\n  }\n },\n \"savedAt\": \"2026-10-18T09:30:00Z\",\n \"schemaVersion\": 3\n}\n"
+   }
+  },
+  {
+   "step": "download save_project",
+   "client": {
+    "tick": 1
+   },
+   "server": [
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload v1-utoy-creek.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "v1-utoy-creek.ceica",
+       "size": 89529,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/v1-utoy-creek.ceica"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (project file).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload v2-utoy-creek.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "v2-utoy-creek.ceica",
+       "size": 92275,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/v2-utoy-creek.ceica"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek Section 206 (project file).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307",
+      "project_name": "sha256:591dcc3ca0003600:153",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload hand-edited.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "hand-edited.ceica",
+       "size": 92187,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/hand-edited.ceica"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Utoy Creek (edited) Section 206 (project file).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "The file was edited outside CEICA (its content digest does not match).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "warning",
+       "duration": 8000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Utoy Creek (edited) Section 206"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307",
+      "project_name": "sha256:37a7f4eb52e91cb9:162",
+      "panel_body": "sha256:ff090cca602b2bef:3566",
+      "page_sites": "sha256:08ecc08de2346513:32969"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload two-staf.ceica",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "two-staf.ceica",
+       "size": 15298,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/two-staf.ceica"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "modal": {
+      "type": "remove"
+     }
+    },
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "Opened Two STAF modules (project file).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "message",
+       "duration": 4000
+      }
+     }
+    },
+    {
+     "custom": {
+      "ce_title": {
+       "title": "Two STAF modules"
+      }
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307",
+      "project_name": "sha256:03db998ea56fdb3f:147",
+      "panel_body": "sha256:0bf1682305e74920:2007",
+      "page_sites": "sha256:d0654c8a8598e97d:60877"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "sites"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "upload empty.json",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "empty.json",
+       "size": 2031,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/projects/empty.json"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "This file is not a CEICA project.",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 10000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "upload README.md",
+   "client": {
+    "method": "update",
+    "data": {
+     "open_file": [
+      {
+       "name": "README.md",
+       "size": 118,
+       "type": "",
+       "datapath": "repo:web/tests/fixtures/traces/uploads/not-a-project.txt"
+      }
+     ]
+    }
+   },
+   "server": [
+    {
+     "notification": {
+      "type": "show",
+      "message": {
+       "html": "This file is not a CEICA project (not valid JSON: Expecting value: line 1 column 1 (char 0)).",
+       "action": "",
+       "closeButton": true,
+       "id": "random",
+       "type": "error",
+       "duration": 10000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "step": "download save_project",
+   "client": {
+    "download": "save_project"
+   },
+   "server": [],
+   "file": {
+    "disposition": "attachment; filename*=utf-8''Two%20STAF%20modules%20CE-ICA%202026-10-18.ceica",
+    "text": "{\n \"appVersion\": \"1.0.0\",\n \"contentDigest\": \"1147a2ea6d7eb15a68c859ae44f401c4ce8d20fcb73a5074b344a03de353f2e7\",\n \"format\": \"ceica-project\",\n \"project\": {\n  \"benefits\": {\n   \"modules\": [\n    {\n     \"id\": \"main\",\n     \"method\": \"STAF\",\n     \"name\": \"Mainstem\",\n     \"quantity_units\": \"ft\"\n    },\n    {\n     \"id\": \"trib\",\n     \"method\": \"STAF\",\n     \"name\": \"Tributary\",\n     \"quantity_units\": \"ft\"\n    }\n   ],\n   \"staf_mapping\": \"A\",\n   \"target_years\": [\n    0.0,\n    10.0,\n    50.0\n   ]\n  },\n  \"cost_categories\": [\n   {\n    \"id\": \"construction\",\n    \"idc_applies\": true,\n    \"name\": \"Construction\"\n   },\n   {\n    \"id\": \"monitoring\",\n    \"idc_applies\": false,\n    \"name\": \"Monitoring\"\n   },\n   {\n    \"id\": \"adaptive_management\",\n    \"idc_applies\": false,\n    \"name\": \"Adaptive management\"\n   }\n  ],\n  \"decisions\": {\n   \"sites\": {},\n   \"watershed\": {\n    \"basis\": null,\n    \"final_array\": {},\n    \"steps\": {},\n    \"tsp\": null,\n    \"tsp_plan_type\": \"National Ecosystem Restoration (NER) plan\",\n    \"tsp_rationale\": \"\"\n   }\n  },\n  \"description\": \"\",\n  \"labels\": {\n   \"annual_output_name\": \"Average annual habitat units\",\n   \"annual_output_short\": \"AAHU\",\n   \"lift_name\": \"Ecological lift\",\n   \"output_name\": \"Habitat units\",\n   \"output_short\": \"HU\"\n  },\n  \"name\": \"Two STAF modules\",\n  \"project_id\": \"golden-two-staf\",\n  \"provenance\": {},\n  \"report\": {\n   \"contents\": \"FULL\",\n   \"date\": \"\",\n   \"prepared_by\": \"\",\n   \"status\": \"DRAFT\",\n   \"title\": \"\"\n  },\n  \"schema_version\": \"ceica-project/3\",\n  \"settings\": {\n   \"aahu_method\": \"TRAPEZOID\",\n   \"cost_decimals\": 2,\n   \"discount_rate\": 0.03,\n   \"idc_method\": \"END\",\n   \"idc_periods_per_year\": 12,\n   \"output_decimals\": 3,\n   \"period_of_analysis\": 50,\n   \"price_level\": \"\",\n   \"recurring_timing\": \"END_OF_YEAR\"\n  },\n  \"sites\": [\n   {\n    \"alternatives\": [\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 6.0,\n       \"first_costs\": {\n        \"construction\": 0.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"FWOP\",\n      \"is_no_action\": true,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"main\",\n        \"quantity\": [\n         900.0,\n         900.0,\n         900.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"carbon-processing\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"catchment-hydrology\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"channel-evolution\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"channel-floodplain-dynamics\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"community-dynamics\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"floodplain-connectivity\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"habitat-provision\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"high-flow-dynamics\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"hyporheic-connectivity\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"light-thermal-regime\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"nutrient-cycling\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"population-support\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"reach-inflow\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"sediment-continuity\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"streamflow-regime\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"surface-water-storage\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"water-soil-quality\": [\n          6.0,\n          6.0,\n          6.0\n         ],\n         \"watershed-connectivity\": [\n          6.0,\n          6.0,\n          6.0\n         ]\n        },\n        \"values\": []\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"trib\",\n        \"quantity\": [\n         400.0,\n         400.0,\n         400.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"carbon-processing\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"catchment-hydrology\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"channel-evolution\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"channel-floodplain-dynamics\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"community-dynamics\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"floodplain-connectivity\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"habitat-provision\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"high-flow-dynamics\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"hyporheic-connectivity\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"light-thermal-regime\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"nutrient-cycling\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"population-support\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"reach-inflow\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"sediment-continuity\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"streamflow-regime\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"surface-water-storage\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"water-soil-quality\": [\n          9.0,\n          9.0,\n          9.0\n         ],\n         \"watershed-connectivity\": [\n          9.0,\n          9.0,\n          9.0\n         ]\n        },\n        \"values\": []\n       }\n      ]\n     },\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 6.0,\n       \"first_costs\": {\n        \"construction\": 200000.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"A1\",\n      \"is_no_action\": false,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"main\",\n        \"quantity\": [\n         900.0,\n         900.0,\n         900.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"carbon-processing\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"catchment-hydrology\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"channel-evolution\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"channel-floodplain-dynamics\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"community-dynamics\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"floodplain-connectivity\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"habitat-provision\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"high-flow-dynamics\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"hyporheic-connectivity\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"light-thermal-regime\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"nutrient-cycling\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"population-support\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"reach-inflow\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"sediment-continuity\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"streamflow-regime\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"surface-water-storage\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"water-soil-quality\": [\n          6.0,\n          7.5,\n          9.0\n         ],\n         \"watershed-connectivity\": [\n          6.0,\n          7.5,\n          9.0\n         ]\n        },\n        \"values\": []\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"trib\",\n        \"quantity\": [\n         400.0,\n         400.0,\n         400.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"carbon-processing\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"catchment-hydrology\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"channel-evolution\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"channel-floodplain-dynamics\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"community-dynamics\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"floodplain-connectivity\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"habitat-provision\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"high-flow-dynamics\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"hyporheic-connectivity\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"light-thermal-regime\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"nutrient-cycling\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"population-support\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"reach-inflow\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"sediment-continuity\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"streamflow-regime\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"surface-water-storage\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"water-soil-quality\": [\n          9.0,\n          9.75,\n          10.5\n         ],\n         \"watershed-connectivity\": [\n          9.0,\n          9.75,\n          10.5\n         ]\n        },\n        \"values\": []\n       }\n      ]\n     },\n     {\n      \"costs\": {\n       \"annual_override\": null,\n       \"construction_months\": 6.0,\n       \"first_costs\": {\n        \"construction\": 450000.0\n       },\n       \"recurring\": []\n      },\n      \"description\": \"\",\n      \"id\": \"A2\",\n      \"is_no_action\": false,\n      \"name\": \"\",\n      \"outputs\": [\n       {\n        \"aahu\": null,\n        \"module_id\": \"main\",\n        \"quantity\": [\n         900.0,\n         900.0,\n         900.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"carbon-processing\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"catchment-hydrology\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"channel-evolution\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"channel-floodplain-dynamics\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"community-dynamics\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"floodplain-connectivity\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"habitat-provision\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"high-flow-dynamics\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"hyporheic-connectivity\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"light-thermal-regime\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"nutrient-cycling\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"population-support\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"reach-inflow\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"sediment-continuity\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"streamflow-regime\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"surface-water-storage\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"water-soil-quality\": [\n          6.0,\n          8.5,\n          11.0\n         ],\n         \"watershed-connectivity\": [\n          6.0,\n          8.5,\n          11.0\n         ]\n        },\n        \"values\": []\n       },\n       {\n        \"aahu\": null,\n        \"module_id\": \"trib\",\n        \"quantity\": [\n         400.0,\n         400.0,\n         400.0\n        ],\n        \"scores\": {\n         \"bed-composition-bedform-dynamics\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"carbon-processing\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"catchment-hydrology\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"channel-evolution\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"channel-floodplain-dynamics\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"community-dynamics\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"floodplain-connectivity\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"habitat-provision\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"high-flow-dynamics\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"hyporheic-connectivity\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"light-thermal-regime\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"low-flow-baseflow-dynamics\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"nutrient-cycling\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"population-support\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"reach-inflow\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"sediment-continuity\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"streamflow-regime\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"surface-water-storage\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"water-soil-quality\": [\n          9.0,\n          10.25,\n          11.5\n         ],\n         \"watershed-connectivity\": [\n          9.0,\n          10.25,\n          11.5\n         ]\n        },\n        \"values\": []\n       }\n      ]\n     }\n    ],\n    \"description\": \"\",\n    \"id\": \"R1\",\n    \"name\": \"\",\n    \"staf_not_assessed\": {\n     \"trib\": [\n      \"watershed-connectivity\"\n     ]\n    },\n    \"staf_source\": {}\n   }\n  ],\n  \"watershed\": {\n   \"carried\": {},\n   \"mode\": \"RECOMMENDED\",\n   \"rules\": []\n  }\n },\n \"savedAt\": \"2026-10-18T09:30:01Z\",\n \"schemaVersion\": 3\n}\n"
+   }
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     "ce_event": {
+      "type": "nav",
+      "page": "report",
+      "n": 2
+     }
+    }
+   },
+   "server": [
+    {
+     "custom": {
+      "ce_scroll_top": {}
+     }
+    },
+    {
+     "values": {
+      "panel_foot": "sha256:52ebbb879ed56a0d:307",
+      "panel_body": "sha256:5d4014985cc09bcd:1996"
+     },
+     "inputMessages": [
+      {
+       "id": "page",
+       "message": {
+        "value": "report"
+       }
+      }
+     ],
+     "errors": {}
+    }
+   ]
+  },
+  {
+   "step": "event nav",
+   "client": {
+    "method": "update",
+    "data": {
+     ".clientdata_output_page_sites_hidden": true,
+     ".clientdata_output_page_report_hidden": false,
+     "page": "report"
+    }
+   },
+   "server": [
+    {
+     "values": {
+      "page_report": "sha256:8a0edd9b4ac70e9b:18170"
+     },
+     "inputMessages": [],
+     "errors": {}
+    }
+   ]
+  }
+ ]
+}

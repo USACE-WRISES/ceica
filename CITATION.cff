@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use CEICA in your work, please cite it as below."
+title: "CEICA: Cost-Effectiveness and Incremental Cost Analysis"
+type: software
+version: 1.0.0
+date-released: 2026-10-20
+repository-code: "https://github.com/USACE-WRISES/ceica"
+url: "https://usace-wrises.github.io/ceica/"
+abstract: "A web application for cost-effectiveness and incremental cost analysis in ecosystem restoration planning. It annualizes ecological outputs and costs, screens site-scale alternatives and watershed-scale plans with the rules of IWR Planning Suite II, records the team's decisions through the Tentatively Selected Plan, and produces a live-formula Excel calculator and printable reports."
+authors:
+  - family-names: Menichino
+    given-names: Garrett T.
+    orcid: "https://orcid.org/0009-0005-6719-6356"
+    affiliation: "Environmental Laboratory, U.S. Army Engineer Research and Development Center"
+keywords:
+  - cost-effectiveness analysis
+  - incremental cost analysis
+  - ecosystem restoration
+  - IWR Planning Suite
+  - Stream Tiered Assessment Framework

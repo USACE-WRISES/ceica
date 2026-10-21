@@ -1,0 +1,7 @@
+{
+ "input": "sfari-calculator-no-sheet.xlsx",
+ "name": "other.xlsx",
+ "read": {
+  "error": "StafImportError: This workbook has no 'Existing Conditions' or 'SFARI Score' sheet."
+ }
+}

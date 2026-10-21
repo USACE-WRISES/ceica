@@ -1,0 +1,937 @@
+{
+ "warnings": [],
+ "savedAt": "2026-09-27T00:00:00Z",
+ "appVersion": "1.0.0",
+ "dumps": null,
+ "digest": "0fd6659edfa7ffd32809981ee0485febb24e7a20695469d5ccecffc4ae360276",
+ "issues": [
+  [
+   "error",
+   "E_STAF_OUTCOME",
+   "At R1, no assessed function in Tributary feeds the physical outcome, so the ECI cannot be computed.",
+   "benefits",
+   "R1",
+   null
+  ],
+  [
+   "error",
+   "E_STAF_OUTCOME",
+   "At R1, no assessed function in Tributary feeds the chemical outcome, so the ECI cannot be computed.",
+   "benefits",
+   "R1",
+   null
+  ],
+  [
+   "error",
+   "E_STAF_OUTCOME",
+   "At R1, no assessed function in Tributary feeds the biological outcome, so the ECI cannot be computed.",
+   "benefits",
+   "R1",
+   null
+  ]
+ ],
+ "benefits": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       359.99999999999994,
+       359.99999999999994
+      ]
+     ],
+     [
+      "trib",
+      [
+       null,
+       null,
+       null
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      359.99999999999994
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "aahu": null,
+    "lift_by_module": [
+     [
+      "main",
+      0.0
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "lift": null,
+    "missing": [
+     "R1, FWOP: Tributary function scores are incomplete for year 0",
+     "R1, FWOP: Tributary function scores are incomplete for year 10",
+     "R1, FWOP: Tributary function scores are incomplete for year 50"
+    ]
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       450.0,
+       540.0000000000001
+      ]
+     ],
+     [
+      "trib",
+      [
+       null,
+       null,
+       null
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      477.00000000000006
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "aahu": null,
+    "lift_by_module": [
+     [
+      "main",
+      117.00000000000011
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "lift": null,
+    "missing": [
+     "R1, A1: Tributary function scores are incomplete for year 0",
+     "R1, A1: Tributary function scores are incomplete for year 10",
+     "R1, A1: Tributary function scores are incomplete for year 50"
+    ]
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "series": [
+     [
+      "main",
+      [
+       359.99999999999994,
+       509.9999999999999,
+       660.0
+      ]
+     ],
+     [
+      "trib",
+      [
+       null,
+       null,
+       null
+      ]
+     ]
+    ],
+    "aahu_by_module": [
+     [
+      "main",
+      555.0
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "aahu": null,
+    "lift_by_module": [
+     [
+      "main",
+      195.00000000000006
+     ],
+     [
+      "trib",
+      null
+     ]
+    ],
+    "lift": null,
+    "missing": [
+     "R1, A2: Tributary function scores are incomplete for year 0",
+     "R1, A2: Tributary function scores are incomplete for year 10",
+     "R1, A2: Tributary function scores are incomplete for year 50"
+    ]
+   }
+  ]
+ ],
+ "costs": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "first_costs": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 0.0,
+    "idc": 0.0,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 0.0,
+    "annual": 0.0,
+    "annual_parts": [
+     [
+      "construction",
+      0.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      0.0
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "first_costs": [
+     [
+      "construction",
+      200000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 200000.0,
+    "idc": 1237.1973851404762,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 201237.19738514046,
+    "annual": 7821.18317643053,
+    "annual_parts": [
+     [
+      "construction",
+      7773.098888335097
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      48.084288095432626
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 7821.18317643053
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "first_costs": [
+     [
+      "construction",
+      450000.0
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ]
+    ],
+    "idc_base": 450000.0,
+    "idc": 2783.694116566071,
+    "recurring_amounts": [],
+    "recurring_pv": [],
+    "total_pv": 452783.6941165661,
+    "annual": 17597.662146968694,
+    "annual_parts": [
+     [
+      "construction",
+      17489.47249875397
+     ],
+     [
+      "monitoring",
+      0.0
+     ],
+     [
+      "adaptive_management",
+      0.0
+     ],
+     [
+      "idc",
+      108.18964821472339
+     ],
+     [
+      "omrrr",
+      0.0
+     ]
+    ],
+    "overridden": false,
+    "incremental": 17597.662146968694
+   }
+  ]
+ ],
+ "stafLift": [
+  [
+   "R1",
+   "FWOP",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      0.0
+     ],
+     [
+      "surface-water-storage",
+      0.0
+     ],
+     [
+      "reach-inflow",
+      0.0
+     ],
+     [
+      "streamflow-regime",
+      0.0
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      0.0
+     ],
+     [
+      "high-flow-dynamics",
+      0.0
+     ],
+     [
+      "floodplain-connectivity",
+      0.0
+     ],
+     [
+      "hyporheic-connectivity",
+      0.0
+     ],
+     [
+      "channel-evolution",
+      0.0
+     ],
+     [
+      "channel-floodplain-dynamics",
+      0.0
+     ],
+     [
+      "sediment-continuity",
+      0.0
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      0.0
+     ],
+     [
+      "light-thermal-regime",
+      0.0
+     ],
+     [
+      "carbon-processing",
+      0.0
+     ],
+     [
+      "nutrient-cycling",
+      0.0
+     ],
+     [
+      "water-soil-quality",
+      0.0
+     ],
+     [
+      "habitat-provision",
+      0.0
+     ],
+     [
+      "population-support",
+      0.0
+     ],
+     [
+      "community-dynamics",
+      0.0
+     ],
+     [
+      "watershed-connectivity",
+      0.0
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      0.0
+     ],
+     [
+      "chemical",
+      0.0
+     ],
+     [
+      "biological",
+      0.0
+     ]
+    ],
+    "total": 0.0
+   }
+  ],
+  [
+   "R1",
+   "A1",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      4.538650793650794
+     ],
+     [
+      "surface-water-storage",
+      4.538650793650794
+     ],
+     [
+      "reach-inflow",
+      4.538650793650794
+     ],
+     [
+      "streamflow-regime",
+      4.538650793650794
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      4.538650793650794
+     ],
+     [
+      "high-flow-dynamics",
+      4.538650793650794
+     ],
+     [
+      "floodplain-connectivity",
+      4.538650793650794
+     ],
+     [
+      "hyporheic-connectivity",
+      4.538650793650794
+     ],
+     [
+      "channel-evolution",
+      4.538650793650794
+     ],
+     [
+      "channel-floodplain-dynamics",
+      4.538650793650794
+     ],
+     [
+      "sediment-continuity",
+      4.538650793650794
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      4.538650793650794
+     ],
+     [
+      "light-thermal-regime",
+      7.918650793650795
+     ],
+     [
+      "carbon-processing",
+      7.918650793650795
+     ],
+     [
+      "nutrient-cycling",
+      8.230650793650794
+     ],
+     [
+      "water-soil-quality",
+      8.230650793650794
+     ],
+     [
+      "habitat-provision",
+      6.9642857142857135
+     ],
+     [
+      "population-support",
+      7.998507936507936
+     ],
+     [
+      "community-dynamics",
+      7.998507936507936
+     ],
+     [
+      "watershed-connectivity",
+      7.276285714285714
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      38.99999999999999
+     ],
+     [
+      "chemical",
+      39.0
+     ],
+     [
+      "biological",
+      39.0
+     ]
+    ],
+    "total": 117.0
+   }
+  ],
+  [
+   "R1",
+   "A2",
+   {
+    "functions": [
+     [
+      "catchment-hydrology",
+      7.56441798941799
+     ],
+     [
+      "surface-water-storage",
+      7.56441798941799
+     ],
+     [
+      "reach-inflow",
+      7.56441798941799
+     ],
+     [
+      "streamflow-regime",
+      7.56441798941799
+     ],
+     [
+      "low-flow-baseflow-dynamics",
+      7.56441798941799
+     ],
+     [
+      "high-flow-dynamics",
+      7.56441798941799
+     ],
+     [
+      "floodplain-connectivity",
+      7.56441798941799
+     ],
+     [
+      "hyporheic-connectivity",
+      7.56441798941799
+     ],
+     [
+      "channel-evolution",
+      7.56441798941799
+     ],
+     [
+      "channel-floodplain-dynamics",
+      7.56441798941799
+     ],
+     [
+      "sediment-continuity",
+      7.56441798941799
+     ],
+     [
+      "bed-composition-bedform-dynamics",
+      7.56441798941799
+     ],
+     [
+      "light-thermal-regime",
+      13.197751322751325
+     ],
+     [
+      "carbon-processing",
+      13.197751322751325
+     ],
+     [
+      "nutrient-cycling",
+      13.717751322751324
+     ],
+     [
+      "water-soil-quality",
+      13.717751322751324
+     ],
+     [
+      "habitat-provision",
+      11.607142857142856
+     ],
+     [
+      "population-support",
+      13.33084656084656
+     ],
+     [
+      "community-dynamics",
+      13.33084656084656
+     ],
+     [
+      "watershed-connectivity",
+      12.127142857142855
+     ]
+    ],
+    "outcomes": [
+     [
+      "physical",
+      65.00000000000001
+     ],
+     [
+      "chemical",
+      65.00000000000001
+     ],
+     [
+      "biological",
+      65.0
+     ]
+    ],
+    "total": 195.0
+   }
+  ]
+ ],
+ "analysis": {
+  "sites": [
+   [
+    "R1",
+    false,
+    [
+     "R1, FWOP: Tributary function scores are incomplete for year 0",
+     "R1, FWOP: Tributary function scores are incomplete for year 10",
+     "R1, FWOP: Tributary function scores are incomplete for year 50",
+     "R1, A1: Tributary function scores are incomplete for year 0",
+     "R1, A1: Tributary function scores are incomplete for year 10",
+     "R1, A1: Tributary function scores are incomplete for year 50",
+     "R1, A2: Tributary function scores are incomplete for year 0",
+     "R1, A2: Tributary function scores are incomplete for year 10",
+     "R1, A2: Tributary function scores are incomplete for year 50"
+    ],
+    [
+     [
+      "FWOP",
+      "FWOP",
+      "",
+      true,
+      null,
+      null,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A1",
+      "A1",
+      "",
+      false,
+      null,
+      null,
+      7821.18317643053,
+      7821.18317643053,
+      200000.0,
+      200000.0,
+      null,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ],
+     [
+      "A2",
+      "A2",
+      "",
+      false,
+      null,
+      null,
+      17597.662146968694,
+      17597.662146968694,
+      450000.0,
+      450000.0,
+      null,
+      false,
+      false,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0
+     ]
+    ],
+    null,
+    "de1fd22408d659af",
+    null,
+    []
+   ]
+  ],
+  "watershed": {
+   "ready": false,
+   "reasons": [
+    "Left out until their inputs are complete: R1.",
+    "No site carries an action, so there is nothing to combine."
+   ],
+   "mode": "RECOMMENDED",
+   "carried": [],
+   "sources": [],
+   "notCarried": [],
+   "blocked": [
+    "R1"
+   ],
+   "fingerprint": "",
+   "nPlans": 0,
+   "nCe": 0,
+   "nBb": 0,
+   "space": [
+    [],
+    []
+   ]
+  },
+  "decisions": {
+   "sites": [
+    [
+     "R1",
+     null,
+     "none",
+     null,
+     false,
+     ""
+    ]
+   ],
+   "finalKeys": [],
+   "added": [],
+   "removed": [],
+   "ladder": [],
+   "tspKey": null,
+   "tspState": "none",
+   "watershedStale": false,
+   "nSuggested": 0,
+   "nStale": 0
+  },
+  "issues": [
+   [
+    "error",
+    "E_STAF_OUTCOME",
+    "At R1, no assessed function in Tributary feeds the physical outcome, so the ECI cannot be computed.",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_STAF_OUTCOME",
+    "At R1, no assessed function in Tributary feeds the chemical outcome, so the ECI cannot be computed.",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_STAF_OUTCOME",
+    "At R1, no assessed function in Tributary feeds the biological outcome, so the ECI cannot be computed.",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, FWOP: Tributary function scores are incomplete for year 0",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, FWOP: Tributary function scores are incomplete for year 10",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, FWOP: Tributary function scores are incomplete for year 50",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A1: Tributary function scores are incomplete for year 0",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A1: Tributary function scores are incomplete for year 10",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A1: Tributary function scores are incomplete for year 50",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A2: Tributary function scores are incomplete for year 0",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A2: Tributary function scores are incomplete for year 10",
+    "benefits",
+    "R1",
+    null
+   ],
+   [
+    "error",
+    "E_INCOMPLETE",
+    "R1, A2: Tributary function scores are incomplete for year 50",
+    "benefits",
+    "R1",
+    null
+   ]
+  ],
+  "runState": {
+   "derive": [
+    [
+     "inputs",
+     "attention",
+     12,
+     "Inputs need attention."
+    ],
+    [
+     "sites",
+     "locked",
+     0,
+     "No site can be analyzed yet."
+    ],
+    [
+     "watershed",
+     "locked",
+     0,
+     "Left out until their inputs are complete: R1. No site carries an action, so there is nothing to combine."
+    ],
+    [
+     "report",
+     "locked",
+     1,
+     ""
+    ]
+   ],
+   "readiness": [
+    [
+     false,
+     "12 input problems to fix",
+     "inputs"
+    ],
+    [
+     true,
+     "Every site recommendation is the team's",
+     "sites"
+    ],
+    [
+     true,
+     "No recommendation needs review",
+     "sites"
+    ]
+   ],
+   "finalReady": false,
+   "reportStatus": "DRAFT",
+   "oneSite": true,
+   "labels": [
+    "Inputs",
+    "Sites",
+    "Plans",
+    "Report"
+   ]
+  },
+  "stamped": "0fd6659edfa7ffd32809981ee0485febb24e7a20695469d5ccecffc4ae360276",
+  "carried": "55ebbb64273537e7094577c60528a4bc7cc8b9148dfc2958aa34d5476689abc3",
+  "planCountWarning": false
+ }
+}

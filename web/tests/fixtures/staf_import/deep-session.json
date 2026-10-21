@@ -1,0 +1,7 @@
+{
+ "input": "deep-session.json",
+ "name": "deep-assessment.json",
+ "read": {
+  "error": "StafImportError: A DEEP saved session holds measurements, not function scores. Download DEEP's report CSV or GeoJSON and import that."
+ }
+}

@@ -1,0 +1,2443 @@
+{
+ "xlsx": {
+  "settings": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1761141038,
+      "csize": 1323,
+      "size": 4064
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 4058078357,
+      "csize": 719,
+      "size": 3219
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 293226963,
+      "csize": 307,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:B20\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"27\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"60\" customWidth=\"1\" min=\"2\" max=\"2\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"1\" t=\"inlineStr\"><is><t>Table 1. Study settings and the record of this analysis.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"2\" t=\"inlineStr\"><is><t>Setting</t></is></c><c r=\"B3\" s=\"2\" t=\"inlineStr\"><is><t>Value</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>Study</t></is></c><c r=\"B4\" s=\"3\" t=\"inlineStr\"><is><t>Utoy Creek (edited) Section 206</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>Prepared by</t></is></c><c r=\"B5\" s=\"3\" t=\"inlineStr\"><is><t>CEICA example, Mobile District</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>Sites</t></is></c><c r=\"B6\" s=\"3\" t=\"inlineStr\"><is><t>8 sites with 31 alternatives, No Action included</t></is></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>Output</t></is></c><c r=\"B7\" s=\"3\" t=\"inlineStr\"><is><t>Average annual habitat units (AAHU); lift is the output above No Action</t></is></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>Benefit modules</t></is></c><c r=\"B8\" s=\"3\" t=\"inlineStr\"><is><t>Riparian, left bank: an index (0 to 1) times acres at each target year; Riparian, right bank: an index (0 to 1) times acres at each target year; Instream: an index (0 to 1) times acres at each target year</t></is></c></row><row r=\"9\"><c r=\"A9\" t=\"inlineStr\"><is><t>Target years</t></is></c><c r=\"B9\" s=\"3\" t=\"inlineStr\"><is><t>0, 2, 10, 50</t></is></c></row><row r=\"10\"><c r=\"A10\" t=\"inlineStr\"><is><t>Period of analysis</t></is></c><c r=\"B10\" s=\"3\" t=\"inlineStr\"><is><t>50 years</t></is></c></row><row r=\"11\"><c r=\"A11\" t=\"inlineStr\"><is><t>Discount rate</t></is></c><c r=\"B11\" s=\"3\" t=\"inlineStr\"><is><t>3 percent</t></is></c></row><row r=\"12\"><c r=\"A12\" t=\"inlineStr\"><is><t>Average annual output</t></is></c><c r=\"B12\" s=\"3\" t=\"inlineStr\"><is><t>Straight lines between target years, averaged over the span of the years</t></is></c></row><row r=\"13\"><c r=\"A13\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"B13\" s=\"3\" t=\"inlineStr\"><is><t>Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year</t></is></c></row><row r=\"14\"><c r=\"A14\" t=\"inlineStr\"><is><t>Comparisons</t></is></c><c r=\"B14\" s=\"3\" t=\"inlineStr\"><is><t>Cost rounded to 4 and output to 6 decimals before comparing</t></is></c></row><row r=\"15\"><c r=\"A15\" t=\"inlineStr\"><is><t>Plan formation</t></is></c><c r=\"B15\" s=\"3\" t=\"inlineStr\"><is><t>One alternative per site: each site's recommendation</t></is></c></row><row r=\"16\"><c r=\"A16\" t=\"inlineStr\"><is><t>Not carried</t></is></c><c r=\"B16\" s=\"3\" t=\"inlineStr\"><is><t>3E (No Action recommended)</t></is></c></row><row r=\"17\"><c r=\"A17\" t=\"inlineStr\"><is><t>Plans</t></is></c><c r=\"B17\" s=\"3\" t=\"inlineStr\"><is><t>128 plans: 17 cost-effective and 8 best buys</t></is></c></row><row r=\"18\"><c r=\"A18\" t=\"inlineStr\"><is><t>Final array</t></is></c><c r=\"B18\" s=\"3\" t=\"inlineStr\"><is><t>6 plans: P1, P14, P16, P30, P62, P128</t></is></c></row><row r=\"19\"><c r=\"A19\" t=\"inlineStr\"><is><t>Tentatively selected plan</t></is></c><c r=\"B19\" s=\"3\" t=\"inlineStr\"><is><t>P128 (National Ecosystem Restoration (NER) plan)</t></is></c></row><row r=\"20\"><c r=\"A20\" t=\"inlineStr\"><is><t>Record</t></is></c><c r=\"B20\" s=\"3\" t=\"inlineStr\"><is><t>CEICA 1.0.0, engine 1; project digest e970d249272a</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"0\"/><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"4\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"left\" vertical=\"top\" wrapText=\"1\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 1\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:7e046290b8050574:5957"
+  },
+  "plans-bb": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 179587837,
+      "csize": 1435,
+      "size": 6404
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3759283039,
+      "csize": 760,
+      "size": 3597
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 326328087,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:ad958656657f4313:6404"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"7\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"3\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 2\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:ed20b85cfa030564:6111"
+  },
+  "plans-final": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2785511493,
+      "csize": 1240,
+      "size": 5743
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3759283039,
+      "csize": 760,
+      "size": 3597
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2757447828,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:1387b67c82708ed7:5743"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"7\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"3\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 3\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:dc3e00efe3cf067f:5916"
+  },
+  "tsp": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1001740588,
+      "csize": 1277,
+      "size": 4394
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1549097735,
+      "csize": 763,
+      "size": 3608
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 392262303,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:83b5dfdfe1dde31e:4394"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"4\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font><font><b val=\"1\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"8\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"3\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"4\" fontId=\"3\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"3\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 4\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:726da7d1d6a640bd:5956"
+  },
+  "plans-all": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 345950860,
+      "csize": 11205,
+      "size": 79186
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3759283039,
+      "csize": 760,
+      "size": 3597
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2689170716,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:444afccb990f239d:79186"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"7\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"3\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 5\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:e56084dde30e3a3f:15881"
+  },
+  "sites-alts": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3994052260,
+      "csize": 2588,
+      "size": 14975
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1549228677,
+      "csize": 755,
+      "size": 3448
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2722130904,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:412826c2efc2f14e:14975"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"6\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 6\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:845de5350947370a:7259"
+  },
+  "site-recs": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2137304516,
+      "csize": 1212,
+      "size": 4788
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1549228677,
+      "csize": 755,
+      "size": 3448
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 359162971,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:e75f7fb3ce666b74:4788"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"6\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 7\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:e4641bfd7154a804:5883"
+  },
+  "decisions": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3412550537,
+      "csize": 1739,
+      "size": 6185
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 4058078357,
+      "csize": 719,
+      "size": 3219
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 524626319,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:60877b322084838f:6185"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"0\"/><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"4\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"left\" vertical=\"top\" wrapText=\"1\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 8\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:e51eba6e0ac58904:6374"
+  },
+  "inputs": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2119248686,
+      "csize": 2757,
+      "size": 12433
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1549228677,
+      "csize": 755,
+      "size": 3448
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2825725452,
+      "csize": 308,
+      "size": 548
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:e606e246b16b4f19:12433"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"6\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\"/></xf></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 9\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:1d509410458513b9:7428"
+  },
+  "outputs-by-module": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 739920952,
+      "csize": 3259,
+      "size": 14713
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 4292498094,
+      "csize": 710,
+      "size": 3138
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 583695963,
+      "csize": 308,
+      "size": 549
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:a55594a7c6424d68:14713"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"0\"/><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"4\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"4\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 10\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:4e4136804cbc0659:7885"
+  },
+  "omrrr": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2201097845,
+      "csize": 2269,
+      "size": 12579
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 3789764561,
+      "csize": 742,
+      "size": 3205
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2514645464,
+      "csize": 308,
+      "size": 549
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:8ae66a9a5da85530:12579"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"1\"><numFmt numFmtId=\"164\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"4\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 11\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:c23d0c05bb2cf4df:6927"
+  },
+  "costs": {
+   "zip": {
+    "entries": [
+     {
+      "name": "docProps/app.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1213056838,
+      "csize": 149,
+      "size": 205
+     },
+     {
+      "name": "docProps/core.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2423599817,
+      "csize": 235,
+      "size": 555
+     },
+     {
+      "name": "xl/theme/theme1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 597449881,
+      "csize": 1552,
+      "size": 10140
+     },
+     {
+      "name": "xl/worksheets/sheet1.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 470852169,
+      "csize": 2820,
+      "size": 14537
+     },
+     {
+      "name": "xl/styles.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 1037329203,
+      "csize": 759,
+      "size": 3346
+     },
+     {
+      "name": "_rels/.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 482052759,
+      "csize": 192,
+      "size": 531
+     },
+     {
+      "name": "xl/workbook.xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2548786972,
+      "csize": 309,
+      "size": 549
+     },
+     {
+      "name": "xl/_rels/workbook.xml.rels",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2728074788,
+      "csize": 173,
+      "size": 504
+     },
+     {
+      "name": "[Content_Types].xml",
+      "method": 8,
+      "flags": 0,
+      "made": 20,
+      "needed": 20,
+      "attr": 25165824,
+      "time": "1980-01-01 00:00:00",
+      "crc": 2457440357,
+      "csize": 281,
+      "size": 975
+     }
+    ],
+    "parts": [
+     [
+      "docProps/app.xml",
+      {
+       "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+      }
+     ],
+     [
+      "docProps/core.xml",
+      {
+       "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+      }
+     ],
+     [
+      "xl/theme/theme1.xml",
+      {
+       "digest": "sha256:d15e8ebf78ef7b97:10140"
+      }
+     ],
+     [
+      "xl/worksheets/sheet1.xml",
+      {
+       "digest": "sha256:b97fece1d0d67902:14537"
+      }
+     ],
+     [
+      "xl/styles.xml",
+      {
+       "text": "<styleSheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><numFmts count=\"2\"><numFmt numFmtId=\"164\" formatCode=\"#,##0.0\"/><numFmt numFmtId=\"165\" formatCode=\"&quot;$&quot;#,##0\"/></numFmts><fonts count=\"3\"><font><name val=\"Calibri\"/><family val=\"2\"/><color theme=\"1\"/><sz val=\"11\"/><scheme val=\"minor\"/></font><font><b val=\"1\"/><color rgb=\"002F4B7C\"/><sz val=\"11\"/></font><font><b val=\"1\"/><color rgb=\"00FFFFFF\"/></font></fonts><fills count=\"3\"><fill><patternFill/></fill><fill><patternFill patternType=\"gray125\"/></fill><fill><patternFill patternType=\"solid\"><fgColor rgb=\"002F4B7C\"/><bgColor rgb=\"002F4B7C\"/></patternFill></fill></fills><borders count=\"1\"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count=\"1\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\"/></cellStyleXfs><cellXfs count=\"5\"><xf numFmtId=\"0\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"1\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"0\" fontId=\"2\" fillId=\"2\" borderId=\"0\" applyAlignment=\"1\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"><alignment horizontal=\"center\" vertical=\"center\" wrapText=\"1\"/></xf><xf numFmtId=\"164\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/><xf numFmtId=\"165\" fontId=\"0\" fillId=\"0\" borderId=\"0\" pivotButton=\"0\" quotePrefix=\"0\" xfId=\"0\"/></cellXfs><cellStyles count=\"1\"><cellStyle name=\"Normal\" xfId=\"0\" builtinId=\"0\" hidden=\"0\"/></cellStyles><tableStyles count=\"0\" defaultTableStyle=\"TableStyleMedium9\" defaultPivotStyle=\"PivotStyleLight16\"/><colors><indexedColors><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00000000\"/><rgbColor rgb=\"00FFFFFF\"/><rgbColor rgb=\"00FF0000\"/><rgbColor rgb=\"0000FF00\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008000\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00808000\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"00C0C0C0\"/><rgbColor rgb=\"00808080\"/><rgbColor rgb=\"009999FF\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00FFFFCC\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00660066\"/><rgbColor rgb=\"00FF8080\"/><rgbColor rgb=\"000066CC\"/><rgbColor rgb=\"00CCCCFF\"/><rgbColor rgb=\"00000080\"/><rgbColor rgb=\"00FF00FF\"/><rgbColor rgb=\"00FFFF00\"/><rgbColor rgb=\"0000FFFF\"/><rgbColor rgb=\"00800080\"/><rgbColor rgb=\"00800000\"/><rgbColor rgb=\"00008080\"/><rgbColor rgb=\"000000FF\"/><rgbColor rgb=\"0000CCFF\"/><rgbColor rgb=\"00CCFFFF\"/><rgbColor rgb=\"00CCFFCC\"/><rgbColor rgb=\"00FFFF99\"/><rgbColor rgb=\"0099CCFF\"/><rgbColor rgb=\"00FF99CC\"/><rgbColor rgb=\"00CC99FF\"/><rgbColor rgb=\"00FFCC99\"/><rgbColor rgb=\"003366FF\"/><rgbColor rgb=\"0033CCCC\"/><rgbColor rgb=\"0099CC00\"/><rgbColor rgb=\"00FFCC00\"/><rgbColor rgb=\"00FF9900\"/><rgbColor rgb=\"00FF6600\"/><rgbColor rgb=\"00666699\"/><rgbColor rgb=\"00969696\"/><rgbColor rgb=\"00003366\"/><rgbColor rgb=\"00339966\"/><rgbColor rgb=\"00003300\"/><rgbColor rgb=\"00333300\"/><rgbColor rgb=\"00993300\"/><rgbColor rgb=\"00993366\"/><rgbColor rgb=\"00333399\"/><rgbColor rgb=\"00333333\"/></indexedColors></colors></styleSheet>"
+      }
+     ],
+     [
+      "_rels/.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "xl/workbook.xml",
+      {
+       "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 12\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+      }
+     ],
+     [
+      "xl/_rels/workbook.xml.rels",
+      {
+       "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId3\"/></Relationships>"
+      }
+     ],
+     [
+      "[Content_Types].xml",
+      {
+       "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+      }
+     ]
+    ]
+   },
+   "digest": "sha256:d9464e0625e58209:7496"
+  }
+ },
+ "all": {
+  "zip": {
+   "entries": [
+    {
+     "name": "docProps/app.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 1213056838,
+     "csize": 149,
+     "size": 205
+    },
+    {
+     "name": "docProps/core.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2423599817,
+     "csize": 235,
+     "size": 555
+    },
+    {
+     "name": "xl/theme/theme1.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 597449881,
+     "csize": 1552,
+     "size": 10140
+    },
+    {
+     "name": "xl/worksheets/sheet1.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 252993354,
+     "csize": 1458,
+     "size": 5614
+    },
+    {
+     "name": "xl/worksheets/sheet2.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2361247383,
+     "csize": 1325,
+     "size": 4064
+    },
+    {
+     "name": "xl/worksheets/sheet3.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 921238170,
+     "csize": 1439,
+     "size": 6436
+    },
+    {
+     "name": "xl/worksheets/sheet4.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2682557965,
+     "csize": 1241,
+     "size": 5773
+    },
+    {
+     "name": "xl/worksheets/sheet5.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 377279322,
+     "csize": 1278,
+     "size": 4422
+    },
+    {
+     "name": "xl/worksheets/sheet6.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2297052224,
+     "csize": 11250,
+     "size": 79826
+    },
+    {
+     "name": "xl/worksheets/sheet7.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 258032929,
+     "csize": 2597,
+     "size": 15147
+    },
+    {
+     "name": "xl/worksheets/sheet8.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 635035371,
+     "csize": 1213,
+     "size": 4812
+    },
+    {
+     "name": "xl/worksheets/sheet9.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2011597423,
+     "csize": 1743,
+     "size": 6185
+    },
+    {
+     "name": "xl/worksheets/sheet10.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2512025103,
+     "csize": 2762,
+     "size": 12526
+    },
+    {
+     "name": "xl/worksheets/sheet11.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 4492766,
+     "csize": 3262,
+     "size": 14713
+    },
+    {
+     "name": "xl/worksheets/sheet12.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 1754638154,
+     "csize": 2277,
+     "size": 12734
+    },
+    {
+     "name": "xl/worksheets/sheet13.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 1988871420,
+     "csize": 2828,
+     "size": 14754
+    },
+    {
+     "name": "xl/styles.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 3405739694,
+     "csize": 876,
+     "size": 4943
+    },
+    {
+     "name": "_rels/.rels",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 482052759,
+     "csize": 192,
+     "size": 531
+    },
+    {
+     "name": "xl/workbook.xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 3131485240,
+     "csize": 432,
+     "size": 2252
+    },
+    {
+     "name": "xl/_rels/workbook.xml.rels",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 1703547160,
+     "csize": 248,
+     "size": 2254
+    },
+    {
+     "name": "[Content_Types].xml",
+     "method": 8,
+     "flags": 0,
+     "made": 20,
+     "needed": 20,
+     "attr": 25165824,
+     "time": "1980-01-01 00:00:00",
+     "crc": 2990751172,
+     "csize": 329,
+     "size": 2611
+    }
+   ],
+   "parts": [
+    [
+     "docProps/app.xml",
+     {
+      "text": "<Properties xmlns=\"http://schemas.openxmlformats.org/officeDocument/2006/extended-properties\"><Application>Microsoft Excel Compatible / Openpyxl 3.1.5</Application><AppVersion>3.1</AppVersion></Properties>"
+     }
+    ],
+    [
+     "docProps/core.xml",
+     {
+      "text": "<cp:coreProperties xmlns:cp=\"http://schemas.openxmlformats.org/package/2006/metadata/core-properties\"><dc:creator xmlns:dc=\"http://purl.org/dc/elements/1.1/\">openpyxl</dc:creator><dcterms:created xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:created><dcterms:modified xmlns:dcterms=\"http://purl.org/dc/terms/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:type=\"dcterms:W3CDTF\">2026-01-01T00:00:00Z</dcterms:modified></cp:coreProperties>"
+     }
+    ],
+    [
+     "xl/theme/theme1.xml",
+     {
+      "digest": "sha256:d15e8ebf78ef7b97:10140"
+     }
+    ],
+    [
+     "xl/worksheets/sheet1.xml",
+     {
+      "digest": "sha256:1f843b572bf50a87:5614"
+     }
+    ],
+    [
+     "xl/worksheets/sheet2.xml",
+     {
+      "text": "<worksheet xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><sheetPr><outlinePr summaryBelow=\"1\" summaryRight=\"1\"/><pageSetUpPr/></sheetPr><dimension ref=\"A1:B20\"/><sheetViews><sheetView workbookViewId=\"0\"><pane ySplit=\"3\" topLeftCell=\"A4\" activePane=\"bottomLeft\" state=\"frozen\"/><selection pane=\"bottomLeft\" activeCell=\"A1\" sqref=\"A1\"/></sheetView></sheetViews><sheetFormatPr baseColWidth=\"8\" defaultRowHeight=\"15\"/><cols><col width=\"27\" customWidth=\"1\" min=\"1\" max=\"1\"/><col width=\"60\" customWidth=\"1\" min=\"2\" max=\"2\"/></cols><sheetData><row r=\"1\"><c r=\"A1\" s=\"7\" t=\"inlineStr\"><is><t>Table 1. Study settings and the record of this analysis.</t></is></c></row><row r=\"3\"><c r=\"A3\" s=\"3\" t=\"inlineStr\"><is><t>Setting</t></is></c><c r=\"B3\" s=\"3\" t=\"inlineStr\"><is><t>Value</t></is></c></row><row r=\"4\"><c r=\"A4\" t=\"inlineStr\"><is><t>Study</t></is></c><c r=\"B4\" s=\"5\" t=\"inlineStr\"><is><t>Utoy Creek (edited) Section 206</t></is></c></row><row r=\"5\"><c r=\"A5\" t=\"inlineStr\"><is><t>Prepared by</t></is></c><c r=\"B5\" s=\"5\" t=\"inlineStr\"><is><t>CEICA example, Mobile District</t></is></c></row><row r=\"6\"><c r=\"A6\" t=\"inlineStr\"><is><t>Sites</t></is></c><c r=\"B6\" s=\"5\" t=\"inlineStr\"><is><t>8 sites with 31 alternatives, No Action included</t></is></c></row><row r=\"7\"><c r=\"A7\" t=\"inlineStr\"><is><t>Output</t></is></c><c r=\"B7\" s=\"5\" t=\"inlineStr\"><is><t>Average annual habitat units (AAHU); lift is the output above No Action</t></is></c></row><row r=\"8\"><c r=\"A8\" t=\"inlineStr\"><is><t>Benefit modules</t></is></c><c r=\"B8\" s=\"5\" t=\"inlineStr\"><is><t>Riparian, left bank: an index (0 to 1) times acres at each target year; Riparian, right bank: an index (0 to 1) times acres at each target year; Instream: an index (0 to 1) times acres at each target year</t></is></c></row><row r=\"9\"><c r=\"A9\" t=\"inlineStr\"><is><t>Target years</t></is></c><c r=\"B9\" s=\"5\" t=\"inlineStr\"><is><t>0, 2, 10, 50</t></is></c></row><row r=\"10\"><c r=\"A10\" t=\"inlineStr\"><is><t>Period of analysis</t></is></c><c r=\"B10\" s=\"5\" t=\"inlineStr\"><is><t>50 years</t></is></c></row><row r=\"11\"><c r=\"A11\" t=\"inlineStr\"><is><t>Discount rate</t></is></c><c r=\"B11\" s=\"5\" t=\"inlineStr\"><is><t>3 percent</t></is></c></row><row r=\"12\"><c r=\"A12\" t=\"inlineStr\"><is><t>Average annual output</t></is></c><c r=\"B12\" s=\"5\" t=\"inlineStr\"><is><t>Straight lines between target years, averaged over the span of the years</t></is></c></row><row r=\"13\"><c r=\"A13\" t=\"inlineStr\"><is><t>Average annual cost</t></is></c><c r=\"B13\" s=\"5\" t=\"inlineStr\"><is><t>Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year</t></is></c></row><row r=\"14\"><c r=\"A14\" t=\"inlineStr\"><is><t>Comparisons</t></is></c><c r=\"B14\" s=\"5\" t=\"inlineStr\"><is><t>Cost rounded to 4 and output to 6 decimals before comparing</t></is></c></row><row r=\"15\"><c r=\"A15\" t=\"inlineStr\"><is><t>Plan formation</t></is></c><c r=\"B15\" s=\"5\" t=\"inlineStr\"><is><t>One alternative per site: each site's recommendation</t></is></c></row><row r=\"16\"><c r=\"A16\" t=\"inlineStr\"><is><t>Not carried</t></is></c><c r=\"B16\" s=\"5\" t=\"inlineStr\"><is><t>3E (No Action recommended)</t></is></c></row><row r=\"17\"><c r=\"A17\" t=\"inlineStr\"><is><t>Plans</t></is></c><c r=\"B17\" s=\"5\" t=\"inlineStr\"><is><t>128 plans: 17 cost-effective and 8 best buys</t></is></c></row><row r=\"18\"><c r=\"A18\" t=\"inlineStr\"><is><t>Final array</t></is></c><c r=\"B18\" s=\"5\" t=\"inlineStr\"><is><t>6 plans: P1, P14, P16, P30, P62, P128</t></is></c></row><row r=\"19\"><c r=\"A19\" t=\"inlineStr\"><is><t>Tentatively selected plan</t></is></c><c r=\"B19\" s=\"5\" t=\"inlineStr\"><is><t>P128 (National Ecosystem Restoration (NER) plan)</t></is></c></row><row r=\"20\"><c r=\"A20\" t=\"inlineStr\"><is><t>Record</t></is></c><c r=\"B20\" s=\"5\" t=\"inlineStr\"><is><t>CEICA 1.0.0, engine 1; project digest e970d249272a</t></is></c></row></sheetData><pageMargins left=\"0.75\" right=\"0.75\" top=\"1\" bottom=\"1\" header=\"0.5\" footer=\"0.5\"/></worksheet>"
+     }
+    ],
+    [
+     "xl/worksheets/sheet3.xml",
+     {
+      "digest": "sha256:dd7afd911025a744:6436"
+     }
+    ],
+    [
+     "xl/worksheets/sheet4.xml",
+     {
+      "digest": "sha256:35e5ae9004643cf8:5773"
+     }
+    ],
+    [
+     "xl/worksheets/sheet5.xml",
+     {
+      "digest": "sha256:eaa87735b6054a50:4422"
+     }
+    ],
+    [
+     "xl/worksheets/sheet6.xml",
+     {
+      "digest": "sha256:c5f7ae6abef65180:79826"
+     }
+    ],
+    [
+     "xl/worksheets/sheet7.xml",
+     {
+      "digest": "sha256:df852bb549ee5af9:15147"
+     }
+    ],
+    [
+     "xl/worksheets/sheet8.xml",
+     {
+      "digest": "sha256:d309de262312c200:4812"
+     }
+    ],
+    [
+     "xl/worksheets/sheet9.xml",
+     {
+      "digest": "sha256:2c5433a672dbc6ef:6185"
+     }
+    ],
+    [
+     "xl/worksheets/sheet10.xml",
+     {
+      "digest": "sha256:5795030355ce4715:12526"
+     }
+    ],
+    [
+     "xl/worksheets/sheet11.xml",
+     {
+      "digest": "sha256:045dca3f7e1768a3:14713"
+     }
+    ],
+    [
+     "xl/worksheets/sheet12.xml",
+     {
+      "digest": "sha256:a8ccc3b13dde31a1:12734"
+     }
+    ],
+    [
+     "xl/worksheets/sheet13.xml",
+     {
+      "digest": "sha256:64487a77e0cc8c0b:14754"
+     }
+    ],
+    [
+     "xl/styles.xml",
+     {
+      "digest": "sha256:3598c59c75dd3be4:4943"
+     }
+    ],
+    [
+     "_rels/.rels",
+     {
+      "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument\" Target=\"xl/workbook.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties\" Target=\"docProps/core.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties\" Target=\"docProps/app.xml\" Id=\"rId3\"/></Relationships>"
+     }
+    ],
+    [
+     "xl/workbook.xml",
+     {
+      "text": "<workbook xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\"><workbookPr/><workbookProtection/><bookViews><workbookView visibility=\"visible\" minimized=\"0\" showHorizontalScroll=\"1\" showVerticalScroll=\"1\" showSheetTabs=\"1\" tabRatio=\"600\" firstSheet=\"0\" activeTab=\"0\" autoFilterDateGrouping=\"1\"/></bookViews><sheets><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Contents\" sheetId=\"1\" state=\"visible\" r:id=\"rId1\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 1\" sheetId=\"2\" state=\"visible\" r:id=\"rId2\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 2\" sheetId=\"3\" state=\"visible\" r:id=\"rId3\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 3\" sheetId=\"4\" state=\"visible\" r:id=\"rId4\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 4\" sheetId=\"5\" state=\"visible\" r:id=\"rId5\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 5\" sheetId=\"6\" state=\"visible\" r:id=\"rId6\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 6\" sheetId=\"7\" state=\"visible\" r:id=\"rId7\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 7\" sheetId=\"8\" state=\"visible\" r:id=\"rId8\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 8\" sheetId=\"9\" state=\"visible\" r:id=\"rId9\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 9\" sheetId=\"10\" state=\"visible\" r:id=\"rId10\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 10\" sheetId=\"11\" state=\"visible\" r:id=\"rId11\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 11\" sheetId=\"12\" state=\"visible\" r:id=\"rId12\"/><sheet xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" name=\"Table 12\" sheetId=\"13\" state=\"visible\" r:id=\"rId13\"/></sheets><definedNames/><calcPr calcId=\"124519\" fullCalcOnLoad=\"1\"/></workbook>"
+     }
+    ],
+    [
+     "xl/_rels/workbook.xml.rels",
+     {
+      "text": "<Relationships xmlns=\"http://schemas.openxmlformats.org/package/2006/relationships\"><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet1.xml\" Id=\"rId1\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet2.xml\" Id=\"rId2\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet3.xml\" Id=\"rId3\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet4.xml\" Id=\"rId4\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet5.xml\" Id=\"rId5\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet6.xml\" Id=\"rId6\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet7.xml\" Id=\"rId7\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet8.xml\" Id=\"rId8\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet9.xml\" Id=\"rId9\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet10.xml\" Id=\"rId10\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet11.xml\" Id=\"rId11\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet12.xml\" Id=\"rId12\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet\" Target=\"/xl/worksheets/sheet13.xml\" Id=\"rId13\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles\" Target=\"styles.xml\" Id=\"rId14\"/><Relationship Type=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme\" Target=\"theme/theme1.xml\" Id=\"rId15\"/></Relationships>"
+     }
+    ],
+    [
+     "[Content_Types].xml",
+     {
+      "text": "<Types xmlns=\"http://schemas.openxmlformats.org/package/2006/content-types\"><Default Extension=\"rels\" ContentType=\"application/vnd.openxmlformats-package.relationships+xml\"/><Default Extension=\"xml\" ContentType=\"application/xml\"/><Override PartName=\"/xl/styles.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml\"/><Override PartName=\"/xl/theme/theme1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.theme+xml\"/><Override PartName=\"/docProps/core.xml\" ContentType=\"application/vnd.openxmlformats-package.core-properties+xml\"/><Override PartName=\"/docProps/app.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\"/><Override PartName=\"/xl/worksheets/sheet1.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet2.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet3.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet4.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet5.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet6.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet7.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet8.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet9.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet10.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet11.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet12.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/worksheets/sheet13.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml\"/><Override PartName=\"/xl/workbook.xml\" ContentType=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml\"/></Types>"
+     }
+    ]
+   ]
+  },
+  "digest": "sha256:acdf67c0030f432c:41208"
+ }
+}

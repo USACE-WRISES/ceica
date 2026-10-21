@@ -1,0 +1,40 @@
+{
+ "csv": {
+  "settings": {
+   "text": "﻿Setting,Value\r\nStudy,Mixed test\r\nSites,\"2 sites with 5 alternatives, No Action included\"\r\nOutput,Average annual habitat units (AAHU); lift is the output above No Action\r\nBenefit modules,Habitat: values at each target year; Riparian: an index (0 to 1) times acres at each target year; Wetland: an average annual value entered directly\r\nTarget years,\"0, 5, 50\"\r\nPeriod of analysis,50 years\r\nDiscount rate,3 percent\r\nAverage annual output,\"Straight lines between target years, averaged over the span of the years\"\r\nAverage annual cost,\"Capital recovery factor times the first costs, interest during construction and the present value of OMRRR; interest during construction from even spending (end of each month); OMRRR discounted from the end of each year\"\r\nComparisons,\"Cost rounded to cents and output to thousandths before comparing, as IWR Planning Suite II stores them\"\r\nPlan formation,One alternative per site: each site's recommendation\r\nPlans,4 plans: 3 cost-effective and 3 best buys\r\nFinal array,\"3 plans: P1, P3, P4\"\r\nTentatively selected plan,Not chosen yet\r\nRecord,\"CEICA 1.0.0, engine 1; project digest 8030b2b0f57f\"\r\n"
+  },
+  "plans-bb": {
+   "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Incremental cost per AAHU\r\nP1,0,0,0,0,0,,0\r\nP3,1,0,6.208,9752.38,250000,1570.9375,1570.9375\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,1973.4991568297\r\n"
+  },
+  "plans-final": {
+   "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,,TRUE,TRUE\r\nP3,1,0,6.208,9752.38,250000,1570.9375,TRUE,TRUE\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,TRUE,TRUE\r\n"
+  },
+  "plans-all": {
+   "text": "﻿Plan,A,B,Lift (AAHU),Average annual cost,Construction cost,Unit cost ($/AAHU),Cost-effective,Best buy\r\nP1,0,0,0,0,0,,TRUE,TRUE\r\nP2,0,1,5.93,11702.85,300000,1973.4991568297,FALSE,FALSE\r\nP3,1,0,6.208,9752.38,250000,1570.9375,TRUE,TRUE\r\nP4,1,1,12.138,21455.23,550000,1767.6083374526,TRUE,TRUE\r\n"
+  },
+  "sites-alts": {
+   "text": "﻿Site,Alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Incremental cost per AAHU,Construction cost,Cost-effective,Best buy\r\nA,No Action,0,0,,0,0,TRUE,TRUE\r\nA,A1,6.208,9752.38,1570.9375,1570.9375,250000,TRUE,TRUE\r\nA,A2,3.085,7021.71,2276.0810372771,,180000,TRUE,FALSE\r\nB,No Action,0,0,,0,0,TRUE,TRUE\r\nB,B1,5.93,11702.85,1973.4991568297,1973.4991568297,300000,TRUE,TRUE\r\n"
+  },
+  "site-recs": {
+   "text": "﻿Site,Recommended alternative,Lift (AAHU),Average annual cost,Unit cost ($/AAHU),Construction cost,Carried to plans,Status\r\nA,A1,6.208,9752.38,1570.9375,250000,Yes,Suggested\r\nB,B1,5.93,11702.85,1973.4991568297,300000,Yes,Suggested\r\n"
+  },
+  "decisions": {
+   "text": "﻿Subject,Decision,Reason\r\nSite A,\"A1, suggested, not yet confirmed\",No reason recorded.\r\nSite B,\"B1, suggested, not yet confirmed\",No reason recorded.\r\nTentatively selected plan,Not chosen yet,\r\n"
+  },
+  "inputs": {
+   "text": "﻿Site,Alternative,Output (AAHU),Lift (AAHU),Construction cost,Annualized cost,Unit cost ($/AAHU)\r\nA,No Action,1.6,0,0,0,\r\nA,A1,7.8075,6.208,250000,9752.3775443677,1570.9375\r\nA,A2,4.685,3.085,180000,7021.7118319447,2276.0810372771\r\nB,No Action,2.4,0,0,0,\r\nB,B1,8.33,5.93,300000,11702.8530532412,1973.4991568297\r\n"
+  },
+  "outputs-by-module": {
+   "text": "﻿Site,Alternative,Habitat (AAHU),Riparian (AAHU),Wetland (AAHU),Total (AAHU),No Action total (AAHU),Lift (AAHU)\r\nA,No Action,1,0.6,0,1.6,1.6,0\r\nA,A1,4.3,2.0075,1.5,7.8075,1.6,6.2075\r\nA,A2,2.175,2.01,0.5,4.685,1.6,3.085\r\nB,No Action,2,0.4,0,2.4,2.4,0\r\nB,B1,5.3,1.03,2,8.33,2.4,5.93\r\n"
+  },
+  "costs": {
+   "text": "﻿Site,Alternative,Months,Construction,Monitoring,Adaptive management,Interest during construction,OMRRR annual cost,Annualized cost\r\nA,No Action,4,0,0,0,0,0,0\r\nA,A1,4,250000,0,0,926.3727238271,0,9752.3775443677\r\nA,A2,4,180000,0,0,666.9883611555,0,7021.7118319447\r\nB,No Action,4,0,0,0,0,0,0\r\nB,B1,4,300000,0,0,1111.6472685926,0,11702.8530532412\r\n"
+  }
+ },
+ "readme": {
+  "text": "Mixed test\nCost-effectiveness and incremental cost analysis: figures and tables\n\nStudy: Mixed test\nPrepared by: n/a\nDate: October 18, 2026\nStatus: Draft\nMade by CEICA 1.0.0 (engine 1); project digest 8030b2b0f57f\n\nIn this folder\n  Figures and tables.docx, .pdf and .html: every figure and table with its number and caption, and the methods.\n  Figures: each figure as PNG (300 dpi, for documents and slides) and SVG (to edit).\n  Tables: each table as CSV, and All tables.xlsx with a sheet per table.\n  Mixed test calculator.xlsx: every input and result as live formulas.\n  Mixed test.ceica: the project file. Open it in CEICA to continue the study.\n\nFigures\n  Figure 1. Cost-effectiveness (A) and incremental cost (B) of the watershed plans.\n    Figures/Figure 01 Watershed plans.png and .svg\n  Figure 2. Cost-effectiveness (A) and incremental cost (B) of the alternatives at site A.\n    Figures/Figure 02 Site A.png and .svg\n  Figure 3. Cost-effectiveness (A) and incremental cost (B) of the alternatives at site B.\n    Figures/Figure 03 Site B.png and .svg\n  Figure 4. Habitat units over time (A) and average annual cost by part (B) of the alternatives at site A. Wetland, entered as an average, is not in panel A.\n    Figures/Figure 04 Benefits and costs, site A.png and .svg\n  Figure 5. Habitat units over time (A) and average annual cost by part (B) of the alternatives at site B. Wetland, entered as an average, is not in panel A.\n    Figures/Figure 05 Benefits and costs, site B.png and .svg\n\nTables\n  Table 1. Study settings and the record of this analysis.\n    Tables/Table 01 Study settings.csv\n  Table 2. Best-buy watershed plans and their incremental costs. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 02 Best-buy plans.csv\n  Table 3. Final array of watershed plans. Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 03 Final array.csv\n  Table 4. The watershed plans: lift, cost and status (4 plans). Site columns: 1 when the plan includes the site, 0 when not.\n    Tables/Table 04 All plans.csv\n  Table 5. Cost-effectiveness and incremental cost of every alternative at every site. Incremental cost applies to best buys.\n    Tables/Table 05 Alternatives at every site.csv\n  Table 6. The alternative each site carries forward, and the status of that decision.\n    Tables/Table 06 Site recommendations.csv\n  Table 7. Decisions and the reasons recorded for them.\n    Tables/Table 07 Decision record.csv\n  Table 8. Average annual output, lift, construction cost and annualized cost of every alternative. The CE/ICA tables measure cost above No Action.\n    Tables/Table 08 Benefit and cost inputs.csv\n  Table 9. Average annual output by module, the total and the lift over No Action (all in AAHU).\n    Tables/Table 09 Output by module.csv\n  Table 10. First costs by category, interest during construction, OMRRR and annualized cost of every alternative.\n    Tables/Table 10 Cost by category.csv\n\nReading the data files\n  CSV files hold plain numbers: lift and cost are the rounded values the analysis compared, so sorting reproduces its ties. TRUE and FALSE mark cost-effective plans and best buys. A blank cell has no value; in a plan table, a blank site column means the site is not in the plan.\n  In All tables.xlsx, numbers keep their full precision under the display format, and a missing value reads n/a.\n"
+ },
+ "html": {
+  "digest": "sha256:0916eaa7dd91905f:66267"
+ }
+}

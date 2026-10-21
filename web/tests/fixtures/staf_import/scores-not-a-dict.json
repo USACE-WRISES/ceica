@@ -1,0 +1,7 @@
+{
+ "input": "scores-not-a-dict.json",
+ "name": "s.json",
+ "read": {
+  "error": "AttributeError: 'list' object has no attribute 'items'"
+ }
+}
