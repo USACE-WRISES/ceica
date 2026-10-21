@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.0.0 (2026-10-20)
+## v1.0.0 (2026-10-21)
 - CEICA on the web: it runs in your browser, with nothing to install.
 - Nothing you enter is sent anywhere; your work is saved in this browser.
 - Works offline after the first visit, and installs as an app in Edge or Chrome.
